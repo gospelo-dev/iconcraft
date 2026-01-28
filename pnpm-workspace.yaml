@@ -1,0 +1,4 @@
+packages:
+  - 'packages/*'
+  - 'figma-plugin'
+  - 'demo-react'

@@ -1,0 +1,57 @@
+{
+  "name": "gospelo-iconcraft-react",
+  "version": "0.2.0",
+  "description": "IconCraft React components - 3D decorative icon shapes from SVG",
+  "license": "MIT",
+  "author": "gorosun <goro-hayakawa@no-studio.net>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gospelo-dev/iconcraft.git",
+    "directory": "packages/react"
+  },
+  "homepage": "https://github.com/gospelo-dev/iconcraft#readme",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --dts",
+    "dev": "tsup src/index.ts --format esm --dts --watch"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
+  },
+  "dependencies": {
+    "gospelo-iconcraft-wasm": "^0.2.0",
+    "ulid": "^3.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.3.0"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "icon",
+    "svg",
+    "3d",
+    "animation",
+    "wasm",
+    "jelly",
+    "emboss"
+  ]
+}

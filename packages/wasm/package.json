@@ -1,0 +1,17 @@
+{
+  "name": "gospelo-iconcraft-wasm",
+  "version": "0.2.0",
+  "description": "WASM-based clip-path generator for IconCraft",
+  "license": "MIT",
+  "author": "gorosun <goro-hayakawa@no-studio.net>",
+  "keywords": ["wasm", "svg", "clip-path", "icon", "shape"],
+  "type": "module",
+  "main": "icon_craft_wasm.js",
+  "types": "icon_craft_wasm.d.ts",
+  "files": [
+    "icon_craft_wasm_bg.wasm",
+    "icon_craft_wasm.js",
+    "icon_craft_wasm.d.ts"
+  ],
+  "sideEffects": ["./snippets/*"]
+}

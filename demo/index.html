@@ -1,0 +1,1490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IconCraft WASM Demo</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+      background: #f5f5f7;
+    }
+    h1 {
+      text-align: center;
+      color: #1d1d1f;
+    }
+    .controls {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    .control-row {
+      display: flex;
+      gap: 15px;
+      margin-bottom: 15px;
+      flex-wrap: wrap;
+    }
+    .control-group {
+      flex: 1;
+      min-width: 150px;
+    }
+    label {
+      display: block;
+      font-size: 12px;
+      color: #86868b;
+      margin-bottom: 5px;
+    }
+    input, select {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #d2d2d7;
+      border-radius: 8px;
+      font-size: 14px;
+    }
+    button {
+      background: #0071e3;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-size: 14px;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    button:hover {
+      background: #0077ed;
+    }
+    button:disabled {
+      background: #86868b;
+      cursor: not-allowed;
+    }
+    .result {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    .preview-container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+    }
+    .preview {
+      width: 240px;
+      height: 240px;
+      position: relative;
+      /* Checkered background for transparency */
+      background-image:
+        linear-gradient(45deg, #e0e0e0 25%, transparent 25%),
+        linear-gradient(-45deg, #e0e0e0 25%, transparent 25%),
+        linear-gradient(45deg, transparent 75%, #e0e0e0 75%),
+        linear-gradient(-45deg, transparent 75%, #e0e0e0 75%);
+      background-size: 16px 16px;
+      background-position: 0 0, 0 8px, 8px -8px, -8px 0px;
+      border-radius: 12px;
+    }
+    .shape-icon {
+      position: relative;
+      width: 100%;
+      height: 100%;
+    }
+    .shape-icon .shape-layers {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+    }
+    .shape-icon .icon-layer {
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .shape-icon .icon-layer img {
+      width: 100%;
+      height: 100%;
+    }
+    /* WAX mode icon wrapper */
+    .shape-icon.mode-wax .icon-layer .emboss-icon-wrapper {
+      display: flex;
+      width: 100%;
+      height: 100%;
+      position: relative;
+    }
+    .shape-icon.mode-wax .icon-layer .emboss-icon-wrapper svg {
+      width: 100%;
+      height: 100%;
+    }
+    .shape-icon:not(.mode-wax) .icon-layer .emboss-icon-wrapper {
+      display: none;
+    }
+    .info {
+      background: #f5f5f7;
+      padding: 15px;
+      border-radius: 8px;
+      font-size: 13px;
+      margin-bottom: 15px;
+    }
+    .info dt {
+      color: #86868b;
+      margin-top: 8px;
+    }
+    .info dt:first-child {
+      margin-top: 0;
+    }
+    .info dd {
+      margin: 2px 0 0 0;
+      color: #1d1d1f;
+    }
+    #status {
+      text-align: center;
+      padding: 10px;
+      color: #86868b;
+    }
+    .error {
+      color: #ff3b30;
+      background: #ffebeb;
+      padding: 10px;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+    .timing {
+      font-size: 12px;
+      color: #86868b;
+      text-align: center;
+      margin-top: 10px;
+    }
+    .output-section {
+      margin-top: 20px;
+    }
+    .output-section h3 {
+      font-size: 14px;
+      color: #1d1d1f;
+      margin-bottom: 10px;
+    }
+    .output-box {
+      background: #1d1d1f;
+      color: #00ff00;
+      padding: 15px;
+      border-radius: 8px;
+      font-family: 'Monaco', 'Menlo', monospace;
+      font-size: 11px;
+      overflow-x: auto;
+      white-space: pre-wrap;
+      word-break: break-all;
+      max-height: 200px;
+      overflow-y: auto;
+    }
+    .output-box.json {
+      color: #f8f8f2;
+    }
+    .copy-btn {
+      background: #333;
+      color: white;
+      border: none;
+      padding: 5px 10px;
+      border-radius: 4px;
+      font-size: 11px;
+      cursor: pointer;
+      margin-left: 10px;
+    }
+    .copy-btn:hover {
+      background: #555;
+    }
+    .color-options {
+      display: flex;
+      gap: 8px;
+      justify-content: center;
+      margin: 15px 0;
+    }
+    .color-swatch {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      cursor: pointer;
+      border: 3px solid transparent;
+      transition: border-color 0.2s, transform 0.1s;
+    }
+    .color-swatch:hover {
+      transform: scale(1.1);
+    }
+    .color-swatch.active {
+      border-color: #0071e3;
+    }
+    .effect-toggles {
+      display: flex;
+      gap: 8px;
+      justify-content: center;
+      margin: 10px 0;
+    }
+    .toggle-btn {
+      background: #e5e5e5;
+      color: #1d1d1f;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 20px;
+      font-size: 13px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .toggle-btn:hover {
+      background: #d5d5d5;
+    }
+    .toggle-btn.active {
+      background: #1d1d1f;
+      color: white;
+    }
+    .icon-style-toggles {
+      margin-top: 5px;
+    }
+    .icon-style-toggles span {
+      font-size: 12px;
+      color: #86868b;
+      margin-right: 8px;
+    }
+    .icon-grid-container {
+      margin: 15px 0;
+      max-height: 200px;
+      overflow-y: auto;
+      background: #f5f5f7;
+      border-radius: 8px;
+      padding: 10px;
+    }
+    .icon-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(48px, 1fr));
+      gap: 8px;
+    }
+    .icon-item {
+      width: 48px;
+      height: 48px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: white;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.2s;
+      border: 2px solid transparent;
+    }
+    .icon-item:hover {
+      background: #e5e5e5;
+    }
+    .icon-item.selected {
+      border-color: #0071e3;
+      background: #e8f4fd;
+    }
+    .icon-item img {
+      width: 28px;
+      height: 28px;
+    }
+    .icon-item-loading {
+      color: #86868b;
+      font-size: 11px;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>IconCraft WASM Demo</h1>
+
+  <div id="status">Loading WASM module...</div>
+
+  <div class="controls" id="controls" style="display: none;">
+    <!-- Icon Provider & Category Selection -->
+    <div class="control-row">
+      <div class="control-group">
+        <label for="provider">Provider</label>
+        <select id="provider">
+          <option value="">Loading...</option>
+        </select>
+      </div>
+      <div class="control-group">
+        <label for="category">Category</label>
+        <select id="category">
+          <option value="">Select provider first</option>
+        </select>
+      </div>
+      <div class="control-group" style="flex: 2;">
+        <label for="icon-search">Search Icons</label>
+        <input type="text" id="icon-search" placeholder="Type to search icons...">
+      </div>
+    </div>
+
+    <!-- Icon Grid -->
+    <div class="icon-grid-container" id="icon-grid-container" style="display: none;">
+      <div class="icon-grid" id="icon-grid"></div>
+    </div>
+
+    <div class="control-row">
+      <div class="control-group" style="flex: 2;">
+        <label for="svg-url">SVG URL</label>
+        <input type="text" id="svg-url" value="https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f404.svg">
+      </div>
+      <div class="control-group" style="flex: 0 0 120px;">
+        <label for="mode">Mode</label>
+        <select id="mode">
+          <option value="0">Jelly</option>
+          <option value="1">Droplet</option>
+          <option value="2" selected>Wax</option>
+        </select>
+      </div>
+    </div>
+    <div class="control-row">
+      <div class="control-group">
+        <label for="offset">Offset</label>
+        <input type="number" id="offset" value="20" min="0" max="50">
+      </div>
+      <div class="control-group">
+        <label for="resolution">Resolution</label>
+        <input type="number" id="resolution" value="256" min="64" max="512">
+      </div>
+      <div class="control-group">
+        <label for="simplify">Simplify</label>
+        <input type="number" id="simplify" value="2.0" min="0" max="10" step="0.1">
+      </div>
+      <div class="control-group" style="flex: 0;">
+        <label>&nbsp;</label>
+        <button id="generate-btn">Generate</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="result" id="result" style="display: none;">
+    <div id="error" class="error" style="display: none;"></div>
+    <div class="preview-container">
+      <div class="preview" id="preview-container">
+        <!-- SVG will be rendered here -->
+      </div>
+    </div>
+
+    <!-- Color palette - base color only, light/mid/dark auto-calculated -->
+    <div class="color-options" id="color-options">
+      <div class="color-swatch" style="background: #f5f5f5; border: 1px solid #d2d2d7;" data-color="#f5f5f5" title="Gray"></div>
+      <div class="color-swatch active" style="background: #6366f1;" data-color="#6366f1" title="Indigo"></div>
+      <div class="color-swatch" style="background: #ec4899;" data-color="#ec4899" title="Rose"></div>
+      <div class="color-swatch" style="background: #10b981;" data-color="#10b981" title="Emerald"></div>
+      <div class="color-swatch" style="background: #f59e0b;" data-color="#f59e0b" title="Amber"></div>
+      <div class="color-swatch" style="background: #3b82f6;" data-color="#3b82f6" title="Blue"></div>
+      <div class="color-swatch" style="background: #8b5cf6;" data-color="#8b5cf6" title="Violet"></div>
+      <div class="color-swatch" style="background: #ef4444;" data-color="#ef4444" title="Red"></div>
+      <div class="color-swatch" style="background: #14b8a6;" data-color="#14b8a6" title="Teal"></div>
+    </div>
+
+    <!-- Effect toggles -->
+    <div class="effect-toggles" id="effect-toggles">
+      <button class="toggle-btn active" data-effect="highlight">Highlight</button>
+    </div>
+
+    <!-- Icon style toggles -->
+    <div class="effect-toggles icon-style-toggles" id="icon-style-toggles">
+      <span>Icon:</span>
+      <button class="toggle-btn active" data-style="original">Original</button>
+      <button class="toggle-btn" data-style="white">White</button>
+      <button class="toggle-btn" data-style="dark">Dark</button>
+      <button class="toggle-btn" data-style="emboss">Emboss</button>
+    </div>
+
+    <div class="timing" id="timing"></div>
+    <div class="info">
+      <dl>
+        <dt>Mode</dt>
+        <dd id="info-mode">-</dd>
+        <dt>Points Count</dt>
+        <dd id="info-points">-</dd>
+        <dt>Icon Position</dt>
+        <dd id="info-position">-</dd>
+        <dt>Icon Size</dt>
+        <dd id="info-size">-</dd>
+      </dl>
+    </div>
+
+    <div class="output-section">
+      <h3>clip_path (CSS polygon) <button class="copy-btn" onclick="copyToClipboard('output-clippath')">Copy</button></h3>
+      <div class="output-box" id="output-clippath">-</div>
+    </div>
+
+    <div class="output-section">
+      <h3>svg_paths.clip (SVG path d) <button class="copy-btn" onclick="copyToClipboard('output-svgpath')">Copy</button></h3>
+      <div class="output-box" id="output-svgpath">-</div>
+    </div>
+
+    <div class="output-section">
+      <h3>svg_paths.highlight (SVG path d) <button class="copy-btn" onclick="copyToClipboard('output-highlight')">Copy</button></h3>
+      <div class="output-box" id="output-highlight">-</div>
+    </div>
+
+    <div class="output-section">
+      <h3>Full Result (JSON) <button class="copy-btn" onclick="copyToClipboard('output-json')">Copy</button></h3>
+      <div class="output-box json" id="output-json">-</div>
+    </div>
+  </div>
+
+  <script type="module">
+    import init, { generate_clippath, generate_clippath_with_icon, generate_clippath_with_color, ShapeMode } from '../packages/wasm/icon_craft_wasm.js';
+
+    let wasmReady = false;
+    let currentResult = null;
+    let currentSvgUrl = '';
+    let currentSvgContent = '';  // Store SVG content for emboss
+    let currentColors = null; // Will be initialized after color utility functions are defined
+    let currentIconStyle = 'original';
+    let showShadow = true;
+    let showHighlight = true;
+
+    // === Color Utility Functions ===
+    // Convert hex to HSL
+    function hexToHsl(hex) {
+      const r = parseInt(hex.slice(1, 3), 16) / 255;
+      const g = parseInt(hex.slice(3, 5), 16) / 255;
+      const b = parseInt(hex.slice(5, 7), 16) / 255;
+      const max = Math.max(r, g, b), min = Math.min(r, g, b);
+      let h, s, l = (max + min) / 2;
+      if (max === min) {
+        h = s = 0;
+      } else {
+        const d = max - min;
+        s = l > 0.5 ? d / (2 - max - min) : d / (max + min);
+        switch (max) {
+          case r: h = ((g - b) / d + (g < b ? 6 : 0)) / 6; break;
+          case g: h = ((b - r) / d + 2) / 6; break;
+          case b: h = ((r - g) / d + 4) / 6; break;
+        }
+      }
+      return { h: h * 360, s: s * 100, l: l * 100 };
+    }
+
+    // Convert HSL to hex
+    function hslToHex(h, s, l) {
+      h /= 360; s /= 100; l /= 100;
+      let r, g, b;
+      if (s === 0) {
+        r = g = b = l;
+      } else {
+        const hue2rgb = (p, q, t) => {
+          if (t < 0) t += 1;
+          if (t > 1) t -= 1;
+          if (t < 1/6) return p + (q - p) * 6 * t;
+          if (t < 1/2) return q;
+          if (t < 2/3) return p + (q - p) * (2/3 - t) * 6;
+          return p;
+        };
+        const q = l < 0.5 ? l * (1 + s) : l + s - l * s;
+        const p = 2 * l - q;
+        r = hue2rgb(p, q, h + 1/3);
+        g = hue2rgb(p, q, h);
+        b = hue2rgb(p, q, h - 1/3);
+      }
+      const toHex = x => {
+        const hex = Math.round(x * 255).toString(16);
+        return hex.length === 1 ? '0' + hex : hex;
+      };
+      return `#${toHex(r)}${toHex(g)}${toHex(b)}`;
+    }
+
+    // Generate color palette from base color (mid)
+    // Returns { light, mid, dark } where:
+    // - light: increased lightness, slightly reduced saturation
+    // - mid: original color
+    // - dark: decreased lightness, slightly increased saturation
+    function generateColorPalette(baseColor) {
+      const hsl = hexToHsl(baseColor);
+      // Light: +15-20% lightness, -10% saturation (max 95% lightness)
+      const lightL = Math.min(95, hsl.l + 18);
+      const lightS = Math.max(0, hsl.s - 10);
+      // Dark: -15-20% lightness, +5% saturation (min 15% lightness)
+      const darkL = Math.max(15, hsl.l - 18);
+      const darkS = Math.min(100, hsl.s + 5);
+      return {
+        light: hslToHex(hsl.h, lightS, lightL),
+        mid: baseColor,
+        dark: hslToHex(hsl.h, darkS, darkL)
+      };
+    }
+
+    // Adjust color brightness (for darker shade)
+    function adjustColorBrightness(hex, amount) {
+      const hsl = hexToHsl(hex);
+      const newL = Math.max(0, Math.min(100, hsl.l + amount));
+      return hslToHex(hsl.h, hsl.s, newL);
+    }
+
+    // Initialize currentColors with default base color (Indigo)
+    currentColors = generateColorPalette('#6366f1');
+
+    // Default icon style metadata (used when SVG doesn't have data-iconcraft attribute)
+    const defaultIconStyleMetadata = {
+      dark: {
+        fillMode: 'stroke',      // 'stroke' | 'fill' | 'gradient'
+        strokeColor: '#1a1a1a',
+        strokeWidth: 1.5,
+        fillColor: 'none',
+        edgeHighlight: { dx: -1, dy: -1, blur: 0.5, opacity: 0.5 },
+        edgeShadow: { dx: 0.5, dy: 0.5, blur: 0.8, opacity: 0.12 },
+        dropShadow: { dx: -1.5, dy: -2, blur: 1.2, opacity: 0.40 }
+      },
+      white: {
+        fillMode: 'stroke',
+        strokeColor: '#ffffff',
+        strokeWidth: 1.5,
+        fillColor: 'none',
+        edgeHighlight: { dx: -1, dy: -1, blur: 0.5, opacity: 0.5 },
+        edgeShadow: { dx: 0.5, dy: 0.5, blur: 0.8, opacity: 0.12 },
+        dropShadow: { dx: -1.5, dy: -2, blur: 1.2, opacity: 0.40 }
+      },
+      original: {
+        fillMode: 'original',    // Keep original SVG colors
+        strokeColor: null,
+        fillColor: null,
+        edgeHighlight: null,     // No additional effects
+        edgeShadow: null,
+        dropShadow: null         // No shadow effects for original
+      },
+      emboss: {
+        fillMode: 'gradient',
+        gradient: { start: 'light', mid: 'mid', end: 'dark' },
+        edgeHighlight: { dx: -1, dy: -1, blur: 0.5, opacity: 0.5, useLight: true },
+        edgeShadow: { dx: 0.5, dy: 0.5, blur: 0.8, opacity: 0.12 },
+        dropShadow: { dx: -1.5, dy: -2, blur: 1.5, opacity: 0.45 }
+      }
+    };
+
+    // Parse iconcraft metadata from SVG content
+    // SVG should have: data-iconcraft='{"wax":{"dark":{...},"emboss":{...}}}'
+    function parseIconCraftMetadata(svgContent) {
+      if (!svgContent) return null;
+      try {
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(svgContent, 'image/svg+xml');
+        const svgEl = doc.querySelector('svg');
+        if (svgEl && svgEl.dataset.iconcraft) {
+          return JSON.parse(svgEl.dataset.iconcraft);
+        }
+      } catch (e) {
+        console.warn('Failed to parse iconcraft metadata:', e);
+      }
+      return null;
+    }
+
+    // Deep merge helper
+    function deepMerge(target, source) {
+      const result = { ...target };
+      for (const key in source) {
+        if (source[key] && typeof source[key] === 'object' && !Array.isArray(source[key])) {
+          result[key] = deepMerge(result[key] || {}, source[key]);
+        } else {
+          result[key] = source[key];
+        }
+      }
+      return result;
+    }
+
+    // Get style metadata for iconStyle, with SVG metadata override
+    function getIconStyleMeta(iconStyle, svgMetadata, mode = 'wax') {
+      const defaultMeta = defaultIconStyleMetadata[iconStyle] || defaultIconStyleMetadata.emboss;
+
+      // If SVG has iconcraft metadata, merge with defaults
+      if (svgMetadata && svgMetadata[mode] && svgMetadata[mode][iconStyle]) {
+        return deepMerge(defaultMeta, svgMetadata[mode][iconStyle]);
+      }
+
+      return { ...defaultMeta };
+    }
+
+    // Current SVG metadata (parsed from SVG content)
+    let currentSvgMetadata = null;
+
+    window.copyToClipboard = function(elementId) {
+      const el = document.getElementById(elementId);
+      navigator.clipboard.writeText(el.textContent).then(() => {
+        alert('Copied!');
+      });
+    };
+
+    async function initWasm() {
+      try {
+        await init();
+        wasmReady = true;
+        document.getElementById('status').style.display = 'none';
+        document.getElementById('controls').style.display = 'block';
+        console.log('WASM module loaded successfully');
+      } catch (e) {
+        document.getElementById('status').textContent = 'Failed to load WASM: ' + e.message;
+        console.error('WASM init error:', e);
+      }
+    }
+
+    function renderShapeIcon(result, svgUrl, svgContent, colors, iconStyle, shadow, highlight, svgMetadata = null) {
+      const layout = result.icon_layout;
+      const clipPath = result.svg_paths?.clip || '';
+      const highlightPath = result.svg_paths?.highlight || '';
+      const innerPath = result.svg_paths?.inner || '';
+      const isWax = result.mode === 'wax';
+      const shapeMode = result.mode; // 'jelly', 'droplet', or 'wax'
+
+      // Get style metadata from SVG or use defaults
+      const styleMeta = getIconStyleMeta(iconStyle, svgMetadata, shapeMode);
+
+      const iconId = 'shape-' + Date.now();
+      const shadowFilter = shadow ? `filter="url(#drop-shadow-${iconId})"` : '';
+      const iconStyleClass = `icon-${iconStyle}`;
+      const isEmboss = iconStyle === 'emboss';
+
+      // For emboss, use WASM-generated emboss_svg if available, otherwise fallback to JS processing
+      let embossWrapperHtml = '';
+      let useWasmEmboss = false;
+      if (isEmboss && result.emboss_svg) {
+        // Use WASM-generated emboss SVG (complete with gradients and filters)
+        // Replace color placeholders with current colors
+        let embossSvg = result.emboss_svg;
+        // Generate extended color palette for icon gradient (4 levels)
+        const veryLightColor = adjustColorBrightness(colors.light, 10); // even lighter for top
+        const veryDarkColor = adjustColorBrightness(colors.dark, -15);  // even darker for bottom
+
+        // Replace shape gradient colors
+        embossSvg = embossSvg.replace(/stop-color="#a5b4fc"/g, `stop-color="${colors.light}"`);
+        embossSvg = embossSvg.replace(/stop-color="#818cf8"/g, `stop-color="${colors.mid}"`);
+        embossSvg = embossSvg.replace(/stop-color="#6366f1"/g, `stop-color="${colors.dark}"`);
+        embossSvg = embossSvg.replace(/stop-color="#4f46e5"/g, `stop-color="${veryDarkColor}"`);
+
+        // Replace icon gradient colors (4 levels: very light -> light -> dark -> very dark)
+        embossSvg = embossSvg.replace(/stop-color="#e0e7ff"/g, `stop-color="${veryLightColor}"`);
+        embossSvg = embossSvg.replace(/stop-color="#c4b5fd"/g, `stop-color="${colors.light}"`);
+        embossSvg = embossSvg.replace(/stop-color="#3730a3"/g, `stop-color="${veryDarkColor}"`);
+
+        // Darker shade for legacy icon gradient end
+        const darkerColor = adjustColorBrightness(colors.dark, -20);
+        embossSvg = embossSvg.replace(/stop-color="#4338ca"/g, `stop-color="${darkerColor}"`);
+        useWasmEmboss = true;
+        console.log('Using WASM emboss_svg:', embossSvg.substring(0, 200) + '...');
+        // Return early with WASM emboss SVG as the complete preview
+        return `<div class="shape-icon ${iconStyleClass}" id="${iconId}" style="width: 100%; height: 100%;">${embossSvg}</div>`;
+      } else if (isEmboss && svgContent) {
+        // Fallback: Parse SVG and add gradient + emboss filter with JS
+        const parser = new DOMParser();
+        const svgDoc = parser.parseFromString(svgContent, 'image/svg+xml');
+        const svgEl = svgDoc.querySelector('svg');
+        if (svgEl) {
+          // Ensure viewBox
+          if (!svgEl.getAttribute('viewBox')) {
+            const w = svgEl.getAttribute('width') || '24';
+            const h = svgEl.getAttribute('height') || '24';
+            svgEl.setAttribute('viewBox', `0 0 ${parseFloat(w)} ${parseFloat(h)}`);
+          }
+          svgEl.removeAttribute('width');
+          svgEl.removeAttribute('height');
+          svgEl.style.width = '100%';
+          svgEl.style.height = '100%';
+
+          // Add defs with gradient and emboss filter
+          let defs = svgEl.querySelector('defs');
+          if (!defs) {
+            defs = document.createElementNS('http://www.w3.org/2000/svg', 'defs');
+            svgEl.insertBefore(defs, svgEl.firstChild);
+          }
+
+          // Add gradient and subtle emboss filter (matching Python version)
+          defs.innerHTML += `
+            <linearGradient id="emboss-grad-${iconId}" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="${colors.light}"/>
+              <stop offset="50%" stop-color="${colors.mid}"/>
+              <stop offset="100%" stop-color="${colors.dark}"/>
+            </linearGradient>
+            <filter id="emboss-filter-${iconId}" x="-20%" y="-20%" width="140%" height="140%">
+              <feDropShadow dx="0" dy="-0.3" stdDeviation="0" flood-color="#fff" flood-opacity="0.3"/>
+              <feDropShadow dx="0.3" dy="0.5" stdDeviation="0.3" flood-color="#000" flood-opacity="0.2"/>
+            </filter>
+          `;
+
+          // Apply gradient fill and emboss filter to all shapes, remove stroke
+          const shapes = svgEl.querySelectorAll('path, circle, rect, ellipse, polygon, polyline, line');
+          shapes.forEach(shape => {
+            shape.setAttribute('fill', `url(#emboss-grad-${iconId})`);
+            shape.setAttribute('filter', `url(#emboss-filter-${iconId})`);
+            // Remove stroke completely for clean emboss look (like Python version)
+            shape.setAttribute('stroke', 'none');
+            shape.removeAttribute('stroke-width');
+            shape.removeAttribute('stroke-linecap');
+            shape.removeAttribute('stroke-linejoin');
+          });
+
+          embossWrapperHtml = `<div class="emboss-wrapper">${svgEl.outerHTML}</div>`;
+        }
+      }
+
+      // For WAX mode, create inline SVG with appropriate fill based on iconStyle
+      let embossIconHtml = '';
+      if (isWax && svgContent) {
+        const parser = new DOMParser();
+        const svgDoc = parser.parseFromString(svgContent, 'image/svg+xml');
+        const svgEl = svgDoc.querySelector('svg');
+        if (svgEl) {
+          // Ensure viewBox
+          if (!svgEl.getAttribute('viewBox')) {
+            const w = svgEl.getAttribute('width') || '24';
+            const h = svgEl.getAttribute('height') || '24';
+            svgEl.setAttribute('viewBox', `0 0 ${parseFloat(w)} ${parseFloat(h)}`);
+          }
+          svgEl.removeAttribute('width');
+          svgEl.removeAttribute('height');
+          svgEl.style.width = '100%';
+          svgEl.style.height = '100%';
+
+          // Add defs with gradient/filter for WAX icon
+          let defs = svgEl.querySelector('defs');
+          if (!defs) {
+            defs = document.createElementNS('http://www.w3.org/2000/svg', 'defs');
+            svgEl.insertBefore(defs, svgEl.firstChild);
+          }
+
+          // Determine fill/stroke based on styleMeta
+          let fillValue;
+          let strokeValue;
+          let filterDef = '';
+          const isStrokeMode = styleMeta.fillMode === 'stroke';
+          const isOriginalMode = styleMeta.fillMode === 'original';
+          const dropShadow = styleMeta.dropShadow;
+
+          if (isOriginalMode) {
+            // Original mode: keep SVG as-is, no color changes
+            // Just add a subtle drop shadow for depth
+            filterDef = `
+              <filter id="wax-icon-shadow-${iconId}" x="-30%" y="-30%" width="160%" height="160%">
+                <feDropShadow dx="-1" dy="-1.5" stdDeviation="1" flood-color="#000" flood-opacity="0.35"/>
+              </filter>
+            `;
+            defs.innerHTML += filterDef;
+            // Apply drop-shadow filter to the entire SVG
+            svgEl.setAttribute('filter', `url(#wax-icon-shadow-${iconId})`);
+            // Keep original colors - no shape modifications
+            embossIconHtml = `<div class="emboss-icon-wrapper">${svgEl.outerHTML}</div>`;
+          } else if (styleMeta.fillMode === 'stroke') {
+            // Stroke mode: outline only (no fill) - White/Dark style
+            strokeValue = styleMeta.strokeColor;
+            fillValue = 'none';
+            filterDef = `
+              <filter id="wax-icon-shadow-${iconId}" x="-30%" y="-30%" width="160%" height="160%">
+                <feDropShadow dx="${dropShadow.dx}" dy="${dropShadow.dy}" stdDeviation="${dropShadow.blur}" flood-color="#000" flood-opacity="${dropShadow.opacity}"/>
+              </filter>
+            `;
+            defs.innerHTML += filterDef;
+
+            // Apply fill/stroke to all shapes
+            const shapes = svgEl.querySelectorAll('path, circle, rect, ellipse, polygon, polyline, line');
+            shapes.forEach(shape => {
+              const currentStrokeWidth = shape.getAttribute('stroke-width');
+              // Stroke mode: always use stroke, no fill
+              shape.setAttribute('stroke', strokeValue);
+              shape.setAttribute('fill', 'none');
+              // Use strokeWidth from metadata or keep original
+              if (!currentStrokeWidth) {
+                shape.setAttribute('stroke-width', String(styleMeta.strokeWidth || 1.5));
+              }
+              shape.setAttribute('stroke-linecap', 'round');
+              shape.setAttribute('stroke-linejoin', 'round');
+            });
+
+            // Apply drop-shadow filter to the entire SVG for indent shadow effect
+            svgEl.setAttribute('filter', `url(#wax-icon-shadow-${iconId})`);
+
+            // Edge highlight with metadata settings
+            const edgeHighlight = styleMeta.edgeHighlight;
+            const edgeShadow = styleMeta.edgeShadow;
+            const edgeHighlightColor = edgeHighlight.useLight ? colors.light : '#ffffff';
+            const highlightOpacityHex = Math.round(edgeHighlight.opacity * 255).toString(16).padStart(2, '0');
+            const edgeStyle = `filter: drop-shadow(${edgeHighlight.dx}px ${edgeHighlight.dy}px ${edgeHighlight.blur}px ${edgeHighlightColor}${highlightOpacityHex}) drop-shadow(${edgeShadow.dx}px ${edgeShadow.dy}px ${edgeShadow.blur}px rgba(0,0,0,${edgeShadow.opacity}));`;
+
+            embossIconHtml = `<div class="emboss-icon-wrapper" style="${edgeStyle}">${svgEl.outerHTML}</div>`;
+          } else if (styleMeta.fillMode === 'fill') {
+            // Fill mode: solid color
+            fillValue = styleMeta.fillColor || colors.mid;
+            strokeValue = styleMeta.strokeColor || colors.mid;
+            filterDef = `
+              <filter id="wax-icon-shadow-${iconId}" x="-30%" y="-30%" width="160%" height="160%">
+                <feDropShadow dx="${dropShadow.dx}" dy="${dropShadow.dy}" stdDeviation="${dropShadow.blur}" flood-color="#000" flood-opacity="${dropShadow.opacity}"/>
+              </filter>
+            `;
+            defs.innerHTML += filterDef;
+
+            // Apply fill/stroke to all shapes
+            const shapes = svgEl.querySelectorAll('path, circle, rect, ellipse, polygon, polyline, line');
+            shapes.forEach(shape => {
+              const currentStroke = shape.getAttribute('stroke');
+              const currentFill = shape.getAttribute('fill');
+              const hasStroke = currentStroke && currentStroke !== 'none';
+              const hasFill = currentFill && currentFill !== 'none';
+
+              if (hasStroke && !hasFill) {
+                shape.setAttribute('stroke', strokeValue);
+                shape.setAttribute('fill', 'none');
+              } else {
+                shape.setAttribute('fill', fillValue);
+                if (hasStroke) {
+                  shape.setAttribute('stroke', strokeValue);
+                } else {
+                  shape.setAttribute('stroke', 'none');
+                }
+              }
+            });
+
+            // Apply drop-shadow filter to the entire SVG for indent shadow effect
+            svgEl.setAttribute('filter', `url(#wax-icon-shadow-${iconId})`);
+
+            // Edge highlight with metadata settings
+            const edgeHighlight = styleMeta.edgeHighlight;
+            const edgeShadow = styleMeta.edgeShadow;
+            const edgeHighlightColor = edgeHighlight.useLight ? colors.light : '#ffffff';
+            const highlightOpacityHex = Math.round(edgeHighlight.opacity * 255).toString(16).padStart(2, '0');
+            const edgeStyle = `filter: drop-shadow(${edgeHighlight.dx}px ${edgeHighlight.dy}px ${edgeHighlight.blur}px ${edgeHighlightColor}${highlightOpacityHex}) drop-shadow(${edgeShadow.dx}px ${edgeShadow.dy}px ${edgeShadow.blur}px rgba(0,0,0,${edgeShadow.opacity}));`;
+
+            embossIconHtml = `<div class="emboss-icon-wrapper" style="${edgeStyle}">${svgEl.outerHTML}</div>`;
+          } else {
+            // Gradient mode (emboss)
+            fillValue = `url(#wax-icon-inline-grad-${iconId})`;
+            strokeValue = `url(#wax-icon-inline-grad-${iconId})`;
+            const grad = styleMeta.gradient || { start: 'light', mid: 'mid', end: 'dark' };
+            const startColor = colors[grad.start] || colors.light;
+            const midColor = colors[grad.mid] || colors.mid;
+            const endColor = colors[grad.end] || colors.dark;
+            // Optional: darken end color
+            const endStyle = grad.endDarken
+              ? ` style="stop-color: color-mix(in srgb, ${endColor} ${(1-grad.endDarken)*100}%, black ${grad.endDarken*100}%)"`
+              : '';
+            filterDef = `
+              <linearGradient id="wax-icon-inline-grad-${iconId}" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="${startColor}"/>
+                <stop offset="50%" stop-color="${midColor}"/>
+                <stop offset="100%" stop-color="${endColor}"${endStyle}/>
+              </linearGradient>
+              <filter id="wax-icon-shadow-${iconId}" x="-30%" y="-30%" width="160%" height="160%">
+                <feDropShadow dx="${dropShadow.dx}" dy="${dropShadow.dy}" stdDeviation="${dropShadow.blur}" flood-color="#000" flood-opacity="${dropShadow.opacity}"/>
+              </filter>
+            `;
+            defs.innerHTML += filterDef;
+
+            // Apply fill/stroke to all shapes
+            const shapes = svgEl.querySelectorAll('path, circle, rect, ellipse, polygon, polyline, line');
+            shapes.forEach(shape => {
+              const currentStroke = shape.getAttribute('stroke');
+              const currentFill = shape.getAttribute('fill');
+              const hasStroke = currentStroke && currentStroke !== 'none';
+              const hasFill = currentFill && currentFill !== 'none';
+
+              if (hasStroke && !hasFill) {
+                shape.setAttribute('stroke', strokeValue);
+                shape.setAttribute('fill', 'none');
+              } else {
+                shape.setAttribute('fill', fillValue);
+                if (hasStroke) {
+                  shape.setAttribute('stroke', strokeValue);
+                } else {
+                  shape.setAttribute('stroke', 'none');
+                }
+              }
+            });
+
+            // Apply drop-shadow filter to the entire SVG for indent shadow effect
+            svgEl.setAttribute('filter', `url(#wax-icon-shadow-${iconId})`);
+
+            // Edge highlight with metadata settings
+            const edgeHighlight = styleMeta.edgeHighlight;
+            const edgeShadow = styleMeta.edgeShadow;
+            const edgeHighlightColor = edgeHighlight.useLight ? colors.light : '#ffffff';
+            const highlightOpacityHex = Math.round(edgeHighlight.opacity * 255).toString(16).padStart(2, '0');
+            const edgeStyle = `filter: drop-shadow(${edgeHighlight.dx}px ${edgeHighlight.dy}px ${edgeHighlight.blur}px ${edgeHighlightColor}${highlightOpacityHex}) drop-shadow(${edgeShadow.dx}px ${edgeShadow.dy}px ${edgeShadow.blur}px rgba(0,0,0,${edgeShadow.opacity}));`;
+
+            embossIconHtml = `<div class="emboss-icon-wrapper" style="${edgeStyle}">${svgEl.outerHTML}</div>`;
+          }
+        }
+      }
+
+      // For Jelly/Droplet mode, create inline SVG with appropriate fill based on iconStyle
+      let styledIconHtml = '';
+      if (!isWax && svgContent && iconStyle !== 'original') {
+        const parser = new DOMParser();
+        const svgDoc = parser.parseFromString(svgContent, 'image/svg+xml');
+        const svgEl = svgDoc.querySelector('svg');
+        if (svgEl) {
+          // Ensure viewBox
+          if (!svgEl.getAttribute('viewBox')) {
+            const w = svgEl.getAttribute('width') || '24';
+            const h = svgEl.getAttribute('height') || '24';
+            svgEl.setAttribute('viewBox', `0 0 ${parseFloat(w)} ${parseFloat(h)}`);
+          }
+          svgEl.removeAttribute('width');
+          svgEl.removeAttribute('height');
+          svgEl.style.width = '100%';
+          svgEl.style.height = '100%';
+
+          const isStrokeMode = styleMeta.fillMode === 'stroke';
+          let fillValue;
+          let strokeValue;
+
+          if (isStrokeMode) {
+            // Stroke mode: outline only (White/Dark style)
+            strokeValue = styleMeta.strokeColor;
+            fillValue = 'none';
+            const shapes = svgEl.querySelectorAll('path, circle, rect, ellipse, polygon, polyline, line');
+            shapes.forEach(shape => {
+              const currentStrokeWidth = shape.getAttribute('stroke-width');
+              shape.setAttribute('stroke', strokeValue);
+              shape.setAttribute('fill', 'none');
+              if (!currentStrokeWidth) {
+                shape.setAttribute('stroke-width', String(styleMeta.strokeWidth || 1.5));
+              }
+              shape.setAttribute('stroke-linecap', 'round');
+              shape.setAttribute('stroke-linejoin', 'round');
+            });
+          } else if (styleMeta.fillMode === 'fill') {
+            // Fill mode: solid color
+            fillValue = styleMeta.fillColor || colors.mid;
+            strokeValue = styleMeta.strokeColor || colors.mid;
+            const shapes = svgEl.querySelectorAll('path, circle, rect, ellipse, polygon, polyline, line');
+            shapes.forEach(shape => {
+              const currentStroke = shape.getAttribute('stroke');
+              const currentFill = shape.getAttribute('fill');
+              const hasStroke = currentStroke && currentStroke !== 'none';
+              const hasFill = currentFill && currentFill !== 'none';
+              if (hasStroke && !hasFill) {
+                shape.setAttribute('stroke', strokeValue);
+                shape.setAttribute('fill', 'none');
+              } else {
+                shape.setAttribute('fill', fillValue);
+                if (hasStroke) {
+                  shape.setAttribute('stroke', strokeValue);
+                } else {
+                  shape.setAttribute('stroke', 'none');
+                }
+              }
+            });
+          }
+
+          styledIconHtml = svgEl.outerHTML;
+        }
+      }
+
+      // Add mode class for WAX-specific styling
+      const modeClass = isWax ? 'mode-wax' : '';
+
+      return `
+        <div class="shape-icon ${iconStyleClass} ${modeClass}" id="${iconId}">
+          <!-- Shape layers SVG (bottom layer) -->
+          <svg class="shape-layers" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid meet">
+            <defs>
+              <!-- Shape main gradient (Jelly/Droplet) -->
+              <linearGradient id="shape-main-grad-${iconId}" x1="0%" y1="0%" x2="70%" y2="100%">
+                <stop offset="0%" stop-color="${colors.light}"/>
+                <stop offset="50%" stop-color="${colors.mid}"/>
+                <stop offset="100%" stop-color="${colors.dark}"/>
+              </linearGradient>
+
+              <!-- Shape top highlight -->
+              <linearGradient id="shape-top-highlight-${iconId}" x1="50%" y1="0%" x2="50%" y2="100%">
+                <stop offset="0%" stop-color="#fff" stop-opacity="0.6"/>
+                <stop offset="50%" stop-color="#fff" stop-opacity="0.3"/>
+                <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+              </linearGradient>
+
+              <!-- Shape bottom shadow -->
+              <linearGradient id="shape-bottom-shadow-${iconId}" x1="50%" y1="0%" x2="50%" y2="100%">
+                <stop offset="0%" stop-color="#000" stop-opacity="0"/>
+                <stop offset="60%" stop-color="#000" stop-opacity="0.15"/>
+                <stop offset="100%" stop-color="#000" stop-opacity="0.25"/>
+              </linearGradient>
+
+              <!-- Blur filters -->
+              <filter id="shape-blur-${iconId}" x="-50%" y="-50%" width="200%" height="200%">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="0.5"/>
+              </filter>
+              <filter id="highlight-blur-${iconId}" x="-50%" y="-50%" width="200%" height="200%">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="0.8"/>
+              </filter>
+              <filter id="drop-shadow-${iconId}" x="-50%" y="-50%" width="200%" height="200%">
+                <feDropShadow dx="2" dy="4" stdDeviation="3" flood-opacity="0.3"/>
+              </filter>
+            </defs>
+
+            ${isWax ? `
+            <!-- WAX Mode: Outer shape with inner indent -->
+            <!-- Light source: TOP-LEFT, Shadow: BOTTOM-RIGHT -->
+            <defs>
+              <!-- WAX outer gradient - use palette colors (light top-left, dark bottom-right) -->
+              <linearGradient id="wax-outer-grad-${iconId}" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="${colors.light}"/>
+                <stop offset="40%" stop-color="${colors.mid}"/>
+                <stop offset="100%" stop-color="${colors.dark}"/>
+              </linearGradient>
+              <!-- WAX outer highlight (top-left) -->
+              <linearGradient id="wax-outer-highlight-${iconId}" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#fff" stop-opacity="0.45"/>
+                <stop offset="20%" stop-color="#fff" stop-opacity="0.15"/>
+                <stop offset="40%" stop-color="#fff" stop-opacity="0"/>
+              </linearGradient>
+              <!-- WAX outer shadow (bottom-right diagonal) -->
+              <linearGradient id="wax-outer-shadow-${iconId}" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#000" stop-opacity="0"/>
+                <stop offset="40%" stop-color="#000" stop-opacity="0"/>
+                <stop offset="70%" stop-color="#000" stop-opacity="0.12"/>
+                <stop offset="100%" stop-color="#000" stop-opacity="0.25"/>
+              </linearGradient>
+              <!-- WAX outer bottom shadow (darker bottom edge) -->
+              <linearGradient id="wax-outer-bottom-${iconId}" x1="0%" y1="0%" x2="0%" y2="100%">
+                <stop offset="0%" stop-color="#000" stop-opacity="0"/>
+                <stop offset="50%" stop-color="#000" stop-opacity="0"/>
+                <stop offset="80%" stop-color="#000" stop-opacity="0.18"/>
+                <stop offset="100%" stop-color="#000" stop-opacity="0.35"/>
+              </linearGradient>
+              <!-- WAX inner indent base (entire recess is darker) -->
+              <linearGradient id="wax-inner-base-${iconId}" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#000" stop-opacity="0.12"/>
+                <stop offset="100%" stop-color="#000" stop-opacity="0.06"/>
+              </linearGradient>
+              <!-- WAX inner indent shadow (top edge - deeper) -->
+              <linearGradient id="wax-inner-shadow-${iconId}" x1="0%" y1="0%" x2="0%" y2="100%">
+                <stop offset="0%" stop-color="#000" stop-opacity="0.38"/>
+                <stop offset="20%" stop-color="#000" stop-opacity="0.20"/>
+                <stop offset="40%" stop-color="#000" stop-opacity="0.06"/>
+                <stop offset="60%" stop-color="#000" stop-opacity="0"/>
+              </linearGradient>
+              <!-- WAX inner edge shadow (left edge - deeper) -->
+              <linearGradient id="wax-inner-edge-${iconId}" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" stop-color="#000" stop-opacity="0.25"/>
+                <stop offset="20%" stop-color="#000" stop-opacity="0.10"/>
+                <stop offset="40%" stop-color="#000" stop-opacity="0"/>
+              </linearGradient>
+              <!-- WAX inner highlight (rim light on bottom-right edge - uses palette light color) -->
+              <linearGradient id="wax-inner-highlight-${iconId}" x1="100%" y1="100%" x2="0%" y2="0%">
+                <stop offset="0%" stop-color="${colors.light}" stop-opacity="0.85"/>
+                <stop offset="15%" stop-color="${colors.light}" stop-opacity="0.50"/>
+                <stop offset="30%" stop-color="${colors.light}" stop-opacity="0.20"/>
+                <stop offset="50%" stop-color="${colors.light}" stop-opacity="0"/>
+              </linearGradient>
+              <!-- Icon gradient (for WAX mode icon styling) -->
+              <linearGradient id="wax-icon-grad-${iconId}" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="${colors.light}"/>
+                <stop offset="50%" stop-color="${colors.mid}"/>
+                <stop offset="100%" stop-color="${colors.dark}"/>
+              </linearGradient>
+              <!-- WAX inner blur filter for soft edge -->
+              <filter id="wax-inner-blur-${iconId}" x="-5%" y="-5%" width="110%" height="110%">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="0.5"/>
+              </filter>
+            </defs>
+
+            <!-- WAX outer shape -->
+            <g ${shadowFilter}>
+              <path d="${clipPath}" fill="url(#wax-outer-grad-${iconId})"/>
+              <path d="${clipPath}" fill="url(#wax-outer-highlight-${iconId})"/>
+              <path d="${clipPath}" fill="url(#wax-outer-shadow-${iconId})"/>
+              <!-- Darker bottom edge shadow -->
+              <path d="${clipPath}" fill="url(#wax-outer-bottom-${iconId})"/>
+              <!-- Thin edge shadow stroke -->
+              <path d="${clipPath}" fill="none" stroke="rgba(0,0,0,0.15)" stroke-width="0.5"/>
+            </g>
+
+            ${innerPath ? `
+            <!-- WAX inner indent (recessed area) - deeper recess effect -->
+            <g filter="url(#wax-inner-blur-${iconId})">
+              <!-- Base darkening for entire recess -->
+              <path d="${innerPath}" fill="url(#wax-inner-base-${iconId})"/>
+              <!-- Top edge shadow -->
+              <path d="${innerPath}" fill="url(#wax-inner-shadow-${iconId})"/>
+              <!-- Left edge shadow -->
+              <path d="${innerPath}" fill="url(#wax-inner-edge-${iconId})"/>
+              <!-- Bottom-right rim highlight (thin edge only) -->
+              <path d="${innerPath}" fill="url(#wax-inner-highlight-${iconId})"/>
+            </g>
+            ` : ''}
+            ` : `
+            <!-- Jelly/Droplet Mode: Transparent shape only (icon rendered as separate layer) -->
+            <!-- Transparent shape layer -->
+            <g opacity="0.5" ${shadowFilter}>
+              <path d="${clipPath}" fill="url(#shape-main-grad-${iconId})" filter="url(#shape-blur-${iconId})"/>
+              <path d="${clipPath}" fill="url(#shape-top-highlight-${iconId})"/>
+              <path d="${clipPath}" fill="url(#shape-bottom-shadow-${iconId})"/>
+            </g>
+
+            ${(highlightPath && highlight && !isEmboss) ? (() => {
+              // Droplet mode may have multiple highlight paths (space-separated)
+              // Split by " M" to get individual paths, then re-add "M" prefix
+              // Hide moon-shaped highlight for emboss style to keep flat appearance (edge highlights remain)
+              const paths = highlightPath.split(/\s+(?=M\s)/);
+              return paths.map((p, i) => `
+                <!-- Highlight ${i + 1} -->
+                <path class="highlight-path" d="${p}" fill="#fff" fill-opacity="0.95" filter="url(#highlight-blur-${iconId})"/>
+              `).join('');
+            })() : ''}
+            `}
+          </svg>
+
+          <!-- Icon Layer (top layer, above shapes) -->
+          <div class="icon-layer" style="
+            top: ${layout.top_percent}%;
+            left: ${layout.left_percent}%;
+            width: ${layout.width_percent}%;
+            height: ${layout.height_percent}%;
+          ">
+            ${isWax ? embossIconHtml : (styledIconHtml ? styledIconHtml : `<img src="${svgUrl}" alt="icon" style="width:100%;height:100%;"/>`)}
+            ${embossWrapperHtml}
+          </div>
+        </div>
+      `;
+    }
+
+    function updatePreview() {
+      if (currentResult && currentSvgUrl) {
+        const previewContainer = document.getElementById('preview-container');
+        previewContainer.innerHTML = renderShapeIcon(
+          currentResult,
+          currentSvgUrl,
+          currentSvgContent,
+          currentColors,
+          currentIconStyle,
+          showShadow,
+          showHighlight,
+          currentSvgMetadata
+        );
+      }
+    }
+
+    function updateColors(colors, baseColor) {
+      currentColors = colors;
+      // Regenerate with WASM to apply new color palette
+      if (currentSvgContent && baseColor) {
+        const mode = parseInt(document.getElementById('mode').value);
+        const offset = parseFloat(document.getElementById('offset').value);
+        const resolution = parseInt(document.getElementById('resolution').value);
+        const simplify = parseFloat(document.getElementById('simplify').value);
+        const includeIcon = currentIconStyle === 'emboss';
+        currentResult = generate_clippath_with_color(currentSvgContent, mode, offset, resolution, simplify, includeIcon, baseColor);
+      }
+      updatePreview();
+    }
+
+    async function generate() {
+      if (!wasmReady) return;
+
+      const svgUrl = document.getElementById('svg-url').value.trim();
+      const mode = parseInt(document.getElementById('mode').value);
+      const offset = parseFloat(document.getElementById('offset').value);
+      const resolution = parseInt(document.getElementById('resolution').value);
+      const simplify = parseFloat(document.getElementById('simplify').value);
+
+      const btn = document.getElementById('generate-btn');
+      const errorEl = document.getElementById('error');
+      const resultEl = document.getElementById('result');
+
+      btn.disabled = true;
+      btn.textContent = 'Generating...';
+      errorEl.style.display = 'none';
+
+      try {
+        // Fetch SVG
+        const fetchStart = performance.now();
+        const response = await fetch(svgUrl);
+        if (!response.ok) throw new Error(`Failed to fetch SVG: ${response.status}`);
+        const svgContent = await response.text();
+        const fetchTime = performance.now() - fetchStart;
+
+        // Generate clip-path (WASM)
+        // Use generate_clippath_with_color for emboss style to get emboss_svg with WASM-calculated colors
+        const wasmStart = performance.now();
+        const includeIcon = currentIconStyle === 'emboss';
+        // Get base color from active swatch
+        const activeSwatch = document.querySelector('.color-swatch.active');
+        const baseColor = activeSwatch ? activeSwatch.dataset.color : '#6366f1';
+        const result = includeIcon
+          ? generate_clippath_with_color(svgContent, mode, offset, resolution, simplify, true, baseColor)
+          : generate_clippath(svgContent, mode, offset, resolution, simplify);
+        const wasmTime = performance.now() - wasmStart;
+
+        console.log('WASM Result:', result);
+
+        if (!result.success) {
+          throw new Error(result.error || 'Unknown error');
+        }
+
+        // Store for color updates
+        currentResult = result;
+        currentSvgUrl = svgUrl;
+        currentSvgContent = svgContent;  // Store SVG content for emboss
+        currentSvgMetadata = parseIconCraftMetadata(svgContent);  // Parse iconcraft metadata from SVG
+
+        // Display result
+        resultEl.style.display = 'block';
+
+        // Render SVG preview
+        const previewContainer = document.getElementById('preview-container');
+        previewContainer.innerHTML = renderShapeIcon(
+          result,
+          svgUrl,
+          svgContent,
+          currentColors,
+          currentIconStyle,
+          showShadow,
+          showHighlight,
+          currentSvgMetadata
+        );
+
+        // Info
+        const modeNames = ['Jelly', 'Droplet', 'Wax'];
+        document.getElementById('info-mode').textContent = modeNames[mode];
+        document.getElementById('info-points').textContent = result.points_count;
+        const layout = result.icon_layout;
+        document.getElementById('info-position').textContent =
+          `top: ${layout.top_percent.toFixed(1)}%, left: ${layout.left_percent.toFixed(1)}%`;
+        document.getElementById('info-size').textContent =
+          `${layout.width_percent.toFixed(1)}% x ${layout.height_percent.toFixed(1)}%`;
+
+        // Timing
+        document.getElementById('timing').textContent =
+          `SVG fetch: ${fetchTime.toFixed(0)}ms | WASM processing: ${wasmTime.toFixed(0)}ms`;
+
+        // Output sections
+        document.getElementById('output-clippath').textContent = result.clip_path || '-';
+        document.getElementById('output-svgpath').textContent = result.svg_paths?.clip || '-';
+        document.getElementById('output-highlight').textContent = result.svg_paths?.highlight || '-';
+        document.getElementById('output-json').textContent = JSON.stringify(result, null, 2);
+
+      } catch (e) {
+        errorEl.textContent = e.message;
+        errorEl.style.display = 'block';
+        resultEl.style.display = 'block';
+        console.error('Generate error:', e);
+      } finally {
+        btn.disabled = false;
+        btn.textContent = 'Generate';
+      }
+    }
+
+    document.getElementById('generate-btn').addEventListener('click', generate);
+
+    // Color swatch click handlers
+    document.getElementById('color-options').addEventListener('click', (e) => {
+      const swatch = e.target.closest('.color-swatch');
+      if (swatch) {
+        document.querySelectorAll('.color-swatch').forEach(s => s.classList.remove('active'));
+        swatch.classList.add('active');
+        // Auto-generate light/mid/dark from base color
+        const baseColor = swatch.dataset.color;
+        const palette = generateColorPalette(baseColor);
+        updateColors(palette, baseColor);
+      }
+    });
+
+    // Effect toggle handlers (Shadow/Highlight)
+    document.getElementById('effect-toggles').addEventListener('click', (e) => {
+      const btn = e.target.closest('.toggle-btn');
+      if (btn) {
+        btn.classList.toggle('active');
+        const effect = btn.dataset.effect;
+        if (effect === 'shadow') {
+          showShadow = btn.classList.contains('active');
+        } else if (effect === 'highlight') {
+          showHighlight = btn.classList.contains('active');
+        }
+        updatePreview();
+      }
+    });
+
+    // Icon style toggle handlers (White/Dark/Match/Emboss)
+    document.getElementById('icon-style-toggles').addEventListener('click', async (e) => {
+      const btn = e.target.closest('.toggle-btn');
+      if (btn && btn.dataset.style) {
+        document.querySelectorAll('#icon-style-toggles .toggle-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const prevStyle = currentIconStyle;
+        currentIconStyle = btn.dataset.style;
+
+        // Re-generate for all style changes to ensure proper rendering
+        if (currentSvgContent) {
+          const mode = parseInt(document.getElementById('mode').value);
+          const offset = parseFloat(document.getElementById('offset').value);
+          const resolution = parseInt(document.getElementById('resolution').value);
+          const simplify = parseFloat(document.getElementById('simplify').value);
+          const includeIcon = currentIconStyle === 'emboss';
+          const activeSwatch = document.querySelector('.color-swatch.active');
+          const baseColor = activeSwatch ? activeSwatch.dataset.color : '#6366f1';
+          currentResult = generate_clippath_with_color(currentSvgContent, mode, offset, resolution, simplify, includeIcon, baseColor);
+        }
+
+        updatePreview();
+      }
+    });
+
+    // Icon Catalog API (based on ICON_CATALOG_API.md)
+    const ICON_API_BASE = 'https://architect.gospelo.dev';
+    let iconCatalog = null;
+    let providerIcons = {};  // Cache for provider icons
+
+    async function loadProviders() {
+      try {
+        const response = await fetch(`${ICON_API_BASE}/api/icons/index.json`);
+        iconCatalog = await response.json();
+
+        const providerSelect = document.getElementById('provider');
+        providerSelect.innerHTML = '<option value="">Select Provider</option>';
+
+        // Use providers array and sources object
+        const providers = iconCatalog.providers || [];
+        const sources = iconCatalog.sources || {};
+
+        providers.forEach(providerId => {
+          const source = sources[providerId];
+          const option = document.createElement('option');
+          option.value = providerId;
+          option.textContent = source ? `${providerId} (${source.license})` : providerId;
+          providerSelect.appendChild(option);
+        });
+      } catch (e) {
+        console.error('Failed to load providers:', e);
+        document.getElementById('provider').innerHTML = '<option value="">Failed to load</option>';
+      }
+    }
+
+    async function loadCategories(providerId) {
+      const categorySelect = document.getElementById('category');
+
+      // Categories are derived from icons - load icons first if not cached
+      if (!providerIcons[providerId]) {
+        categorySelect.innerHTML = '<option value="">Loading...</option>';
+        await loadProviderIcons(providerId);
+      }
+
+      const icons = providerIcons[providerId]?.icons || [];
+      const categories = [...new Set(icons.map(i => i.category).filter(Boolean))].sort();
+
+      categorySelect.innerHTML = '<option value="">All Categories</option>';
+      categories.forEach(cat => {
+        const count = icons.filter(i => i.category === cat).length;
+        const option = document.createElement('option');
+        option.value = cat;
+        option.textContent = `${cat} (${count})`;
+        categorySelect.appendChild(option);
+      });
+    }
+
+    async function loadProviderIcons(providerId) {
+      try {
+        const response = await fetch(`${ICON_API_BASE}/api/icons/v1/${providerId}/icons.json`);
+        const data = await response.json();
+        providerIcons[providerId] = data;
+        return data;
+      } catch (e) {
+        console.error(`Failed to load icons for ${providerId}:`, e);
+        return { icons: [] };
+      }
+    }
+
+    async function loadIcons(providerId, categoryId = '', search = '') {
+      const iconGrid = document.getElementById('icon-grid');
+      const container = document.getElementById('icon-grid-container');
+      container.style.display = 'block';
+      iconGrid.innerHTML = '<div class="icon-item-loading">Loading icons...</div>';
+
+      try {
+        // Load icons if not cached
+        if (!providerIcons[providerId]) {
+          await loadProviderIcons(providerId);
+        }
+
+        let icons = providerIcons[providerId]?.icons || [];
+
+        // Filter by category
+        if (categoryId) {
+          icons = icons.filter(i => i.category === categoryId);
+        }
+
+        // Filter by search term
+        if (search) {
+          const searchLower = search.toLowerCase();
+          icons = icons.filter(i =>
+            i.slug?.toLowerCase().includes(searchLower) ||
+            i.displayName?.toLowerCase().includes(searchLower)
+          );
+        }
+
+        // Limit to 100 for performance
+        icons = icons.slice(0, 100);
+
+        if (icons.length === 0) {
+          iconGrid.innerHTML = '<div class="icon-item-loading">No icons found</div>';
+          return;
+        }
+
+        iconGrid.innerHTML = icons.map(icon => `
+          <div class="icon-item" data-url="${icon.url}" data-name="${icon.displayName || icon.slug}" title="${icon.displayName || icon.slug}">
+            <img src="${icon.url}" alt="${icon.displayName || icon.slug}" loading="lazy">
+          </div>
+        `).join('');
+      } catch (e) {
+        console.error('Failed to load icons:', e);
+        iconGrid.innerHTML = '<div class="icon-item-loading">Failed to load icons</div>';
+      }
+    }
+
+    // Provider change handler
+    document.getElementById('provider').addEventListener('change', (e) => {
+      const providerId = e.target.value;
+      if (providerId) {
+        loadCategories(providerId);
+        loadIcons(providerId);
+      } else {
+        document.getElementById('category').innerHTML = '<option value="">Select provider first</option>';
+        document.getElementById('icon-grid-container').style.display = 'none';
+      }
+    });
+
+    // Category change handler
+    document.getElementById('category').addEventListener('change', (e) => {
+      const providerId = document.getElementById('provider').value;
+      const categoryId = e.target.value;
+      if (providerId) {
+        loadIcons(providerId, categoryId, document.getElementById('icon-search').value);
+      }
+    });
+
+    // Search input handler (debounced)
+    let searchTimeout;
+    document.getElementById('icon-search').addEventListener('input', (e) => {
+      clearTimeout(searchTimeout);
+      searchTimeout = setTimeout(() => {
+        const providerId = document.getElementById('provider').value;
+        const categoryId = document.getElementById('category').value;
+        if (providerId) {
+          loadIcons(providerId, categoryId, e.target.value);
+        }
+      }, 300);
+    });
+
+    // Icon grid click handler
+    document.getElementById('icon-grid').addEventListener('click', (e) => {
+      const iconItem = e.target.closest('.icon-item');
+      if (iconItem && iconItem.dataset.url) {
+        // Update selection UI
+        document.querySelectorAll('.icon-item').forEach(i => i.classList.remove('selected'));
+        iconItem.classList.add('selected');
+
+        // Set URL and auto-generate
+        document.getElementById('svg-url').value = iconItem.dataset.url;
+        generate();
+      }
+    });
+
+    // Init
+    initWasm();
+    loadProviders();
+  </script>
+</body>
+</html>

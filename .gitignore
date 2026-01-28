@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+!packages/react/dist/
+*.tsbuildinfo
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Package manager
+pnpm-lock.yaml
+
+# NPM publish artifacts
+*.tgz
+
+# Turbo
+.turbo/
+
+# Cache
+.cache/
+
+# AI/Development
+.claude/
+.roo/
+development/
+
+# Work in progress
+figma-plugin/
