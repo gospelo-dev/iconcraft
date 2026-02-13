@@ -2,12 +2,13 @@
 
 /**
  * Shape mode for clip-path generation
- * @enum {0 | 1 | 2}
+ * @enum {0 | 1 | 2 | 3}
  */
 export const ShapeMode = Object.freeze({
     Jelly: 0, "0": "Jelly",
-    Droplet: 1, "1": "Droplet",
+    Bubble: 1, "1": "Bubble",
     Wax: 2, "2": "Wax",
+    Sticker: 3, "3": "Sticker",
 });
 
 /**
@@ -35,13 +36,13 @@ export function generate_clippath(svg_content, mode, offset, resolution, simplif
  * @param {number} resolution
  * @param {number} simplify_epsilon
  * @param {boolean} include_icon
- * @param {string} base_color
+ * @param {string} shape_color
  * @returns {any}
  */
-export function generate_clippath_with_color(svg_content, mode, offset, resolution, simplify_epsilon, include_icon, base_color) {
+export function generate_clippath_with_color(svg_content, mode, offset, resolution, simplify_epsilon, include_icon, shape_color) {
     const ptr0 = passStringToWasm0(svg_content, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
     const len0 = WASM_VECTOR_LEN;
-    const ptr1 = passStringToWasm0(base_color, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
+    const ptr1 = passStringToWasm0(shape_color, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
     const len1 = WASM_VECTOR_LEN;
     const ret = wasm.generate_clippath_with_color(ptr0, len0, mode, offset, resolution, simplify_epsilon, include_icon, ptr1, len1);
     return ret;
@@ -62,6 +63,31 @@ export function generate_clippath_with_icon(svg_content, mode, offset, resolutio
     const ptr0 = passStringToWasm0(svg_content, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
     const len0 = WASM_VECTOR_LEN;
     const ret = wasm.generate_clippath_with_icon(ptr0, len0, mode, offset, resolution, simplify_epsilon, include_icon);
+    return ret;
+}
+
+/**
+ * Generate clip-path with icon, custom color, and rotation
+ * rotation_degrees: rotation angle in degrees (0-360)
+ * @param {string} svg_content
+ * @param {ShapeMode} mode
+ * @param {number} offset
+ * @param {number} resolution
+ * @param {number} simplify_epsilon
+ * @param {boolean} include_icon
+ * @param {string} shape_color
+ * @param {number} rotation_degrees
+ * @param {string | null} [icon_color]
+ * @returns {any}
+ */
+export function generate_clippath_with_rotation(svg_content, mode, offset, resolution, simplify_epsilon, include_icon, shape_color, rotation_degrees, icon_color) {
+    const ptr0 = passStringToWasm0(svg_content, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
+    const len0 = WASM_VECTOR_LEN;
+    const ptr1 = passStringToWasm0(shape_color, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
+    const len1 = WASM_VECTOR_LEN;
+    var ptr2 = isLikeNone(icon_color) ? 0 : passStringToWasm0(icon_color, wasm.__wbindgen_malloc, wasm.__wbindgen_realloc);
+    var len2 = WASM_VECTOR_LEN;
+    const ret = wasm.generate_clippath_with_rotation(ptr0, len0, mode, offset, resolution, simplify_epsilon, include_icon, ptr1, len1, rotation_degrees, ptr2, len2);
     return ret;
 }
 
@@ -165,6 +191,10 @@ function getUint8ArrayMemory0() {
         cachedUint8ArrayMemory0 = new Uint8Array(wasm.memory.buffer);
     }
     return cachedUint8ArrayMemory0;
+}
+
+function isLikeNone(x) {
+    return x === undefined || x === null;
 }
 
 function passStringToWasm0(arg, malloc, realloc) {

@@ -6,8 +6,9 @@
  */
 export enum ShapeMode {
     Jelly = 0,
-    Droplet = 1,
+    Bubble = 1,
     Wax = 2,
+    Sticker = 3,
 }
 
 /**
@@ -19,13 +20,19 @@ export function generate_clippath(svg_content: string, mode: ShapeMode, offset: 
  * Generate clip-path with icon and custom base color for gradients
  * base_color: hex color string (e.g., "#6366f1") - used to generate color palette
  */
-export function generate_clippath_with_color(svg_content: string, mode: ShapeMode, offset: number, resolution: number, simplify_epsilon: number, include_icon: boolean, base_color: string): any;
+export function generate_clippath_with_color(svg_content: string, mode: ShapeMode, offset: number, resolution: number, simplify_epsilon: number, include_icon: boolean, shape_color: string): any;
 
 /**
  * Generate clip-path from SVG content with icon embedding option
  * When include_icon is true, generates complete emboss SVG with icon paths
  */
 export function generate_clippath_with_icon(svg_content: string, mode: ShapeMode, offset: number, resolution: number, simplify_epsilon: number, include_icon: boolean): any;
+
+/**
+ * Generate clip-path with icon, custom color, and rotation
+ * rotation_degrees: rotation angle in degrees (0-360)
+ */
+export function generate_clippath_with_rotation(svg_content: string, mode: ShapeMode, offset: number, resolution: number, simplify_epsilon: number, include_icon: boolean, shape_color: string, rotation_degrees: number, icon_color?: string | null): any;
 
 export function init(): void;
 
@@ -36,6 +43,7 @@ export interface InitOutput {
     readonly generate_clippath: (a: number, b: number, c: number, d: number, e: number, f: number) => any;
     readonly generate_clippath_with_color: (a: number, b: number, c: number, d: number, e: number, f: number, g: number, h: number, i: number) => any;
     readonly generate_clippath_with_icon: (a: number, b: number, c: number, d: number, e: number, f: number, g: number) => any;
+    readonly generate_clippath_with_rotation: (a: number, b: number, c: number, d: number, e: number, f: number, g: number, h: number, i: number, j: number, k: number, l: number) => any;
     readonly init: () => void;
     readonly __wbindgen_free: (a: number, b: number, c: number) => void;
     readonly __wbindgen_malloc: (a: number, b: number) => number;
