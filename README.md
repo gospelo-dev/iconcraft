@@ -27,7 +27,34 @@ pnpm demo
 
 ## Usage
 
-### React
+### React (Factory Pattern)
+
+```tsx
+import { IconCraftFactory, IconCraftView, dialPresets, reticlePresets } from "gospelo-iconcraft-react";
+
+const factory = new IconCraftFactory({
+  mode: "wax",
+  shapeColor: "#6366f1",
+  size: 100,
+});
+
+const icon = factory.create("<svg>...</svg>");
+
+function App() {
+  return (
+    <IconCraftView
+      instance={icon}
+      animation="bounce"
+      showRotationDial
+      dialPreset={dialPresets.dotted}
+      showReticle
+      reticlePreset={reticlePresets.cross}
+    />
+  );
+}
+```
+
+### React (Simple)
 
 ```tsx
 import { IconCraftShape } from "gospelo-iconcraft-react";

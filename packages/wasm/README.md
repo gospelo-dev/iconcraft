@@ -1,124 +1,134 @@
-# gospelo-iconcraft-wasm
+# IconCraft WASM
+
+Rust source code for the IconCraft WASM module. This repository contains the private source code that builds the [gospelo-iconcraft-wasm](https://www.npmjs.com/package/gospelo-iconcraft-wasm) npm package.
+
+## Overview
 
 A WebAssembly module that generates emboss-style decorative shapes from SVG icons. Creates smooth, 3D-looking clip-paths with highlights and shadows.
-
-## Installation
-
-```bash
-npm install gospelo-iconcraft-wasm
-```
-
-## Usage
-
-```typescript
-import init, { generate_clippath, generate_clippath_with_icon, ShapeMode } from 'gospelo-iconcraft-wasm';
-
-// Initialize WASM module
-await init();
-
-// Basic usage - generate clip-path only
-const result = generate_clippath(
-  svgContent,        // SVG string
-  ShapeMode.Jelly,   // Shape mode: Jelly, Droplet, or Wax
-  20,                // Offset (padding around icon)
-  256,               // Resolution
-  1.0                // Simplify epsilon (polygon simplification)
-);
-
-// With icon embedding - generates complete emboss SVG
-const resultWithIcon = generate_clippath_with_icon(
-  svgContent,
-  ShapeMode.Wax,
-  20,
-  256,
-  1.0,
-  true               // include_icon: generates emboss_svg with gradients
-);
-```
-
-## API
 
 ### Shape Modes
 
 | Mode | Description |
 |------|-------------|
-| `ShapeMode.Jelly` | Smooth, organic blob shape following icon contours |
-| `ShapeMode.Droplet` | Perfect circle/sphere with glass-like highlights |
-| `ShapeMode.Wax` | Irregular wax seal shape with pressed icon indent |
+| **Sticker** | Jelly-based shape with paper-like noise texture, no highlights |
+| **Jelly** | Smooth, organic blob shape following icon contours |
+| **Bubble** | Perfect circle/sphere with glass-like highlights |
+| **Wax** | Irregular wax seal shape with pressed icon indent |
 
-### Functions
+## Build
 
-#### `generate_clippath(svg_content, mode, offset, resolution, simplify_epsilon)`
+### Prerequisites
 
-Generates a clip-path polygon from SVG content.
+- [Rust](https://rustup.rs/) (latest stable)
+- [wasm-pack](https://rustwasm.github.io/wasm-pack/installer/)
 
-**Returns:**
-```typescript
-{
-  success: boolean;
-  clip_path: string;           // CSS polygon() string
-  inner_clip_path?: string;    // Inner shape for Wax mode
-  highlight_clip_paths?: string[];
-  points_count: number;
-  mode: string;
-  icon_layout: {
-    top_percent: number;
-    left_percent: number;
-    width_percent: number;
-    height_percent: number;
-  };
-  svg_paths: {
-    clip: string;              // SVG path d attribute
-    inner?: string;
-    shadow?: string;
-    highlight?: string;
-  };
+### Build Commands
+
+```bash
+# Build WASM package
+wasm-pack build --target web
+
+# Output: pkg/
+```
+
+### Build Output
+
+```
+pkg/
+├── icon_craft_wasm.js       # JavaScript bindings
+├── icon_craft_wasm.d.ts     # TypeScript definitions
+├── icon_craft_wasm_bg.wasm  # WASM binary
+└── package.json             # npm package config
+```
+
+## Development
+
+### Run Tests
+
+```bash
+cargo test
+```
+
+### WASM Tests
+
+```bash
+wasm-pack test --headless --firefox
+```
+
+## Distribution
+
+The built `pkg/` directory is copied to the public repository for npm distribution:
+
+```bash
+# Copy binaries to public repository
+cp pkg/*.js pkg/*.wasm pkg/*.d.ts ../iconcraft/packages/wasm/
+```
+
+### Publishing
+
+Publishing is done from the public repository root:
+
+```bash
+make publish OTP=123456 BUMP=patch
+```
+
+## Architecture
+
+### Core Pipeline
+
+1. **SVG Parsing** - Parse input SVG using `usvg`
+2. **Rasterization** - Render to bitmap with `resvg` + `tiny-skia`
+3. **Contour Extraction** - Find contours using `imageproc`
+4. **Shape Processing** - Convex hull, Gaussian blur, simplification
+5. **Output Generation** - CSS polygon, SVG path, emboss SVG
+
+### Key Dependencies
+
+| Crate | Purpose |
+|-------|---------|
+| `wasm-bindgen` | Rust-JavaScript interop |
+| `resvg` / `usvg` | SVG parsing and rasterization |
+| `tiny-skia` | 2D graphics rendering |
+| `image` / `imageproc` | Image processing, contour detection |
+| `serde` | Serialization for JS interop |
+
+## API
+
+### Exported Functions
+
+```rust
+// Basic clip-path generation
+generate_clippath(svg_content, mode, offset, resolution, simplify_epsilon) -> ClipPathResult
+
+// With icon embedding
+generate_clippath_with_icon(svg_content, mode, offset, resolution, simplify_epsilon, include_icon) -> ClipPathResult
+
+// With custom color palette
+generate_clippath_with_color(svg_content, mode, offset, resolution, simplify_epsilon, include_icon, base_color) -> ClipPathResult
+
+// With rotation (shape follows rotated icon, shadow direction adjusted)
+generate_clippath_with_rotation(svg_content, mode, offset, resolution, simplify_epsilon, include_icon, base_color, rotation_degrees) -> ClipPathResult
+```
+
+### Result Structure
+
+```rust
+pub struct ClipPathResult {
+    pub success: bool,
+    pub clip_path: Option<String>,        // CSS polygon()
+    pub inner_clip_path: Option<String>,  // For Wax mode
+    pub highlight_clip_paths: Option<Vec<String>>,
+    pub points_count: usize,
+    pub mode: String,
+    pub error: Option<String>,
+    pub icon_layout: Option<IconLayout>,
+    pub svg_paths: Option<SvgPaths>,
+    pub emboss_svg: Option<String>,       // Complete emboss SVG
+    pub icon_paths: Option<EmbossIconData>,
+    pub rotation: f32,                    // Applied rotation (degrees)
 }
 ```
 
-#### `generate_clippath_with_icon(svg_content, mode, offset, resolution, simplify_epsilon, include_icon)`
-
-Same as above, but when `include_icon` is true, also returns:
-- `emboss_svg`: Complete SVG with gradients, filters, and icon paths
-- `icon_paths`: Parsed icon path data for custom rendering
-
-#### `generate_clippath_with_color(svg_content, mode, offset, resolution, simplify_epsilon, include_icon, shape_color)`
-
-Same as `generate_clippath_with_icon`, but uses custom shape color (hex string like `"#6366f1"`) to generate the color palette for gradients.
-
-## Example Output
-
-The generated `emboss_svg` includes:
-- Multi-layer gradients for 3D depth effect
-- Highlights and shadows
-- Drop shadow filter
-- Embedded icon with emboss styling
-
-```html
-<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <!-- Gradients and filters -->
-  </defs>
-  <!-- Main shape with gradient layers -->
-  <!-- Inner indent (Wax mode) -->
-  <!-- Highlights (Jelly/Droplet mode) -->
-  <!-- Embedded icon -->
-</svg>
-```
-
-## Browser Support
-
-Requires WebAssembly support. Works in all modern browsers.
-
-## Repository
-
-- [GitHub](https://github.com/gospelo-dev/iconcraft/tree/main/packages/wasm) - Package distribution
-- [Issues](https://github.com/gospelo-dev/iconcraft/issues) - Bug reports & feature requests
-
-## Related
-
-- [gospelo-iconcraft-react](https://www.npmjs.com/package/gospelo-iconcraft-react) - React components using this WASM module
-
 ## License
 
-MIT
+Source code is private. Built binaries are distributed under MIT license.

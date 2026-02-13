@@ -19,7 +19,7 @@ await init();
 // 基本的な使い方 - clip-pathのみ生成
 const result = generate_clippath(
   svgContent,        // SVG文字列
-  ShapeMode.Jelly,   // シェイプモード: Jelly, Droplet, Wax
+  ShapeMode.Jelly,   // シェイプモード: Sticker, Jelly, Bubble, Wax
   20,                // オフセット（アイコン周囲のパディング）
   256,               // 解像度
   1.0                // 簡略化イプシロン（ポリゴン簡略化）
@@ -42,8 +42,9 @@ const resultWithIcon = generate_clippath_with_icon(
 
 | モード | 説明 |
 |--------|------|
+| `ShapeMode.Sticker` | Jellyベースのシェイプに紙のようなノイズテクスチャを適用、ハイライトなし |
 | `ShapeMode.Jelly` | アイコンの輪郭に沿った滑らかで有機的なブロブ形状 |
-| `ShapeMode.Droplet` | ガラスのようなハイライトを持つ完全な円/球体 |
+| `ShapeMode.Bubble` | ガラスのようなハイライトを持つ完全な円/球体 |
 | `ShapeMode.Wax` | 押し込まれたアイコンの凹みを持つ不規則なワックスシール形状 |
 
 ### 関数
@@ -73,6 +74,7 @@ SVGコンテンツからclip-pathポリゴンを生成します。
     shadow?: string;
     highlight?: string;
   };
+  rotation: number;            // 適用された回転角度（度）
 }
 ```
 
@@ -85,6 +87,25 @@ SVGコンテンツからclip-pathポリゴンを生成します。
 #### `generate_clippath_with_color(svg_content, mode, offset, resolution, simplify_epsilon, include_icon, shape_color)`
 
 `generate_clippath_with_icon` と同じですが、カスタムシェイプカラー（`"#6366f1"` のような16進数文字列）を使用してグラデーション用のカラーパレットを生成します。
+
+#### `generate_clippath_with_rotation(svg_content, mode, offset, resolution, simplify_epsilon, include_icon, shape_color, rotation_degrees)`
+
+`generate_clippath_with_color` と同じですが、アイコンの回転に対応しています。ラスタライズ前にアイコンを回転させるため、生成されるシェイプが回転後のアイコン輪郭に追従します。影の方向も一貫した光源を維持するよう調整されます。
+
+- `rotation_degrees`: 回転角度（0-360度）
+
+```typescript
+const result = generate_clippath_with_rotation(
+  svgContent,
+  ShapeMode.Jelly,
+  20, 256, 1.0,
+  true,
+  "#6366f1",
+  45.0  // アイコンを45度回転
+);
+
+console.log(result.rotation); // 45
+```
 
 ## 出力例
 
@@ -101,7 +122,7 @@ SVGコンテンツからclip-pathポリゴンを生成します。
   </defs>
   <!-- グラデーションレイヤー付きのメインシェイプ -->
   <!-- 内側の凹み（Waxモード） -->
-  <!-- ハイライト（Jelly/Dropletモード） -->
+  <!-- ハイライト（Jelly/Bubbleモード） -->
   <!-- 埋め込みアイコン -->
 </svg>
 ```
@@ -109,6 +130,14 @@ SVGコンテンツからclip-pathポリゴンを生成します。
 ## ブラウザサポート
 
 WebAssemblyのサポートが必要です。すべてのモダンブラウザで動作します。
+
+## 公開
+
+リポジトリルートから：
+
+```bash
+make publish OTP=123456 BUMP=patch
+```
 
 ## リポジトリ
 
