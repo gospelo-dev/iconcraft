@@ -22,6 +22,8 @@ export interface IconBackupData {
   zIndex?: number;
   /** アイコンの色（オプション） */
   iconColor?: string;
+  /** 回転角度（オプション） */
+  rotation?: number;
   /** アニメーション（オプション） */
   animation?: AnimationType;
   /** カスタムメタデータ（オプション） */

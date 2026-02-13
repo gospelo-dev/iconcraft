@@ -153,11 +153,6 @@ export class IconCraftInstance {
 
       // WASMで生成
       const params = this._config.getWasmParams();
-      console.log('[IconCraftInstance] Generating with params:', {
-        id: this._id,
-        mode: params.mode,
-        shapeColor: params.shapeColor,
-      });
       const result = await WasmManager.generate({
         svgContent,
         mode: params.mode,
@@ -166,17 +161,13 @@ export class IconCraftInstance {
         simplify: params.simplify,
         includeIcon: params.includeIcon,
         shapeColor: params.shapeColor,
+        rotation: params.rotation,
       });
 
       if (!result.success) {
         throw new Error(result.error || 'Generation failed');
       }
 
-      console.log('[IconCraftInstance] Generated result:', {
-        id: this._id,
-        success: result.success,
-        embossSvgPreview: result.emboss_svg?.slice(0, 300),
-      });
       this._generateState = { status: 'done', result };
       return result;
     } catch (err) {

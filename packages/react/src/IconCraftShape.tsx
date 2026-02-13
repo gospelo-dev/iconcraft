@@ -5,6 +5,7 @@ import {
   getAnimationStyle,
   injectKeyframes,
 } from './animations';
+import { sanitizeSvg } from './utils/sanitize';
 
 // WASM module singleton
 let wasmModule: typeof import('gospelo-iconcraft-wasm') | null = null;
@@ -26,7 +27,8 @@ async function initWasm() {
 
 const shapeModeMap: Record<ShapeMode, number> = {
   jelly: 0,
-  droplet: 1,
+  bubble: 1,
+  sticker: 3,
   wax: 2,
 };
 
@@ -81,6 +83,7 @@ export function IconCraftShape({
   offset = 20,
   resolution = 256,
   simplify = 2.0,
+  rotation = 0,
 
   // Size & Layout
   width,
@@ -135,15 +138,26 @@ export function IconCraftShape({
       const modeValue = shapeModeMap[mode];
 
       // Generate with WASM
-      const wasmResult = wasm.generate_clippath_with_color(
-        svgContent,
-        modeValue,
-        offset,
-        resolution,
-        simplify,
-        iconStyle === 'emboss', // include_icon
-        shapeColor
-      );
+      const wasmResult = typeof wasm.generate_clippath_with_rotation === 'function'
+        ? wasm.generate_clippath_with_rotation(
+            svgContent,
+            modeValue,
+            offset,
+            resolution,
+            simplify,
+            iconStyle === 'emboss',
+            shapeColor,
+            rotation
+          )
+        : wasm.generate_clippath_with_color(
+            svgContent,
+            modeValue,
+            offset,
+            resolution,
+            simplify,
+            iconStyle === 'emboss',
+            shapeColor
+          );
 
       if (!wasmResult.success) {
         throw new Error(wasmResult.error || 'Generation failed');
@@ -158,7 +172,7 @@ export function IconCraftShape({
     } finally {
       setIsLoading(false);
     }
-  }, [svg, mode, shapeColor, iconStyle, offset, resolution, simplify, onLoad, onError]);
+  }, [svg, mode, shapeColor, iconStyle, offset, resolution, simplify, rotation, onLoad, onError]);
 
   // Regenerate when props change
   useEffect(() => {
@@ -244,7 +258,7 @@ export function IconCraftShape({
       onClick={onClick}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
-      dangerouslySetInnerHTML={{ __html: result.emboss_svg }}
+      dangerouslySetInnerHTML={{ __html: sanitizeSvg(result.emboss_svg) }}
     />
   );
 }

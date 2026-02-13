@@ -1,5 +1,6 @@
 import { useIconCraft } from './useIconCraft';
 import type { IconCraftProps } from './types';
+import { sanitizeSvg } from './utils/sanitize';
 
 /**
  * Legacy IconCraft component
@@ -54,7 +55,7 @@ export function IconCraft({
         width: '100%',
         height: '100%',
       }}
-      dangerouslySetInnerHTML={{ __html: result.emboss_svg }}
+      dangerouslySetInnerHTML={{ __html: sanitizeSvg(result.emboss_svg) }}
     />
   );
 }

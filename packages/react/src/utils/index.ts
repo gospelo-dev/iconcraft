@@ -1,3 +1,5 @@
+export { sanitizeSvg } from './sanitize';
+
 export {
   createBackup,
   downloadBackup,

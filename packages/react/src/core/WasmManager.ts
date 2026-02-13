@@ -11,6 +11,8 @@ export interface WasmGenerateParams {
   simplify: number;
   includeIcon: boolean;
   shapeColor: string;
+  rotation?: number;
+  iconColor?: string;
 }
 
 /**
@@ -26,13 +28,16 @@ function createCacheKey(params: WasmGenerateParams): string {
     simplify: params.simplify,
     includeIcon: params.includeIcon,
     shapeColor: params.shapeColor,
+    rotation: params.rotation ?? 0,
+    iconColor: params.iconColor ?? '',
   });
 }
 
 const shapeModeMap: Record<ShapeMode, number> = {
   jelly: 0,
-  droplet: 1,
+  bubble: 1,
   wax: 2,
+  sticker: 3,
 };
 
 /**
@@ -87,14 +92,29 @@ class WasmManagerClass {
     const wasm = await this.init();
 
     // 生成実行
-    const result = wasm.generate_clippath_with_color(
-      params.svgContent,
-      shapeModeMap[params.mode],
-      params.offset,
-      params.resolution,
-      params.simplify,
-      params.includeIcon,
-      params.shapeColor
+    const rotation = params.rotation ?? 0;
+    const iconColor = params.iconColor ?? null;
+    const result = (typeof wasm.generate_clippath_with_rotation === 'function'
+      ? wasm.generate_clippath_with_rotation(
+          params.svgContent,
+          shapeModeMap[params.mode],
+          params.offset,
+          params.resolution,
+          params.simplify,
+          params.includeIcon,
+          params.shapeColor,
+          rotation,
+          iconColor
+        )
+      : wasm.generate_clippath_with_color(
+          params.svgContent,
+          shapeModeMap[params.mode],
+          params.offset,
+          params.resolution,
+          params.simplify,
+          params.includeIcon,
+          params.shapeColor
+        )
     ) as IconCraftResult;
 
     // キャッシュに保存

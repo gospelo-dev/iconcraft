@@ -83,7 +83,7 @@ export interface IconCraftSimpleProps {
  * // SVG文字列を直接渡す
  * <IconCraftSimple
  *   src={`<svg>...</svg>`}
- *   mode="droplet"
+ *   mode="bubble"
  *   iconStyle="emboss"
  * />
  * ```

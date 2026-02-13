@@ -20,6 +20,7 @@ export interface IconCraftConfigOptions {
   offset?: number;
   resolution?: number;
   simplify?: number;
+  rotation?: number;
 
   // Size
   size?: number | string;
@@ -45,6 +46,7 @@ export const DEFAULT_CONFIG: Required<Omit<IconCraftConfigOptions, 'width' | 'he
   offset: 20,
   resolution: 256,
   simplify: 2.0,
+  rotation: 0,
   size: 120,
   width: undefined,
   height: undefined,
@@ -67,6 +69,7 @@ export class IconCraftConfig {
   readonly offset: number;
   readonly resolution: number;
   readonly simplify: number;
+  readonly rotation: number;
   readonly size: number | string;
   readonly width?: number | string;
   readonly height?: number | string;
@@ -83,6 +86,7 @@ export class IconCraftConfig {
     this.offset = options.offset ?? DEFAULT_CONFIG.offset;
     this.resolution = options.resolution ?? DEFAULT_CONFIG.resolution;
     this.simplify = options.simplify ?? DEFAULT_CONFIG.simplify;
+    this.rotation = options.rotation ?? DEFAULT_CONFIG.rotation;
     this.size = options.size ?? DEFAULT_CONFIG.size;
     this.width = options.width;
     this.height = options.height;
@@ -104,6 +108,7 @@ export class IconCraftConfig {
       offset: overrides.offset ?? this.offset,
       resolution: overrides.resolution ?? this.resolution,
       simplify: overrides.simplify ?? this.simplify,
+      rotation: overrides.rotation ?? this.rotation,
       size: overrides.size ?? this.size,
       width: overrides.width ?? this.width,
       height: overrides.height ?? this.height,
@@ -117,8 +122,8 @@ export class IconCraftConfig {
    */
   getWasmParams() {
     // Waxモードは凹んだ3D形状のため、常にemboss_svgが必要
-    // Jelly/Dropletモードはembossスタイルの場合のみ必要
-    const needsEmbossSvg = this.mode === 'wax' || this.iconStyle === 'emboss';
+    // Jelly/Bubbleモードはembossスタイルの場合のみ必要
+    const needsEmbossSvg = this.mode === 'wax' || this.mode === 'sticker' || this.iconStyle === 'emboss';
     return {
       mode: this.mode,
       offset: this.offset,
@@ -126,6 +131,8 @@ export class IconCraftConfig {
       simplify: this.simplify,
       includeIcon: needsEmbossSvg,
       shapeColor: this.shapeColor,
+      rotation: this.rotation,
+      iconColor: this.iconColor,
     };
   }
 

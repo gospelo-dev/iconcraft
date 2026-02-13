@@ -21,7 +21,8 @@ async function initWasm() {
 
 const shapeModeMap: Record<ShapeMode, number> = {
   jelly: 0,
-  droplet: 1,
+  bubble: 1,
+  sticker: 3,
   wax: 2,
 };
 
@@ -61,6 +62,8 @@ export interface UseIconCraftOptions {
   resolution?: number;
   /** Polygon simplification epsilon */
   simplify?: number;
+  /** Icon rotation in degrees (0-360) */
+  rotation?: number;
   /** Auto-generate on mount/change */
   autoGenerate?: boolean;
 }
@@ -101,6 +104,7 @@ export function useIconCraft(options: UseIconCraftOptions): UseIconCraftReturn {
     offset = 20,
     resolution = 256,
     simplify = 2.0,
+    rotation = 0,
     autoGenerate = true,
   } = options;
 
@@ -137,15 +141,26 @@ export function useIconCraft(options: UseIconCraftOptions): UseIconCraftReturn {
       const modeValue = shapeModeMap[mode];
 
       // Generate
-      const wasmResult = wasm.generate_clippath_with_color(
-        content,
-        modeValue,
-        offset,
-        resolution,
-        simplify,
-        iconStyle === 'emboss',
-        shapeColor
-      );
+      const wasmResult = typeof wasm.generate_clippath_with_rotation === 'function'
+        ? wasm.generate_clippath_with_rotation(
+            content,
+            modeValue,
+            offset,
+            resolution,
+            simplify,
+            iconStyle === 'emboss',
+            shapeColor,
+            rotation
+          )
+        : wasm.generate_clippath_with_color(
+            content,
+            modeValue,
+            offset,
+            resolution,
+            simplify,
+            iconStyle === 'emboss',
+            shapeColor
+          );
 
       if (!wasmResult.success) {
         throw new Error(wasmResult.error || 'Generation failed');
@@ -157,7 +172,7 @@ export function useIconCraft(options: UseIconCraftOptions): UseIconCraftReturn {
     } finally {
       setIsLoading(false);
     }
-  }, [svg, mode, shapeColor, iconStyle, offset, resolution, simplify]);
+  }, [svg, mode, shapeColor, iconStyle, offset, resolution, simplify, rotation]);
 
   // Auto-generate when options change
   useEffect(() => {

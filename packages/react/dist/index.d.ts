@@ -2,7 +2,7 @@ import { CSSProperties, ReactNode } from 'react';
 import * as gospelo_iconcraft_wasm from 'gospelo-iconcraft-wasm';
 import * as react_jsx_runtime from 'react/jsx-runtime';
 
-type ShapeMode = 'jelly' | 'droplet' | 'wax';
+type ShapeMode = 'jelly' | 'bubble' | 'wax' | 'sticker';
 type IconStyle = 'original' | 'emboss' | 'stroke' | 'fill';
 /** Built-in animation types */
 type BuiltInAnimationType = 'none' | 'shake' | 'bounce' | 'pulse' | 'swing' | 'wobble' | 'jello' | 'heartbeat' | 'float' | 'spin' | 'rubberBand' | 'squish' | 'tada' | 'flip' | 'drop' | 'pop' | 'wiggle' | 'breathe';
@@ -88,11 +88,12 @@ interface IconCraftResult {
     svg_paths: SvgPaths | null;
     emboss_svg: string | null;
     icon_paths: EmbossIconData | null;
+    rotation: number;
 }
 interface IconCraftShapeProps {
     /** SVG content string or URL */
     svg: string;
-    /** Shape mode: jelly, droplet, or wax */
+    /** Shape mode: jelly, bubble, or wax */
     mode?: ShapeMode;
     /** Base color for the shape (hex) */
     shapeColor?: string;
@@ -104,6 +105,8 @@ interface IconCraftShapeProps {
     shadow?: boolean;
     /** Show highlight effect */
     highlight?: boolean;
+    /** Icon rotation in degrees (0-360). Applied at WASM level so shape follows rotated icon. */
+    rotation?: number;
     /** Contour offset (default: 20) */
     offset?: number;
     /** Rasterization resolution (default: 256) */
@@ -157,6 +160,7 @@ interface IconCraftConfigOptions {
     offset?: number;
     resolution?: number;
     simplify?: number;
+    rotation?: number;
     size?: number | string;
     width?: number | string;
     height?: number | string;
@@ -182,6 +186,7 @@ declare class IconCraftConfig {
     readonly offset: number;
     readonly resolution: number;
     readonly simplify: number;
+    readonly rotation: number;
     readonly size: number | string;
     readonly width?: number | string;
     readonly height?: number | string;
@@ -202,6 +207,8 @@ declare class IconCraftConfig {
         simplify: number;
         includeIcon: boolean;
         shapeColor: string;
+        rotation: number;
+        iconColor: string;
     };
     /**
      * スタイル用のサイズを取得
@@ -328,6 +335,8 @@ interface WasmGenerateParams {
     simplify: number;
     includeIcon: boolean;
     shapeColor: string;
+    rotation?: number;
+    iconColor?: string;
 }
 /**
  * WASMマネージャー（Singleton）
@@ -446,6 +455,70 @@ declare class IconCraftRegistry {
  */
 declare const globalRegistry: IconCraftRegistry;
 
+/**
+ * Dial preset definition
+ */
+interface DialPreset {
+    name: string;
+    renderRing: (props: DialRingProps) => React.ReactNode;
+    renderNotch: (props: DialNotchProps) => React.ReactNode;
+    renderLabel?: (props: DialLabelProps) => React.ReactNode;
+}
+/** Default: dashed ring with circle notch */
+declare const dialPresetDashed: DialPreset;
+/** Solid thin ring with diamond notch */
+declare const dialPresetSolid: DialPreset;
+/** Tick marks ring with arrow notch */
+declare const dialPresetTicks: DialPreset;
+/** Dotted ring with square notch */
+declare const dialPresetDotted: DialPreset;
+/** Double ring with pill-shaped notch */
+declare const dialPresetDouble: DialPreset;
+/** Crosshair style with + shaped notch */
+declare const dialPresetCrosshair: DialPreset;
+/** Minimal: only quarter arcs with triangle notch */
+declare const dialPresetMinimal: DialPreset;
+/** Needle: dashed ring with elongated needle notch */
+declare const dialPresetNeedle: DialPreset;
+/** Bar: solid ring with rounded bar notch */
+declare const dialPresetBar: DialPreset;
+/** Arrow: tick ring with arrow-head notch */
+declare const dialPresetArrow: DialPreset;
+/** All presets for easy iteration */
+declare const dialPresets: {
+    readonly dotted: DialPreset;
+    readonly dashed: DialPreset;
+    readonly solid: DialPreset;
+    readonly ticks: DialPreset;
+    readonly double: DialPreset;
+    readonly crosshair: DialPreset;
+    readonly minimal: DialPreset;
+    readonly needle: DialPreset;
+    readonly bar: DialPreset;
+    readonly arrow: DialPreset;
+};
+type DialPresetName = keyof typeof dialPresets;
+/**
+ * Reticle preset definition
+ */
+interface ReticlePreset {
+    name: string;
+    render: (props: ReticleProps) => React.ReactNode;
+}
+/** Cross: back=bottom+right arms, front=top+left arms + center dot */
+declare const reticlePresetCross: ReticlePreset;
+/** Bullseye: circle + center dot */
+declare const reticlePresetBullseye: ReticlePreset;
+/** Globe: wireframe sphere — all lines split into back (far side) and front (near side) */
+declare const reticlePresetGlobe: ReticlePreset;
+/** All reticle presets */
+declare const reticlePresets: {
+    readonly cross: ReticlePreset;
+    readonly bullseye: ReticlePreset;
+    readonly globe: ReticlePreset;
+};
+type ReticlePresetName = keyof typeof reticlePresets;
+
 interface IconCraftViewProps {
     /** IconCraftInstance */
     instance: IconCraftInstance;
@@ -472,6 +545,67 @@ interface IconCraftViewProps {
     onLoad?: () => void;
     /** Error callback */
     onError?: (error: string) => void;
+    /** Show rotation dial overlay */
+    showRotationDial?: boolean;
+    /** Rotation change callback (called on mouseup with final degree) */
+    onRotationChange?: (deg: number) => void;
+    /** Snap angle in degrees (default: 5) */
+    rotationSnap?: number;
+    /** Custom ring SVG renderer */
+    renderRing?: (props: DialRingProps) => React.ReactNode;
+    /** Custom notch SVG renderer */
+    renderNotch?: (props: DialNotchProps) => React.ReactNode;
+    /** Custom label SVG renderer */
+    renderLabel?: (props: DialLabelProps) => React.ReactNode;
+    /** Dial preset object (overrides renderRing/renderNotch/renderLabel) */
+    dialPreset?: DialPreset;
+    /** Show center reticle */
+    showReticle?: boolean;
+    /** Custom reticle SVG renderer */
+    renderReticle?: (props: ReticleProps) => React.ReactNode;
+    /** Reticle preset object (overrides renderReticle) */
+    reticlePreset?: ReticlePreset;
+    /** Dial ring color (default: '#000') */
+    dialColor?: string;
+    /** Notch color (default: '#000') */
+    notchColor?: string;
+    /** Reticle color (default: '#000') */
+    reticleColor?: string;
+    /**
+     * External CSS rotation preview (degrees).
+     * Applied only to the shape+icon layer via CSS transform,
+     * keeping dial and reticle layers fixed.
+     * Set to null/undefined to disable.
+     */
+    cssRotation?: number | null;
+}
+/** Props passed to custom reticle renderer */
+interface ReticleProps {
+    cx: number;
+    cy: number;
+    size: number;
+    /** Which layer is being rendered: 'back' (behind icon) or 'front' (above icon) */
+    layer: 'back' | 'front';
+}
+/** Props passed to custom ring renderer */
+interface DialRingProps {
+    cx: number;
+    cy: number;
+    radius: number;
+}
+/** Props passed to custom notch renderer */
+interface DialNotchProps {
+    x: number;
+    y: number;
+    /** Current angle in degrees (0 = top) */
+    degrees: number;
+    onMouseDown: (e: React.MouseEvent) => void;
+}
+/** Props passed to custom label renderer */
+interface DialLabelProps {
+    x: number;
+    y: number;
+    degrees: number;
 }
 /**
  * IconCraftView - インスタンスからSVGを表示するコンポーネント
@@ -484,7 +618,7 @@ interface IconCraftViewProps {
  * <IconCraftView instance={icon} zIndex={10} />
  * ```
  */
-declare function IconCraftView({ instance, animation, animationTarget, animateOnHover, zIndex, className, style, onClick, onLoad, onError, }: IconCraftViewProps): react_jsx_runtime.JSX.Element | null;
+declare function IconCraftView({ instance, animation, animationTarget, animateOnHover, zIndex, className, style, onClick, onLoad, onError, showRotationDial, onRotationChange, rotationSnap, renderRing: renderRingProp, renderNotch: renderNotchProp, renderLabel: renderLabelProp, dialPreset, showReticle, renderReticle: renderReticleProp, reticlePreset, dialColor: dialColorProp, notchColor: notchColorProp, reticleColor: reticleColorProp, cssRotation, }: IconCraftViewProps): react_jsx_runtime.JSX.Element | null;
 
 /**
  * IconCraftSimple Props
@@ -549,7 +683,7 @@ interface IconCraftSimpleProps {
  * // SVG文字列を直接渡す
  * <IconCraftSimple
  *   src={`<svg>...</svg>`}
- *   mode="droplet"
+ *   mode="bubble"
  *   iconStyle="emboss"
  * />
  * ```
@@ -570,7 +704,7 @@ declare function IconCraftSimple({ src, mode, iconStyle, iconColor, shapeColor, 
  * />
  * ```
  */
-declare function IconCraftShape({ svg, mode, shapeColor, iconStyle, shadow: _shadow, highlight: _highlight, offset, resolution, simplify, width, height, size, animation, animateOnHover, className, style, onLoad, onError, onClick, }: IconCraftShapeProps): react_jsx_runtime.JSX.Element | null;
+declare function IconCraftShape({ svg, mode, shapeColor, iconStyle, shadow: _shadow, highlight: _highlight, offset, resolution, simplify, rotation, width, height, size, animation, animateOnHover, className, style, onLoad, onError, onClick, }: IconCraftShapeProps): react_jsx_runtime.JSX.Element | null;
 
 /**
  * Legacy IconCraft component
@@ -859,6 +993,8 @@ interface UseIconCraftOptions {
     resolution?: number;
     /** Polygon simplification epsilon */
     simplify?: number;
+    /** Icon rotation in degrees (0-360) */
+    rotation?: number;
     /** Auto-generate on mount/change */
     autoGenerate?: boolean;
 }
@@ -1033,6 +1169,8 @@ interface IconBackupData {
     zIndex?: number;
     /** アイコンの色（オプション） */
     iconColor?: string;
+    /** 回転角度（オプション） */
+    rotation?: number;
     /** アニメーション（オプション） */
     animation?: AnimationType;
     /** カスタムメタデータ（オプション） */
@@ -1108,4 +1246,4 @@ declare function parseBackup(json: string): IconCraftBackup | null;
  */
 declare function loadBackupFromFile(file: File): Promise<IconCraftBackup | null>;
 
-export { type AnimationOptions, type AnimationTarget, type AnimationType, BACKUP_VERSION, type BackupValidationResult, type BuiltInAnimationType, type ColorPalette, type CreateBackupOptions, type CustomAnimationDefinition, type CustomAnimationRegistry, DEFAULT_CONFIG, DEFAULT_METADATA, type EmbossIconData, type EmbossPath, type IconBackupData, IconCraft, type IconCraftBackup, IconCraftConfig, type IconCraftConfigOptions, type IconCraftContextValue, type IconCraftDispatcher, type IconCraftEvent, type IconCraftEventFilter, type IconCraftEventHandler, type IconCraftEventType, IconCraftFactory, IconCraftInstance, type IconCraftMetadata, type IconCraftProps, IconCraftProvider, type IconCraftProviderProps, IconCraftRegistry, type IconCraftResult, IconCraftShape, type IconCraftShapeProps, IconCraftSimple, type IconCraftSimpleProps, type IconCraftStoreActions, type IconCraftStoreState, IconCraftView, type IconCraftViewProps, type IconLayout, type IconStyle, type ShapeMode, type SvgPaths, type TransformOriginCustom, type TransformOriginPreset, type TransformOriginValue, type UseIconCraftCreateOptions, type UseIconCraftReturn$1 as UseIconCraftInstanceReturn, type UseIconCraftOptions, type UseIconCraftReturn, type UseIconCraftSelectionReturn, type WasmGenerateParams, WasmManager, animationDefaults, createBackup, createDispatcher, defaultFactory, downloadBackup, exportBackup, generateIconId, getAnimationDefaults, getAnimationName, getAnimationStyle, getCustomAnimation, getKeyframes, getTimestampFromId, getTransformOrigin, globalRegistry, injectKeyframes, keyframes, loadBackupFromFile, parseAnimationOptions, parseBackup, registerAnimation, useIconCraft, useIconCraftContext, useIconCraftCreate, useIconCraftEvent, useIconCraft$1 as useIconCraftInstance, useIconCraftSelection, useIconCraftStore, useLegacyIconCraft, validateBackup };
+export { type AnimationOptions, type AnimationTarget, type AnimationType, BACKUP_VERSION, type BackupValidationResult, type BuiltInAnimationType, type ColorPalette, type CreateBackupOptions, type CustomAnimationDefinition, type CustomAnimationRegistry, DEFAULT_CONFIG, DEFAULT_METADATA, type DialLabelProps, type DialNotchProps, type DialPreset, type DialPresetName, type DialRingProps, type EmbossIconData, type EmbossPath, type IconBackupData, IconCraft, type IconCraftBackup, IconCraftConfig, type IconCraftConfigOptions, type IconCraftContextValue, type IconCraftDispatcher, type IconCraftEvent, type IconCraftEventFilter, type IconCraftEventHandler, type IconCraftEventType, IconCraftFactory, IconCraftInstance, type IconCraftMetadata, type IconCraftProps, IconCraftProvider, type IconCraftProviderProps, IconCraftRegistry, type IconCraftResult, IconCraftShape, type IconCraftShapeProps, IconCraftSimple, type IconCraftSimpleProps, type IconCraftStoreActions, type IconCraftStoreState, IconCraftView, type IconCraftViewProps, type IconLayout, type IconStyle, type ReticlePreset, type ReticlePresetName, type ReticleProps, type ShapeMode, type SvgPaths, type TransformOriginCustom, type TransformOriginPreset, type TransformOriginValue, type UseIconCraftCreateOptions, type UseIconCraftReturn$1 as UseIconCraftInstanceReturn, type UseIconCraftOptions, type UseIconCraftReturn, type UseIconCraftSelectionReturn, type WasmGenerateParams, WasmManager, animationDefaults, createBackup, createDispatcher, defaultFactory, dialPresetArrow, dialPresetBar, dialPresetCrosshair, dialPresetDashed, dialPresetDotted, dialPresetDouble, dialPresetMinimal, dialPresetNeedle, dialPresetSolid, dialPresetTicks, dialPresets, downloadBackup, exportBackup, generateIconId, getAnimationDefaults, getAnimationName, getAnimationStyle, getCustomAnimation, getKeyframes, getTimestampFromId, getTransformOrigin, globalRegistry, injectKeyframes, keyframes, loadBackupFromFile, parseAnimationOptions, parseBackup, registerAnimation, reticlePresetBullseye, reticlePresetCross, reticlePresetGlobe, reticlePresets, useIconCraft, useIconCraftContext, useIconCraftCreate, useIconCraftEvent, useIconCraft$1 as useIconCraftInstance, useIconCraftSelection, useIconCraftStore, useLegacyIconCraft, validateBackup };

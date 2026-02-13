@@ -9,6 +9,7 @@ var DEFAULT_CONFIG = {
   offset: 20,
   resolution: 256,
   simplify: 2,
+  rotation: 0,
   size: 120,
   width: void 0,
   height: void 0,
@@ -26,6 +27,7 @@ var IconCraftConfig = class _IconCraftConfig {
     this.offset = options.offset ?? DEFAULT_CONFIG.offset;
     this.resolution = options.resolution ?? DEFAULT_CONFIG.resolution;
     this.simplify = options.simplify ?? DEFAULT_CONFIG.simplify;
+    this.rotation = options.rotation ?? DEFAULT_CONFIG.rotation;
     this.size = options.size ?? DEFAULT_CONFIG.size;
     this.width = options.width;
     this.height = options.height;
@@ -46,6 +48,7 @@ var IconCraftConfig = class _IconCraftConfig {
       offset: overrides.offset ?? this.offset,
       resolution: overrides.resolution ?? this.resolution,
       simplify: overrides.simplify ?? this.simplify,
+      rotation: overrides.rotation ?? this.rotation,
       size: overrides.size ?? this.size,
       width: overrides.width ?? this.width,
       height: overrides.height ?? this.height,
@@ -57,14 +60,16 @@ var IconCraftConfig = class _IconCraftConfig {
    * WASM呼び出し用のパラメータを取得
    */
   getWasmParams() {
-    const needsEmbossSvg = this.mode === "wax" || this.iconStyle === "emboss";
+    const needsEmbossSvg = this.mode === "wax" || this.mode === "sticker" || this.iconStyle === "emboss";
     return {
       mode: this.mode,
       offset: this.offset,
       resolution: this.resolution,
       simplify: this.simplify,
       includeIcon: needsEmbossSvg,
-      shapeColor: this.shapeColor
+      shapeColor: this.shapeColor,
+      rotation: this.rotation,
+      iconColor: this.iconColor
     };
   }
   /**
@@ -91,13 +96,16 @@ function createCacheKey(params) {
     resolution: params.resolution,
     simplify: params.simplify,
     includeIcon: params.includeIcon,
-    shapeColor: params.shapeColor
+    shapeColor: params.shapeColor,
+    rotation: params.rotation ?? 0,
+    iconColor: params.iconColor ?? ""
   });
 }
 var shapeModeMap = {
   jelly: 0,
-  droplet: 1,
-  wax: 2
+  bubble: 1,
+  wax: 2,
+  sticker: 3
 };
 var WasmManagerClass = class {
   constructor() {
@@ -136,7 +144,19 @@ var WasmManagerClass = class {
       return cached;
     }
     const wasm = await this.init();
-    const result = wasm.generate_clippath_with_color(
+    const rotation = params.rotation ?? 0;
+    const iconColor = params.iconColor ?? null;
+    const result = typeof wasm.generate_clippath_with_rotation === "function" ? wasm.generate_clippath_with_rotation(
+      params.svgContent,
+      shapeModeMap[params.mode],
+      params.offset,
+      params.resolution,
+      params.simplify,
+      params.includeIcon,
+      params.shapeColor,
+      rotation,
+      iconColor
+    ) : wasm.generate_clippath_with_color(
       params.svgContent,
       shapeModeMap[params.mode],
       params.offset,
@@ -417,11 +437,6 @@ var IconCraftInstance = class _IconCraftInstance {
     try {
       const svgContent = await this.fetchSvg();
       const params = this._config.getWasmParams();
-      console.log("[IconCraftInstance] Generating with params:", {
-        id: this._id,
-        mode: params.mode,
-        shapeColor: params.shapeColor
-      });
       const result = await WasmManager.generate({
         svgContent,
         mode: params.mode,
@@ -429,16 +444,12 @@ var IconCraftInstance = class _IconCraftInstance {
         resolution: params.resolution,
         simplify: params.simplify,
         includeIcon: params.includeIcon,
-        shapeColor: params.shapeColor
+        shapeColor: params.shapeColor,
+        rotation: params.rotation
       });
       if (!result.success) {
         throw new Error(result.error || "Generation failed");
       }
-      console.log("[IconCraftInstance] Generated result:", {
-        id: this._id,
-        success: result.success,
-        embossSvgPreview: result.emboss_svg?.slice(0, 300)
-      });
       this._generateState = { status: "done", result };
       return result;
     } catch (err) {
@@ -532,7 +543,679 @@ var IconCraftFactory = class _IconCraftFactory {
 var defaultFactory = new IconCraftFactory();
 
 // src/components/IconCraftView.tsx
-import { useEffect, useState, useMemo } from "react";
+import { useEffect, useState, useMemo, useCallback, useRef } from "react";
+
+// src/components/dialPresets.tsx
+import { Fragment, jsx, jsxs } from "react/jsx-runtime";
+var dialColor = "var(--iconcraft-dial-color, #000)";
+var notchColor = "var(--iconcraft-notch-color, #000)";
+var reticleColor = "var(--iconcraft-reticle-color, #000)";
+var dialPresetDashed = {
+  name: "dashed",
+  renderRing: ({ cx, cy, radius }) => /* @__PURE__ */ jsx(
+    "circle",
+    {
+      cx,
+      cy,
+      r: radius,
+      fill: "none",
+      stroke: dialColor,
+      strokeWidth: "1.2",
+      strokeDasharray: "6 4",
+      opacity: 0.5
+    }
+  ),
+  renderNotch: ({ x, y, onMouseDown }) => /* @__PURE__ */ jsx(
+    "circle",
+    {
+      cx: x,
+      cy: y,
+      r: "7",
+      fill: notchColor,
+      stroke: "#fff",
+      strokeWidth: "2",
+      style: { pointerEvents: "auto", cursor: "grab" },
+      onMouseDown
+    }
+  )
+};
+var dialPresetSolid = {
+  name: "solid",
+  renderRing: ({ cx, cy, radius }) => /* @__PURE__ */ jsx(
+    "circle",
+    {
+      cx,
+      cy,
+      r: radius,
+      fill: "none",
+      stroke: dialColor,
+      strokeWidth: "1.5",
+      opacity: 0.5
+    }
+  ),
+  renderNotch: ({ x, y, degrees, onMouseDown }) => /* @__PURE__ */ jsx(
+    "g",
+    {
+      transform: `translate(${x},${y}) rotate(${degrees + 45})`,
+      style: { pointerEvents: "auto", cursor: "grab" },
+      onMouseDown,
+      children: /* @__PURE__ */ jsx(
+        "rect",
+        {
+          x: "-5",
+          y: "-5",
+          width: "10",
+          height: "10",
+          fill: notchColor,
+          stroke: "#fff",
+          strokeWidth: "1.5",
+          rx: "1"
+        }
+      )
+    }
+  )
+};
+var dialPresetTicks = {
+  name: "ticks",
+  renderRing: ({ cx, cy, radius }) => {
+    const ticks = [];
+    for (let i = 0; i < 72; i++) {
+      const deg = i * 5;
+      const rad = (deg - 90) * Math.PI / 180;
+      const isMajor = deg % 30 === 0;
+      const len = isMajor ? 5 : 2.5;
+      const x1 = cx + (radius - len) * Math.cos(rad);
+      const y1 = cy + (radius - len) * Math.sin(rad);
+      const x2 = cx + radius * Math.cos(rad);
+      const y2 = cy + radius * Math.sin(rad);
+      ticks.push(
+        /* @__PURE__ */ jsx(
+          "line",
+          {
+            x1,
+            y1,
+            x2,
+            y2,
+            stroke: dialColor,
+            strokeWidth: isMajor ? 1.5 : 0.8,
+            opacity: isMajor ? 0.7 : 0.4
+          },
+          i
+        )
+      );
+    }
+    return /* @__PURE__ */ jsx(Fragment, { children: ticks });
+  },
+  renderNotch: ({ x, y, onMouseDown }) => {
+    return /* @__PURE__ */ jsx(
+      "circle",
+      {
+        cx: x,
+        cy: y,
+        r: "5",
+        fill: notchColor,
+        stroke: "#fff",
+        strokeWidth: "1.5",
+        style: { pointerEvents: "auto", cursor: "grab" },
+        onMouseDown
+      }
+    );
+  }
+};
+var dialPresetDotted = {
+  name: "dotted",
+  renderRing: ({ cx, cy, radius }) => {
+    const dots = [];
+    for (let i = 0; i < 36; i++) {
+      const deg = i * 10;
+      const rad = (deg - 90) * Math.PI / 180;
+      const dx = cx + radius * Math.cos(rad);
+      const dy = cy + radius * Math.sin(rad);
+      dots.push(
+        /* @__PURE__ */ jsx(
+          "circle",
+          {
+            cx: dx,
+            cy: dy,
+            r: deg % 90 === 0 ? 1.8 : 1,
+            fill: dialColor,
+            opacity: deg % 90 === 0 ? 0.8 : 0.4
+          },
+          i
+        )
+      );
+    }
+    return /* @__PURE__ */ jsx(Fragment, { children: dots });
+  },
+  renderNotch: ({ x, y, degrees, onMouseDown }) => /* @__PURE__ */ jsx(
+    "g",
+    {
+      transform: `translate(${x},${y}) rotate(${degrees + 180})`,
+      style: { pointerEvents: "auto", cursor: "grab" },
+      onMouseDown,
+      children: /* @__PURE__ */ jsx(
+        "polygon",
+        {
+          points: "0,-2 -5,10 5,10",
+          fill: notchColor,
+          stroke: "#fff",
+          strokeWidth: "1.5",
+          strokeLinejoin: "round"
+        }
+      )
+    }
+  )
+};
+var dialPresetDouble = {
+  name: "double",
+  renderRing: ({ cx, cy, radius }) => {
+    const lines = [];
+    for (let i = 0; i < 8; i++) {
+      const deg = i * 45;
+      const rad = (deg - 90) * Math.PI / 180;
+      const x1 = cx + (radius - 4) * Math.cos(rad);
+      const y1 = cy + (radius - 4) * Math.sin(rad);
+      const x2 = cx + radius * Math.cos(rad);
+      const y2 = cy + radius * Math.sin(rad);
+      lines.push(
+        /* @__PURE__ */ jsx(
+          "line",
+          {
+            x1,
+            y1,
+            x2,
+            y2,
+            stroke: dialColor,
+            strokeWidth: "0.8",
+            opacity: 0.3
+          },
+          i
+        )
+      );
+    }
+    return /* @__PURE__ */ jsxs(Fragment, { children: [
+      /* @__PURE__ */ jsx("circle", { cx, cy, r: radius, fill: "none", stroke: dialColor, strokeWidth: "1", opacity: 0.3 }),
+      /* @__PURE__ */ jsx("circle", { cx, cy, r: radius - 4, fill: "none", stroke: dialColor, strokeWidth: "1", opacity: 0.3 }),
+      lines
+    ] });
+  },
+  renderNotch: ({ x, y, degrees, onMouseDown }) => /* @__PURE__ */ jsx(
+    "g",
+    {
+      transform: `translate(${x},${y}) rotate(${degrees})`,
+      style: { pointerEvents: "auto", cursor: "grab" },
+      onMouseDown,
+      children: /* @__PURE__ */ jsx(
+        "rect",
+        {
+          x: "-3",
+          y: "-8",
+          width: "6",
+          height: "16",
+          rx: "3",
+          fill: notchColor,
+          stroke: "#fff",
+          strokeWidth: "1.5"
+        }
+      )
+    }
+  )
+};
+var dialPresetCrosshair = {
+  name: "crosshair",
+  renderRing: ({ cx, cy, radius }) => {
+    const marks = [];
+    for (let i = 0; i < 4; i++) {
+      const deg = i * 90;
+      const rad = (deg - 90) * Math.PI / 180;
+      const x1 = cx + (radius - 8) * Math.cos(rad);
+      const y1 = cy + (radius - 8) * Math.sin(rad);
+      const x2 = cx + radius * Math.cos(rad);
+      const y2 = cy + radius * Math.sin(rad);
+      marks.push(
+        /* @__PURE__ */ jsx(
+          "line",
+          {
+            x1,
+            y1,
+            x2,
+            y2,
+            stroke: dialColor,
+            strokeWidth: "2",
+            opacity: 0.5
+          },
+          `m${i}`
+        )
+      );
+    }
+    return /* @__PURE__ */ jsxs(Fragment, { children: [
+      /* @__PURE__ */ jsx(
+        "circle",
+        {
+          cx,
+          cy,
+          r: radius,
+          fill: "none",
+          stroke: dialColor,
+          strokeWidth: "1",
+          strokeDasharray: "2 6",
+          opacity: 0.4
+        }
+      ),
+      marks
+    ] });
+  },
+  renderNotch: ({ x, y, degrees, onMouseDown }) => /* @__PURE__ */ jsxs(
+    "g",
+    {
+      transform: `translate(${x},${y}) rotate(${degrees})`,
+      style: { pointerEvents: "auto", cursor: "grab" },
+      onMouseDown,
+      children: [
+        /* @__PURE__ */ jsx("line", { x1: -6, y1: 0, x2: 6, y2: 0, stroke: notchColor, strokeWidth: "2" }),
+        /* @__PURE__ */ jsx("line", { x1: 0, y1: -6, x2: 0, y2: 6, stroke: notchColor, strokeWidth: "2" }),
+        /* @__PURE__ */ jsx("circle", { cx: 0, cy: 0, r: "3", fill: "#fff", stroke: notchColor, strokeWidth: "1.5" })
+      ]
+    }
+  )
+};
+var dialPresetMinimal = {
+  name: "minimal",
+  renderRing: ({ cx, cy, radius }) => {
+    const arcs = [];
+    for (let i = 0; i < 4; i++) {
+      const startDeg = i * 90 + 10;
+      const endDeg = i * 90 + 80;
+      const startRad = (startDeg - 90) * Math.PI / 180;
+      const endRad = (endDeg - 90) * Math.PI / 180;
+      const x1 = cx + radius * Math.cos(startRad);
+      const y1 = cy + radius * Math.sin(startRad);
+      const x2 = cx + radius * Math.cos(endRad);
+      const y2 = cy + radius * Math.sin(endRad);
+      arcs.push(
+        /* @__PURE__ */ jsx(
+          "path",
+          {
+            d: `M ${x1} ${y1} A ${radius} ${radius} 0 0 1 ${x2} ${y2}`,
+            fill: "none",
+            stroke: dialColor,
+            strokeWidth: "2",
+            opacity: 0.5,
+            strokeLinecap: "round"
+          },
+          i
+        )
+      );
+    }
+    return /* @__PURE__ */ jsx(Fragment, { children: arcs });
+  },
+  renderNotch: ({ x, y, degrees, onMouseDown }) => /* @__PURE__ */ jsx(
+    "g",
+    {
+      transform: `translate(${x},${y}) rotate(${degrees})`,
+      style: { pointerEvents: "auto", cursor: "grab" },
+      onMouseDown,
+      children: /* @__PURE__ */ jsx(
+        "polygon",
+        {
+          points: "0,-8 -5,4 5,4",
+          fill: notchColor,
+          stroke: "#fff",
+          strokeWidth: "1.5",
+          strokeLinejoin: "round"
+        }
+      )
+    }
+  )
+};
+var dialPresetNeedle = {
+  name: "needle",
+  renderRing: ({ cx, cy, radius }) => /* @__PURE__ */ jsx(
+    "circle",
+    {
+      cx,
+      cy,
+      r: radius,
+      fill: "none",
+      stroke: dialColor,
+      strokeWidth: "1.5",
+      strokeDasharray: "4 3",
+      opacity: 0.5
+    }
+  ),
+  renderNotch: ({ x, y, degrees, onMouseDown }) => /* @__PURE__ */ jsx(
+    "g",
+    {
+      transform: `translate(${x},${y}) rotate(${degrees})`,
+      style: { pointerEvents: "auto", cursor: "grab" },
+      onMouseDown,
+      children: /* @__PURE__ */ jsx(
+        "path",
+        {
+          d: "M 0,-12 L 2,-2 0,4 -2,-2 Z",
+          fill: notchColor,
+          stroke: "#fff",
+          strokeWidth: "1",
+          strokeLinejoin: "round"
+        }
+      )
+    }
+  )
+};
+var dialPresetBar = {
+  name: "bar",
+  renderRing: ({ cx, cy, radius }) => /* @__PURE__ */ jsx(
+    "circle",
+    {
+      cx,
+      cy,
+      r: radius,
+      fill: "none",
+      stroke: dialColor,
+      strokeWidth: "1",
+      opacity: 0.4
+    }
+  ),
+  renderNotch: ({ x, y, degrees, onMouseDown }) => /* @__PURE__ */ jsx(
+    "g",
+    {
+      transform: `translate(${x},${y}) rotate(${degrees})`,
+      style: { pointerEvents: "auto", cursor: "grab" },
+      onMouseDown,
+      children: /* @__PURE__ */ jsx(
+        "rect",
+        {
+          x: "-2",
+          y: "-10",
+          width: "4",
+          height: "20",
+          rx: "2",
+          fill: notchColor,
+          stroke: "#fff",
+          strokeWidth: "1.5"
+        }
+      )
+    }
+  )
+};
+var dialPresetArrow = {
+  name: "arrow",
+  renderRing: ({ cx, cy, radius }) => {
+    const ticks = [];
+    for (let i = 0; i < 12; i++) {
+      const deg = i * 30;
+      const rad = (deg - 90) * Math.PI / 180;
+      const len = deg % 90 === 0 ? 6 : 3;
+      const x1 = cx + (radius - len) * Math.cos(rad);
+      const y1 = cy + (radius - len) * Math.sin(rad);
+      const x2 = cx + radius * Math.cos(rad);
+      const y2 = cy + radius * Math.sin(rad);
+      ticks.push(
+        /* @__PURE__ */ jsx(
+          "line",
+          {
+            x1,
+            y1,
+            x2,
+            y2,
+            stroke: dialColor,
+            strokeWidth: deg % 90 === 0 ? 2 : 1,
+            opacity: 0.5
+          },
+          i
+        )
+      );
+    }
+    return /* @__PURE__ */ jsx(Fragment, { children: ticks });
+  },
+  renderNotch: ({ x, y, degrees, onMouseDown }) => /* @__PURE__ */ jsx(
+    "g",
+    {
+      transform: `translate(${x},${y}) rotate(${degrees})`,
+      style: { pointerEvents: "auto", cursor: "grab" },
+      onMouseDown,
+      children: /* @__PURE__ */ jsx(
+        "path",
+        {
+          d: "M 0,-11 L 4,-3 1,-3 1,5 -1,5 -1,-3 -4,-3 Z",
+          fill: notchColor,
+          stroke: "#fff",
+          strokeWidth: "1",
+          strokeLinejoin: "round"
+        }
+      )
+    }
+  )
+};
+var dialPresets = {
+  dotted: dialPresetDotted,
+  dashed: dialPresetDashed,
+  solid: dialPresetSolid,
+  ticks: dialPresetTicks,
+  double: dialPresetDouble,
+  crosshair: dialPresetCrosshair,
+  minimal: dialPresetMinimal,
+  needle: dialPresetNeedle,
+  bar: dialPresetBar,
+  arrow: dialPresetArrow
+};
+var reticlePresetCross = {
+  name: "cross",
+  render: ({ cx, cy, size, layer }) => {
+    const half = size * 0.15;
+    if (layer === "back") return null;
+    return /* @__PURE__ */ jsxs("g", { opacity: 0.5, children: [
+      /* @__PURE__ */ jsx(
+        "line",
+        {
+          x1: cx,
+          y1: cy - half,
+          x2: cx,
+          y2: cy + half,
+          stroke: reticleColor,
+          strokeWidth: "1"
+        }
+      ),
+      /* @__PURE__ */ jsx(
+        "line",
+        {
+          x1: cx - half,
+          y1: cy,
+          x2: cx + half,
+          y2: cy,
+          stroke: reticleColor,
+          strokeWidth: "1"
+        }
+      ),
+      /* @__PURE__ */ jsx("circle", { cx, cy, r: "2", fill: reticleColor })
+    ] });
+  }
+};
+var reticlePresetBullseye = {
+  name: "bullseye",
+  render: ({ cx, cy, size, layer }) => {
+    const r = size * 0.22;
+    if (layer === "back") return null;
+    return /* @__PURE__ */ jsxs("g", { opacity: 0.5, children: [
+      /* @__PURE__ */ jsx(
+        "circle",
+        {
+          cx,
+          cy,
+          r,
+          fill: "none",
+          stroke: reticleColor,
+          strokeWidth: "1"
+        }
+      ),
+      /* @__PURE__ */ jsx("circle", { cx, cy, r: "2.5", fill: reticleColor })
+    ] });
+  }
+};
+var reticlePresetGlobe = {
+  name: "globe",
+  render: ({ cx, cy, size, layer }) => {
+    const r = size * 0.5;
+    const sw = 0.8;
+    const latFractions = [0.3, 0.6];
+    const lonFractions = [0.3, 0.6, 0.9];
+    if (layer === "back") {
+      return /* @__PURE__ */ jsxs("g", { opacity: 0.2, children: [
+        lonFractions.map((f, i) => {
+          const lx = r * f;
+          const ly = Math.sqrt(r * r - lx * lx);
+          const rx = ly * 0.15;
+          return /* @__PURE__ */ jsxs("g", { children: [
+            /* @__PURE__ */ jsx(
+              "path",
+              {
+                d: `M ${cx + lx} ${cy - ly} A ${rx} ${ly} 0 0 0 ${cx + lx} ${cy + ly}`,
+                fill: "none",
+                stroke: reticleColor,
+                strokeWidth: sw
+              }
+            ),
+            /* @__PURE__ */ jsx(
+              "path",
+              {
+                d: `M ${cx - lx} ${cy - ly} A ${rx} ${ly} 0 0 1 ${cx - lx} ${cy + ly}`,
+                fill: "none",
+                stroke: reticleColor,
+                strokeWidth: sw
+              }
+            )
+          ] }, `lon-${i}`);
+        }),
+        /* @__PURE__ */ jsx(
+          "line",
+          {
+            x1: cx - r,
+            y1: cy,
+            x2: cx + r,
+            y2: cy,
+            stroke: reticleColor,
+            strokeWidth: sw
+          }
+        ),
+        latFractions.map((f, i) => {
+          const ly = r * f;
+          const lx = Math.sqrt(r * r - ly * ly);
+          const ry = lx * 0.15;
+          return /* @__PURE__ */ jsxs("g", { children: [
+            /* @__PURE__ */ jsx(
+              "path",
+              {
+                d: `M ${cx - lx} ${cy - ly} A ${lx} ${ry} 0 0 0 ${cx + lx} ${cy - ly}`,
+                fill: "none",
+                stroke: reticleColor,
+                strokeWidth: sw
+              }
+            ),
+            /* @__PURE__ */ jsx(
+              "path",
+              {
+                d: `M ${cx - lx} ${cy + ly} A ${lx} ${ry} 0 0 1 ${cx + lx} ${cy + ly}`,
+                fill: "none",
+                stroke: reticleColor,
+                strokeWidth: sw
+              }
+            )
+          ] }, `lat-${i}`);
+        })
+      ] });
+    }
+    return /* @__PURE__ */ jsxs("g", { opacity: 0.4, children: [
+      /* @__PURE__ */ jsx(
+        "circle",
+        {
+          cx,
+          cy,
+          r,
+          fill: "none",
+          stroke: reticleColor,
+          strokeWidth: sw
+        }
+      ),
+      /* @__PURE__ */ jsx(
+        "line",
+        {
+          x1: cx,
+          y1: cy - r,
+          x2: cx,
+          y2: cy + r,
+          stroke: reticleColor,
+          strokeWidth: sw
+        }
+      ),
+      lonFractions.map((f, i) => {
+        const lx = r * f;
+        const ly = Math.sqrt(r * r - lx * lx);
+        const rx = ly * 0.15;
+        return /* @__PURE__ */ jsxs("g", { children: [
+          /* @__PURE__ */ jsx(
+            "path",
+            {
+              d: `M ${cx + lx} ${cy - ly} A ${rx} ${ly} 0 0 1 ${cx + lx} ${cy + ly}`,
+              fill: "none",
+              stroke: reticleColor,
+              strokeWidth: sw
+            }
+          ),
+          /* @__PURE__ */ jsx(
+            "path",
+            {
+              d: `M ${cx - lx} ${cy - ly} A ${rx} ${ly} 0 0 0 ${cx - lx} ${cy + ly}`,
+              fill: "none",
+              stroke: reticleColor,
+              strokeWidth: sw
+            }
+          )
+        ] }, `lon-${i}`);
+      }),
+      /* @__PURE__ */ jsx(
+        "line",
+        {
+          x1: cx - r,
+          y1: cy,
+          x2: cx + r,
+          y2: cy,
+          stroke: reticleColor,
+          strokeWidth: sw
+        }
+      ),
+      latFractions.map((f, i) => {
+        const ly = r * f;
+        const lx = Math.sqrt(r * r - ly * ly);
+        const ry = lx * 0.15;
+        return /* @__PURE__ */ jsxs("g", { children: [
+          /* @__PURE__ */ jsx(
+            "path",
+            {
+              d: `M ${cx - lx} ${cy - ly} A ${lx} ${ry} 0 0 1 ${cx + lx} ${cy - ly}`,
+              fill: "none",
+              stroke: reticleColor,
+              strokeWidth: sw
+            }
+          ),
+          /* @__PURE__ */ jsx(
+            "path",
+            {
+              d: `M ${cx - lx} ${cy + ly} A ${lx} ${ry} 0 0 0 ${cx + lx} ${cy + ly}`,
+              fill: "none",
+              stroke: reticleColor,
+              strokeWidth: sw
+            }
+          )
+        ] }, `lat-${i}`);
+      })
+    ] });
+  }
+};
+var reticlePresets = {
+  cross: reticlePresetCross,
+  bullseye: reticlePresetBullseye,
+  globe: reticlePresetGlobe
+};
 
 // src/animations.ts
 var customAnimationRegistry = /* @__PURE__ */ new Map();
@@ -765,8 +1448,75 @@ function injectKeyframes(type) {
   injectedKeyframes.add(type);
 }
 
+// src/utils/sanitize.ts
+var DANGEROUS_ELEMENTS = /* @__PURE__ */ new Set([
+  "script",
+  "iframe",
+  "object",
+  "embed",
+  "applet",
+  "form",
+  "input",
+  "textarea",
+  "button",
+  "select"
+]);
+var DANGEROUS_ATTR_PREFIX = "on";
+var DANGEROUS_URL_PATTERN = /^\s*javascript\s*:/i;
+var URL_ATTRIBUTES = /* @__PURE__ */ new Set(["href", "xlink:href", "src", "action", "formaction"]);
+var parser = null;
+function getParser() {
+  if (!parser) {
+    parser = new DOMParser();
+  }
+  return parser;
+}
+function sanitizeSvg(html) {
+  if (!html) return "";
+  const imagePlaceholders = [];
+  const preserved = html.replace(/<image\b[^>]*\/?\s*>/gi, (match) => {
+    imagePlaceholders.push(match);
+    return `<!--__IMAGE_${imagePlaceholders.length - 1}__-->`;
+  });
+  const doc = getParser().parseFromString(preserved, "text/html");
+  sanitizeNode(doc.body);
+  let result = doc.body.innerHTML;
+  result = result.replace(/<!--__IMAGE_(\d+)__-->/g, (_, idx) => {
+    return imagePlaceholders[parseInt(idx, 10)] ?? "";
+  });
+  return result;
+}
+function sanitizeNode(node) {
+  const toRemove = [];
+  for (const child of Array.from(node.childNodes)) {
+    if (child.nodeType === Node.ELEMENT_NODE) {
+      const el = child;
+      const tagName = el.tagName.toLowerCase();
+      if (DANGEROUS_ELEMENTS.has(tagName)) {
+        toRemove.push(el);
+        continue;
+      }
+      for (const attr of Array.from(el.attributes)) {
+        const name = attr.name.toLowerCase();
+        if (name.startsWith(DANGEROUS_ATTR_PREFIX)) {
+          el.removeAttribute(attr.name);
+          continue;
+        }
+        if (URL_ATTRIBUTES.has(name) && DANGEROUS_URL_PATTERN.test(attr.value)) {
+          el.removeAttribute(attr.name);
+          continue;
+        }
+      }
+      sanitizeNode(el);
+    }
+  }
+  for (const node2 of toRemove) {
+    node2.parentNode?.removeChild(node2);
+  }
+}
+
 // src/components/IconCraftView.tsx
-import { jsx, jsxs } from "react/jsx-runtime";
+import { jsx as jsx2, jsxs as jsxs2 } from "react/jsx-runtime";
 function formatCoordinate(value) {
   if (typeof value === "number") {
     return value === 0 ? "0" : `${value}px`;
@@ -803,6 +1553,8 @@ function resolveTransformOrigin(value) {
       return "center center";
   }
 }
+var ROTATE_CURSOR_SVG = `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-3-6.7"/><polyline points="21 3 21 9 15 9"/></svg>`;
+var ROTATE_CURSOR = `url("data:image/svg+xml,${encodeURIComponent(ROTATE_CURSOR_SVG)}") 12 12, pointer`;
 function IconCraftView({
   instance,
   animation,
@@ -813,10 +1565,86 @@ function IconCraftView({
   style,
   onClick,
   onLoad,
-  onError
+  onError,
+  showRotationDial = false,
+  onRotationChange,
+  rotationSnap = 5,
+  renderRing: renderRingProp,
+  renderNotch: renderNotchProp,
+  renderLabel: renderLabelProp,
+  dialPreset,
+  showReticle = false,
+  renderReticle: renderReticleProp,
+  reticlePreset,
+  dialColor: dialColorProp,
+  notchColor: notchColorProp,
+  reticleColor: reticleColorProp,
+  cssRotation
 }) {
+  const resolvedDial = dialPreset ?? (renderRingProp || renderNotchProp || renderLabelProp ? void 0 : dialPresetDotted);
+  const renderRing = resolvedDial?.renderRing ?? renderRingProp;
+  const renderNotch = resolvedDial?.renderNotch ?? renderNotchProp;
+  const renderLabel = resolvedDial?.renderLabel ?? renderLabelProp;
+  const renderReticle = reticlePreset?.render ?? renderReticleProp;
   const [, forceUpdate] = useState({});
   const [isHovering, setIsHovering] = useState(false);
+  const rotation = instance.config.rotation ?? 0;
+  const [dialDeg, setDialDeg] = useState(rotation);
+  const [isRotating, setIsRotating] = useState(false);
+  const rotateCenterRef = useRef(null);
+  const dialContainerRef = useRef(null);
+  const [measuredSize, setMeasuredSize] = useState(0);
+  useEffect(() => {
+    if (!showRotationDial || !dialContainerRef.current) return;
+    const observer = new ResizeObserver((entries) => {
+      for (const entry of entries) {
+        setMeasuredSize(entry.contentRect.width);
+      }
+    });
+    observer.observe(dialContainerRef.current);
+    return () => observer.disconnect();
+  }, [showRotationDial]);
+  useEffect(() => {
+    if (!isRotating) {
+      setDialDeg(rotation);
+    }
+  }, [rotation, isRotating]);
+  const handleNotchMouseDown = useCallback((e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    if (dialContainerRef.current) {
+      const rect = dialContainerRef.current.getBoundingClientRect();
+      rotateCenterRef.current = {
+        cx: rect.left + rect.width / 2,
+        cy: rect.top + rect.height / 2
+      };
+    }
+    setIsRotating(true);
+  }, []);
+  const handleRotateMove = useCallback((e) => {
+    if (!isRotating || !rotateCenterRef.current) return;
+    const { cx, cy } = rotateCenterRef.current;
+    const rawAngle = Math.atan2(e.clientY - cy, e.clientX - cx) * 180 / Math.PI + 90;
+    const normalized = (rawAngle % 360 + 360) % 360;
+    const snapped = Math.round(normalized / rotationSnap) * rotationSnap % 360;
+    setDialDeg(snapped);
+  }, [isRotating, rotationSnap]);
+  const handleRotateUp = useCallback(() => {
+    if (isRotating) {
+      onRotationChange?.(dialDeg);
+    }
+    setIsRotating(false);
+  }, [isRotating, dialDeg, onRotationChange]);
+  useEffect(() => {
+    if (isRotating) {
+      window.addEventListener("mousemove", handleRotateMove);
+      window.addEventListener("mouseup", handleRotateUp);
+      return () => {
+        window.removeEventListener("mousemove", handleRotateMove);
+        window.removeEventListener("mouseup", handleRotateUp);
+      };
+    }
+  }, [isRotating, handleRotateMove, handleRotateUp]);
   const animationOptions = useMemo(() => {
     const anim = animation ?? instance.config.animation;
     return parseAnimationOptions(anim);
@@ -848,7 +1676,7 @@ function IconCraftView({
     const isWax = mode === "wax";
     if (isWax && instance.embossSvg) {
       let svg2 = instance.embossSvg;
-      const modes = ["wax", "jelly", "droplet"];
+      const modes = ["wax", "jelly", "bubble", "sticker"];
       for (const m of modes) {
         svg2 = svg2.replace(
           new RegExp(`id="${m}-`, "g"),
@@ -859,36 +1687,43 @@ function IconCraftView({
           `url(#${instanceId}-${m}-`
         );
       }
-      if (iconStyle !== "emboss") {
+      if (iconStyle === "emboss") {
+        return svg2;
+      }
+      {
         const svgContent2 = instance.svgContent;
         if (svgContent2) {
           const viewBoxMatch2 = svgContent2.match(/viewBox="([^"]*)"/);
           const viewBox2 = viewBoxMatch2 ? viewBoxMatch2[1] : "0 0 36 36";
           let innerSvg2 = svgContent2.replace(/<\/?svg[^>]*>/g, "");
-          let iconContent;
+          let iconContent2;
           switch (iconStyle) {
             case "fill":
               innerSvg2 = innerSvg2.replace(/fill="[^"]*"/g, "");
-              iconContent = `<g fill="${iconColor}">${innerSvg2}</g>`;
+              iconContent2 = `<g fill="${iconColor}">${innerSvg2}</g>`;
               break;
             case "stroke":
               innerSvg2 = innerSvg2.replace(/fill="[^"]*"/g, "");
               innerSvg2 = innerSvg2.replace(/stroke="[^"]*"/g, "");
               innerSvg2 = innerSvg2.replace(/stroke-width="[^"]*"/g, "");
-              iconContent = `<g fill="none" stroke="${iconColor}" stroke-width="1.5">${innerSvg2}</g>`;
+              iconContent2 = `<g fill="none" stroke="${iconColor}" stroke-width="1.5">${innerSvg2}</g>`;
               break;
             case "original":
             default:
-              iconContent = innerSvg2;
+              iconContent2 = innerSvg2;
               break;
           }
           const layout2 = result?.icon_layout;
-          const newIconSvg = `<g filter="none">
+          const rotation3 = instance.config.rotation;
+          const iconCx = (layout2?.left_percent ?? 28) + (layout2?.width_percent ?? 44) / 2;
+          const iconCy = (layout2?.top_percent ?? 28) + (layout2?.height_percent ?? 44) / 2;
+          const rotateAttr = rotation3 ? ` transform="rotate(${rotation3}, ${iconCx.toFixed(2)}, ${iconCy.toFixed(2)})"` : "";
+          const newIconSvg = `<g filter="none"${rotateAttr}>
     <svg x="${layout2?.left_percent ?? 28}" y="${layout2?.top_percent ?? 28}" width="${layout2?.width_percent ?? 44}" height="${layout2?.height_percent ?? 44}" viewBox="${viewBox2}" overflow="visible">
-      ${iconContent}
+      ${iconContent2}
     </svg>
   </g>`;
-          svg2 = svg2.replace(/<g filter="none">[\s\S]*?<\/g>\s*<\/svg>$/, `${newIconSvg}
+          svg2 = svg2.replace(/<g filter="none"[^>]*>[\s\S]*?<\/g>\s*<\/svg>$/, `${newIconSvg}
 </svg>`);
         }
       }
@@ -896,7 +1731,7 @@ function IconCraftView({
     }
     if (iconStyle === "emboss" && instance.embossSvg) {
       let svg2 = instance.embossSvg;
-      const modes = ["wax", "jelly", "droplet"];
+      const modes = ["wax", "jelly", "bubble", "sticker"];
       for (const m of modes) {
         svg2 = svg2.replace(
           new RegExp(`id="${m}-`, "g"),
@@ -914,6 +1749,10 @@ function IconCraftView({
     if (!svgContent) return "";
     const color = instance.config.shapeColor;
     const layout = result.icon_layout;
+    const rotation2 = instance.config.rotation;
+    const shadowDx = 4;
+    const shadowDy = 5;
+    const gradTransform = "";
     let useOriginalColors = false;
     let isStroke = false;
     let iconFill;
@@ -933,7 +1772,8 @@ function IconCraftView({
     }
     const clipPath = result.svg_paths.clip;
     const highlightPath = result.svg_paths.highlight;
-    const isJellyOrDroplet = mode === "jelly" || mode === "droplet";
+    const isSticker = mode === "sticker";
+    const isJellyOrBubble = mode === "jelly" || mode === "bubble" || isSticker;
     const gradientId = `${instanceId}-bg-grad`;
     const clipId = `${instanceId}-clip`;
     const viewBoxMatch = svgContent.match(/viewBox="([^"]*)"/);
@@ -946,47 +1786,61 @@ function IconCraftView({
       innerSvg = innerSvg.replace(/stroke="[^"]*"/g, "");
       innerSvg = innerSvg.replace(/stroke-width="[^"]*"/g, "");
     }
-    const bgGradient = isJellyOrDroplet ? `<linearGradient id="${gradientId}" x1="0%" y1="0%" x2="100%" y2="100%">
+    const bgGradient = isJellyOrBubble ? `<linearGradient id="${gradientId}" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="100" y2="100">
           <stop offset="0%" stop-color="${color}" stop-opacity="0.35"/>
           <stop offset="50%" stop-color="${color}" stop-opacity="0.4"/>
           <stop offset="100%" stop-color="${color}" stop-opacity="0.5"/>
         </linearGradient>
-        <linearGradient id="${instanceId}-top-highlight" x1="50%" y1="0%" x2="50%" y2="100%">
+        ${isSticker ? "" : `<linearGradient id="${instanceId}-top-highlight" gradientUnits="userSpaceOnUse" x1="50" y1="0" x2="50" y2="100">
           <stop offset="0%" stop-color="#fff" stop-opacity="0.6"/>
           <stop offset="30%" stop-color="#fff" stop-opacity="0.3"/>
           <stop offset="60%" stop-color="#fff" stop-opacity="0.1"/>
           <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
         </linearGradient>
-        <linearGradient id="${instanceId}-bottom-shadow" x1="50%" y1="0%" x2="50%" y2="100%">
+        <linearGradient id="${instanceId}-bottom-shadow" gradientUnits="userSpaceOnUse" x1="50" y1="0" x2="50" y2="100">
           <stop offset="0%" stop-color="#000" stop-opacity="0"/>
           <stop offset="40%" stop-color="#000" stop-opacity="0.05"/>
           <stop offset="70%" stop-color="#000" stop-opacity="0.15"/>
           <stop offset="100%" stop-color="#000" stop-opacity="0.3"/>
         </linearGradient>
-        <linearGradient id="${instanceId}-edge-highlight" x1="0%" y1="0%" x2="100%" y2="100%">
+        <linearGradient id="${instanceId}-edge-highlight" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="100" y2="100">
           <stop offset="0%" stop-color="#fff" stop-opacity="0.85"/>
           <stop offset="50%" stop-color="#fff" stop-opacity="0.5"/>
           <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
-        </linearGradient>` : `<linearGradient id="${gradientId}" x1="0%" y1="0%" x2="100%" y2="100%">
+        </linearGradient>`}` : `<linearGradient id="${gradientId}" x1="0%" y1="0%" x2="100%" y2="100%"${gradTransform}>
           <stop offset="0%" stop-color="${color}"/>
           <stop offset="100%" stop-color="${color}"/>
         </linearGradient>
-        <linearGradient id="${instanceId}-wax-top-highlight" x1="50%" y1="0%" x2="50%" y2="100%">
+        <linearGradient id="${instanceId}-wax-top-highlight" x1="50%" y1="0%" x2="50%" y2="100%"${gradTransform}>
           <stop offset="0%" stop-color="#fff" stop-opacity="0.4"/>
           <stop offset="40%" stop-color="#fff" stop-opacity="0.15"/>
           <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
         </linearGradient>
-        <linearGradient id="${instanceId}-wax-bottom-shadow" x1="50%" y1="0%" x2="50%" y2="100%">
+        <linearGradient id="${instanceId}-wax-bottom-shadow" x1="50%" y1="0%" x2="50%" y2="100%"${gradTransform}>
           <stop offset="0%" stop-color="#000" stop-opacity="0"/>
           <stop offset="60%" stop-color="#000" stop-opacity="0.1"/>
           <stop offset="100%" stop-color="#000" stop-opacity="0.25"/>
         </linearGradient>`;
-    const shapeContent = isJellyOrDroplet ? `<path d="${clipPath}" fill="url(#${gradientId})"/>
+    const shapeContent = isJellyOrBubble ? isSticker ? `<path d="${clipPath}" fill="url(#${gradientId})"/>` : `<path d="${clipPath}" fill="url(#${gradientId})"/>
         <path d="${clipPath}" fill="url(#${instanceId}-top-highlight)"/>
         <path d="${clipPath}" fill="url(#${instanceId}-bottom-shadow)"/>
         ${highlightPath ? `<path d="${highlightPath}" fill="url(#${instanceId}-edge-highlight)"/>` : ""}` : `<path d="${clipPath}" fill="url(#${gradientId})"/>
         <path d="${clipPath}" fill="url(#${instanceId}-wax-top-highlight)"/>
         <path d="${clipPath}" fill="url(#${instanceId}-wax-bottom-shadow)"/>`;
+    const iconContent = (() => {
+      const base = useOriginalColors ? innerSvg : isStroke ? `<g fill="none" stroke="${iconColor}" stroke-width="1.5">${innerSvg}</g>` : `<g fill="${iconFill}">${innerSvg}</g>`;
+      if (rotation2 !== 0) {
+        const parts = viewBox.split(/\s+/);
+        const vbX = parseFloat(parts[0] || "0");
+        const vbY = parseFloat(parts[1] || "0");
+        const vbW = parseFloat(parts[2] || "24");
+        const vbH = parseFloat(parts[3] || "24");
+        const cx = vbX + vbW / 2;
+        const cy = vbY + vbH / 2;
+        return `<g transform="rotate(${rotation2}, ${cx}, ${cy})">${base}</g>`;
+      }
+      return base;
+    })();
     const svg = `<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
       <defs>
         ${bgGradient}
@@ -994,22 +1848,20 @@ function IconCraftView({
           <path d="${clipPath}"/>
         </clipPath>
         <filter id="${instanceId}-shadow" x="-50%" y="-50%" width="200%" height="200%">
-          <feDropShadow dx="2" dy="6" stdDeviation="8" flood-opacity="0.25"/>
+          <feDropShadow dx="${shadowDx.toFixed(2)}" dy="${shadowDy.toFixed(2)}" stdDeviation="8" flood-opacity="0.25"/>
         </filter>
       </defs>
-      <!-- \u30B7\u30A7\u30A4\u30D7\u80CC\u666F -->
       <g filter="url(#${instanceId}-shadow)">
         ${shapeContent}
       </g>
-      <!-- \u30A2\u30A4\u30B3\u30F3\uFF08\u30B7\u30A7\u30A4\u30D7\u306E\u4E0A\u306B\u91CD\u306D\u308B\uFF09 -->
       <svg x="${layout?.left_percent ?? 28}" y="${layout?.top_percent ?? 28}"
            width="${layout?.width_percent ?? 44}" height="${layout?.height_percent ?? 44}"
            viewBox="${viewBox}" overflow="visible">
-        ${useOriginalColors ? innerSvg : isStroke ? `<g fill="none" stroke="${iconColor}" stroke-width="1.5">${innerSvg}</g>` : `<g fill="${iconFill}">${innerSvg}</g>`}
+        ${iconContent}
       </svg>
     </svg>`;
     return svg;
-  }, [instance.id, instance.config.mode, instance.config.iconStyle, instance.config.iconColor, instance.config.shapeColor, instance.embossSvg, instance.result, instance.svgContent]);
+  }, [instance.id, instance.config.mode, instance.config.iconStyle, instance.config.iconColor, instance.config.shapeColor, instance.config.rotation, instance.embossSvg, instance.result, instance.svgContent]);
   const { width, height } = instance.config.getSize();
   const hoverAnim = animateOnHover ?? instance.config.animateOnHover;
   const shouldAnimate = hoverAnim ? isHovering : true;
@@ -1026,6 +1878,9 @@ function IconCraftView({
     ...style
   };
   const cssVars = {};
+  if (dialColorProp) cssVars["--iconcraft-dial-color"] = dialColorProp;
+  if (notchColorProp) cssVars["--iconcraft-notch-color"] = notchColorProp;
+  if (reticleColorProp) cssVars["--iconcraft-reticle-color"] = reticleColorProp;
   if (target === "shape") {
     cssVars["--iconcraft-shape-animation"] = animStyle;
     cssVars["--iconcraft-icon-animation"] = "none";
@@ -1071,10 +1926,10 @@ function IconCraftView({
     return svg;
   }, [renderedSvg, target]);
   if (instance.isLoading) {
-    return /* @__PURE__ */ jsx("div", { className, style: containerStyle, children: /* @__PURE__ */ jsx(LoadingIndicator, {}) });
+    return /* @__PURE__ */ jsx2("div", { className, style: containerStyle, children: /* @__PURE__ */ jsx2(LoadingIndicator, {}) });
   }
   if (instance.error) {
-    return /* @__PURE__ */ jsx(
+    return /* @__PURE__ */ jsx2(
       "div",
       {
         className,
@@ -1097,20 +1952,230 @@ function IconCraftView({
   if (!processedSvg) {
     return null;
   }
-  return /* @__PURE__ */ jsx(
+  const previewDeg = isRotating ? dialDeg - rotation : 0;
+  const cssRotateDeg = cssRotation != null ? cssRotation - rotation : 0;
+  const shapeTransformDeg = previewDeg || cssRotateDeg;
+  if (!showRotationDial && !showReticle) {
+    return /* @__PURE__ */ jsx2(
+      "div",
+      {
+        className,
+        style: {
+          ...containerStyle,
+          ...cssVars,
+          ...shapeTransformDeg ? { transform: `rotate(${shapeTransformDeg}deg)` } : {}
+        },
+        onClick,
+        onMouseEnter: hoverAnim ? () => setIsHovering(true) : void 0,
+        onMouseLeave: hoverAnim ? () => setIsHovering(false) : void 0,
+        dangerouslySetInnerHTML: { __html: sanitizeSvg(animationStyles + processedSvg) }
+      }
+    );
+  }
+  const dialDegValue = isRotating ? dialDeg : cssRotation != null ? cssRotation : rotation;
+  const dialPadding = 14;
+  const actualWidth = measuredSize || containerStyle.width || 0;
+  const dialSvgSize = actualWidth ? actualWidth + dialPadding * 2 : 0;
+  const dialCenter = dialSvgSize / 2;
+  const ringRadius = actualWidth ? actualWidth / 2 + 6 : 0;
+  const notchRad = (dialDegValue - 90) * Math.PI / 180;
+  const notchX = dialCenter + ringRadius * Math.cos(notchRad);
+  const notchY = dialCenter + ringRadius * Math.sin(notchRad);
+  return /* @__PURE__ */ jsxs2(
     "div",
     {
+      ref: dialContainerRef,
       className,
-      style: { ...containerStyle, ...cssVars },
+      style: { ...containerStyle, position: "relative" },
       onClick,
       onMouseEnter: hoverAnim ? () => setIsHovering(true) : void 0,
       onMouseLeave: hoverAnim ? () => setIsHovering(false) : void 0,
-      dangerouslySetInnerHTML: { __html: animationStyles + processedSvg }
+      children: [
+        showReticle && actualWidth > 0 && (() => {
+          const reticleSize = actualWidth * 0.9;
+          const reticleProps = { cx: dialCenter, cy: dialCenter, size: reticleSize, layer: "back" };
+          return /* @__PURE__ */ jsx2(
+            "svg",
+            {
+              style: {
+                position: "absolute",
+                left: -dialPadding,
+                top: -dialPadding,
+                width: dialSvgSize,
+                height: dialSvgSize,
+                pointerEvents: "none",
+                overflow: "visible",
+                zIndex: 0
+              },
+              children: renderReticle ? renderReticle(reticleProps) : /* @__PURE__ */ jsxs2("g", { opacity: 0.45, children: [
+                /* @__PURE__ */ jsx2(
+                  "ellipse",
+                  {
+                    cx: dialCenter,
+                    cy: dialCenter,
+                    rx: reticleSize * 0.5,
+                    ry: reticleSize * 0.15,
+                    fill: "none",
+                    stroke: "var(--iconcraft-reticle-color, #000)",
+                    strokeWidth: "1",
+                    strokeDasharray: "3 2"
+                  }
+                ),
+                /* @__PURE__ */ jsx2(
+                  "ellipse",
+                  {
+                    cx: dialCenter,
+                    cy: dialCenter,
+                    rx: reticleSize * 0.15,
+                    ry: reticleSize * 0.5,
+                    fill: "none",
+                    stroke: "var(--iconcraft-reticle-color, #000)",
+                    strokeWidth: "1",
+                    strokeDasharray: "3 2"
+                  }
+                )
+              ] })
+            }
+          );
+        })(),
+        /* @__PURE__ */ jsx2(
+          "div",
+          {
+            style: {
+              position: "relative",
+              zIndex: 1,
+              ...cssVars,
+              ...shapeTransformDeg ? { transform: `rotate(${shapeTransformDeg}deg)` } : {}
+            },
+            dangerouslySetInnerHTML: { __html: sanitizeSvg(animationStyles + processedSvg) }
+          }
+        ),
+        showReticle && actualWidth > 0 && (() => {
+          const reticleSize = actualWidth * 0.9;
+          const reticleProps = { cx: dialCenter, cy: dialCenter, size: reticleSize, layer: "front" };
+          return /* @__PURE__ */ jsx2(
+            "svg",
+            {
+              style: {
+                position: "absolute",
+                left: -dialPadding,
+                top: -dialPadding,
+                width: dialSvgSize,
+                height: dialSvgSize,
+                pointerEvents: "none",
+                overflow: "visible",
+                zIndex: 2
+              },
+              children: renderReticle ? renderReticle(reticleProps) : /* @__PURE__ */ jsxs2("g", { opacity: 0.45, children: [
+                /* @__PURE__ */ jsx2(
+                  "ellipse",
+                  {
+                    cx: dialCenter,
+                    cy: dialCenter,
+                    rx: reticleSize * 0.5,
+                    ry: reticleSize * 0.3,
+                    fill: "none",
+                    stroke: "var(--iconcraft-reticle-color, #000)",
+                    strokeWidth: "1.2",
+                    transform: `rotate(45, ${dialCenter}, ${dialCenter})`
+                  }
+                ),
+                /* @__PURE__ */ jsx2(
+                  "circle",
+                  {
+                    cx: dialCenter,
+                    cy: dialCenter,
+                    r: "2",
+                    fill: "var(--iconcraft-reticle-color, #000)"
+                  }
+                )
+              ] })
+            }
+          );
+        })(),
+        actualWidth > 0 && showRotationDial && /* @__PURE__ */ jsxs2(
+          "svg",
+          {
+            style: {
+              position: "absolute",
+              left: -dialPadding,
+              top: -dialPadding,
+              width: dialSvgSize,
+              height: dialSvgSize,
+              pointerEvents: "none",
+              overflow: "visible",
+              zIndex: 3
+            },
+            children: [
+              renderRing ? renderRing({ cx: dialCenter, cy: dialCenter, radius: ringRadius }) : /* @__PURE__ */ jsx2(
+                "circle",
+                {
+                  cx: dialCenter,
+                  cy: dialCenter,
+                  r: ringRadius,
+                  fill: "none",
+                  stroke: "var(--iconcraft-dial-color, #000)",
+                  strokeWidth: "2",
+                  strokeDasharray: "6 4",
+                  opacity: 0.7
+                }
+              ),
+              /* @__PURE__ */ jsx2("style", { children: `
+            .iconcraft-notch {
+              transition: r 0.15s ease, filter 0.15s ease;
+              filter: none;
+            }
+            .iconcraft-notch:hover {
+              r: 9;
+              filter: drop-shadow(0 0 3px rgba(0,0,0,0.4));
+            }
+          ` }),
+              renderNotch ? renderNotch({ x: notchX, y: notchY, degrees: dialDegValue, onMouseDown: handleNotchMouseDown }) : /* @__PURE__ */ jsx2(
+                "circle",
+                {
+                  className: "iconcraft-notch",
+                  cx: notchX,
+                  cy: notchY,
+                  r: 7,
+                  fill: "var(--iconcraft-notch-color, #000)",
+                  stroke: "#fff",
+                  strokeWidth: "2",
+                  style: { pointerEvents: "auto", cursor: ROTATE_CURSOR },
+                  onMouseDown: handleNotchMouseDown
+                }
+              ),
+              isRotating && (() => {
+                const labelOffset = 32;
+                const labelRad = (dialDegValue - 90) * Math.PI / 180;
+                const labelX = dialCenter + (ringRadius + labelOffset) * Math.cos(labelRad);
+                const labelY = dialCenter + (ringRadius + labelOffset) * Math.sin(labelRad);
+                return renderLabel ? renderLabel({ x: labelX, y: labelY, degrees: dialDeg }) : /* @__PURE__ */ jsxs2(
+                  "text",
+                  {
+                    x: labelX,
+                    y: labelY,
+                    textAnchor: "middle",
+                    dominantBaseline: "central",
+                    fill: "var(--iconcraft-dial-color, #000)",
+                    fontSize: "11",
+                    fontWeight: "600",
+                    fontFamily: "system-ui, sans-serif",
+                    children: [
+                      dialDeg,
+                      "\xB0"
+                    ]
+                  }
+                );
+              })()
+            ]
+          }
+        )
+      ]
     }
   );
 }
 function LoadingIndicator() {
-  return /* @__PURE__ */ jsx(
+  return /* @__PURE__ */ jsx2(
     "div",
     {
       style: {
@@ -1122,9 +2187,9 @@ function LoadingIndicator() {
         background: "rgba(0,0,0,0.03)",
         borderRadius: "50%"
       },
-      children: /* @__PURE__ */ jsxs("svg", { width: "24", height: "24", viewBox: "0 0 24 24", children: [
-        /* @__PURE__ */ jsx("style", { children: `@keyframes iconcraft-spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }` }),
-        /* @__PURE__ */ jsx(
+      children: /* @__PURE__ */ jsxs2("svg", { width: "24", height: "24", viewBox: "0 0 24 24", children: [
+        /* @__PURE__ */ jsx2("style", { children: `@keyframes iconcraft-spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }` }),
+        /* @__PURE__ */ jsx2(
           "circle",
           {
             cx: "12",
@@ -1145,7 +2210,7 @@ function LoadingIndicator() {
 
 // src/components/IconCraftSimple.tsx
 import { useMemo as useMemo2 } from "react";
-import { jsx as jsx2 } from "react/jsx-runtime";
+import { jsx as jsx3 } from "react/jsx-runtime";
 function IconCraftSimple({
   src,
   mode = "jelly",
@@ -1176,7 +2241,7 @@ function IconCraftSimple({
     return factory.create(src);
   }, [src, mode, iconStyle, iconColor, shapeColor, size]);
   const resolvedAnimation = animation && animationOptions ? { ...animationOptions, type: animation } : animation;
-  return /* @__PURE__ */ jsx2(
+  return /* @__PURE__ */ jsx3(
     IconCraftView,
     {
       instance,
@@ -1195,8 +2260,8 @@ function IconCraftSimple({
 }
 
 // src/IconCraftShape.tsx
-import { useEffect as useEffect2, useState as useState2, useMemo as useMemo3, useCallback } from "react";
-import { jsx as jsx3, jsxs as jsxs2 } from "react/jsx-runtime";
+import { useEffect as useEffect2, useState as useState2, useMemo as useMemo3, useCallback as useCallback2 } from "react";
+import { jsx as jsx4, jsxs as jsxs3 } from "react/jsx-runtime";
 var wasmModule = null;
 var wasmInitPromise = null;
 async function initWasm() {
@@ -1212,7 +2277,8 @@ async function initWasm() {
 }
 var shapeModeMap2 = {
   jelly: 0,
-  droplet: 1,
+  bubble: 1,
+  sticker: 3,
   wax: 2
 };
 function isUrl(str) {
@@ -1240,6 +2306,7 @@ function IconCraftShape({
   offset = 20,
   resolution = 256,
   simplify = 2,
+  rotation = 0,
   // Size & Layout
   width,
   height,
@@ -1268,7 +2335,7 @@ function IconCraftShape({
       injectKeyframes(animationOptions.type);
     }
   }, [animationOptions?.type]);
-  const generate = useCallback(async () => {
+  const generate = useCallback2(async () => {
     setIsLoading(true);
     setError(null);
     try {
@@ -1278,14 +2345,22 @@ function IconCraftShape({
       }
       const wasm = await initWasm();
       const modeValue = shapeModeMap2[mode];
-      const wasmResult = wasm.generate_clippath_with_color(
+      const wasmResult = typeof wasm.generate_clippath_with_rotation === "function" ? wasm.generate_clippath_with_rotation(
         svgContent,
         modeValue,
         offset,
         resolution,
         simplify,
         iconStyle === "emboss",
-        // include_icon
+        shapeColor,
+        rotation
+      ) : wasm.generate_clippath_with_color(
+        svgContent,
+        modeValue,
+        offset,
+        resolution,
+        simplify,
+        iconStyle === "emboss",
         shapeColor
       );
       if (!wasmResult.success) {
@@ -1300,7 +2375,7 @@ function IconCraftShape({
     } finally {
       setIsLoading(false);
     }
-  }, [svg, mode, shapeColor, iconStyle, offset, resolution, simplify, onLoad, onError]);
+  }, [svg, mode, shapeColor, iconStyle, offset, resolution, simplify, rotation, onLoad, onError]);
   useEffect2(() => {
     generate();
   }, [generate]);
@@ -1320,7 +2395,7 @@ function IconCraftShape({
   const handleMouseEnter = animateOnHover ? () => setIsHovering(true) : void 0;
   const handleMouseLeave = animateOnHover ? () => setIsHovering(false) : void 0;
   if (isLoading) {
-    return /* @__PURE__ */ jsx3(
+    return /* @__PURE__ */ jsx4(
       "div",
       {
         className,
@@ -1332,12 +2407,12 @@ function IconCraftShape({
           background: "#f0f0f0",
           borderRadius: "50%"
         },
-        children: /* @__PURE__ */ jsx3(LoadingSpinner, {})
+        children: /* @__PURE__ */ jsx4(LoadingSpinner, {})
       }
     );
   }
   if (error) {
-    return /* @__PURE__ */ jsx3(
+    return /* @__PURE__ */ jsx4(
       "div",
       {
         className,
@@ -1360,7 +2435,7 @@ function IconCraftShape({
   if (!result?.emboss_svg) {
     return null;
   }
-  return /* @__PURE__ */ jsx3(
+  return /* @__PURE__ */ jsx4(
     "div",
     {
       className,
@@ -1368,12 +2443,12 @@ function IconCraftShape({
       onClick,
       onMouseEnter: handleMouseEnter,
       onMouseLeave: handleMouseLeave,
-      dangerouslySetInnerHTML: { __html: result.emboss_svg }
+      dangerouslySetInnerHTML: { __html: sanitizeSvg(result.emboss_svg) }
     }
   );
 }
 function LoadingSpinner() {
-  return /* @__PURE__ */ jsxs2(
+  return /* @__PURE__ */ jsxs3(
     "svg",
     {
       width: "24",
@@ -1383,8 +2458,8 @@ function LoadingSpinner() {
         animation: "spin 1s linear infinite"
       },
       children: [
-        /* @__PURE__ */ jsx3("style", { children: `@keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }` }),
-        /* @__PURE__ */ jsx3(
+        /* @__PURE__ */ jsx4("style", { children: `@keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }` }),
+        /* @__PURE__ */ jsx4(
           "circle",
           {
             cx: "12",
@@ -1403,7 +2478,7 @@ function LoadingSpinner() {
 }
 
 // src/useIconCraft.ts
-import { useState as useState3, useEffect as useEffect3, useCallback as useCallback2 } from "react";
+import { useState as useState3, useEffect as useEffect3, useCallback as useCallback3 } from "react";
 var wasmModule2 = null;
 var wasmInitPromise2 = null;
 async function initWasm2() {
@@ -1419,7 +2494,8 @@ async function initWasm2() {
 }
 var shapeModeMap3 = {
   jelly: 0,
-  droplet: 1,
+  bubble: 1,
+  sticker: 3,
   wax: 2
 };
 function isUrl2(str) {
@@ -1441,18 +2517,19 @@ function useIconCraft(options) {
     offset = 20,
     resolution = 256,
     simplify = 2,
+    rotation = 0,
     autoGenerate = true
   } = options;
   const [result, setResult] = useState3(null);
   const [isLoading, setIsLoading] = useState3(false);
   const [error, setError] = useState3(null);
   const [svgContent, setSvgContent] = useState3(null);
-  const reset = useCallback2(() => {
+  const reset = useCallback3(() => {
     setResult(null);
     setError(null);
     setSvgContent(null);
   }, []);
-  const generate = useCallback2(async () => {
+  const generate = useCallback3(async () => {
     if (!svg) {
       setError("SVG content is required");
       return;
@@ -1467,7 +2544,16 @@ function useIconCraft(options) {
       setSvgContent(content);
       const wasm = await initWasm2();
       const modeValue = shapeModeMap3[mode];
-      const wasmResult = wasm.generate_clippath_with_color(
+      const wasmResult = typeof wasm.generate_clippath_with_rotation === "function" ? wasm.generate_clippath_with_rotation(
+        content,
+        modeValue,
+        offset,
+        resolution,
+        simplify,
+        iconStyle === "emboss",
+        shapeColor,
+        rotation
+      ) : wasm.generate_clippath_with_color(
         content,
         modeValue,
         offset,
@@ -1485,7 +2571,7 @@ function useIconCraft(options) {
     } finally {
       setIsLoading(false);
     }
-  }, [svg, mode, shapeColor, iconStyle, offset, resolution, simplify]);
+  }, [svg, mode, shapeColor, iconStyle, offset, resolution, simplify, rotation]);
   useEffect3(() => {
     if (autoGenerate && svg) {
       generate();
@@ -1522,7 +2608,7 @@ function useLegacyIconCraft(options) {
 }
 
 // src/IconCraft.tsx
-import { jsx as jsx4, jsxs as jsxs3 } from "react/jsx-runtime";
+import { jsx as jsx5, jsxs as jsxs4 } from "react/jsx-runtime";
 function IconCraft({
   svgContent,
   mode = "jelly",
@@ -1544,10 +2630,10 @@ function IconCraft({
     simplify: simplifyEpsilon
   });
   if (isLoading) {
-    return /* @__PURE__ */ jsx4("div", { className, style, children: "Loading..." });
+    return /* @__PURE__ */ jsx5("div", { className, style, children: "Loading..." });
   }
   if (error) {
-    return /* @__PURE__ */ jsxs3("div", { className, style, children: [
+    return /* @__PURE__ */ jsxs4("div", { className, style, children: [
       "Error: ",
       error
     ] });
@@ -1555,7 +2641,7 @@ function IconCraft({
   if (!result?.emboss_svg) {
     return null;
   }
-  return /* @__PURE__ */ jsx4(
+  return /* @__PURE__ */ jsx5(
     "div",
     {
       className,
@@ -1564,7 +2650,7 @@ function IconCraft({
         width: "100%",
         height: "100%"
       },
-      dangerouslySetInnerHTML: { __html: result.emboss_svg }
+      dangerouslySetInnerHTML: { __html: sanitizeSvg(result.emboss_svg) }
     }
   );
 }
@@ -1574,9 +2660,9 @@ import {
   createContext,
   useContext,
   useReducer,
-  useCallback as useCallback3,
+  useCallback as useCallback4,
   useMemo as useMemo4,
-  useRef
+  useRef as useRef2
 } from "react";
 
 // src/context/IconCraftDispatcher.ts
@@ -1620,7 +2706,7 @@ var DEFAULT_METADATA = {
 };
 
 // src/context/IconCraftProvider.tsx
-import { jsx as jsx5 } from "react/jsx-runtime";
+import { jsx as jsx6 } from "react/jsx-runtime";
 var IconCraftContext = createContext(null);
 function reducer(state, action) {
   switch (action.type) {
@@ -1693,17 +2779,17 @@ function IconCraftProvider({
   defaultConfig = {}
 }) {
   const [state, dispatch] = useReducer(reducer, initialState);
-  const dispatcherRef = useRef(null);
+  const dispatcherRef = useRef2(null);
   if (!dispatcherRef.current) {
     dispatcherRef.current = createDispatcher();
   }
   const dispatcher = dispatcherRef.current;
-  const zIndexRef = useRef(0);
+  const zIndexRef = useRef2(0);
   const factory = useMemo4(
     () => new IconCraftFactory(defaultConfig),
     [defaultConfig]
   );
-  const create = useCallback3(
+  const create = useCallback4(
     (svg, config, metadataOverrides) => {
       const instance = config ? factory.create(svg, config) : factory.create(svg);
       const id = instance.id;
@@ -1719,7 +2805,7 @@ function IconCraftProvider({
     },
     [factory, dispatcher]
   );
-  const remove = useCallback3(
+  const remove = useCallback4(
     (id) => {
       if (!state.instances.has(id)) return false;
       dispatch({ type: "REMOVE", id });
@@ -1728,19 +2814,19 @@ function IconCraftProvider({
     },
     [state.instances, dispatcher]
   );
-  const getById = useCallback3(
+  const getById = useCallback4(
     (id) => state.instances.get(id),
     [state.instances]
   );
-  const getAll = useCallback3(
+  const getAll = useCallback4(
     () => Array.from(state.instances.values()),
     [state.instances]
   );
-  const getMetadata = useCallback3(
+  const getMetadata = useCallback4(
     (id) => state.metadata.get(id),
     [state.metadata]
   );
-  const updateMetadata = useCallback3(
+  const updateMetadata = useCallback4(
     (id, changes) => {
       dispatch({ type: "UPDATE_METADATA", id, changes });
       dispatcher.dispatch({ type: "metadata", id, changes });
@@ -1761,21 +2847,21 @@ function IconCraftProvider({
     },
     [state.metadata, dispatcher]
   );
-  const select = useCallback3(
+  const select = useCallback4(
     (id) => {
       dispatch({ type: "SELECT", id });
       dispatcher.dispatch({ type: "select", id });
     },
     [dispatcher]
   );
-  const deselect = useCallback3(
+  const deselect = useCallback4(
     (id) => {
       dispatch({ type: "DESELECT", id });
       dispatcher.dispatch({ type: "deselect", id });
     },
     [dispatcher]
   );
-  const toggleSelect = useCallback3(
+  const toggleSelect = useCallback4(
     (id) => {
       const wasSelected = state.selection.has(id);
       dispatch({ type: "TOGGLE_SELECT", id });
@@ -1783,21 +2869,21 @@ function IconCraftProvider({
     },
     [state.selection, dispatcher]
   );
-  const clearSelection = useCallback3(() => {
+  const clearSelection = useCallback4(() => {
     for (const id of state.selection) {
       dispatcher.dispatch({ type: "deselect", id });
     }
     dispatch({ type: "CLEAR_SELECTION" });
   }, [state.selection, dispatcher]);
-  const getSelected = useCallback3(
+  const getSelected = useCallback4(
     () => Array.from(state.selection),
     [state.selection]
   );
-  const isSelected = useCallback3(
+  const isSelected = useCallback4(
     (id) => state.selection.has(id),
     [state.selection]
   );
-  const clear = useCallback3(() => {
+  const clear = useCallback4(() => {
     for (const id of state.instances.keys()) {
       dispatcher.dispatch({ type: "removed", id });
     }
@@ -1843,7 +2929,7 @@ function IconCraftProvider({
       defaultConfig
     ]
   );
-  return /* @__PURE__ */ jsx5(IconCraftContext.Provider, { value: contextValue, children });
+  return /* @__PURE__ */ jsx6(IconCraftContext.Provider, { value: contextValue, children });
 }
 function useIconCraftContext() {
   const context = useContext(IconCraftContext);
@@ -1854,7 +2940,7 @@ function useIconCraftContext() {
 }
 
 // src/context/hooks.ts
-import { useCallback as useCallback4, useEffect as useEffect4, useMemo as useMemo5 } from "react";
+import { useCallback as useCallback5, useEffect as useEffect4, useMemo as useMemo5 } from "react";
 function useIconCraftStore() {
   const { actions, state } = useIconCraftContext();
   return useMemo5(
@@ -1881,19 +2967,19 @@ function useIconCraft2(id) {
   const instance = state.instances.get(id);
   const metadata = state.metadata.get(id);
   const isSelected = state.selection.has(id);
-  const remove = useCallback4(() => actions.remove(id), [actions, id]);
-  const updateMetadata = useCallback4(
+  const remove = useCallback5(() => actions.remove(id), [actions, id]);
+  const updateMetadata = useCallback5(
     (changes) => actions.updateMetadata(id, changes),
     [actions, id]
   );
-  const select = useCallback4(() => actions.select(id), [actions, id]);
-  const deselect = useCallback4(() => actions.deselect(id), [actions, id]);
-  const toggleSelect = useCallback4(() => actions.toggleSelect(id), [actions, id]);
-  const move = useCallback4(
+  const select = useCallback5(() => actions.select(id), [actions, id]);
+  const deselect = useCallback5(() => actions.deselect(id), [actions, id]);
+  const toggleSelect = useCallback5(() => actions.toggleSelect(id), [actions, id]);
+  const move = useCallback5(
     (x, y) => actions.updateMetadata(id, { x, y }),
     [actions, id]
   );
-  const setZIndex = useCallback4(
+  const setZIndex = useCallback5(
     (zIndex) => actions.updateMetadata(id, { zIndex }),
     [actions, id]
   );
@@ -1931,12 +3017,12 @@ function useIconCraftSelection() {
     () => Array.from(state.selection),
     [state.selection]
   );
-  const selectAll = useCallback4(() => {
+  const selectAll = useCallback5(() => {
     for (const id of state.instances.keys()) {
       actions.select(id);
     }
   }, [state.instances, actions]);
-  const getSelectedInstances = useCallback4(() => {
+  const getSelectedInstances = useCallback5(() => {
     return selected.map((id) => state.instances.get(id)).filter((inst) => inst !== void 0);
   }, [selected, state.instances]);
   return useMemo5(
@@ -1965,7 +3051,7 @@ function useIconCraftEvent(filter, eventType, handler) {
 function useIconCraftCreate(options = {}) {
   const { actions } = useIconCraftContext();
   const { config, metadata, autoSelect = false } = options;
-  return useCallback4(
+  return useCallback5(
     (svg, overrides) => {
       const id = actions.create(svg, { ...config, ...overrides }, metadata);
       if (autoSelect) {
@@ -2086,6 +3172,17 @@ export {
   createBackup,
   createDispatcher,
   defaultFactory,
+  dialPresetArrow,
+  dialPresetBar,
+  dialPresetCrosshair,
+  dialPresetDashed,
+  dialPresetDotted,
+  dialPresetDouble,
+  dialPresetMinimal,
+  dialPresetNeedle,
+  dialPresetSolid,
+  dialPresetTicks,
+  dialPresets,
   downloadBackup,
   exportBackup,
   generateIconId,
@@ -2103,6 +3200,10 @@ export {
   parseAnimationOptions,
   parseBackup,
   registerAnimation,
+  reticlePresetBullseye,
+  reticlePresetCross,
+  reticlePresetGlobe,
+  reticlePresets,
   useIconCraft,
   useIconCraftContext,
   useIconCraftCreate,

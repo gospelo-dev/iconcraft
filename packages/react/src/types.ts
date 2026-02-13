@@ -3,7 +3,7 @@ import type { CSSProperties } from 'react';
 // ============================================
 // Shape Modes
 // ============================================
-export type ShapeMode = 'jelly' | 'droplet' | 'wax';
+export type ShapeMode = 'jelly' | 'bubble' | 'wax' | 'sticker';
 
 // ============================================
 // Icon Styles
@@ -133,6 +133,7 @@ export interface IconCraftResult {
   svg_paths: SvgPaths | null;
   emboss_svg: string | null;
   icon_paths: EmbossIconData | null;
+  rotation: number;
 }
 
 // ============================================
@@ -144,7 +145,7 @@ export interface IconCraftShapeProps {
   svg: string;
 
   // === Shape Settings ===
-  /** Shape mode: jelly, droplet, or wax */
+  /** Shape mode: jelly, bubble, or wax */
   mode?: ShapeMode;
   /** Base color for the shape (hex) */
   shapeColor?: string;
@@ -160,6 +161,10 @@ export interface IconCraftShapeProps {
   shadow?: boolean;
   /** Show highlight effect */
   highlight?: boolean;
+
+  // === Rotation ===
+  /** Icon rotation in degrees (0-360). Applied at WASM level so shape follows rotated icon. */
+  rotation?: number;
 
   // === WASM Parameters ===
   /** Contour offset (default: 20) */

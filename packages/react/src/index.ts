@@ -22,8 +22,8 @@ export type {
 // ============================================
 // Components
 // ============================================
-export { IconCraftView, IconCraftSimple } from './components';
-export type { IconCraftViewProps, IconCraftSimpleProps } from './components';
+export { IconCraftView, IconCraftSimple, dialPresets, dialPresetDashed, dialPresetSolid, dialPresetTicks, dialPresetDotted, dialPresetDouble, dialPresetCrosshair, dialPresetMinimal, dialPresetNeedle, dialPresetBar, dialPresetArrow, reticlePresets, reticlePresetCross, reticlePresetBullseye, reticlePresetGlobe } from './components';
+export type { IconCraftViewProps, IconCraftSimpleProps, DialRingProps, DialNotchProps, DialLabelProps, DialPreset, DialPresetName, ReticleProps, ReticlePreset, ReticlePresetName } from './components';
 
 // Legacy components
 export { IconCraftShape } from './IconCraftShape';
