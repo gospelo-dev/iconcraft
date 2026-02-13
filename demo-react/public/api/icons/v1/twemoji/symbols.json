@@ -1,0 +1,567 @@
+{
+  "category": "記号",
+  "count": 80,
+  "license": "CC-BY 4.0 (Twitter, Inc.)",
+  "icons": [
+    {
+      "name": "Alphabet A",
+      "displayName": "アルファベット A",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e6.svg",
+      "codepoint": "1f1e6",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Alphabet B",
+      "displayName": "アルファベット B",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e7.svg",
+      "codepoint": "1f1e7",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Alphabet C",
+      "displayName": "アルファベット C",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e8.svg",
+      "codepoint": "1f1e8",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Alphabet D",
+      "displayName": "アルファベット D",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e9.svg",
+      "codepoint": "1f1e9",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Alphabet E",
+      "displayName": "アルファベット E",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1ea.svg",
+      "codepoint": "1f1ea",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Alphabet F",
+      "displayName": "アルファベット F",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1eb.svg",
+      "codepoint": "1f1eb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Alphabet G",
+      "displayName": "アルファベット G",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1ec.svg",
+      "codepoint": "1f1ec",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Alphabet H",
+      "displayName": "アルファベット H",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1ed.svg",
+      "codepoint": "1f1ed",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Alphabet I",
+      "displayName": "アルファベット I",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1ee.svg",
+      "codepoint": "1f1ee",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Alphabet J",
+      "displayName": "アルファベット J",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1ef.svg",
+      "codepoint": "1f1ef",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Alphabet K",
+      "displayName": "アルファベット K",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f0.svg",
+      "codepoint": "1f1f0",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Alphabet L",
+      "displayName": "アルファベット L",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f1.svg",
+      "codepoint": "1f1f1",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Alphabet M",
+      "displayName": "アルファベット M",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f2.svg",
+      "codepoint": "1f1f2",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Alphabet N",
+      "displayName": "アルファベット N",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f3.svg",
+      "codepoint": "1f1f3",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Alphabet O",
+      "displayName": "アルファベット O",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f4.svg",
+      "codepoint": "1f1f4",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Alphabet P",
+      "displayName": "アルファベット P",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f5.svg",
+      "codepoint": "1f1f5",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Alphabet Q",
+      "displayName": "アルファベット Q",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f6.svg",
+      "codepoint": "1f1f6",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Alphabet R",
+      "displayName": "アルファベット R",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f7.svg",
+      "codepoint": "1f1f7",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Alphabet S",
+      "displayName": "アルファベット S",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f8.svg",
+      "codepoint": "1f1f8",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Alphabet T",
+      "displayName": "アルファベット T",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f9.svg",
+      "codepoint": "1f1f9",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Alphabet U",
+      "displayName": "アルファベット U",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1fa.svg",
+      "codepoint": "1f1fa",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Alphabet V",
+      "displayName": "アルファベット V",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1fb.svg",
+      "codepoint": "1f1fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Alphabet W",
+      "displayName": "アルファベット W",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1fc.svg",
+      "codepoint": "1f1fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Alphabet X",
+      "displayName": "アルファベット X",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1fd.svg",
+      "codepoint": "1f1fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Alphabet Y",
+      "displayName": "アルファベット Y",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1fe.svg",
+      "codepoint": "1f1fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Alphabet Z",
+      "displayName": "アルファベット Z",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1ff.svg",
+      "codepoint": "1f1ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Aquarius",
+      "displayName": "みずがめ座",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2652.svg",
+      "codepoint": "2652",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Aries",
+      "displayName": "おひつじ座",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2648.svg",
+      "codepoint": "2648",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "atom symbol",
+      "displayName": "原子のシンボル",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/269b.svg",
+      "codepoint": "269b",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "black circle",
+      "displayName": "黒い丸",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/26ab.svg",
+      "codepoint": "26ab",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Cancer",
+      "displayName": "かに座",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/264b.svg",
+      "codepoint": "264b",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Capricorn",
+      "displayName": "やぎ座",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2651.svg",
+      "codepoint": "2651",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "check mark",
+      "displayName": "太字のチェック",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2714.svg",
+      "codepoint": "2714",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "check mark button",
+      "displayName": "白抜きのチェック",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2705.svg",
+      "codepoint": "2705",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "club suit",
+      "displayName": "クラブ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2663.svg",
+      "codepoint": "2663",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "cross mark",
+      "displayName": "バツ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/274c.svg",
+      "codepoint": "274c",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "cross mark button",
+      "displayName": "白抜きのバツ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/274e.svg",
+      "codepoint": "274e",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "curly loop",
+      "displayName": "ループ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/27b0.svg",
+      "codepoint": "27b0",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "diamond suit",
+      "displayName": "ダイヤ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2666.svg",
+      "codepoint": "2666",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "divide",
+      "displayName": "割り算",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2797.svg",
+      "codepoint": "2797",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "double curly loop",
+      "displayName": "ダブルループ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/27bf.svg",
+      "codepoint": "27bf",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "eight-pointed star",
+      "displayName": "八角星",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2734.svg",
+      "codepoint": "2734",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "eight-spoked asterisk",
+      "displayName": "八角アスタリスク",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2733.svg",
+      "codepoint": "2733",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "fleur-de-lis",
+      "displayName": "フルール・ド・リス",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/269c.svg",
+      "codepoint": "269c",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Gemini",
+      "displayName": "ふたご座",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/264a.svg",
+      "codepoint": "264a",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "heart suit",
+      "displayName": "ハート",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2665.svg",
+      "codepoint": "2665",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "high voltage",
+      "displayName": "高電圧",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/26a1.svg",
+      "codepoint": "26a1",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "hot springs",
+      "displayName": "温泉マーク",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2668.svg",
+      "codepoint": "2668",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "kaaba",
+      "displayName": "カーバ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f54b.svg",
+      "codepoint": "1f54b",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "latin cross",
+      "displayName": "十字架",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/271d.svg",
+      "codepoint": "271d",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Leo",
+      "displayName": "しし座",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/264c.svg",
+      "codepoint": "264c",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Libra",
+      "displayName": "てんびん座",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/264e.svg",
+      "codepoint": "264e",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "medical symbol",
+      "displayName": "医療のシンボル",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2695.svg",
+      "codepoint": "2695",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "menorah",
+      "displayName": "メノーラー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f54e.svg",
+      "codepoint": "1f54e",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "minus",
+      "displayName": "マイナス",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2796.svg",
+      "codepoint": "2796",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "mosque",
+      "displayName": "モスク",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f54c.svg",
+      "codepoint": "1f54c",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "multiply",
+      "displayName": "掛け算",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2716.svg",
+      "codepoint": "2716",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "no entry",
+      "displayName": "車両進入禁止",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/26d4.svg",
+      "codepoint": "26d4",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "om",
+      "displayName": "オーム",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f549.svg",
+      "codepoint": "1f549",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Ophiuchus",
+      "displayName": "へびつかい座",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/26ce.svg",
+      "codepoint": "26ce",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Pisces",
+      "displayName": "うお座",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2653.svg",
+      "codepoint": "2653",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "plus",
+      "displayName": "プラス",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2795.svg",
+      "codepoint": "2795",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "red exclamation mark",
+      "displayName": "赤い感嘆符",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2757.svg",
+      "codepoint": "2757",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "red question mark",
+      "displayName": "赤い疑問符",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2753.svg",
+      "codepoint": "2753",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "right arrow",
+      "displayName": "右矢印",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/27a1.svg",
+      "codepoint": "27a1",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Sagittarius",
+      "displayName": "いて座",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2650.svg",
+      "codepoint": "2650",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "scissors",
+      "displayName": "はさみ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2702.svg",
+      "codepoint": "2702",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Scorpio",
+      "displayName": "さそり座",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/264f.svg",
+      "codepoint": "264f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "snowflake",
+      "displayName": "雪の結晶",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2744.svg",
+      "codepoint": "2744",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "spade suit",
+      "displayName": "スペード",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2660.svg",
+      "codepoint": "2660",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "sparkle",
+      "displayName": "スパークル",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2747.svg",
+      "codepoint": "2747",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "sparkles",
+      "displayName": "きらきら",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2728.svg",
+      "codepoint": "2728",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "star of David",
+      "displayName": "ダビデの星",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2721.svg",
+      "codepoint": "2721",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "synagogue",
+      "displayName": "シナゴーグ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f54d.svg",
+      "codepoint": "1f54d",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Taurus",
+      "displayName": "おうし座",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2649.svg",
+      "codepoint": "2649",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Virgo",
+      "displayName": "おとめ座",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/264d.svg",
+      "codepoint": "264d",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "warning",
+      "displayName": "警告",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/26a0.svg",
+      "codepoint": "26a0",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "white circle",
+      "displayName": "白い丸",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/26aa.svg",
+      "codepoint": "26aa",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "white exclamation mark",
+      "displayName": "白い感嘆符",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2755.svg",
+      "codepoint": "2755",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "white question mark",
+      "displayName": "白い疑問符",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2754.svg",
+      "codepoint": "2754",
+      "license": "CC-BY 4.0"
+    }
+  ]
+}

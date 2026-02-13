@@ -1,0 +1,2163 @@
+{
+  "category": "顔・感情",
+  "count": 308,
+  "license": "CC-BY 4.0 (Twitter, Inc.)",
+  "icons": [
+    {
+      "name": "angry face",
+      "displayName": "ぷんぷん",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f620.svg",
+      "codepoint": "1f620",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "anguished face",
+      "displayName": "苦悩",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f627.svg",
+      "codepoint": "1f627",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "anxious face with sweat",
+      "displayName": "冷や汗青ざめ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f630.svg",
+      "codepoint": "1f630",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "astonished face",
+      "displayName": "びっくり",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f632.svg",
+      "codepoint": "1f632",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "beaming face with smiling eyes",
+      "displayName": "にやっと笑う",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f601.svg",
+      "codepoint": "1f601",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "biting lip",
+      "displayName": "唇を咬んでいる口",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fae6.svg",
+      "codepoint": "1fae6",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "bubbles",
+      "displayName": "泡",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fae7.svg",
+      "codepoint": "1fae7",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "call me hand",
+      "displayName": "電話の合図",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f919.svg",
+      "codepoint": "1f919",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "call me hand: dark skin tone",
+      "displayName": "電話の合図: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f919-1f3ff.svg",
+      "codepoint": "1f919-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "call me hand: light skin tone",
+      "displayName": "電話の合図: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f919-1f3fb.svg",
+      "codepoint": "1f919-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "call me hand: medium skin tone",
+      "displayName": "電話の合図: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f919-1f3fd.svg",
+      "codepoint": "1f919-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "call me hand: medium-dark skin tone",
+      "displayName": "電話の合図: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f919-1f3fe.svg",
+      "codepoint": "1f919-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "call me hand: medium-light skin tone",
+      "displayName": "電話の合図: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f919-1f3fc.svg",
+      "codepoint": "1f919-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "cat with tears of joy",
+      "displayName": "嬉し泣きする猫",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f639.svg",
+      "codepoint": "1f639",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "cat with wry smile",
+      "displayName": "にやりとする猫",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f63c.svg",
+      "codepoint": "1f63c",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "clown face",
+      "displayName": "ピエロの顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f921.svg",
+      "codepoint": "1f921",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "cold face",
+      "displayName": "寒い顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f976.svg",
+      "codepoint": "1f976",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "confounded face",
+      "displayName": "困惑した顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f616.svg",
+      "codepoint": "1f616",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "confused face",
+      "displayName": "混乱",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f615.svg",
+      "codepoint": "1f615",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "cowboy hat face",
+      "displayName": "カウボーイの顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f920.svg",
+      "codepoint": "1f920",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "crossed fingers",
+      "displayName": "指をクロス",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f91e.svg",
+      "codepoint": "1f91e",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "crossed fingers: dark skin tone",
+      "displayName": "指をクロス: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f91e-1f3ff.svg",
+      "codepoint": "1f91e-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "crossed fingers: light skin tone",
+      "displayName": "指をクロス: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f91e-1f3fb.svg",
+      "codepoint": "1f91e-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "crossed fingers: medium skin tone",
+      "displayName": "指をクロス: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f91e-1f3fd.svg",
+      "codepoint": "1f91e-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "crossed fingers: medium-dark skin tone",
+      "displayName": "指をクロス: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f91e-1f3fe.svg",
+      "codepoint": "1f91e-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "crossed fingers: medium-light skin tone",
+      "displayName": "指をクロス: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f91e-1f3fc.svg",
+      "codepoint": "1f91e-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "crying cat",
+      "displayName": "泣いている猫",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f63f.svg",
+      "codepoint": "1f63f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "crying face",
+      "displayName": "泣き顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f622.svg",
+      "codepoint": "1f622",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "disappointed face",
+      "displayName": "失望した顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f61e.svg",
+      "codepoint": "1f61e",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "disguised face",
+      "displayName": "変装した顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f978.svg",
+      "codepoint": "1f978",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "dotted line face",
+      "displayName": "点線の顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fae5.svg",
+      "codepoint": "1fae5",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "downcast face with sweat",
+      "displayName": "冷や汗",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f613.svg",
+      "codepoint": "1f613",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "drooling face",
+      "displayName": "よだれを垂らした顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f924.svg",
+      "codepoint": "1f924",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "enraged face",
+      "displayName": "ふくれっ面",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f621.svg",
+      "codepoint": "1f621",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "exploding head",
+      "displayName": "頭爆発",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f92f.svg",
+      "codepoint": "1f92f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "expressionless face",
+      "displayName": "無表情",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f611.svg",
+      "codepoint": "1f611",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "face blowing a kiss",
+      "displayName": "投げキッス",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f618.svg",
+      "codepoint": "1f618",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "face exhaling",
+      "displayName": "息を吐く顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f62e-200d-1f4a8.svg",
+      "codepoint": "1f62e-200d-1f4a8",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "face holding back tears",
+      "displayName": "涙をこらえた顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f979.svg",
+      "codepoint": "1f979",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "face in clouds",
+      "displayName": "雲の中の顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f636-200d-1f32b-fe0f.svg",
+      "codepoint": "1f636-200d-1f32b-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "face savoring food",
+      "displayName": "にこにこぺろり",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f60b.svg",
+      "codepoint": "1f60b",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "face screaming in fear",
+      "displayName": "恐怖",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f631.svg",
+      "codepoint": "1f631",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "face vomiting",
+      "displayName": "嘔吐する顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f92e.svg",
+      "codepoint": "1f92e",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "face with crossed-out eyes",
+      "displayName": "めまい",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f635.svg",
+      "codepoint": "1f635",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "face with diagonal mouth",
+      "displayName": "口が斜めの顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fae4.svg",
+      "codepoint": "1fae4",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "face with hand over mouth",
+      "displayName": "口に手を当てた顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f92d.svg",
+      "codepoint": "1f92d",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "face with head-bandage",
+      "displayName": "包帯を巻いた顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f915.svg",
+      "codepoint": "1f915",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "face with medical mask",
+      "displayName": "マスク顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f637.svg",
+      "codepoint": "1f637",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "face with open eyes and hand over mouth",
+      "displayName": "目を開けて口に手を当てた顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fae2.svg",
+      "codepoint": "1fae2",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "face with open mouth",
+      "displayName": "口が開いた顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f62e.svg",
+      "codepoint": "1f62e",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "face with peeking eye",
+      "displayName": "指の間からのぞき見る顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fae3.svg",
+      "codepoint": "1fae3",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "face with raised eyebrow",
+      "displayName": "眉を上げた顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f928.svg",
+      "codepoint": "1f928",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "face with rolling eyes",
+      "displayName": "上を見る顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f644.svg",
+      "codepoint": "1f644",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "face with spiral eyes",
+      "displayName": "目を回した顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f635-200d-1f4ab.svg",
+      "codepoint": "1f635-200d-1f4ab",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "face with steam from nose",
+      "displayName": "勝ち誇った顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f624.svg",
+      "codepoint": "1f624",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "face with symbols on mouth",
+      "displayName": "ののしる",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f92c.svg",
+      "codepoint": "1f92c",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "face with tears of joy",
+      "displayName": "嬉し泣き",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f602.svg",
+      "codepoint": "1f602",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "face with thermometer",
+      "displayName": "熱がある顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f912.svg",
+      "codepoint": "1f912",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "face with tongue",
+      "displayName": "舌を出した顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f61b.svg",
+      "codepoint": "1f61b",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "face without mouth",
+      "displayName": "口のない顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f636.svg",
+      "codepoint": "1f636",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "fearful face",
+      "displayName": "青ざめ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f628.svg",
+      "codepoint": "1f628",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flushed face",
+      "displayName": "赤面",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f633.svg",
+      "codepoint": "1f633",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "folded hands",
+      "displayName": "祈り",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64f.svg",
+      "codepoint": "1f64f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "folded hands: dark skin tone",
+      "displayName": "祈り: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64f-1f3ff.svg",
+      "codepoint": "1f64f-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "folded hands: light skin tone",
+      "displayName": "祈り: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64f-1f3fb.svg",
+      "codepoint": "1f64f-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "folded hands: medium skin tone",
+      "displayName": "祈り: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64f-1f3fd.svg",
+      "codepoint": "1f64f-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "folded hands: medium-dark skin tone",
+      "displayName": "祈り: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64f-1f3fe.svg",
+      "codepoint": "1f64f-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "folded hands: medium-light skin tone",
+      "displayName": "祈り: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64f-1f3fc.svg",
+      "codepoint": "1f64f-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "frowning face with open mouth",
+      "displayName": "あきれ顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f626.svg",
+      "codepoint": "1f626",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "grimacing face",
+      "displayName": "しかめ面",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f62c.svg",
+      "codepoint": "1f62c",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "grinning cat",
+      "displayName": "にっこり笑う猫",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f63a.svg",
+      "codepoint": "1f63a",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "grinning cat with smiling eyes",
+      "displayName": "にやっと笑う猫",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f638.svg",
+      "codepoint": "1f638",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "grinning face",
+      "displayName": "にっこり笑う",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f600.svg",
+      "codepoint": "1f600",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "grinning face with big eyes",
+      "displayName": "わーい",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f603.svg",
+      "codepoint": "1f603",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "grinning face with smiling eyes",
+      "displayName": "笑顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f604.svg",
+      "codepoint": "1f604",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "grinning face with sweat",
+      "displayName": "冷や汗笑顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f605.svg",
+      "codepoint": "1f605",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "grinning squinting face",
+      "displayName": "きゃー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f606.svg",
+      "codepoint": "1f606",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "handshake",
+      "displayName": "握手",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f91d.svg",
+      "codepoint": "1f91d",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "handshake: dark skin tone",
+      "displayName": "握手: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f91d-1f3ff.svg",
+      "codepoint": "1f91d-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "handshake: light skin tone",
+      "displayName": "握手: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f91d-1f3fb.svg",
+      "codepoint": "1f91d-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "handshake: medium skin tone",
+      "displayName": "握手: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f91d-1f3fd.svg",
+      "codepoint": "1f91d-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "handshake: medium-dark skin tone",
+      "displayName": "握手: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f91d-1f3fe.svg",
+      "codepoint": "1f91d-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "handshake: medium-light skin tone",
+      "displayName": "握手: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f91d-1f3fc.svg",
+      "codepoint": "1f91d-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "hear-no-evil monkey",
+      "displayName": "聞かざる",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f649.svg",
+      "codepoint": "1f649",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "hot face",
+      "displayName": "暑い顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f975.svg",
+      "codepoint": "1f975",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "hushed face",
+      "displayName": "ぽかーん",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f62f.svg",
+      "codepoint": "1f62f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "kissing cat",
+      "displayName": "猫のキス",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f63d.svg",
+      "codepoint": "1f63d",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "kissing face",
+      "displayName": "キス",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f617.svg",
+      "codepoint": "1f617",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "kissing face with closed eyes",
+      "displayName": "ちゅっ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f61a.svg",
+      "codepoint": "1f61a",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "kissing face with smiling eyes",
+      "displayName": "にっこりキス",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f619.svg",
+      "codepoint": "1f619",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "left-facing fist",
+      "displayName": "左向きのこぶし",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f91b.svg",
+      "codepoint": "1f91b",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "left-facing fist: dark skin tone",
+      "displayName": "左向きのこぶし: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f91b-1f3ff.svg",
+      "codepoint": "1f91b-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "left-facing fist: light skin tone",
+      "displayName": "左向きのこぶし: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f91b-1f3fb.svg",
+      "codepoint": "1f91b-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "left-facing fist: medium skin tone",
+      "displayName": "左向きのこぶし: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f91b-1f3fd.svg",
+      "codepoint": "1f91b-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "left-facing fist: medium-dark skin tone",
+      "displayName": "左向きのこぶし: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f91b-1f3fe.svg",
+      "codepoint": "1f91b-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "left-facing fist: medium-light skin tone",
+      "displayName": "左向きのこぶし: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f91b-1f3fc.svg",
+      "codepoint": "1f91b-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "loudly crying face",
+      "displayName": "大泣き",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f62d.svg",
+      "codepoint": "1f62d",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "love-you gesture",
+      "displayName": "アイラブユー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f91f.svg",
+      "codepoint": "1f91f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "love-you gesture: dark skin tone",
+      "displayName": "アイラブユー: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f91f-1f3ff.svg",
+      "codepoint": "1f91f-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "love-you gesture: light skin tone",
+      "displayName": "アイラブユー: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f91f-1f3fb.svg",
+      "codepoint": "1f91f-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "love-you gesture: medium skin tone",
+      "displayName": "アイラブユー: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f91f-1f3fd.svg",
+      "codepoint": "1f91f-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "love-you gesture: medium-dark skin tone",
+      "displayName": "アイラブユー: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f91f-1f3fe.svg",
+      "codepoint": "1f91f-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "love-you gesture: medium-light skin tone",
+      "displayName": "アイラブユー: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f91f-1f3fc.svg",
+      "codepoint": "1f91f-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "lying face",
+      "displayName": "うそつきの顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f925.svg",
+      "codepoint": "1f925",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man bowing",
+      "displayName": "おじぎする男",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f647-200d-2642-fe0f.svg",
+      "codepoint": "1f647-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man bowing: dark skin tone",
+      "displayName": "おじぎする男: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f647-1f3ff-200d-2642-fe0f.svg",
+      "codepoint": "1f647-1f3ff-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man bowing: light skin tone",
+      "displayName": "おじぎする男: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f647-1f3fb-200d-2642-fe0f.svg",
+      "codepoint": "1f647-1f3fb-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man bowing: medium skin tone",
+      "displayName": "おじぎする男: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f647-1f3fd-200d-2642-fe0f.svg",
+      "codepoint": "1f647-1f3fd-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man bowing: medium-dark skin tone",
+      "displayName": "おじぎする男: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f647-1f3fe-200d-2642-fe0f.svg",
+      "codepoint": "1f647-1f3fe-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man bowing: medium-light skin tone",
+      "displayName": "おじぎする男: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f647-1f3fc-200d-2642-fe0f.svg",
+      "codepoint": "1f647-1f3fc-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man facepalming",
+      "displayName": "ひたいに手をあてる男",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f926-200d-2642-fe0f.svg",
+      "codepoint": "1f926-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man facepalming: dark skin tone",
+      "displayName": "ひたいに手をあてる男: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f926-1f3ff-200d-2642-fe0f.svg",
+      "codepoint": "1f926-1f3ff-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man facepalming: light skin tone",
+      "displayName": "ひたいに手をあてる男: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f926-1f3fb-200d-2642-fe0f.svg",
+      "codepoint": "1f926-1f3fb-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man facepalming: medium skin tone",
+      "displayName": "ひたいに手をあてる男: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f926-1f3fd-200d-2642-fe0f.svg",
+      "codepoint": "1f926-1f3fd-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man facepalming: medium-dark skin tone",
+      "displayName": "ひたいに手をあてる男: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f926-1f3fe-200d-2642-fe0f.svg",
+      "codepoint": "1f926-1f3fe-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man facepalming: medium-light skin tone",
+      "displayName": "ひたいに手をあてる男: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f926-1f3fc-200d-2642-fe0f.svg",
+      "codepoint": "1f926-1f3fc-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man frowning",
+      "displayName": "しかめ面の男",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64d-200d-2642-fe0f.svg",
+      "codepoint": "1f64d-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man frowning: dark skin tone",
+      "displayName": "しかめ面の男: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64d-1f3ff-200d-2642-fe0f.svg",
+      "codepoint": "1f64d-1f3ff-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man frowning: light skin tone",
+      "displayName": "しかめ面の男: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64d-1f3fb-200d-2642-fe0f.svg",
+      "codepoint": "1f64d-1f3fb-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man frowning: medium skin tone",
+      "displayName": "しかめ面の男: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64d-1f3fd-200d-2642-fe0f.svg",
+      "codepoint": "1f64d-1f3fd-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man frowning: medium-dark skin tone",
+      "displayName": "しかめ面の男: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64d-1f3fe-200d-2642-fe0f.svg",
+      "codepoint": "1f64d-1f3fe-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man frowning: medium-light skin tone",
+      "displayName": "しかめ面の男: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64d-1f3fc-200d-2642-fe0f.svg",
+      "codepoint": "1f64d-1f3fc-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man gesturing NO",
+      "displayName": "ダメのポーズをする男",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f645-200d-2642-fe0f.svg",
+      "codepoint": "1f645-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man gesturing NO: dark skin tone",
+      "displayName": "ダメのポーズをする男: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f645-1f3ff-200d-2642-fe0f.svg",
+      "codepoint": "1f645-1f3ff-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man gesturing NO: light skin tone",
+      "displayName": "ダメのポーズをする男: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f645-1f3fb-200d-2642-fe0f.svg",
+      "codepoint": "1f645-1f3fb-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man gesturing NO: medium skin tone",
+      "displayName": "ダメのポーズをする男: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f645-1f3fd-200d-2642-fe0f.svg",
+      "codepoint": "1f645-1f3fd-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man gesturing NO: medium-dark skin tone",
+      "displayName": "ダメのポーズをする男: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f645-1f3fe-200d-2642-fe0f.svg",
+      "codepoint": "1f645-1f3fe-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man gesturing NO: medium-light skin tone",
+      "displayName": "ダメのポーズをする男: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f645-1f3fc-200d-2642-fe0f.svg",
+      "codepoint": "1f645-1f3fc-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man gesturing OK",
+      "displayName": "OKのポーズをする男",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f646-200d-2642-fe0f.svg",
+      "codepoint": "1f646-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man gesturing OK: dark skin tone",
+      "displayName": "OKのポーズをする男: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f646-1f3ff-200d-2642-fe0f.svg",
+      "codepoint": "1f646-1f3ff-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man gesturing OK: light skin tone",
+      "displayName": "OKのポーズをする男: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f646-1f3fb-200d-2642-fe0f.svg",
+      "codepoint": "1f646-1f3fb-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man gesturing OK: medium skin tone",
+      "displayName": "OKのポーズをする男: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f646-1f3fd-200d-2642-fe0f.svg",
+      "codepoint": "1f646-1f3fd-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man gesturing OK: medium-dark skin tone",
+      "displayName": "OKのポーズをする男: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f646-1f3fe-200d-2642-fe0f.svg",
+      "codepoint": "1f646-1f3fe-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man gesturing OK: medium-light skin tone",
+      "displayName": "OKのポーズをする男: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f646-1f3fc-200d-2642-fe0f.svg",
+      "codepoint": "1f646-1f3fc-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man pouting",
+      "displayName": "不機嫌な男",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64e-200d-2642-fe0f.svg",
+      "codepoint": "1f64e-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man pouting: dark skin tone",
+      "displayName": "不機嫌な男: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64e-1f3ff-200d-2642-fe0f.svg",
+      "codepoint": "1f64e-1f3ff-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man pouting: light skin tone",
+      "displayName": "不機嫌な男: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64e-1f3fb-200d-2642-fe0f.svg",
+      "codepoint": "1f64e-1f3fb-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man pouting: medium skin tone",
+      "displayName": "不機嫌な男: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64e-1f3fd-200d-2642-fe0f.svg",
+      "codepoint": "1f64e-1f3fd-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man pouting: medium-dark skin tone",
+      "displayName": "不機嫌な男: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64e-1f3fe-200d-2642-fe0f.svg",
+      "codepoint": "1f64e-1f3fe-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man pouting: medium-light skin tone",
+      "displayName": "不機嫌な男: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64e-1f3fc-200d-2642-fe0f.svg",
+      "codepoint": "1f64e-1f3fc-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man raising hand",
+      "displayName": "手を挙げる男",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64b-200d-2642-fe0f.svg",
+      "codepoint": "1f64b-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man raising hand: dark skin tone",
+      "displayName": "手を挙げる男: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64b-1f3ff-200d-2642-fe0f.svg",
+      "codepoint": "1f64b-1f3ff-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man raising hand: light skin tone",
+      "displayName": "手を挙げる男: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64b-1f3fb-200d-2642-fe0f.svg",
+      "codepoint": "1f64b-1f3fb-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man raising hand: medium skin tone",
+      "displayName": "手を挙げる男: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64b-1f3fd-200d-2642-fe0f.svg",
+      "codepoint": "1f64b-1f3fd-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man raising hand: medium-dark skin tone",
+      "displayName": "手を挙げる男: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64b-1f3fe-200d-2642-fe0f.svg",
+      "codepoint": "1f64b-1f3fe-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man raising hand: medium-light skin tone",
+      "displayName": "手を挙げる男: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64b-1f3fc-200d-2642-fe0f.svg",
+      "codepoint": "1f64b-1f3fc-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "melting face",
+      "displayName": "溶けている顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fae0.svg",
+      "codepoint": "1fae0",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "money-mouth face",
+      "displayName": "お金の顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f911.svg",
+      "codepoint": "1f911",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "nauseated face",
+      "displayName": "吐き気を催している顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f922.svg",
+      "codepoint": "1f922",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "nerd face",
+      "displayName": "オタク",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f913.svg",
+      "codepoint": "1f913",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "neutral face",
+      "displayName": "ポーカーフェイス",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f610.svg",
+      "codepoint": "1f610",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "ninja",
+      "displayName": "忍者",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f977.svg",
+      "codepoint": "1f977",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "ninja: dark skin tone",
+      "displayName": "忍者: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f977-1f3ff.svg",
+      "codepoint": "1f977-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "ninja: light skin tone",
+      "displayName": "忍者: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f977-1f3fb.svg",
+      "codepoint": "1f977-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "ninja: medium skin tone",
+      "displayName": "忍者: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f977-1f3fd.svg",
+      "codepoint": "1f977-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "ninja: medium-dark skin tone",
+      "displayName": "忍者: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f977-1f3fe.svg",
+      "codepoint": "1f977-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "ninja: medium-light skin tone",
+      "displayName": "忍者: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f977-1f3fc.svg",
+      "codepoint": "1f977-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "partying face",
+      "displayName": "パーティーの顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f973.svg",
+      "codepoint": "1f973",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "pensive face",
+      "displayName": "しょぼーん",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f614.svg",
+      "codepoint": "1f614",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "persevering face",
+      "displayName": "我慢",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f623.svg",
+      "codepoint": "1f623",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person bowing",
+      "displayName": "おじぎする人",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f647.svg",
+      "codepoint": "1f647",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person bowing: dark skin tone",
+      "displayName": "おじぎする人: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f647-1f3ff.svg",
+      "codepoint": "1f647-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person bowing: light skin tone",
+      "displayName": "おじぎする人: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f647-1f3fb.svg",
+      "codepoint": "1f647-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person bowing: medium skin tone",
+      "displayName": "おじぎする人: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f647-1f3fd.svg",
+      "codepoint": "1f647-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person bowing: medium-dark skin tone",
+      "displayName": "おじぎする人: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f647-1f3fe.svg",
+      "codepoint": "1f647-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person bowing: medium-light skin tone",
+      "displayName": "おじぎする人: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f647-1f3fc.svg",
+      "codepoint": "1f647-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person facepalming",
+      "displayName": "ひたいに手をあてる人",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f926.svg",
+      "codepoint": "1f926",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person facepalming: dark skin tone",
+      "displayName": "ひたいに手をあてる人: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f926-1f3ff.svg",
+      "codepoint": "1f926-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person facepalming: light skin tone",
+      "displayName": "ひたいに手をあてる人: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f926-1f3fb.svg",
+      "codepoint": "1f926-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person facepalming: medium skin tone",
+      "displayName": "ひたいに手をあてる人: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f926-1f3fd.svg",
+      "codepoint": "1f926-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person facepalming: medium-dark skin tone",
+      "displayName": "ひたいに手をあてる人: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f926-1f3fe.svg",
+      "codepoint": "1f926-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person facepalming: medium-light skin tone",
+      "displayName": "ひたいに手をあてる人: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f926-1f3fc.svg",
+      "codepoint": "1f926-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person frowning",
+      "displayName": "しかめ面の人",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64d.svg",
+      "codepoint": "1f64d",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person frowning: dark skin tone",
+      "displayName": "しかめ面の人: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64d-1f3ff.svg",
+      "codepoint": "1f64d-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person frowning: light skin tone",
+      "displayName": "しかめ面の人: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64d-1f3fb.svg",
+      "codepoint": "1f64d-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person frowning: medium skin tone",
+      "displayName": "しかめ面の人: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64d-1f3fd.svg",
+      "codepoint": "1f64d-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person frowning: medium-dark skin tone",
+      "displayName": "しかめ面の人: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64d-1f3fe.svg",
+      "codepoint": "1f64d-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person frowning: medium-light skin tone",
+      "displayName": "しかめ面の人: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64d-1f3fc.svg",
+      "codepoint": "1f64d-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person gesturing NO",
+      "displayName": "ダメのポーズをする人",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f645.svg",
+      "codepoint": "1f645",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person gesturing NO: dark skin tone",
+      "displayName": "ダメのポーズをする人: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f645-1f3ff.svg",
+      "codepoint": "1f645-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person gesturing NO: light skin tone",
+      "displayName": "ダメのポーズをする人: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f645-1f3fb.svg",
+      "codepoint": "1f645-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person gesturing NO: medium skin tone",
+      "displayName": "ダメのポーズをする人: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f645-1f3fd.svg",
+      "codepoint": "1f645-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person gesturing NO: medium-dark skin tone",
+      "displayName": "ダメのポーズをする人: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f645-1f3fe.svg",
+      "codepoint": "1f645-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person gesturing NO: medium-light skin tone",
+      "displayName": "ダメのポーズをする人: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f645-1f3fc.svg",
+      "codepoint": "1f645-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person gesturing OK",
+      "displayName": "OKのポーズをする人",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f646.svg",
+      "codepoint": "1f646",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person gesturing OK: dark skin tone",
+      "displayName": "OKのポーズをする人: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f646-1f3ff.svg",
+      "codepoint": "1f646-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person gesturing OK: light skin tone",
+      "displayName": "OKのポーズをする人: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f646-1f3fb.svg",
+      "codepoint": "1f646-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person gesturing OK: medium skin tone",
+      "displayName": "OKのポーズをする人: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f646-1f3fd.svg",
+      "codepoint": "1f646-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person gesturing OK: medium-dark skin tone",
+      "displayName": "OKのポーズをする人: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f646-1f3fe.svg",
+      "codepoint": "1f646-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person gesturing OK: medium-light skin tone",
+      "displayName": "OKのポーズをする人: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f646-1f3fc.svg",
+      "codepoint": "1f646-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person pouting",
+      "displayName": "不機嫌な人",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64e.svg",
+      "codepoint": "1f64e",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person pouting: dark skin tone",
+      "displayName": "不機嫌な人: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64e-1f3ff.svg",
+      "codepoint": "1f64e-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person pouting: light skin tone",
+      "displayName": "不機嫌な人: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64e-1f3fb.svg",
+      "codepoint": "1f64e-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person pouting: medium skin tone",
+      "displayName": "不機嫌な人: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64e-1f3fd.svg",
+      "codepoint": "1f64e-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person pouting: medium-dark skin tone",
+      "displayName": "不機嫌な人: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64e-1f3fe.svg",
+      "codepoint": "1f64e-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person pouting: medium-light skin tone",
+      "displayName": "不機嫌な人: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64e-1f3fc.svg",
+      "codepoint": "1f64e-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person raising hand",
+      "displayName": "手を挙げる人",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64b.svg",
+      "codepoint": "1f64b",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person raising hand: dark skin tone",
+      "displayName": "手を挙げる人: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64b-1f3ff.svg",
+      "codepoint": "1f64b-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person raising hand: light skin tone",
+      "displayName": "手を挙げる人: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64b-1f3fb.svg",
+      "codepoint": "1f64b-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person raising hand: medium skin tone",
+      "displayName": "手を挙げる人: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64b-1f3fd.svg",
+      "codepoint": "1f64b-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person raising hand: medium-dark skin tone",
+      "displayName": "手を挙げる人: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64b-1f3fe.svg",
+      "codepoint": "1f64b-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person raising hand: medium-light skin tone",
+      "displayName": "手を挙げる人: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64b-1f3fc.svg",
+      "codepoint": "1f64b-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "pleading face",
+      "displayName": "訴えるような顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f97a.svg",
+      "codepoint": "1f97a",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "pouting cat",
+      "displayName": "不機嫌な猫",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f63e.svg",
+      "codepoint": "1f63e",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "raised back of hand",
+      "displayName": "手の甲",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f91a.svg",
+      "codepoint": "1f91a",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "raised back of hand: dark skin tone",
+      "displayName": "手の甲: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f91a-1f3ff.svg",
+      "codepoint": "1f91a-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "raised back of hand: light skin tone",
+      "displayName": "手の甲: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f91a-1f3fb.svg",
+      "codepoint": "1f91a-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "raised back of hand: medium skin tone",
+      "displayName": "手の甲: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f91a-1f3fd.svg",
+      "codepoint": "1f91a-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "raised back of hand: medium-dark skin tone",
+      "displayName": "手の甲: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f91a-1f3fe.svg",
+      "codepoint": "1f91a-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "raised back of hand: medium-light skin tone",
+      "displayName": "手の甲: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f91a-1f3fc.svg",
+      "codepoint": "1f91a-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "raising hands",
+      "displayName": "バンザイ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64c.svg",
+      "codepoint": "1f64c",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "raising hands: dark skin tone",
+      "displayName": "バンザイ: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64c-1f3ff.svg",
+      "codepoint": "1f64c-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "raising hands: light skin tone",
+      "displayName": "バンザイ: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64c-1f3fb.svg",
+      "codepoint": "1f64c-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "raising hands: medium skin tone",
+      "displayName": "バンザイ: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64c-1f3fd.svg",
+      "codepoint": "1f64c-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "raising hands: medium-dark skin tone",
+      "displayName": "バンザイ: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64c-1f3fe.svg",
+      "codepoint": "1f64c-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "raising hands: medium-light skin tone",
+      "displayName": "バンザイ: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64c-1f3fc.svg",
+      "codepoint": "1f64c-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "relieved face",
+      "displayName": "ほっとした顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f60c.svg",
+      "codepoint": "1f60c",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "right-facing fist",
+      "displayName": "右向きのこぶし",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f91c.svg",
+      "codepoint": "1f91c",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "right-facing fist: dark skin tone",
+      "displayName": "右向きのこぶし: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f91c-1f3ff.svg",
+      "codepoint": "1f91c-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "right-facing fist: light skin tone",
+      "displayName": "右向きのこぶし: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f91c-1f3fb.svg",
+      "codepoint": "1f91c-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "right-facing fist: medium skin tone",
+      "displayName": "右向きのこぶし: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f91c-1f3fd.svg",
+      "codepoint": "1f91c-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "right-facing fist: medium-dark skin tone",
+      "displayName": "右向きのこぶし: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f91c-1f3fe.svg",
+      "codepoint": "1f91c-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "right-facing fist: medium-light skin tone",
+      "displayName": "右向きのこぶし: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f91c-1f3fc.svg",
+      "codepoint": "1f91c-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "robot",
+      "displayName": "ロボット",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f916.svg",
+      "codepoint": "1f916",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "rolling on the floor laughing",
+      "displayName": "笑い転げる",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f923.svg",
+      "codepoint": "1f923",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "sad but relieved face",
+      "displayName": "どうしよう",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f625.svg",
+      "codepoint": "1f625",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "saluting face",
+      "displayName": "敬礼する顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fae1.svg",
+      "codepoint": "1fae1",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "see-no-evil monkey",
+      "displayName": "見ざる",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f648.svg",
+      "codepoint": "1f648",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "shushing face",
+      "displayName": "しーっ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f92b.svg",
+      "codepoint": "1f92b",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "sign of the horns",
+      "displayName": "角の指サイン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f918.svg",
+      "codepoint": "1f918",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "sign of the horns: dark skin tone",
+      "displayName": "角の指サイン: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f918-1f3ff.svg",
+      "codepoint": "1f918-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "sign of the horns: light skin tone",
+      "displayName": "角の指サイン: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f918-1f3fb.svg",
+      "codepoint": "1f918-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "sign of the horns: medium skin tone",
+      "displayName": "角の指サイン: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f918-1f3fd.svg",
+      "codepoint": "1f918-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "sign of the horns: medium-dark skin tone",
+      "displayName": "角の指サイン: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f918-1f3fe.svg",
+      "codepoint": "1f918-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "sign of the horns: medium-light skin tone",
+      "displayName": "角の指サイン: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f918-1f3fc.svg",
+      "codepoint": "1f918-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "sleeping face",
+      "displayName": "寝る",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f634.svg",
+      "codepoint": "1f634",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "sleepy face",
+      "displayName": "眠い",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f62a.svg",
+      "codepoint": "1f62a",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "slightly frowning face",
+      "displayName": "少し困った顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f641.svg",
+      "codepoint": "1f641",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "slightly smiling face",
+      "displayName": "微笑む",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f642.svg",
+      "codepoint": "1f642",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "smiling cat with heart-eyes",
+      "displayName": "目がハートの猫",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f63b.svg",
+      "codepoint": "1f63b",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "smiling face with halo",
+      "displayName": "天使の輪がついた笑顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f607.svg",
+      "codepoint": "1f607",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "smiling face with heart-eyes",
+      "displayName": "目がハートの笑顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f60d.svg",
+      "codepoint": "1f60d",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "smiling face with hearts",
+      "displayName": "ハートの笑顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f970.svg",
+      "codepoint": "1f970",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "smiling face with horns",
+      "displayName": "笑った悪魔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f608.svg",
+      "codepoint": "1f608",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "smiling face with open hands",
+      "displayName": "ハグ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f917.svg",
+      "codepoint": "1f917",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "smiling face with smiling eyes",
+      "displayName": "にこにこ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f60a.svg",
+      "codepoint": "1f60a",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "smiling face with sunglasses",
+      "displayName": "サングラスで笑顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f60e.svg",
+      "codepoint": "1f60e",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "smiling face with tear",
+      "displayName": "嬉し涙の顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f972.svg",
+      "codepoint": "1f972",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "smirking face",
+      "displayName": "薄笑いをする顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f60f.svg",
+      "codepoint": "1f60f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "sneezing face",
+      "displayName": "くしゃみする顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f927.svg",
+      "codepoint": "1f927",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "speak-no-evil monkey",
+      "displayName": "言わざる",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64a.svg",
+      "codepoint": "1f64a",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "squinting face with tongue",
+      "displayName": "目を閉じてべー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f61d.svg",
+      "codepoint": "1f61d",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "star-struck",
+      "displayName": "目が星の笑顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f929.svg",
+      "codepoint": "1f929",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "thinking face",
+      "displayName": "考える顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f914.svg",
+      "codepoint": "1f914",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "tired face",
+      "displayName": "疲れた",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f62b.svg",
+      "codepoint": "1f62b",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "unamused face",
+      "displayName": "しらけた",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f612.svg",
+      "codepoint": "1f612",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "upside-down face",
+      "displayName": "さかさまの顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f643.svg",
+      "codepoint": "1f643",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "weary cat",
+      "displayName": "絶望する猫",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f640.svg",
+      "codepoint": "1f640",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "weary face",
+      "displayName": "あきらめ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f629.svg",
+      "codepoint": "1f629",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "winking face",
+      "displayName": "ウインク",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f609.svg",
+      "codepoint": "1f609",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "winking face with tongue",
+      "displayName": "あっかんべー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f61c.svg",
+      "codepoint": "1f61c",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman bowing",
+      "displayName": "おじぎする女",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f647-200d-2640-fe0f.svg",
+      "codepoint": "1f647-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman bowing: dark skin tone",
+      "displayName": "おじぎする女: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f647-1f3ff-200d-2640-fe0f.svg",
+      "codepoint": "1f647-1f3ff-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman bowing: light skin tone",
+      "displayName": "おじぎする女: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f647-1f3fb-200d-2640-fe0f.svg",
+      "codepoint": "1f647-1f3fb-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman bowing: medium skin tone",
+      "displayName": "おじぎする女: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f647-1f3fd-200d-2640-fe0f.svg",
+      "codepoint": "1f647-1f3fd-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman bowing: medium-dark skin tone",
+      "displayName": "おじぎする女: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f647-1f3fe-200d-2640-fe0f.svg",
+      "codepoint": "1f647-1f3fe-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman bowing: medium-light skin tone",
+      "displayName": "おじぎする女: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f647-1f3fc-200d-2640-fe0f.svg",
+      "codepoint": "1f647-1f3fc-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman facepalming",
+      "displayName": "ひたいに手をあてる女",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f926-200d-2640-fe0f.svg",
+      "codepoint": "1f926-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman facepalming: dark skin tone",
+      "displayName": "ひたいに手をあてる女: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f926-1f3ff-200d-2640-fe0f.svg",
+      "codepoint": "1f926-1f3ff-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman facepalming: light skin tone",
+      "displayName": "ひたいに手をあてる女: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f926-1f3fb-200d-2640-fe0f.svg",
+      "codepoint": "1f926-1f3fb-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman facepalming: medium skin tone",
+      "displayName": "ひたいに手をあてる女: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f926-1f3fd-200d-2640-fe0f.svg",
+      "codepoint": "1f926-1f3fd-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman facepalming: medium-dark skin tone",
+      "displayName": "ひたいに手をあてる女: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f926-1f3fe-200d-2640-fe0f.svg",
+      "codepoint": "1f926-1f3fe-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman facepalming: medium-light skin tone",
+      "displayName": "ひたいに手をあてる女: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f926-1f3fc-200d-2640-fe0f.svg",
+      "codepoint": "1f926-1f3fc-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman frowning",
+      "displayName": "しかめ面の女",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64d-200d-2640-fe0f.svg",
+      "codepoint": "1f64d-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman frowning: dark skin tone",
+      "displayName": "しかめ面の女: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64d-1f3ff-200d-2640-fe0f.svg",
+      "codepoint": "1f64d-1f3ff-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman frowning: light skin tone",
+      "displayName": "しかめ面の女: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64d-1f3fb-200d-2640-fe0f.svg",
+      "codepoint": "1f64d-1f3fb-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman frowning: medium skin tone",
+      "displayName": "しかめ面の女: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64d-1f3fd-200d-2640-fe0f.svg",
+      "codepoint": "1f64d-1f3fd-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman frowning: medium-dark skin tone",
+      "displayName": "しかめ面の女: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64d-1f3fe-200d-2640-fe0f.svg",
+      "codepoint": "1f64d-1f3fe-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman frowning: medium-light skin tone",
+      "displayName": "しかめ面の女: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64d-1f3fc-200d-2640-fe0f.svg",
+      "codepoint": "1f64d-1f3fc-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman gesturing NO",
+      "displayName": "ダメのポーズをする女",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f645-200d-2640-fe0f.svg",
+      "codepoint": "1f645-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman gesturing NO: dark skin tone",
+      "displayName": "ダメのポーズをする女: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f645-1f3ff-200d-2640-fe0f.svg",
+      "codepoint": "1f645-1f3ff-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman gesturing NO: light skin tone",
+      "displayName": "ダメのポーズをする女: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f645-1f3fb-200d-2640-fe0f.svg",
+      "codepoint": "1f645-1f3fb-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman gesturing NO: medium skin tone",
+      "displayName": "ダメのポーズをする女: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f645-1f3fd-200d-2640-fe0f.svg",
+      "codepoint": "1f645-1f3fd-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman gesturing NO: medium-dark skin tone",
+      "displayName": "ダメのポーズをする女: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f645-1f3fe-200d-2640-fe0f.svg",
+      "codepoint": "1f645-1f3fe-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman gesturing NO: medium-light skin tone",
+      "displayName": "ダメのポーズをする女: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f645-1f3fc-200d-2640-fe0f.svg",
+      "codepoint": "1f645-1f3fc-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman gesturing OK",
+      "displayName": "OKのポーズをする女",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f646-200d-2640-fe0f.svg",
+      "codepoint": "1f646-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman gesturing OK: dark skin tone",
+      "displayName": "OKのポーズをする女: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f646-1f3ff-200d-2640-fe0f.svg",
+      "codepoint": "1f646-1f3ff-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman gesturing OK: light skin tone",
+      "displayName": "OKのポーズをする女: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f646-1f3fb-200d-2640-fe0f.svg",
+      "codepoint": "1f646-1f3fb-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman gesturing OK: medium skin tone",
+      "displayName": "OKのポーズをする女: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f646-1f3fd-200d-2640-fe0f.svg",
+      "codepoint": "1f646-1f3fd-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman gesturing OK: medium-dark skin tone",
+      "displayName": "OKのポーズをする女: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f646-1f3fe-200d-2640-fe0f.svg",
+      "codepoint": "1f646-1f3fe-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman gesturing OK: medium-light skin tone",
+      "displayName": "OKのポーズをする女: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f646-1f3fc-200d-2640-fe0f.svg",
+      "codepoint": "1f646-1f3fc-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman pouting",
+      "displayName": "不機嫌な女",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64e-200d-2640-fe0f.svg",
+      "codepoint": "1f64e-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman pouting: dark skin tone",
+      "displayName": "不機嫌な女: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64e-1f3ff-200d-2640-fe0f.svg",
+      "codepoint": "1f64e-1f3ff-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman pouting: light skin tone",
+      "displayName": "不機嫌な女: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64e-1f3fb-200d-2640-fe0f.svg",
+      "codepoint": "1f64e-1f3fb-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman pouting: medium skin tone",
+      "displayName": "不機嫌な女: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64e-1f3fd-200d-2640-fe0f.svg",
+      "codepoint": "1f64e-1f3fd-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman pouting: medium-dark skin tone",
+      "displayName": "不機嫌な女: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64e-1f3fe-200d-2640-fe0f.svg",
+      "codepoint": "1f64e-1f3fe-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman pouting: medium-light skin tone",
+      "displayName": "不機嫌な女: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64e-1f3fc-200d-2640-fe0f.svg",
+      "codepoint": "1f64e-1f3fc-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman raising hand",
+      "displayName": "手を挙げる女",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64b-200d-2640-fe0f.svg",
+      "codepoint": "1f64b-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman raising hand: dark skin tone",
+      "displayName": "手を挙げる女: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64b-1f3ff-200d-2640-fe0f.svg",
+      "codepoint": "1f64b-1f3ff-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman raising hand: light skin tone",
+      "displayName": "手を挙げる女: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64b-1f3fb-200d-2640-fe0f.svg",
+      "codepoint": "1f64b-1f3fb-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman raising hand: medium skin tone",
+      "displayName": "手を挙げる女: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64b-1f3fd-200d-2640-fe0f.svg",
+      "codepoint": "1f64b-1f3fd-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman raising hand: medium-dark skin tone",
+      "displayName": "手を挙げる女: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64b-1f3fe-200d-2640-fe0f.svg",
+      "codepoint": "1f64b-1f3fe-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman raising hand: medium-light skin tone",
+      "displayName": "手を挙げる女: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f64b-1f3fc-200d-2640-fe0f.svg",
+      "codepoint": "1f64b-1f3fc-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woozy face",
+      "displayName": "ふらふらの顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f974.svg",
+      "codepoint": "1f974",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "worried face",
+      "displayName": "悩む顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f61f.svg",
+      "codepoint": "1f61f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "yawning face",
+      "displayName": "あくびした顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f971.svg",
+      "codepoint": "1f971",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "zany face",
+      "displayName": "ふざけた顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f92a.svg",
+      "codepoint": "1f92a",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "zipper-mouth face",
+      "displayName": "口チャック",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f910.svg",
+      "codepoint": "1f910",
+      "license": "CC-BY 4.0"
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "category": "ハート",
+  "count": 24,
+  "license": "CC-BY 4.0 (Twitter, Inc.)",
+  "icons": [
+    {
+      "name": "beating heart",
+      "displayName": "ドキドキするハート",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f493.svg",
+      "codepoint": "1f493",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "blue heart",
+      "displayName": "青いハート",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f499.svg",
+      "codepoint": "1f499",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "broken heart",
+      "displayName": "割れたハート",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f494.svg",
+      "codepoint": "1f494",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "couple with heart",
+      "displayName": "カップルとハート",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f491.svg",
+      "codepoint": "1f491",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "couple with heart: dark skin tone",
+      "displayName": "カップルとハート: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f491-1f3ff.svg",
+      "codepoint": "1f491-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "couple with heart: light skin tone",
+      "displayName": "カップルとハート: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f491-1f3fb.svg",
+      "codepoint": "1f491-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "couple with heart: medium skin tone",
+      "displayName": "カップルとハート: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f491-1f3fd.svg",
+      "codepoint": "1f491-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "couple with heart: medium-dark skin tone",
+      "displayName": "カップルとハート: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f491-1f3fe.svg",
+      "codepoint": "1f491-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "couple with heart: medium-light skin tone",
+      "displayName": "カップルとハート: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f491-1f3fc.svg",
+      "codepoint": "1f491-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "green heart",
+      "displayName": "緑のハート",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f49a.svg",
+      "codepoint": "1f49a",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "growing heart",
+      "displayName": "大きくなるハート",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f497.svg",
+      "codepoint": "1f497",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "heart decoration",
+      "displayName": "ハートデコ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f49f.svg",
+      "codepoint": "1f49f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "heart exclamation",
+      "displayName": "ハートのびっくり",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2763.svg",
+      "codepoint": "2763",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "heart on fire",
+      "displayName": "燃えるハート",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2764-fe0f-200d-1f525.svg",
+      "codepoint": "2764-fe0f-200d-1f525",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "heart with arrow",
+      "displayName": "ハートに矢",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f498.svg",
+      "codepoint": "1f498",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "heart with ribbon",
+      "displayName": "ハートにリボン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f49d.svg",
+      "codepoint": "1f49d",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "mending heart",
+      "displayName": "包帯を巻いたハート",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2764-fe0f-200d-1fa79.svg",
+      "codepoint": "2764-fe0f-200d-1fa79",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "purple heart",
+      "displayName": "紫のハート",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f49c.svg",
+      "codepoint": "1f49c",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "red heart",
+      "displayName": "赤いハート",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2764.svg",
+      "codepoint": "2764",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "revolving hearts",
+      "displayName": "回転するハート",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f49e.svg",
+      "codepoint": "1f49e",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "sparkling heart",
+      "displayName": "きらきらハート",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f496.svg",
+      "codepoint": "1f496",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "two hearts",
+      "displayName": "2つのハート",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f495.svg",
+      "codepoint": "1f495",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "wedding",
+      "displayName": "結婚式",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f492.svg",
+      "codepoint": "1f492",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "yellow heart",
+      "displayName": "黄色のハート",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f49b.svg",
+      "codepoint": "1f49b",
+      "license": "CC-BY 4.0"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "provider": "twemoji",
+  "totalIcons": 3689,
+  "license": "CC-BY 4.0 (Twitter, Inc.)",
+  "attribution": "Twemoji graphics licensed under CC-BY 4.0: https://creativecommons.org/licenses/by/4.0/",
+  "repository": "https://github.com/twitter/twemoji",
+  "categories": [
+    {
+      "slug": "activities",
+      "displayName": "アクティビティ・スポーツ",
+      "count": 196,
+      "file": "activities.json"
+    },
+    {
+      "slug": "animals",
+      "displayName": "動物",
+      "count": 116,
+      "file": "animals.json"
+    },
+    {
+      "slug": "faces",
+      "displayName": "顔・感情",
+      "count": 308,
+      "file": "faces.json"
+    },
+    {
+      "slug": "flags",
+      "displayName": "旗",
+      "count": 258,
+      "file": "flags.json"
+    },
+    {
+      "slug": "food",
+      "displayName": "食べ物・飲み物",
+      "count": 118,
+      "file": "food.json"
+    },
+    {
+      "slug": "hearts",
+      "displayName": "ハート",
+      "count": 24,
+      "file": "hearts.json"
+    },
+    {
+      "slug": "nature",
+      "displayName": "植物",
+      "count": 24,
+      "file": "nature.json"
+    },
+    {
+      "slug": "objects",
+      "displayName": "モノ",
+      "count": 188,
+      "file": "objects.json"
+    },
+    {
+      "slug": "people",
+      "displayName": "人物・体",
+      "count": 1357,
+      "file": "people.json"
+    },
+    {
+      "slug": "symbols",
+      "displayName": "記号",
+      "count": 80,
+      "file": "symbols.json"
+    },
+    {
+      "slug": "travel",
+      "displayName": "旅行",
+      "count": 202,
+      "file": "travel.json"
+    },
+    {
+      "slug": "weather",
+      "displayName": "天気",
+      "count": 53,
+      "file": "weather.json"
+    },
+    {
+      "slug": "other",
+      "displayName": "その他",
+      "count": 765,
+      "file": "other.json"
+    }
+  ]
+}

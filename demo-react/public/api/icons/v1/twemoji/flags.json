@@ -1,0 +1,1813 @@
+{
+  "category": "旗",
+  "count": 258,
+  "license": "CC-BY 4.0 (Twitter, Inc.)",
+  "icons": [
+    {
+      "name": "flag: Afghanistan",
+      "displayName": "旗: アフガニスタン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e6-1f1eb.svg",
+      "codepoint": "1f1e6-1f1eb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Åland Islands",
+      "displayName": "旗: オーランド諸島",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e6-1f1fd.svg",
+      "codepoint": "1f1e6-1f1fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Albania",
+      "displayName": "旗: アルバニア",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e6-1f1f1.svg",
+      "codepoint": "1f1e6-1f1f1",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Algeria",
+      "displayName": "旗: アルジェリア",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e9-1f1ff.svg",
+      "codepoint": "1f1e9-1f1ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: American Samoa",
+      "displayName": "旗: 米領サモア",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e6-1f1f8.svg",
+      "codepoint": "1f1e6-1f1f8",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Andorra",
+      "displayName": "旗: アンドラ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e6-1f1e9.svg",
+      "codepoint": "1f1e6-1f1e9",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Angola",
+      "displayName": "旗: アンゴラ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e6-1f1f4.svg",
+      "codepoint": "1f1e6-1f1f4",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Anguilla",
+      "displayName": "旗: アンギラ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e6-1f1ee.svg",
+      "codepoint": "1f1e6-1f1ee",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Antarctica",
+      "displayName": "旗: 南極",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e6-1f1f6.svg",
+      "codepoint": "1f1e6-1f1f6",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Antigua & Barbuda",
+      "displayName": "旗: アンティグア・バーブーダ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e6-1f1ec.svg",
+      "codepoint": "1f1e6-1f1ec",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Argentina",
+      "displayName": "旗: アルゼンチン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e6-1f1f7.svg",
+      "codepoint": "1f1e6-1f1f7",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Armenia",
+      "displayName": "旗: アルメニア",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e6-1f1f2.svg",
+      "codepoint": "1f1e6-1f1f2",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Aruba",
+      "displayName": "旗: アルバ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e6-1f1fc.svg",
+      "codepoint": "1f1e6-1f1fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Ascension Island",
+      "displayName": "旗: アセンション島",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e6-1f1e8.svg",
+      "codepoint": "1f1e6-1f1e8",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Australia",
+      "displayName": "旗: オーストラリア",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e6-1f1fa.svg",
+      "codepoint": "1f1e6-1f1fa",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Austria",
+      "displayName": "旗: オーストリア",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e6-1f1f9.svg",
+      "codepoint": "1f1e6-1f1f9",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Azerbaijan",
+      "displayName": "旗: アゼルバイジャン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e6-1f1ff.svg",
+      "codepoint": "1f1e6-1f1ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Bahamas",
+      "displayName": "旗: バハマ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e7-1f1f8.svg",
+      "codepoint": "1f1e7-1f1f8",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Bahrain",
+      "displayName": "旗: バーレーン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e7-1f1ed.svg",
+      "codepoint": "1f1e7-1f1ed",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Bangladesh",
+      "displayName": "旗: バングラデシュ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e7-1f1e9.svg",
+      "codepoint": "1f1e7-1f1e9",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Barbados",
+      "displayName": "旗: バルバドス",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e7-1f1e7.svg",
+      "codepoint": "1f1e7-1f1e7",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Belarus",
+      "displayName": "旗: ベラルーシ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e7-1f1fe.svg",
+      "codepoint": "1f1e7-1f1fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Belgium",
+      "displayName": "旗: ベルギー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e7-1f1ea.svg",
+      "codepoint": "1f1e7-1f1ea",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Belize",
+      "displayName": "旗: ベリーズ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e7-1f1ff.svg",
+      "codepoint": "1f1e7-1f1ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Benin",
+      "displayName": "旗: ベナン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e7-1f1ef.svg",
+      "codepoint": "1f1e7-1f1ef",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Bermuda",
+      "displayName": "旗: バミューダ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e7-1f1f2.svg",
+      "codepoint": "1f1e7-1f1f2",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Bhutan",
+      "displayName": "旗: ブータン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e7-1f1f9.svg",
+      "codepoint": "1f1e7-1f1f9",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Bolivia",
+      "displayName": "旗: ボリビア",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e7-1f1f4.svg",
+      "codepoint": "1f1e7-1f1f4",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Bosnia & Herzegovina",
+      "displayName": "旗: ボスニア・ヘルツェゴビナ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e7-1f1e6.svg",
+      "codepoint": "1f1e7-1f1e6",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Botswana",
+      "displayName": "旗: ボツワナ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e7-1f1fc.svg",
+      "codepoint": "1f1e7-1f1fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Bouvet Island",
+      "displayName": "旗: ブーベ島",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e7-1f1fb.svg",
+      "codepoint": "1f1e7-1f1fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Brazil",
+      "displayName": "旗: ブラジル",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e7-1f1f7.svg",
+      "codepoint": "1f1e7-1f1f7",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: British Indian Ocean Territory",
+      "displayName": "旗: 英領インド洋地域",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1ee-1f1f4.svg",
+      "codepoint": "1f1ee-1f1f4",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: British Virgin Islands",
+      "displayName": "旗: 英領ヴァージン諸島",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1fb-1f1ec.svg",
+      "codepoint": "1f1fb-1f1ec",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Brunei",
+      "displayName": "旗: ブルネイ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e7-1f1f3.svg",
+      "codepoint": "1f1e7-1f1f3",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Bulgaria",
+      "displayName": "旗: ブルガリア",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e7-1f1ec.svg",
+      "codepoint": "1f1e7-1f1ec",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Burkina Faso",
+      "displayName": "旗: ブルキナファソ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e7-1f1eb.svg",
+      "codepoint": "1f1e7-1f1eb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Burundi",
+      "displayName": "旗: ブルンジ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e7-1f1ee.svg",
+      "codepoint": "1f1e7-1f1ee",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Cambodia",
+      "displayName": "旗: カンボジア",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f0-1f1ed.svg",
+      "codepoint": "1f1f0-1f1ed",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Cameroon",
+      "displayName": "旗: カメルーン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e8-1f1f2.svg",
+      "codepoint": "1f1e8-1f1f2",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Canada",
+      "displayName": "旗: カナダ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e8-1f1e6.svg",
+      "codepoint": "1f1e8-1f1e6",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Canary Islands",
+      "displayName": "旗: カナリア諸島",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1ee-1f1e8.svg",
+      "codepoint": "1f1ee-1f1e8",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Cape Verde",
+      "displayName": "旗: カーボベルデ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e8-1f1fb.svg",
+      "codepoint": "1f1e8-1f1fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Caribbean Netherlands",
+      "displayName": "旗: オランダ領カリブ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e7-1f1f6.svg",
+      "codepoint": "1f1e7-1f1f6",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Cayman Islands",
+      "displayName": "旗: ケイマン諸島",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f0-1f1fe.svg",
+      "codepoint": "1f1f0-1f1fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Central African Republic",
+      "displayName": "旗: 中央アフリカ共和国",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e8-1f1eb.svg",
+      "codepoint": "1f1e8-1f1eb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Ceuta & Melilla",
+      "displayName": "旗: セウタ・メリリャ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1ea-1f1e6.svg",
+      "codepoint": "1f1ea-1f1e6",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Chad",
+      "displayName": "旗: チャド",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f9-1f1e9.svg",
+      "codepoint": "1f1f9-1f1e9",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Chile",
+      "displayName": "旗: チリ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e8-1f1f1.svg",
+      "codepoint": "1f1e8-1f1f1",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: China",
+      "displayName": "旗: 中国",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e8-1f1f3.svg",
+      "codepoint": "1f1e8-1f1f3",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Christmas Island",
+      "displayName": "旗: クリスマス島",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e8-1f1fd.svg",
+      "codepoint": "1f1e8-1f1fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Clipperton Island",
+      "displayName": "旗: クリッパートン島",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e8-1f1f5.svg",
+      "codepoint": "1f1e8-1f1f5",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Cocos (Keeling) Islands",
+      "displayName": "旗: ココス(キーリング)諸島",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e8-1f1e8.svg",
+      "codepoint": "1f1e8-1f1e8",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Colombia",
+      "displayName": "旗: コロンビア",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e8-1f1f4.svg",
+      "codepoint": "1f1e8-1f1f4",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Comoros",
+      "displayName": "旗: コモロ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f0-1f1f2.svg",
+      "codepoint": "1f1f0-1f1f2",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Congo - Brazzaville",
+      "displayName": "旗: コンゴ共和国(ブラザビル)",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e8-1f1ec.svg",
+      "codepoint": "1f1e8-1f1ec",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Congo - Kinshasa",
+      "displayName": "旗: コンゴ民主共和国(キンシャサ)",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e8-1f1e9.svg",
+      "codepoint": "1f1e8-1f1e9",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Cook Islands",
+      "displayName": "旗: クック諸島",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e8-1f1f0.svg",
+      "codepoint": "1f1e8-1f1f0",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Costa Rica",
+      "displayName": "旗: コスタリカ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e8-1f1f7.svg",
+      "codepoint": "1f1e8-1f1f7",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Côte d’Ivoire",
+      "displayName": "旗: コートジボワール",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e8-1f1ee.svg",
+      "codepoint": "1f1e8-1f1ee",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Croatia",
+      "displayName": "旗: クロアチア",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1ed-1f1f7.svg",
+      "codepoint": "1f1ed-1f1f7",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Cuba",
+      "displayName": "旗: キューバ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e8-1f1fa.svg",
+      "codepoint": "1f1e8-1f1fa",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Curaçao",
+      "displayName": "旗: キュラソー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e8-1f1fc.svg",
+      "codepoint": "1f1e8-1f1fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Cyprus",
+      "displayName": "旗: キプロス",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e8-1f1fe.svg",
+      "codepoint": "1f1e8-1f1fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Czechia",
+      "displayName": "旗: チェコ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e8-1f1ff.svg",
+      "codepoint": "1f1e8-1f1ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Denmark",
+      "displayName": "旗: デンマーク",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e9-1f1f0.svg",
+      "codepoint": "1f1e9-1f1f0",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Diego Garcia",
+      "displayName": "旗: ディエゴガルシア島",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e9-1f1ec.svg",
+      "codepoint": "1f1e9-1f1ec",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Djibouti",
+      "displayName": "旗: ジブチ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e9-1f1ef.svg",
+      "codepoint": "1f1e9-1f1ef",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Dominica",
+      "displayName": "旗: ドミニカ国",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e9-1f1f2.svg",
+      "codepoint": "1f1e9-1f1f2",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Dominican Republic",
+      "displayName": "旗: ドミニカ共和国",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e9-1f1f4.svg",
+      "codepoint": "1f1e9-1f1f4",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Ecuador",
+      "displayName": "旗: エクアドル",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1ea-1f1e8.svg",
+      "codepoint": "1f1ea-1f1e8",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Egypt",
+      "displayName": "旗: エジプト",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1ea-1f1ec.svg",
+      "codepoint": "1f1ea-1f1ec",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: El Salvador",
+      "displayName": "旗: エルサルバドル",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f8-1f1fb.svg",
+      "codepoint": "1f1f8-1f1fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Equatorial Guinea",
+      "displayName": "旗: 赤道ギニア",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1ec-1f1f6.svg",
+      "codepoint": "1f1ec-1f1f6",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Eritrea",
+      "displayName": "旗: エリトリア",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1ea-1f1f7.svg",
+      "codepoint": "1f1ea-1f1f7",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Estonia",
+      "displayName": "旗: エストニア",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1ea-1f1ea.svg",
+      "codepoint": "1f1ea-1f1ea",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Eswatini",
+      "displayName": "旗: エスワティニ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f8-1f1ff.svg",
+      "codepoint": "1f1f8-1f1ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Ethiopia",
+      "displayName": "旗: エチオピア",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1ea-1f1f9.svg",
+      "codepoint": "1f1ea-1f1f9",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: European Union",
+      "displayName": "旗: 欧州連合",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1ea-1f1fa.svg",
+      "codepoint": "1f1ea-1f1fa",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Falkland Islands",
+      "displayName": "旗: フォークランド諸島",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1eb-1f1f0.svg",
+      "codepoint": "1f1eb-1f1f0",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Faroe Islands",
+      "displayName": "旗: フェロー諸島",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1eb-1f1f4.svg",
+      "codepoint": "1f1eb-1f1f4",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Fiji",
+      "displayName": "旗: フィジー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1eb-1f1ef.svg",
+      "codepoint": "1f1eb-1f1ef",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Finland",
+      "displayName": "旗: フィンランド",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1eb-1f1ee.svg",
+      "codepoint": "1f1eb-1f1ee",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: France",
+      "displayName": "旗: フランス",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1eb-1f1f7.svg",
+      "codepoint": "1f1eb-1f1f7",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: French Guiana",
+      "displayName": "旗: 仏領ギアナ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1ec-1f1eb.svg",
+      "codepoint": "1f1ec-1f1eb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: French Polynesia",
+      "displayName": "旗: 仏領ポリネシア",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f5-1f1eb.svg",
+      "codepoint": "1f1f5-1f1eb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: French Southern Territories",
+      "displayName": "旗: 仏領極南諸島",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f9-1f1eb.svg",
+      "codepoint": "1f1f9-1f1eb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Gabon",
+      "displayName": "旗: ガボン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1ec-1f1e6.svg",
+      "codepoint": "1f1ec-1f1e6",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Gambia",
+      "displayName": "旗: ガンビア",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1ec-1f1f2.svg",
+      "codepoint": "1f1ec-1f1f2",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Georgia",
+      "displayName": "旗: ジョージア",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1ec-1f1ea.svg",
+      "codepoint": "1f1ec-1f1ea",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Germany",
+      "displayName": "旗: ドイツ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e9-1f1ea.svg",
+      "codepoint": "1f1e9-1f1ea",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Ghana",
+      "displayName": "旗: ガーナ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1ec-1f1ed.svg",
+      "codepoint": "1f1ec-1f1ed",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Gibraltar",
+      "displayName": "旗: ジブラルタル",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1ec-1f1ee.svg",
+      "codepoint": "1f1ec-1f1ee",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Greece",
+      "displayName": "旗: ギリシャ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1ec-1f1f7.svg",
+      "codepoint": "1f1ec-1f1f7",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Greenland",
+      "displayName": "旗: グリーンランド",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1ec-1f1f1.svg",
+      "codepoint": "1f1ec-1f1f1",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Grenada",
+      "displayName": "旗: グレナダ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1ec-1f1e9.svg",
+      "codepoint": "1f1ec-1f1e9",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Guadeloupe",
+      "displayName": "旗: グアドループ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1ec-1f1f5.svg",
+      "codepoint": "1f1ec-1f1f5",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Guam",
+      "displayName": "旗: グアム",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1ec-1f1fa.svg",
+      "codepoint": "1f1ec-1f1fa",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Guatemala",
+      "displayName": "旗: グアテマラ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1ec-1f1f9.svg",
+      "codepoint": "1f1ec-1f1f9",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Guernsey",
+      "displayName": "旗: ガーンジー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1ec-1f1ec.svg",
+      "codepoint": "1f1ec-1f1ec",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Guinea",
+      "displayName": "旗: ギニア",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1ec-1f1f3.svg",
+      "codepoint": "1f1ec-1f1f3",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Guinea-Bissau",
+      "displayName": "旗: ギニアビサウ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1ec-1f1fc.svg",
+      "codepoint": "1f1ec-1f1fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Guyana",
+      "displayName": "旗: ガイアナ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1ec-1f1fe.svg",
+      "codepoint": "1f1ec-1f1fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Haiti",
+      "displayName": "旗: ハイチ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1ed-1f1f9.svg",
+      "codepoint": "1f1ed-1f1f9",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Heard & McDonald Islands",
+      "displayName": "旗: ハード島・マクドナルド諸島",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1ed-1f1f2.svg",
+      "codepoint": "1f1ed-1f1f2",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Honduras",
+      "displayName": "旗: ホンジュラス",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1ed-1f1f3.svg",
+      "codepoint": "1f1ed-1f1f3",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Hong Kong SAR China",
+      "displayName": "旗: 中華人民共和国香港特別行政区",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1ed-1f1f0.svg",
+      "codepoint": "1f1ed-1f1f0",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Hungary",
+      "displayName": "旗: ハンガリー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1ed-1f1fa.svg",
+      "codepoint": "1f1ed-1f1fa",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Iceland",
+      "displayName": "旗: アイスランド",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1ee-1f1f8.svg",
+      "codepoint": "1f1ee-1f1f8",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: India",
+      "displayName": "旗: インド",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1ee-1f1f3.svg",
+      "codepoint": "1f1ee-1f1f3",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Indonesia",
+      "displayName": "旗: インドネシア",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1ee-1f1e9.svg",
+      "codepoint": "1f1ee-1f1e9",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Iran",
+      "displayName": "旗: イラン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1ee-1f1f7.svg",
+      "codepoint": "1f1ee-1f1f7",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Iraq",
+      "displayName": "旗: イラク",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1ee-1f1f6.svg",
+      "codepoint": "1f1ee-1f1f6",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Ireland",
+      "displayName": "旗: アイルランド",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1ee-1f1ea.svg",
+      "codepoint": "1f1ee-1f1ea",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Isle of Man",
+      "displayName": "旗: マン島",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1ee-1f1f2.svg",
+      "codepoint": "1f1ee-1f1f2",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Israel",
+      "displayName": "旗: イスラエル",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1ee-1f1f1.svg",
+      "codepoint": "1f1ee-1f1f1",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Italy",
+      "displayName": "旗: イタリア",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1ee-1f1f9.svg",
+      "codepoint": "1f1ee-1f1f9",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Jamaica",
+      "displayName": "旗: ジャマイカ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1ef-1f1f2.svg",
+      "codepoint": "1f1ef-1f1f2",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Japan",
+      "displayName": "旗: 日本",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1ef-1f1f5.svg",
+      "codepoint": "1f1ef-1f1f5",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Jersey",
+      "displayName": "旗: ジャージー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1ef-1f1ea.svg",
+      "codepoint": "1f1ef-1f1ea",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Jordan",
+      "displayName": "旗: ヨルダン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1ef-1f1f4.svg",
+      "codepoint": "1f1ef-1f1f4",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Kazakhstan",
+      "displayName": "旗: カザフスタン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f0-1f1ff.svg",
+      "codepoint": "1f1f0-1f1ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Kenya",
+      "displayName": "旗: ケニア",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f0-1f1ea.svg",
+      "codepoint": "1f1f0-1f1ea",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Kiribati",
+      "displayName": "旗: キリバス",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f0-1f1ee.svg",
+      "codepoint": "1f1f0-1f1ee",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Kosovo",
+      "displayName": "旗: コソボ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1fd-1f1f0.svg",
+      "codepoint": "1f1fd-1f1f0",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Kuwait",
+      "displayName": "旗: クウェート",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f0-1f1fc.svg",
+      "codepoint": "1f1f0-1f1fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Kyrgyzstan",
+      "displayName": "旗: キルギス",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f0-1f1ec.svg",
+      "codepoint": "1f1f0-1f1ec",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Laos",
+      "displayName": "旗: ラオス",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f1-1f1e6.svg",
+      "codepoint": "1f1f1-1f1e6",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Latvia",
+      "displayName": "旗: ラトビア",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f1-1f1fb.svg",
+      "codepoint": "1f1f1-1f1fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Lebanon",
+      "displayName": "旗: レバノン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f1-1f1e7.svg",
+      "codepoint": "1f1f1-1f1e7",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Lesotho",
+      "displayName": "旗: レソト",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f1-1f1f8.svg",
+      "codepoint": "1f1f1-1f1f8",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Liberia",
+      "displayName": "旗: リベリア",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f1-1f1f7.svg",
+      "codepoint": "1f1f1-1f1f7",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Libya",
+      "displayName": "旗: リビア",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f1-1f1fe.svg",
+      "codepoint": "1f1f1-1f1fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Liechtenstein",
+      "displayName": "旗: リヒテンシュタイン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f1-1f1ee.svg",
+      "codepoint": "1f1f1-1f1ee",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Lithuania",
+      "displayName": "旗: リトアニア",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f1-1f1f9.svg",
+      "codepoint": "1f1f1-1f1f9",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Luxembourg",
+      "displayName": "旗: ルクセンブルク",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f1-1f1fa.svg",
+      "codepoint": "1f1f1-1f1fa",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Macao SAR China",
+      "displayName": "旗: 中華人民共和国マカオ特別行政区",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f2-1f1f4.svg",
+      "codepoint": "1f1f2-1f1f4",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Madagascar",
+      "displayName": "旗: マダガスカル",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f2-1f1ec.svg",
+      "codepoint": "1f1f2-1f1ec",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Malawi",
+      "displayName": "旗: マラウイ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f2-1f1fc.svg",
+      "codepoint": "1f1f2-1f1fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Malaysia",
+      "displayName": "旗: マレーシア",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f2-1f1fe.svg",
+      "codepoint": "1f1f2-1f1fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Maldives",
+      "displayName": "旗: モルディブ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f2-1f1fb.svg",
+      "codepoint": "1f1f2-1f1fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Mali",
+      "displayName": "旗: マリ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f2-1f1f1.svg",
+      "codepoint": "1f1f2-1f1f1",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Malta",
+      "displayName": "旗: マルタ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f2-1f1f9.svg",
+      "codepoint": "1f1f2-1f1f9",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Marshall Islands",
+      "displayName": "旗: マーシャル諸島",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f2-1f1ed.svg",
+      "codepoint": "1f1f2-1f1ed",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Martinique",
+      "displayName": "旗: マルティニーク",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f2-1f1f6.svg",
+      "codepoint": "1f1f2-1f1f6",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Mauritania",
+      "displayName": "旗: モーリタニア",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f2-1f1f7.svg",
+      "codepoint": "1f1f2-1f1f7",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Mauritius",
+      "displayName": "旗: モーリシャス",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f2-1f1fa.svg",
+      "codepoint": "1f1f2-1f1fa",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Mayotte",
+      "displayName": "旗: マヨット",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1fe-1f1f9.svg",
+      "codepoint": "1f1fe-1f1f9",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Mexico",
+      "displayName": "旗: メキシコ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f2-1f1fd.svg",
+      "codepoint": "1f1f2-1f1fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Micronesia",
+      "displayName": "旗: ミクロネシア連邦",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1eb-1f1f2.svg",
+      "codepoint": "1f1eb-1f1f2",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Moldova",
+      "displayName": "旗: モルドバ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f2-1f1e9.svg",
+      "codepoint": "1f1f2-1f1e9",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Monaco",
+      "displayName": "旗: モナコ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f2-1f1e8.svg",
+      "codepoint": "1f1f2-1f1e8",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Mongolia",
+      "displayName": "旗: モンゴル",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f2-1f1f3.svg",
+      "codepoint": "1f1f2-1f1f3",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Montenegro",
+      "displayName": "旗: モンテネグロ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f2-1f1ea.svg",
+      "codepoint": "1f1f2-1f1ea",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Montserrat",
+      "displayName": "旗: モントセラト",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f2-1f1f8.svg",
+      "codepoint": "1f1f2-1f1f8",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Morocco",
+      "displayName": "旗: モロッコ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f2-1f1e6.svg",
+      "codepoint": "1f1f2-1f1e6",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Mozambique",
+      "displayName": "旗: モザンビーク",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f2-1f1ff.svg",
+      "codepoint": "1f1f2-1f1ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Myanmar (Burma)",
+      "displayName": "旗: ミャンマー (ビルマ)",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f2-1f1f2.svg",
+      "codepoint": "1f1f2-1f1f2",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Namibia",
+      "displayName": "旗: ナミビア",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f3-1f1e6.svg",
+      "codepoint": "1f1f3-1f1e6",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Nauru",
+      "displayName": "旗: ナウル",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f3-1f1f7.svg",
+      "codepoint": "1f1f3-1f1f7",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Nepal",
+      "displayName": "旗: ネパール",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f3-1f1f5.svg",
+      "codepoint": "1f1f3-1f1f5",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Netherlands",
+      "displayName": "旗: オランダ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f3-1f1f1.svg",
+      "codepoint": "1f1f3-1f1f1",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: New Caledonia",
+      "displayName": "旗: ニューカレドニア",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f3-1f1e8.svg",
+      "codepoint": "1f1f3-1f1e8",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: New Zealand",
+      "displayName": "旗: ニュージーランド",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f3-1f1ff.svg",
+      "codepoint": "1f1f3-1f1ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Nicaragua",
+      "displayName": "旗: ニカラグア",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f3-1f1ee.svg",
+      "codepoint": "1f1f3-1f1ee",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Niger",
+      "displayName": "旗: ニジェール",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f3-1f1ea.svg",
+      "codepoint": "1f1f3-1f1ea",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Nigeria",
+      "displayName": "旗: ナイジェリア",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f3-1f1ec.svg",
+      "codepoint": "1f1f3-1f1ec",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Niue",
+      "displayName": "旗: ニウエ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f3-1f1fa.svg",
+      "codepoint": "1f1f3-1f1fa",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Norfolk Island",
+      "displayName": "旗: ノーフォーク島",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f3-1f1eb.svg",
+      "codepoint": "1f1f3-1f1eb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: North Korea",
+      "displayName": "旗: 北朝鮮",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f0-1f1f5.svg",
+      "codepoint": "1f1f0-1f1f5",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: North Macedonia",
+      "displayName": "旗: 北マケドニア",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f2-1f1f0.svg",
+      "codepoint": "1f1f2-1f1f0",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Northern Mariana Islands",
+      "displayName": "旗: 北マリアナ諸島",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f2-1f1f5.svg",
+      "codepoint": "1f1f2-1f1f5",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Norway",
+      "displayName": "旗: ノルウェー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f3-1f1f4.svg",
+      "codepoint": "1f1f3-1f1f4",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Oman",
+      "displayName": "旗: オマーン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f4-1f1f2.svg",
+      "codepoint": "1f1f4-1f1f2",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Pakistan",
+      "displayName": "旗: パキスタン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f5-1f1f0.svg",
+      "codepoint": "1f1f5-1f1f0",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Palau",
+      "displayName": "旗: パラオ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f5-1f1fc.svg",
+      "codepoint": "1f1f5-1f1fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Palestinian Territories",
+      "displayName": "旗: パレスチナ自治区",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f5-1f1f8.svg",
+      "codepoint": "1f1f5-1f1f8",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Panama",
+      "displayName": "旗: パナマ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f5-1f1e6.svg",
+      "codepoint": "1f1f5-1f1e6",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Papua New Guinea",
+      "displayName": "旗: パプアニューギニア",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f5-1f1ec.svg",
+      "codepoint": "1f1f5-1f1ec",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Paraguay",
+      "displayName": "旗: パラグアイ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f5-1f1fe.svg",
+      "codepoint": "1f1f5-1f1fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Peru",
+      "displayName": "旗: ペルー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f5-1f1ea.svg",
+      "codepoint": "1f1f5-1f1ea",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Philippines",
+      "displayName": "旗: フィリピン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f5-1f1ed.svg",
+      "codepoint": "1f1f5-1f1ed",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Pitcairn Islands",
+      "displayName": "旗: ピトケアン諸島",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f5-1f1f3.svg",
+      "codepoint": "1f1f5-1f1f3",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Poland",
+      "displayName": "旗: ポーランド",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f5-1f1f1.svg",
+      "codepoint": "1f1f5-1f1f1",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Portugal",
+      "displayName": "旗: ポルトガル",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f5-1f1f9.svg",
+      "codepoint": "1f1f5-1f1f9",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Puerto Rico",
+      "displayName": "旗: プエルトリコ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f5-1f1f7.svg",
+      "codepoint": "1f1f5-1f1f7",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Qatar",
+      "displayName": "旗: カタール",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f6-1f1e6.svg",
+      "codepoint": "1f1f6-1f1e6",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Réunion",
+      "displayName": "旗: レユニオン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f7-1f1ea.svg",
+      "codepoint": "1f1f7-1f1ea",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Romania",
+      "displayName": "旗: ルーマニア",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f7-1f1f4.svg",
+      "codepoint": "1f1f7-1f1f4",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Russia",
+      "displayName": "旗: ロシア",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f7-1f1fa.svg",
+      "codepoint": "1f1f7-1f1fa",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Rwanda",
+      "displayName": "旗: ルワンダ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f7-1f1fc.svg",
+      "codepoint": "1f1f7-1f1fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Samoa",
+      "displayName": "旗: サモア",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1fc-1f1f8.svg",
+      "codepoint": "1f1fc-1f1f8",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: San Marino",
+      "displayName": "旗: サンマリノ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f8-1f1f2.svg",
+      "codepoint": "1f1f8-1f1f2",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: São Tomé & Príncipe",
+      "displayName": "旗: サントメ・プリンシペ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f8-1f1f9.svg",
+      "codepoint": "1f1f8-1f1f9",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Saudi Arabia",
+      "displayName": "旗: サウジアラビア",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f8-1f1e6.svg",
+      "codepoint": "1f1f8-1f1e6",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Senegal",
+      "displayName": "旗: セネガル",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f8-1f1f3.svg",
+      "codepoint": "1f1f8-1f1f3",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Serbia",
+      "displayName": "旗: セルビア",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f7-1f1f8.svg",
+      "codepoint": "1f1f7-1f1f8",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Seychelles",
+      "displayName": "旗: セーシェル",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f8-1f1e8.svg",
+      "codepoint": "1f1f8-1f1e8",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Sierra Leone",
+      "displayName": "旗: シエラレオネ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f8-1f1f1.svg",
+      "codepoint": "1f1f8-1f1f1",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Singapore",
+      "displayName": "旗: シンガポール",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f8-1f1ec.svg",
+      "codepoint": "1f1f8-1f1ec",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Sint Maarten",
+      "displayName": "旗: シント・マールテン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f8-1f1fd.svg",
+      "codepoint": "1f1f8-1f1fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Slovakia",
+      "displayName": "旗: スロバキア",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f8-1f1f0.svg",
+      "codepoint": "1f1f8-1f1f0",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Slovenia",
+      "displayName": "旗: スロベニア",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f8-1f1ee.svg",
+      "codepoint": "1f1f8-1f1ee",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Solomon Islands",
+      "displayName": "旗: ソロモン諸島",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f8-1f1e7.svg",
+      "codepoint": "1f1f8-1f1e7",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Somalia",
+      "displayName": "旗: ソマリア",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f8-1f1f4.svg",
+      "codepoint": "1f1f8-1f1f4",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: South Africa",
+      "displayName": "旗: 南アフリカ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1ff-1f1e6.svg",
+      "codepoint": "1f1ff-1f1e6",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: South Georgia & South Sandwich Islands",
+      "displayName": "旗: サウスジョージア・サウスサンドウィッチ諸島",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1ec-1f1f8.svg",
+      "codepoint": "1f1ec-1f1f8",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: South Korea",
+      "displayName": "旗: 韓国",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f0-1f1f7.svg",
+      "codepoint": "1f1f0-1f1f7",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: South Sudan",
+      "displayName": "旗: 南スーダン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f8-1f1f8.svg",
+      "codepoint": "1f1f8-1f1f8",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Spain",
+      "displayName": "旗: スペイン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1ea-1f1f8.svg",
+      "codepoint": "1f1ea-1f1f8",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Sri Lanka",
+      "displayName": "旗: スリランカ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f1-1f1f0.svg",
+      "codepoint": "1f1f1-1f1f0",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: St. Barthélemy",
+      "displayName": "旗: サン・バルテルミー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e7-1f1f1.svg",
+      "codepoint": "1f1e7-1f1f1",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: St. Helena",
+      "displayName": "旗: セントヘレナ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f8-1f1ed.svg",
+      "codepoint": "1f1f8-1f1ed",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: St. Kitts & Nevis",
+      "displayName": "旗: セントクリストファー・ネーヴィス",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f0-1f1f3.svg",
+      "codepoint": "1f1f0-1f1f3",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: St. Lucia",
+      "displayName": "旗: セントルシア",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f1-1f1e8.svg",
+      "codepoint": "1f1f1-1f1e8",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: St. Martin",
+      "displayName": "旗: サン・マルタン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f2-1f1eb.svg",
+      "codepoint": "1f1f2-1f1eb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: St. Pierre & Miquelon",
+      "displayName": "旗: サンピエール島・ミクロン島",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f5-1f1f2.svg",
+      "codepoint": "1f1f5-1f1f2",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: St. Vincent & Grenadines",
+      "displayName": "旗: セントビンセント及びグレナディーン諸島",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1fb-1f1e8.svg",
+      "codepoint": "1f1fb-1f1e8",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Sudan",
+      "displayName": "旗: スーダン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f8-1f1e9.svg",
+      "codepoint": "1f1f8-1f1e9",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Suriname",
+      "displayName": "旗: スリナム",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f8-1f1f7.svg",
+      "codepoint": "1f1f8-1f1f7",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Svalbard & Jan Mayen",
+      "displayName": "旗: スバールバル諸島・ヤンマイエン島",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f8-1f1ef.svg",
+      "codepoint": "1f1f8-1f1ef",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Sweden",
+      "displayName": "旗: スウェーデン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f8-1f1ea.svg",
+      "codepoint": "1f1f8-1f1ea",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Switzerland",
+      "displayName": "旗: スイス",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e8-1f1ed.svg",
+      "codepoint": "1f1e8-1f1ed",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Syria",
+      "displayName": "旗: シリア",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f8-1f1fe.svg",
+      "codepoint": "1f1f8-1f1fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Taiwan",
+      "displayName": "旗: 台湾",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f9-1f1fc.svg",
+      "codepoint": "1f1f9-1f1fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Tajikistan",
+      "displayName": "旗: タジキスタン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f9-1f1ef.svg",
+      "codepoint": "1f1f9-1f1ef",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Tanzania",
+      "displayName": "旗: タンザニア",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f9-1f1ff.svg",
+      "codepoint": "1f1f9-1f1ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Thailand",
+      "displayName": "旗: タイ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f9-1f1ed.svg",
+      "codepoint": "1f1f9-1f1ed",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Timor-Leste",
+      "displayName": "旗: 東ティモール",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f9-1f1f1.svg",
+      "codepoint": "1f1f9-1f1f1",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Togo",
+      "displayName": "旗: トーゴ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f9-1f1ec.svg",
+      "codepoint": "1f1f9-1f1ec",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Tokelau",
+      "displayName": "旗: トケラウ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f9-1f1f0.svg",
+      "codepoint": "1f1f9-1f1f0",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Tonga",
+      "displayName": "旗: トンガ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f9-1f1f4.svg",
+      "codepoint": "1f1f9-1f1f4",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Trinidad & Tobago",
+      "displayName": "旗: トリニダード・トバゴ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f9-1f1f9.svg",
+      "codepoint": "1f1f9-1f1f9",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Tristan da Cunha",
+      "displayName": "旗: トリスタン・ダ・クーニャ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f9-1f1e6.svg",
+      "codepoint": "1f1f9-1f1e6",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Tunisia",
+      "displayName": "旗: チュニジア",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f9-1f1f3.svg",
+      "codepoint": "1f1f9-1f1f3",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Türkiye",
+      "displayName": "旗: トルコ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f9-1f1f7.svg",
+      "codepoint": "1f1f9-1f1f7",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Turkmenistan",
+      "displayName": "旗: トルクメニスタン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f9-1f1f2.svg",
+      "codepoint": "1f1f9-1f1f2",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Turks & Caicos Islands",
+      "displayName": "旗: タークス・カイコス諸島",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f9-1f1e8.svg",
+      "codepoint": "1f1f9-1f1e8",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Tuvalu",
+      "displayName": "旗: ツバル",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1f9-1f1fb.svg",
+      "codepoint": "1f1f9-1f1fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: U.S. Outlying Islands",
+      "displayName": "旗: 合衆国領有小離島",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1fa-1f1f2.svg",
+      "codepoint": "1f1fa-1f1f2",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: U.S. Virgin Islands",
+      "displayName": "旗: 米領ヴァージン諸島",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1fb-1f1ee.svg",
+      "codepoint": "1f1fb-1f1ee",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Uganda",
+      "displayName": "旗: ウガンダ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1fa-1f1ec.svg",
+      "codepoint": "1f1fa-1f1ec",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Ukraine",
+      "displayName": "旗: ウクライナ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1fa-1f1e6.svg",
+      "codepoint": "1f1fa-1f1e6",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: United Arab Emirates",
+      "displayName": "旗: アラブ首長国連邦",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1e6-1f1ea.svg",
+      "codepoint": "1f1e6-1f1ea",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: United Kingdom",
+      "displayName": "旗: イギリス",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1ec-1f1e7.svg",
+      "codepoint": "1f1ec-1f1e7",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: United Nations",
+      "displayName": "旗: 国際連合",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1fa-1f1f3.svg",
+      "codepoint": "1f1fa-1f1f3",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: United States",
+      "displayName": "旗: アメリカ合衆国",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1fa-1f1f8.svg",
+      "codepoint": "1f1fa-1f1f8",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Uruguay",
+      "displayName": "旗: ウルグアイ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1fa-1f1fe.svg",
+      "codepoint": "1f1fa-1f1fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Uzbekistan",
+      "displayName": "旗: ウズベキスタン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1fa-1f1ff.svg",
+      "codepoint": "1f1fa-1f1ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Vanuatu",
+      "displayName": "旗: バヌアツ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1fb-1f1fa.svg",
+      "codepoint": "1f1fb-1f1fa",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Vatican City",
+      "displayName": "旗: バチカン市国",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1fb-1f1e6.svg",
+      "codepoint": "1f1fb-1f1e6",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Venezuela",
+      "displayName": "旗: ベネズエラ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1fb-1f1ea.svg",
+      "codepoint": "1f1fb-1f1ea",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Vietnam",
+      "displayName": "旗: ベトナム",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1fb-1f1f3.svg",
+      "codepoint": "1f1fb-1f1f3",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Wallis & Futuna",
+      "displayName": "旗: ウォリス・フツナ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1fc-1f1eb.svg",
+      "codepoint": "1f1fc-1f1eb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Western Sahara",
+      "displayName": "旗: 西サハラ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1ea-1f1ed.svg",
+      "codepoint": "1f1ea-1f1ed",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Yemen",
+      "displayName": "旗: イエメン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1fe-1f1ea.svg",
+      "codepoint": "1f1fe-1f1ea",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Zambia",
+      "displayName": "旗: ザンビア",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1ff-1f1f2.svg",
+      "codepoint": "1f1ff-1f1f2",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Zimbabwe",
+      "displayName": "旗: ジンバブエ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f1ff-1f1fc.svg",
+      "codepoint": "1f1ff-1f1fc",
+      "license": "CC-BY 4.0"
+    }
+  ]
+}

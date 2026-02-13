@@ -1,0 +1,833 @@
+{
+  "category": "食べ物・飲み物",
+  "count": 118,
+  "license": "CC-BY 4.0 (Twitter, Inc.)",
+  "icons": [
+    {
+      "name": "avocado",
+      "displayName": "アボカド",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f951.svg",
+      "codepoint": "1f951",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "baby bottle",
+      "displayName": "ほにゅう瓶",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f37c.svg",
+      "codepoint": "1f37c",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "bacon",
+      "displayName": "ベーコン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f953.svg",
+      "codepoint": "1f953",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "bagel",
+      "displayName": "ベーグル",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f96f.svg",
+      "codepoint": "1f96f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "baguette bread",
+      "displayName": "バゲット",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f956.svg",
+      "codepoint": "1f956",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "banana",
+      "displayName": "バナナ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f34c.svg",
+      "codepoint": "1f34c",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "beans",
+      "displayName": "豆",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fad8.svg",
+      "codepoint": "1fad8",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "beer mug",
+      "displayName": "ビールジョッキ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f37a.svg",
+      "codepoint": "1f37a",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "bell pepper",
+      "displayName": "ピーマン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fad1.svg",
+      "codepoint": "1fad1",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "bento box",
+      "displayName": "弁当",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f371.svg",
+      "codepoint": "1f371",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "beverage box",
+      "displayName": "紙パック飲料",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f9c3.svg",
+      "codepoint": "1f9c3",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "blueberries",
+      "displayName": "ブルーベリー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fad0.svg",
+      "codepoint": "1fad0",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "bottle with popping cork",
+      "displayName": "シャンパン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f37e.svg",
+      "codepoint": "1f37e",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "bowl with spoon",
+      "displayName": "ボウルとスプーン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f963.svg",
+      "codepoint": "1f963",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "bread",
+      "displayName": "食パン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f35e.svg",
+      "codepoint": "1f35e",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "broccoli",
+      "displayName": "ブロッコリー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f966.svg",
+      "codepoint": "1f966",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "bubble tea",
+      "displayName": "タピオカドリンク",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f9cb.svg",
+      "codepoint": "1f9cb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "burrito",
+      "displayName": "ブリトー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f32f.svg",
+      "codepoint": "1f32f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "butter",
+      "displayName": "バター",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f9c8.svg",
+      "codepoint": "1f9c8",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "candy",
+      "displayName": "キャンディ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f36c.svg",
+      "codepoint": "1f36c",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "canned food",
+      "displayName": "缶詰",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f96b.svg",
+      "codepoint": "1f96b",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "carrot",
+      "displayName": "人参",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f955.svg",
+      "codepoint": "1f955",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "cheese wedge",
+      "displayName": "チーズ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f9c0.svg",
+      "codepoint": "1f9c0",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "cherries",
+      "displayName": "さくらんぼ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f352.svg",
+      "codepoint": "1f352",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "chocolate bar",
+      "displayName": "チョコレート",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f36b.svg",
+      "codepoint": "1f36b",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "chopsticks",
+      "displayName": "はし",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f962.svg",
+      "codepoint": "1f962",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "clinking beer mugs",
+      "displayName": "ビールで乾杯",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f37b.svg",
+      "codepoint": "1f37b",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "cocktail glass",
+      "displayName": "カクテルグラス",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f378.svg",
+      "codepoint": "1f378",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "coconut",
+      "displayName": "ココナツ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f965.svg",
+      "codepoint": "1f965",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "cooked rice",
+      "displayName": "ごはん",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f35a.svg",
+      "codepoint": "1f35a",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "cookie",
+      "displayName": "クッキー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f36a.svg",
+      "codepoint": "1f36a",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "cooking",
+      "displayName": "料理",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f373.svg",
+      "codepoint": "1f373",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "croissant",
+      "displayName": "クロワッサン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f950.svg",
+      "codepoint": "1f950",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "cucumber",
+      "displayName": "キュウリ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f952.svg",
+      "codepoint": "1f952",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "cup with straw",
+      "displayName": "ストローカップ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f964.svg",
+      "codepoint": "1f964",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "cupcake",
+      "displayName": "カップケーキ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f9c1.svg",
+      "codepoint": "1f9c1",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "curry rice",
+      "displayName": "カレーライス",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f35b.svg",
+      "codepoint": "1f35b",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "custard",
+      "displayName": "プリン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f36e.svg",
+      "codepoint": "1f36e",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "cut of meat",
+      "displayName": "ステーキ肉",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f969.svg",
+      "codepoint": "1f969",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "dango",
+      "displayName": "だんご",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f361.svg",
+      "codepoint": "1f361",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "doughnut",
+      "displayName": "ドーナツ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f369.svg",
+      "codepoint": "1f369",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "dumpling",
+      "displayName": "点心",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f95f.svg",
+      "codepoint": "1f95f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "ear of corn",
+      "displayName": "とうもろこし",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f33d.svg",
+      "codepoint": "1f33d",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "egg",
+      "displayName": "卵",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f95a.svg",
+      "codepoint": "1f95a",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "eggplant",
+      "displayName": "ナス",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f346.svg",
+      "codepoint": "1f346",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "falafel",
+      "displayName": "ファラフェル",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f9c6.svg",
+      "codepoint": "1f9c6",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "fish cake with swirl",
+      "displayName": "なると",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f365.svg",
+      "codepoint": "1f365",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flatbread",
+      "displayName": "フラットブレッド",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fad3.svg",
+      "codepoint": "1fad3",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "fondue",
+      "displayName": "フォンデュ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fad5.svg",
+      "codepoint": "1fad5",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "fork and knife",
+      "displayName": "ナイフとフォーク",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f374.svg",
+      "codepoint": "1f374",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "fork and knife with plate",
+      "displayName": "ナイフとフォークと皿",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f37d.svg",
+      "codepoint": "1f37d",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "fortune cookie",
+      "displayName": "フォーチュンクッキー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f960.svg",
+      "codepoint": "1f960",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "french fries",
+      "displayName": "フライドポテト",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f35f.svg",
+      "codepoint": "1f35f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "fried shrimp",
+      "displayName": "エビフライ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f364.svg",
+      "codepoint": "1f364",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "garlic",
+      "displayName": "ニンニク",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f9c4.svg",
+      "codepoint": "1f9c4",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "glass of milk",
+      "displayName": "牛乳入りのコップ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f95b.svg",
+      "codepoint": "1f95b",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "grapes",
+      "displayName": "ぶどう",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f347.svg",
+      "codepoint": "1f347",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "green apple",
+      "displayName": "青リンゴ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f34f.svg",
+      "codepoint": "1f34f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "green salad",
+      "displayName": "グリーンサラダ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f957.svg",
+      "codepoint": "1f957",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "hamburger",
+      "displayName": "ハンバーガー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f354.svg",
+      "codepoint": "1f354",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "honey pot",
+      "displayName": "はちみつ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f36f.svg",
+      "codepoint": "1f36f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "hot dog",
+      "displayName": "ホットドッグ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f32d.svg",
+      "codepoint": "1f32d",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "ice",
+      "displayName": "角氷",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f9ca.svg",
+      "codepoint": "1f9ca",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "ice cream",
+      "displayName": "アイスクリーム",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f368.svg",
+      "codepoint": "1f368",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "jar",
+      "displayName": "瓶",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fad9.svg",
+      "codepoint": "1fad9",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "kiwi fruit",
+      "displayName": "キウイフルーツ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f95d.svg",
+      "codepoint": "1f95d",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "leafy green",
+      "displayName": "葉野菜",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f96c.svg",
+      "codepoint": "1f96c",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "lemon",
+      "displayName": "レモン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f34b.svg",
+      "codepoint": "1f34b",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "lollipop",
+      "displayName": "ぺろぺろキャンディ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f36d.svg",
+      "codepoint": "1f36d",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "mango",
+      "displayName": "マンゴー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f96d.svg",
+      "codepoint": "1f96d",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "mate",
+      "displayName": "マテ茶",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f9c9.svg",
+      "codepoint": "1f9c9",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "meat on bone",
+      "displayName": "骨付き肉",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f356.svg",
+      "codepoint": "1f356",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "melon",
+      "displayName": "メロン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f348.svg",
+      "codepoint": "1f348",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "moon cake",
+      "displayName": "月餅",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f96e.svg",
+      "codepoint": "1f96e",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "mushroom",
+      "displayName": "キノコ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f344.svg",
+      "codepoint": "1f344",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "oden",
+      "displayName": "おでん",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f362.svg",
+      "codepoint": "1f362",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "olive",
+      "displayName": "オリーブ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fad2.svg",
+      "codepoint": "1fad2",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "onion",
+      "displayName": "タマネギ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f9c5.svg",
+      "codepoint": "1f9c5",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "pancakes",
+      "displayName": "パンケーキ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f95e.svg",
+      "codepoint": "1f95e",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "peach",
+      "displayName": "桃",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f351.svg",
+      "codepoint": "1f351",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "peanuts",
+      "displayName": "ピーナッツ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f95c.svg",
+      "codepoint": "1f95c",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "pear",
+      "displayName": "洋ナシ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f350.svg",
+      "codepoint": "1f350",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "pie",
+      "displayName": "パイ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f967.svg",
+      "codepoint": "1f967",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "pineapple",
+      "displayName": "パイナップル",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f34d.svg",
+      "codepoint": "1f34d",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "pizza",
+      "displayName": "ピザ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f355.svg",
+      "codepoint": "1f355",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "popcorn",
+      "displayName": "ポップコーン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f37f.svg",
+      "codepoint": "1f37f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "pot of food",
+      "displayName": "なべ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f372.svg",
+      "codepoint": "1f372",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "potato",
+      "displayName": "ジャガイモ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f954.svg",
+      "codepoint": "1f954",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "poultry leg",
+      "displayName": "鶏もも肉",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f357.svg",
+      "codepoint": "1f357",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "pouring liquid",
+      "displayName": "コップから注ぐ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fad7.svg",
+      "codepoint": "1fad7",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "pretzel",
+      "displayName": "プレッツェル",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f968.svg",
+      "codepoint": "1f968",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "red apple",
+      "displayName": "赤リンゴ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f34e.svg",
+      "codepoint": "1f34e",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "rice ball",
+      "displayName": "おにぎり",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f359.svg",
+      "codepoint": "1f359",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "rice cracker",
+      "displayName": "せんべい",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f358.svg",
+      "codepoint": "1f358",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "roasted sweet potato",
+      "displayName": "焼き芋",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f360.svg",
+      "codepoint": "1f360",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "sake",
+      "displayName": "徳利",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f376.svg",
+      "codepoint": "1f376",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "salt",
+      "displayName": "塩",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f9c2.svg",
+      "codepoint": "1f9c2",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "sandwich",
+      "displayName": "サンドイッチ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f96a.svg",
+      "codepoint": "1f96a",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "shallow pan of food",
+      "displayName": "パエリア",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f958.svg",
+      "codepoint": "1f958",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "shaved ice",
+      "displayName": "かき氷",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f367.svg",
+      "codepoint": "1f367",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "shortcake",
+      "displayName": "ショートケーキ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f370.svg",
+      "codepoint": "1f370",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "soft ice cream",
+      "displayName": "ソフトクリーム",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f366.svg",
+      "codepoint": "1f366",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "spaghetti",
+      "displayName": "スパゲッティ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f35d.svg",
+      "codepoint": "1f35d",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "steaming bowl",
+      "displayName": "ラーメン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f35c.svg",
+      "codepoint": "1f35c",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "strawberry",
+      "displayName": "いちご",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f353.svg",
+      "codepoint": "1f353",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "stuffed flatbread",
+      "displayName": "ケバブサンド",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f959.svg",
+      "codepoint": "1f959",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "sushi",
+      "displayName": "すし",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f363.svg",
+      "codepoint": "1f363",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "taco",
+      "displayName": "タコス",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f32e.svg",
+      "codepoint": "1f32e",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "takeout box",
+      "displayName": "テイクアウト弁当",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f961.svg",
+      "codepoint": "1f961",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "tamale",
+      "displayName": "タマル",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fad4.svg",
+      "codepoint": "1fad4",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "tangerine",
+      "displayName": "みかん",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f34a.svg",
+      "codepoint": "1f34a",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "teacup without handle",
+      "displayName": "湯飲み",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f375.svg",
+      "codepoint": "1f375",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "teapot",
+      "displayName": "ティーポット",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fad6.svg",
+      "codepoint": "1fad6",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "tomato",
+      "displayName": "トマト",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f345.svg",
+      "codepoint": "1f345",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "tropical drink",
+      "displayName": "トロピカルドリンク",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f379.svg",
+      "codepoint": "1f379",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "waffle",
+      "displayName": "ワッフル",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f9c7.svg",
+      "codepoint": "1f9c7",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "watermelon",
+      "displayName": "スイカ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f349.svg",
+      "codepoint": "1f349",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "wine glass",
+      "displayName": "ワイングラス",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f377.svg",
+      "codepoint": "1f377",
+      "license": "CC-BY 4.0"
+    }
+  ]
+}

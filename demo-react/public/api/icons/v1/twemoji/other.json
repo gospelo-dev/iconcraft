@@ -1,0 +1,5362 @@
+{
+  "category": "その他",
+  "count": 765,
+  "license": "CC-BY 4.0 (Twitter, Inc.)",
+  "icons": [
+    {
+      "name": "1st place medal",
+      "displayName": "金メダル",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f947.svg",
+      "codepoint": "1f947",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "2nd place medal",
+      "displayName": "銀メダル",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f948.svg",
+      "codepoint": "1f948",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "3rd place medal",
+      "displayName": "銅メダル",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f949.svg",
+      "codepoint": "1f949",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "A button (blood type)",
+      "displayName": "血液型A型",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f170.svg",
+      "codepoint": "1f170",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "AB button (blood type)",
+      "displayName": "血液型AB型",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f18e.svg",
+      "codepoint": "1f18e",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "abacus",
+      "displayName": "そろばん",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f9ee.svg",
+      "codepoint": "1f9ee",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "accordion",
+      "displayName": "アコーディオン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fa97.svg",
+      "codepoint": "1fa97",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "adhesive bandage",
+      "displayName": "絆創膏",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fa79.svg",
+      "codepoint": "1fa79",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "admission tickets",
+      "displayName": "入場券",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f39f.svg",
+      "codepoint": "1f39f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "alarm clock",
+      "displayName": "目覚まし時計",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/23f0.svg",
+      "codepoint": "23f0",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "alembic",
+      "displayName": "蒸留器",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2697.svg",
+      "codepoint": "2697",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "anatomical heart",
+      "displayName": "心臓",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fac0.svg",
+      "codepoint": "1fac0",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "axe",
+      "displayName": "斧",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fa93.svg",
+      "codepoint": "1fa93",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "B button (blood type)",
+      "displayName": "血液型B型",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f171.svg",
+      "codepoint": "1f171",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "backhand index pointing down",
+      "displayName": "下指差し",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f447.svg",
+      "codepoint": "1f447",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "backhand index pointing down: dark skin tone",
+      "displayName": "下指差し: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f447-1f3ff.svg",
+      "codepoint": "1f447-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "backhand index pointing down: light skin tone",
+      "displayName": "下指差し: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f447-1f3fb.svg",
+      "codepoint": "1f447-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "backhand index pointing down: medium skin tone",
+      "displayName": "下指差し: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f447-1f3fd.svg",
+      "codepoint": "1f447-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "backhand index pointing down: medium-dark skin tone",
+      "displayName": "下指差し: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f447-1f3fe.svg",
+      "codepoint": "1f447-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "backhand index pointing down: medium-light skin tone",
+      "displayName": "下指差し: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f447-1f3fc.svg",
+      "codepoint": "1f447-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "backhand index pointing left",
+      "displayName": "左指差し",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f448.svg",
+      "codepoint": "1f448",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "backhand index pointing left: dark skin tone",
+      "displayName": "左指差し: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f448-1f3ff.svg",
+      "codepoint": "1f448-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "backhand index pointing left: light skin tone",
+      "displayName": "左指差し: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f448-1f3fb.svg",
+      "codepoint": "1f448-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "backhand index pointing left: medium skin tone",
+      "displayName": "左指差し: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f448-1f3fd.svg",
+      "codepoint": "1f448-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "backhand index pointing left: medium-dark skin tone",
+      "displayName": "左指差し: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f448-1f3fe.svg",
+      "codepoint": "1f448-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "backhand index pointing left: medium-light skin tone",
+      "displayName": "左指差し: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f448-1f3fc.svg",
+      "codepoint": "1f448-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "backhand index pointing right",
+      "displayName": "右指差し",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f449.svg",
+      "codepoint": "1f449",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "backhand index pointing right: dark skin tone",
+      "displayName": "右指差し: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f449-1f3ff.svg",
+      "codepoint": "1f449-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "backhand index pointing right: light skin tone",
+      "displayName": "右指差し: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f449-1f3fb.svg",
+      "codepoint": "1f449-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "backhand index pointing right: medium skin tone",
+      "displayName": "右指差し: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f449-1f3fd.svg",
+      "codepoint": "1f449-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "backhand index pointing right: medium-dark skin tone",
+      "displayName": "右指差し: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f449-1f3fe.svg",
+      "codepoint": "1f449-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "backhand index pointing right: medium-light skin tone",
+      "displayName": "右指差し: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f449-1f3fc.svg",
+      "codepoint": "1f449-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "backhand index pointing up",
+      "displayName": "手の甲上指差し",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f446.svg",
+      "codepoint": "1f446",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "backhand index pointing up: dark skin tone",
+      "displayName": "手の甲上指差し: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f446-1f3ff.svg",
+      "codepoint": "1f446-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "backhand index pointing up: light skin tone",
+      "displayName": "手の甲上指差し: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f446-1f3fb.svg",
+      "codepoint": "1f446-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "backhand index pointing up: medium skin tone",
+      "displayName": "手の甲上指差し: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f446-1f3fd.svg",
+      "codepoint": "1f446-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "backhand index pointing up: medium-dark skin tone",
+      "displayName": "手の甲上指差し: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f446-1f3fe.svg",
+      "codepoint": "1f446-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "backhand index pointing up: medium-light skin tone",
+      "displayName": "手の甲上指差し: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f446-1f3fc.svg",
+      "codepoint": "1f446-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "backpack",
+      "displayName": "バックパック",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f392.svg",
+      "codepoint": "1f392",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "balance scale",
+      "displayName": "天秤",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2696.svg",
+      "codepoint": "2696",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "ballet shoes",
+      "displayName": "トウシューズ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fa70.svg",
+      "codepoint": "1fa70",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "balloon",
+      "displayName": "風船",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f388.svg",
+      "codepoint": "1f388",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "banjo",
+      "displayName": "バンジョー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fa95.svg",
+      "codepoint": "1fa95",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "basket",
+      "displayName": "かご",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f9fa.svg",
+      "codepoint": "1f9fa",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "beetle",
+      "displayName": "カブトムシ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fab2.svg",
+      "codepoint": "1fab2",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "bikini",
+      "displayName": "ビキニ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f459.svg",
+      "codepoint": "1f459",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "billed cap",
+      "displayName": "キャップ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f9e2.svg",
+      "codepoint": "1f9e2",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "biohazard",
+      "displayName": "バイオハザード",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2623.svg",
+      "codepoint": "2623",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "birthday cake",
+      "displayName": "バースデーケーキ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f382.svg",
+      "codepoint": "1f382",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "black large square",
+      "displayName": "黒四角特大",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2b1b.svg",
+      "codepoint": "2b1b",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "black medium square",
+      "displayName": "黒四角大",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/25fc.svg",
+      "codepoint": "25fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "black medium-small square",
+      "displayName": "黒四角中",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/25fe.svg",
+      "codepoint": "25fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "black nib",
+      "displayName": "ペン先",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2712.svg",
+      "codepoint": "2712",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "black small square",
+      "displayName": "黒四角小",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/25aa.svg",
+      "codepoint": "25aa",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "blue square",
+      "displayName": "青い四角",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f7e6.svg",
+      "codepoint": "1f7e6",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "boomerang",
+      "displayName": "ブーメラン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fa83.svg",
+      "codepoint": "1fa83",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "boxing glove",
+      "displayName": "ボクシング",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f94a.svg",
+      "codepoint": "1f94a",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "brain",
+      "displayName": "脳",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f9e0.svg",
+      "codepoint": "1f9e0",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "breast-feeding",
+      "displayName": "授乳",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f931.svg",
+      "codepoint": "1f931",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "breast-feeding: dark skin tone",
+      "displayName": "授乳: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f931-1f3ff.svg",
+      "codepoint": "1f931-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "breast-feeding: light skin tone",
+      "displayName": "授乳: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f931-1f3fb.svg",
+      "codepoint": "1f931-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "breast-feeding: medium skin tone",
+      "displayName": "授乳: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f931-1f3fd.svg",
+      "codepoint": "1f931-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "breast-feeding: medium-dark skin tone",
+      "displayName": "授乳: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f931-1f3fe.svg",
+      "codepoint": "1f931-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "breast-feeding: medium-light skin tone",
+      "displayName": "授乳: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f931-1f3fc.svg",
+      "codepoint": "1f931-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "brick",
+      "displayName": "れんが",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f9f1.svg",
+      "codepoint": "1f9f1",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "briefs",
+      "displayName": "ブリーフ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fa72.svg",
+      "codepoint": "1fa72",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "broom",
+      "displayName": "ほうき",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f9f9.svg",
+      "codepoint": "1f9f9",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "brown circle",
+      "displayName": "茶色の丸",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f7e4.svg",
+      "codepoint": "1f7e4",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "brown heart",
+      "displayName": "茶色いハート",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f90e.svg",
+      "codepoint": "1f90e",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "brown square",
+      "displayName": "茶色い四角",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f7eb.svg",
+      "codepoint": "1f7eb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "bucket",
+      "displayName": "バケツ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faa3.svg",
+      "codepoint": "1faa3",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "bust in silhouette",
+      "displayName": "人のシルエット",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f464.svg",
+      "codepoint": "1f464",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "busts in silhouette",
+      "displayName": "2人のシルエット",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f465.svg",
+      "codepoint": "1f465",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "candle",
+      "displayName": "ろうそく",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f56f.svg",
+      "codepoint": "1f56f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "carp streamer",
+      "displayName": "こいのぼり",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f38f.svg",
+      "codepoint": "1f38f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "carpentry saw",
+      "displayName": "のこぎり",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fa9a.svg",
+      "codepoint": "1fa9a",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "chains",
+      "displayName": "鎖",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/26d3.svg",
+      "codepoint": "26d3",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "chair",
+      "displayName": "椅子",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fa91.svg",
+      "codepoint": "1fa91",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "check box with check",
+      "displayName": "チェックボックス",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2611.svg",
+      "codepoint": "2611",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "chess pawn",
+      "displayName": "チェスの駒",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/265f.svg",
+      "codepoint": "265f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Christmas tree",
+      "displayName": "クリスマスツリー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f384.svg",
+      "codepoint": "1f384",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "circled M",
+      "displayName": "丸いMマーク",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/24c2.svg",
+      "codepoint": "24c2",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "CL button",
+      "displayName": "CLマーク",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f191.svg",
+      "codepoint": "1f191",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "clapping hands",
+      "displayName": "拍手",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f44f.svg",
+      "codepoint": "1f44f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "clapping hands: dark skin tone",
+      "displayName": "拍手: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f44f-1f3ff.svg",
+      "codepoint": "1f44f-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "clapping hands: light skin tone",
+      "displayName": "拍手: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f44f-1f3fb.svg",
+      "codepoint": "1f44f-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "clapping hands: medium skin tone",
+      "displayName": "拍手: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f44f-1f3fd.svg",
+      "codepoint": "1f44f-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "clapping hands: medium-dark skin tone",
+      "displayName": "拍手: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f44f-1f3fe.svg",
+      "codepoint": "1f44f-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "clapping hands: medium-light skin tone",
+      "displayName": "拍手: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f44f-1f3fc.svg",
+      "codepoint": "1f44f-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "clinking glasses",
+      "displayName": "グラスで乾杯",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f942.svg",
+      "codepoint": "1f942",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "clutch bag",
+      "displayName": "ポーチ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f45d.svg",
+      "codepoint": "1f45d",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "coat",
+      "displayName": "コート",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f9e5.svg",
+      "codepoint": "1f9e5",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "cockroach",
+      "displayName": "ゴキブリ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fab3.svg",
+      "codepoint": "1fab3",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "coffin",
+      "displayName": "棺桶",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/26b0.svg",
+      "codepoint": "26b0",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "coin",
+      "displayName": "コイン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fa99.svg",
+      "codepoint": "1fa99",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "compass",
+      "displayName": "コンパス",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f9ed.svg",
+      "codepoint": "1f9ed",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "confetti ball",
+      "displayName": "くす玉",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f38a.svg",
+      "codepoint": "1f38a",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "control knobs",
+      "displayName": "コントロールつまみ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f39b.svg",
+      "codepoint": "1f39b",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "COOL button",
+      "displayName": "COOLマーク",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f192.svg",
+      "codepoint": "1f192",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "copyright",
+      "displayName": "著作権マーク",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/a9.svg",
+      "codepoint": "a9",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "coral",
+      "displayName": "サンゴ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fab8.svg",
+      "codepoint": "1fab8",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "couch and lamp",
+      "displayName": "ソファとランプ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6cb.svg",
+      "codepoint": "1f6cb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "crayon",
+      "displayName": "クレヨン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f58d.svg",
+      "codepoint": "1f58d",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "crossed flags",
+      "displayName": "祝日の旗",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f38c.svg",
+      "codepoint": "1f38c",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "crossed swords",
+      "displayName": "クロスした剣",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2694.svg",
+      "codepoint": "2694",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "crown",
+      "displayName": "王冠",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f451.svg",
+      "codepoint": "1f451",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "crutch",
+      "displayName": "松葉杖",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fa7c.svg",
+      "codepoint": "1fa7c",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "curling stone",
+      "displayName": "カーリング",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f94c.svg",
+      "codepoint": "1f94c",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "detective",
+      "displayName": "探偵",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f575.svg",
+      "codepoint": "1f575",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "detective: dark skin tone",
+      "displayName": "探偵: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f575-1f3ff.svg",
+      "codepoint": "1f575-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "detective: light skin tone",
+      "displayName": "探偵: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f575-1f3fb.svg",
+      "codepoint": "1f575-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "detective: medium skin tone",
+      "displayName": "探偵: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f575-1f3fd.svg",
+      "codepoint": "1f575-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "detective: medium-dark skin tone",
+      "displayName": "探偵: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f575-1f3fe.svg",
+      "codepoint": "1f575-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "detective: medium-light skin tone",
+      "displayName": "探偵: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f575-1f3fc.svg",
+      "codepoint": "1f575-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "diving mask",
+      "displayName": "ダイビング マスク",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f93f.svg",
+      "codepoint": "1f93f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "diya lamp",
+      "displayName": "ディヤランプ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fa94.svg",
+      "codepoint": "1fa94",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "dna",
+      "displayName": "DNA",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f9ec.svg",
+      "codepoint": "1f9ec",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "double exclamation mark",
+      "displayName": "二重感嘆符",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/203c.svg",
+      "codepoint": "203c",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "down arrow",
+      "displayName": "下矢印",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2b07.svg",
+      "codepoint": "2b07",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "down-left arrow",
+      "displayName": "左下矢印",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2199.svg",
+      "codepoint": "2199",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "down-right arrow",
+      "displayName": "右下矢印",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2198.svg",
+      "codepoint": "2198",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "dress",
+      "displayName": "ワンピース",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f457.svg",
+      "codepoint": "1f457",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "drop of blood",
+      "displayName": "血液",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fa78.svg",
+      "codepoint": "1fa78",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "drum",
+      "displayName": "ドラム",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f941.svg",
+      "codepoint": "1f941",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "ear",
+      "displayName": "耳",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f442.svg",
+      "codepoint": "1f442",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "ear: dark skin tone",
+      "displayName": "耳: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f442-1f3ff.svg",
+      "codepoint": "1f442-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "ear: light skin tone",
+      "displayName": "耳: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f442-1f3fb.svg",
+      "codepoint": "1f442-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "ear: medium skin tone",
+      "displayName": "耳: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f442-1f3fd.svg",
+      "codepoint": "1f442-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "ear: medium-dark skin tone",
+      "displayName": "耳: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f442-1f3fe.svg",
+      "codepoint": "1f442-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "ear: medium-light skin tone",
+      "displayName": "耳: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f442-1f3fc.svg",
+      "codepoint": "1f442-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "eight o’clock",
+      "displayName": "8時",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f557.svg",
+      "codepoint": "1f557",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "eight-thirty",
+      "displayName": "8時半",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f563.svg",
+      "codepoint": "1f563",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "eject button",
+      "displayName": "取り出しボタン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/23cf.svg",
+      "codepoint": "23cf",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "eleven o’clock",
+      "displayName": "11時",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f55a.svg",
+      "codepoint": "1f55a",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "eleven-thirty",
+      "displayName": "11時半",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f566.svg",
+      "codepoint": "1f566",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "empty nest",
+      "displayName": "空っぽの巣",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fab9.svg",
+      "codepoint": "1fab9",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "envelope",
+      "displayName": "封筒",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2709.svg",
+      "codepoint": "2709",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "exclamation question mark",
+      "displayName": "感嘆符疑問符",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2049.svg",
+      "codepoint": "2049",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "eye",
+      "displayName": "片目",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f441.svg",
+      "codepoint": "1f441",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "eye in speech bubble",
+      "displayName": "吹き出しの目",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f441-200d-1f5e8.svg",
+      "codepoint": "1f441-200d-1f5e8",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "eyes",
+      "displayName": "目",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f440.svg",
+      "codepoint": "1f440",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "fast down button",
+      "displayName": "高速下ボタン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/23ec.svg",
+      "codepoint": "23ec",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "fast reverse button",
+      "displayName": "早戻しボタン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/23ea.svg",
+      "codepoint": "23ea",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "fast up button",
+      "displayName": "高速上ボタン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/23eb.svg",
+      "codepoint": "23eb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "fast-forward button",
+      "displayName": "早送りボタン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/23e9.svg",
+      "codepoint": "23e9",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "female sign",
+      "displayName": "女性のマーク",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2640.svg",
+      "codepoint": "2640",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "film frames",
+      "displayName": "映画フィルム",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f39e.svg",
+      "codepoint": "1f39e",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "fire extinguisher",
+      "displayName": "消火器",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f9ef.svg",
+      "codepoint": "1f9ef",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "firecracker",
+      "displayName": "爆竹",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f9e8.svg",
+      "codepoint": "1f9e8",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "fireworks",
+      "displayName": "打ち上げ花火",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f386.svg",
+      "codepoint": "1f386",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "five o’clock",
+      "displayName": "5時",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f554.svg",
+      "codepoint": "1f554",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "five-thirty",
+      "displayName": "5時半",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f560.svg",
+      "codepoint": "1f560",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "fly",
+      "displayName": "ハエ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fab0.svg",
+      "codepoint": "1fab0",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flying disc",
+      "displayName": "フリスビー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f94f.svg",
+      "codepoint": "1f94f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "footprints",
+      "displayName": "足あと",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f463.svg",
+      "codepoint": "1f463",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "fountain pen",
+      "displayName": "万年筆",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f58b.svg",
+      "codepoint": "1f58b",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "four o’clock",
+      "displayName": "4時",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f553.svg",
+      "codepoint": "1f553",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "four-thirty",
+      "displayName": "4時半",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f55f.svg",
+      "codepoint": "1f55f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "FREE button",
+      "displayName": "FREEマーク",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f193.svg",
+      "codepoint": "1f193",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "frowning face",
+      "displayName": "困った顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2639.svg",
+      "codepoint": "2639",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "funeral urn",
+      "displayName": "骨壺",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/26b1.svg",
+      "codepoint": "26b1",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "gear",
+      "displayName": "歯車",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2699.svg",
+      "codepoint": "2699",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "glasses",
+      "displayName": "メガネ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f453.svg",
+      "codepoint": "1f453",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "gloves",
+      "displayName": "手袋",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f9e4.svg",
+      "codepoint": "1f9e4",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "goal net",
+      "displayName": "ゴールネット",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f945.svg",
+      "codepoint": "1f945",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "graduation cap",
+      "displayName": "角帽",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f393.svg",
+      "codepoint": "1f393",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "green circle",
+      "displayName": "緑の丸",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f7e2.svg",
+      "codepoint": "1f7e2",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "green square",
+      "displayName": "緑の四角",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f7e9.svg",
+      "codepoint": "1f7e9",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "hammer and pick",
+      "displayName": "ハンマーとつるはし",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2692.svg",
+      "codepoint": "2692",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "hamsa",
+      "displayName": "ハムサ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faac.svg",
+      "codepoint": "1faac",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "hand with fingers splayed",
+      "displayName": "開いた手",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f590.svg",
+      "codepoint": "1f590",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "hand with fingers splayed: dark skin tone",
+      "displayName": "開いた手: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f590-1f3ff.svg",
+      "codepoint": "1f590-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "hand with fingers splayed: light skin tone",
+      "displayName": "開いた手: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f590-1f3fb.svg",
+      "codepoint": "1f590-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "hand with fingers splayed: medium skin tone",
+      "displayName": "開いた手: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f590-1f3fd.svg",
+      "codepoint": "1f590-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "hand with fingers splayed: medium-dark skin tone",
+      "displayName": "開いた手: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f590-1f3fe.svg",
+      "codepoint": "1f590-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "hand with fingers splayed: medium-light skin tone",
+      "displayName": "開いた手: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f590-1f3fc.svg",
+      "codepoint": "1f590-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "hand with index finger and thumb crossed",
+      "displayName": "親指と人差し指をクロス",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faf0.svg",
+      "codepoint": "1faf0",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "hand with index finger and thumb crossed: dark skin tone",
+      "displayName": "親指と人差し指をクロス: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faf0-1f3ff.svg",
+      "codepoint": "1faf0-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "hand with index finger and thumb crossed: light skin tone",
+      "displayName": "親指と人差し指をクロス: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faf0-1f3fb.svg",
+      "codepoint": "1faf0-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "hand with index finger and thumb crossed: medium skin tone",
+      "displayName": "親指と人差し指をクロス: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faf0-1f3fd.svg",
+      "codepoint": "1faf0-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "hand with index finger and thumb crossed: medium-dark skin tone",
+      "displayName": "親指と人差し指をクロス: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faf0-1f3fe.svg",
+      "codepoint": "1faf0-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "hand with index finger and thumb crossed: medium-light skin tone",
+      "displayName": "親指と人差し指をクロス: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faf0-1f3fc.svg",
+      "codepoint": "1faf0-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "handbag",
+      "displayName": "ハンドバッグ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f45c.svg",
+      "codepoint": "1f45c",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "handshake: dark skin tone, light skin tone",
+      "displayName": "握手: 濃い肌色 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faf1-1f3ff-200d-1faf2-1f3fb.svg",
+      "codepoint": "1faf1-1f3ff-200d-1faf2-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "handshake: dark skin tone, medium skin tone",
+      "displayName": "握手: 濃い肌色 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faf1-1f3ff-200d-1faf2-1f3fd.svg",
+      "codepoint": "1faf1-1f3ff-200d-1faf2-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "handshake: dark skin tone, medium-dark skin tone",
+      "displayName": "握手: 濃い肌色 やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faf1-1f3ff-200d-1faf2-1f3fe.svg",
+      "codepoint": "1faf1-1f3ff-200d-1faf2-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "handshake: dark skin tone, medium-light skin tone",
+      "displayName": "握手: 濃い肌色 やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faf1-1f3ff-200d-1faf2-1f3fc.svg",
+      "codepoint": "1faf1-1f3ff-200d-1faf2-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "handshake: light skin tone, dark skin tone",
+      "displayName": "握手: 薄い肌色 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faf1-1f3fb-200d-1faf2-1f3ff.svg",
+      "codepoint": "1faf1-1f3fb-200d-1faf2-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "handshake: light skin tone, medium skin tone",
+      "displayName": "握手: 薄い肌色 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faf1-1f3fb-200d-1faf2-1f3fd.svg",
+      "codepoint": "1faf1-1f3fb-200d-1faf2-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "handshake: light skin tone, medium-dark skin tone",
+      "displayName": "握手: 薄い肌色 やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faf1-1f3fb-200d-1faf2-1f3fe.svg",
+      "codepoint": "1faf1-1f3fb-200d-1faf2-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "handshake: light skin tone, medium-light skin tone",
+      "displayName": "握手: 薄い肌色 やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faf1-1f3fb-200d-1faf2-1f3fc.svg",
+      "codepoint": "1faf1-1f3fb-200d-1faf2-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "handshake: medium skin tone, dark skin tone",
+      "displayName": "握手: 中間の肌色 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faf1-1f3fd-200d-1faf2-1f3ff.svg",
+      "codepoint": "1faf1-1f3fd-200d-1faf2-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "handshake: medium skin tone, light skin tone",
+      "displayName": "握手: 中間の肌色 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faf1-1f3fd-200d-1faf2-1f3fb.svg",
+      "codepoint": "1faf1-1f3fd-200d-1faf2-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "handshake: medium skin tone, medium-dark skin tone",
+      "displayName": "握手: 中間の肌色 やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faf1-1f3fd-200d-1faf2-1f3fe.svg",
+      "codepoint": "1faf1-1f3fd-200d-1faf2-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "handshake: medium skin tone, medium-light skin tone",
+      "displayName": "握手: 中間の肌色 やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faf1-1f3fd-200d-1faf2-1f3fc.svg",
+      "codepoint": "1faf1-1f3fd-200d-1faf2-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "handshake: medium-dark skin tone, dark skin tone",
+      "displayName": "握手: やや濃い肌色 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faf1-1f3fe-200d-1faf2-1f3ff.svg",
+      "codepoint": "1faf1-1f3fe-200d-1faf2-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "handshake: medium-dark skin tone, light skin tone",
+      "displayName": "握手: やや濃い肌色 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faf1-1f3fe-200d-1faf2-1f3fb.svg",
+      "codepoint": "1faf1-1f3fe-200d-1faf2-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "handshake: medium-dark skin tone, medium skin tone",
+      "displayName": "握手: やや濃い肌色 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faf1-1f3fe-200d-1faf2-1f3fd.svg",
+      "codepoint": "1faf1-1f3fe-200d-1faf2-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "handshake: medium-dark skin tone, medium-light skin tone",
+      "displayName": "握手: やや濃い肌色 やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faf1-1f3fe-200d-1faf2-1f3fc.svg",
+      "codepoint": "1faf1-1f3fe-200d-1faf2-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "handshake: medium-light skin tone, dark skin tone",
+      "displayName": "握手: やや薄い肌色 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faf1-1f3fc-200d-1faf2-1f3ff.svg",
+      "codepoint": "1faf1-1f3fc-200d-1faf2-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "handshake: medium-light skin tone, light skin tone",
+      "displayName": "握手: やや薄い肌色 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faf1-1f3fc-200d-1faf2-1f3fb.svg",
+      "codepoint": "1faf1-1f3fc-200d-1faf2-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "handshake: medium-light skin tone, medium skin tone",
+      "displayName": "握手: やや薄い肌色 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faf1-1f3fc-200d-1faf2-1f3fd.svg",
+      "codepoint": "1faf1-1f3fc-200d-1faf2-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "handshake: medium-light skin tone, medium-dark skin tone",
+      "displayName": "握手: やや薄い肌色 やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faf1-1f3fc-200d-1faf2-1f3fe.svg",
+      "codepoint": "1faf1-1f3fc-200d-1faf2-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "headstone",
+      "displayName": "墓石",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faa6.svg",
+      "codepoint": "1faa6",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "heart hands",
+      "displayName": "ハート形の手",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faf6.svg",
+      "codepoint": "1faf6",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "heart hands: dark skin tone",
+      "displayName": "ハート形の手: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faf6-1f3ff.svg",
+      "codepoint": "1faf6-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "heart hands: light skin tone",
+      "displayName": "ハート形の手: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faf6-1f3fb.svg",
+      "codepoint": "1faf6-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "heart hands: medium skin tone",
+      "displayName": "ハート形の手: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faf6-1f3fd.svg",
+      "codepoint": "1faf6-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "heart hands: medium-dark skin tone",
+      "displayName": "ハート形の手: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faf6-1f3fe.svg",
+      "codepoint": "1faf6-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "heart hands: medium-light skin tone",
+      "displayName": "ハート形の手: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faf6-1f3fc.svg",
+      "codepoint": "1faf6-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "heavy equals sign",
+      "displayName": "太字の等号",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f7f0.svg",
+      "codepoint": "1f7f0",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "high-heeled shoe",
+      "displayName": "ハイヒール",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f460.svg",
+      "codepoint": "1f460",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "hole",
+      "displayName": "穴",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f573.svg",
+      "codepoint": "1f573",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "hollow red circle",
+      "displayName": "太い丸",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2b55.svg",
+      "codepoint": "2b55",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "hook",
+      "displayName": "フック",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fa9d.svg",
+      "codepoint": "1fa9d",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "hot beverage",
+      "displayName": "温かい飲み物",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2615.svg",
+      "codepoint": "2615",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "hourglass done",
+      "displayName": "砂時計",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/231b.svg",
+      "codepoint": "231b",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "hourglass not done",
+      "displayName": "砂が落ちている砂時計",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/23f3.svg",
+      "codepoint": "23f3",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "ice skate",
+      "displayName": "アイススケート",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/26f8.svg",
+      "codepoint": "26f8",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "ID button",
+      "displayName": "IDマーク",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f194.svg",
+      "codepoint": "1f194",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "identification card",
+      "displayName": "身分証",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faaa.svg",
+      "codepoint": "1faaa",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "index pointing at the viewer",
+      "displayName": "人を指差している手",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faf5.svg",
+      "codepoint": "1faf5",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "index pointing at the viewer: dark skin tone",
+      "displayName": "人を指差している手: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faf5-1f3ff.svg",
+      "codepoint": "1faf5-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "index pointing at the viewer: light skin tone",
+      "displayName": "人を指差している手: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faf5-1f3fb.svg",
+      "codepoint": "1faf5-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "index pointing at the viewer: medium skin tone",
+      "displayName": "人を指差している手: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faf5-1f3fd.svg",
+      "codepoint": "1faf5-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "index pointing at the viewer: medium-dark skin tone",
+      "displayName": "人を指差している手: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faf5-1f3fe.svg",
+      "codepoint": "1faf5-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "index pointing at the viewer: medium-light skin tone",
+      "displayName": "人を指差している手: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faf5-1f3fc.svg",
+      "codepoint": "1faf5-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "index pointing up",
+      "displayName": "上指差し",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/261d.svg",
+      "codepoint": "261d",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "index pointing up: dark skin tone",
+      "displayName": "上指差し: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/261d-1f3ff.svg",
+      "codepoint": "261d-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "index pointing up: light skin tone",
+      "displayName": "上指差し: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/261d-1f3fb.svg",
+      "codepoint": "261d-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "index pointing up: medium skin tone",
+      "displayName": "上指差し: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/261d-1f3fd.svg",
+      "codepoint": "261d-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "index pointing up: medium-dark skin tone",
+      "displayName": "上指差し: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/261d-1f3fe.svg",
+      "codepoint": "261d-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "index pointing up: medium-light skin tone",
+      "displayName": "上指差し: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/261d-1f3fc.svg",
+      "codepoint": "261d-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "infinity",
+      "displayName": "無限大",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/267e.svg",
+      "codepoint": "267e",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "information",
+      "displayName": "iマーク",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2139.svg",
+      "codepoint": "2139",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "jack-o-lantern",
+      "displayName": "ハロウィンかぼちゃ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f383.svg",
+      "codepoint": "1f383",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Japanese “acceptable” button",
+      "displayName": "可マーク",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f251.svg",
+      "codepoint": "1f251",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Japanese “application” button",
+      "displayName": "申マーク",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f238.svg",
+      "codepoint": "1f238",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Japanese “bargain” button",
+      "displayName": "マル得",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f250.svg",
+      "codepoint": "1f250",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Japanese “congratulations” button",
+      "displayName": "祝マーク",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/3297.svg",
+      "codepoint": "3297",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Japanese “discount” button",
+      "displayName": "割マーク",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f239.svg",
+      "codepoint": "1f239",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Japanese “free of charge” button",
+      "displayName": "無マーク",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f21a.svg",
+      "codepoint": "1f21a",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Japanese “here” button",
+      "displayName": "ココのマーク",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f201.svg",
+      "codepoint": "1f201",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Japanese “monthly amount” button",
+      "displayName": "月マーク",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f237.svg",
+      "codepoint": "1f237",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Japanese “no vacancy” button",
+      "displayName": "満マーク",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f235.svg",
+      "codepoint": "1f235",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Japanese “not free of charge” button",
+      "displayName": "有マーク",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f236.svg",
+      "codepoint": "1f236",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Japanese “open for business” button",
+      "displayName": "営マーク",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f23a.svg",
+      "codepoint": "1f23a",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Japanese “passing grade” button",
+      "displayName": "合マーク",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f234.svg",
+      "codepoint": "1f234",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Japanese “prohibited” button",
+      "displayName": "禁マーク",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f232.svg",
+      "codepoint": "1f232",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Japanese “reserved” button",
+      "displayName": "指マーク",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f22f.svg",
+      "codepoint": "1f22f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Japanese “secret” button",
+      "displayName": "マル秘",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/3299.svg",
+      "codepoint": "3299",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Japanese “service charge” button",
+      "displayName": "サのマーク",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f202.svg",
+      "codepoint": "1f202",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Japanese “vacancy” button",
+      "displayName": "空マーク",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f233.svg",
+      "codepoint": "1f233",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Japanese dolls",
+      "displayName": "ひな祭り",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f38e.svg",
+      "codepoint": "1f38e",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "jeans",
+      "displayName": "ジーンズ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f456.svg",
+      "codepoint": "1f456",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "joker",
+      "displayName": "ジョーカー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f0cf.svg",
+      "codepoint": "1f0cf",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "joystick",
+      "displayName": "ジョイスティック",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f579.svg",
+      "codepoint": "1f579",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "keyboard",
+      "displayName": "キーボード",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2328.svg",
+      "codepoint": "2328",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "keycap: *",
+      "displayName": "囲み数字: *",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2a-20e3.svg",
+      "codepoint": "2a-20e3",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "keycap: #",
+      "displayName": "囲み数字: #",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/23-20e3.svg",
+      "codepoint": "23-20e3",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "keycap: 0",
+      "displayName": "囲み数字: 0",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/30-20e3.svg",
+      "codepoint": "30-20e3",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "keycap: 1",
+      "displayName": "囲み数字: 1",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/31-20e3.svg",
+      "codepoint": "31-20e3",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "keycap: 2",
+      "displayName": "囲み数字: 2",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/32-20e3.svg",
+      "codepoint": "32-20e3",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "keycap: 3",
+      "displayName": "囲み数字: 3",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/33-20e3.svg",
+      "codepoint": "33-20e3",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "keycap: 4",
+      "displayName": "囲み数字: 4",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/34-20e3.svg",
+      "codepoint": "34-20e3",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "keycap: 5",
+      "displayName": "囲み数字: 5",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/35-20e3.svg",
+      "codepoint": "35-20e3",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "keycap: 6",
+      "displayName": "囲み数字: 6",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/36-20e3.svg",
+      "codepoint": "36-20e3",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "keycap: 7",
+      "displayName": "囲み数字: 7",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/37-20e3.svg",
+      "codepoint": "37-20e3",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "keycap: 8",
+      "displayName": "囲み数字: 8",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/38-20e3.svg",
+      "codepoint": "38-20e3",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "keycap: 9",
+      "displayName": "囲み数字: 9",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/39-20e3.svg",
+      "codepoint": "39-20e3",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "kimono",
+      "displayName": "着物",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f458.svg",
+      "codepoint": "1f458",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "kite",
+      "displayName": "たこ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fa81.svg",
+      "codepoint": "1fa81",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "knot",
+      "displayName": "結び目",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faa2.svg",
+      "codepoint": "1faa2",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "lacrosse",
+      "displayName": "ラクロス",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f94d.svg",
+      "codepoint": "1f94d",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "ladder",
+      "displayName": "はしご",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fa9c.svg",
+      "codepoint": "1fa9c",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "last track button",
+      "displayName": "前の曲ボタン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/23ee.svg",
+      "codepoint": "23ee",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "left arrow",
+      "displayName": "左矢印",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2b05.svg",
+      "codepoint": "2b05",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "left arrow curving right",
+      "displayName": "左カーブ矢印",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/21aa.svg",
+      "codepoint": "21aa",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "left-right arrow",
+      "displayName": "左右矢印",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2194.svg",
+      "codepoint": "2194",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "leftwards hand",
+      "displayName": "左に向けた手",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faf2.svg",
+      "codepoint": "1faf2",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "leftwards hand: dark skin tone",
+      "displayName": "左に向けた手: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faf2-1f3ff.svg",
+      "codepoint": "1faf2-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "leftwards hand: light skin tone",
+      "displayName": "左に向けた手: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faf2-1f3fb.svg",
+      "codepoint": "1faf2-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "leftwards hand: medium skin tone",
+      "displayName": "左に向けた手: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faf2-1f3fd.svg",
+      "codepoint": "1faf2-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "leftwards hand: medium-dark skin tone",
+      "displayName": "左に向けた手: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faf2-1f3fe.svg",
+      "codepoint": "1faf2-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "leftwards hand: medium-light skin tone",
+      "displayName": "左に向けた手: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faf2-1f3fc.svg",
+      "codepoint": "1faf2-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "level slider",
+      "displayName": "レベルスライダー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f39a.svg",
+      "codepoint": "1f39a",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "linked paperclips",
+      "displayName": "つながったクリップ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f587.svg",
+      "codepoint": "1f587",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "long drum",
+      "displayName": "コンガ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fa98.svg",
+      "codepoint": "1fa98",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "lotion bottle",
+      "displayName": "ローション",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f9f4.svg",
+      "codepoint": "1f9f4",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "low battery",
+      "displayName": "バッテリー残量低下",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faab.svg",
+      "codepoint": "1faab",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "luggage",
+      "displayName": "スーツケース",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f9f3.svg",
+      "codepoint": "1f9f3",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "lungs",
+      "displayName": "肺",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fac1.svg",
+      "codepoint": "1fac1",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "magic wand",
+      "displayName": "魔法の杖",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fa84.svg",
+      "codepoint": "1fa84",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "magnet",
+      "displayName": "U字型磁石",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f9f2.svg",
+      "codepoint": "1f9f2",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "mahjong red dragon",
+      "displayName": "麻雀",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f004.svg",
+      "codepoint": "1f004",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "male sign",
+      "displayName": "男性のマーク",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2642.svg",
+      "codepoint": "2642",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man cartwheeling",
+      "displayName": "側転する男",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f938-200d-2642-fe0f.svg",
+      "codepoint": "1f938-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man cartwheeling: dark skin tone",
+      "displayName": "側転する男: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f938-1f3ff-200d-2642-fe0f.svg",
+      "codepoint": "1f938-1f3ff-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man cartwheeling: light skin tone",
+      "displayName": "側転する男: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f938-1f3fb-200d-2642-fe0f.svg",
+      "codepoint": "1f938-1f3fb-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man cartwheeling: medium skin tone",
+      "displayName": "側転する男: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f938-1f3fd-200d-2642-fe0f.svg",
+      "codepoint": "1f938-1f3fd-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man cartwheeling: medium-dark skin tone",
+      "displayName": "側転する男: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f938-1f3fe-200d-2642-fe0f.svg",
+      "codepoint": "1f938-1f3fe-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man cartwheeling: medium-light skin tone",
+      "displayName": "側転する男: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f938-1f3fc-200d-2642-fe0f.svg",
+      "codepoint": "1f938-1f3fc-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man dancing",
+      "displayName": "踊る男",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f57a.svg",
+      "codepoint": "1f57a",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man dancing: dark skin tone",
+      "displayName": "踊る男: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f57a-1f3ff.svg",
+      "codepoint": "1f57a-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man dancing: light skin tone",
+      "displayName": "踊る男: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f57a-1f3fb.svg",
+      "codepoint": "1f57a-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man dancing: medium skin tone",
+      "displayName": "踊る男: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f57a-1f3fd.svg",
+      "codepoint": "1f57a-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man dancing: medium-dark skin tone",
+      "displayName": "踊る男: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f57a-1f3fe.svg",
+      "codepoint": "1f57a-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man dancing: medium-light skin tone",
+      "displayName": "踊る男: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f57a-1f3fc.svg",
+      "codepoint": "1f57a-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man detective",
+      "displayName": "男性の探偵",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f575-fe0f-200d-2642-fe0f.svg",
+      "codepoint": "1f575-fe0f-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man detective: dark skin tone",
+      "displayName": "男性の探偵: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f575-1f3ff-200d-2642-fe0f.svg",
+      "codepoint": "1f575-1f3ff-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man detective: light skin tone",
+      "displayName": "男性の探偵: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f575-1f3fb-200d-2642-fe0f.svg",
+      "codepoint": "1f575-1f3fb-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man detective: medium skin tone",
+      "displayName": "男性の探偵: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f575-1f3fd-200d-2642-fe0f.svg",
+      "codepoint": "1f575-1f3fd-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man detective: medium-dark skin tone",
+      "displayName": "男性の探偵: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f575-1f3fe-200d-2642-fe0f.svg",
+      "codepoint": "1f575-1f3fe-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man detective: medium-light skin tone",
+      "displayName": "男性の探偵: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f575-1f3fc-200d-2642-fe0f.svg",
+      "codepoint": "1f575-1f3fc-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man in tuxedo",
+      "displayName": "タキシードの男性",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f935-200d-2642-fe0f.svg",
+      "codepoint": "1f935-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man in tuxedo: dark skin tone",
+      "displayName": "タキシードの男性: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f935-1f3ff-200d-2642-fe0f.svg",
+      "codepoint": "1f935-1f3ff-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man in tuxedo: light skin tone",
+      "displayName": "タキシードの男性: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f935-1f3fb-200d-2642-fe0f.svg",
+      "codepoint": "1f935-1f3fb-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man in tuxedo: medium skin tone",
+      "displayName": "タキシードの男性: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f935-1f3fd-200d-2642-fe0f.svg",
+      "codepoint": "1f935-1f3fd-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man in tuxedo: medium-dark skin tone",
+      "displayName": "タキシードの男性: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f935-1f3fe-200d-2642-fe0f.svg",
+      "codepoint": "1f935-1f3fe-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man in tuxedo: medium-light skin tone",
+      "displayName": "タキシードの男性: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f935-1f3fc-200d-2642-fe0f.svg",
+      "codepoint": "1f935-1f3fc-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man juggling",
+      "displayName": "ジャグリングをする男",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f939-200d-2642-fe0f.svg",
+      "codepoint": "1f939-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man juggling: dark skin tone",
+      "displayName": "ジャグリングをする男: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f939-1f3ff-200d-2642-fe0f.svg",
+      "codepoint": "1f939-1f3ff-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man juggling: light skin tone",
+      "displayName": "ジャグリングをする男: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f939-1f3fb-200d-2642-fe0f.svg",
+      "codepoint": "1f939-1f3fb-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man juggling: medium skin tone",
+      "displayName": "ジャグリングをする男: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f939-1f3fd-200d-2642-fe0f.svg",
+      "codepoint": "1f939-1f3fd-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man juggling: medium-dark skin tone",
+      "displayName": "ジャグリングをする男: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f939-1f3fe-200d-2642-fe0f.svg",
+      "codepoint": "1f939-1f3fe-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man juggling: medium-light skin tone",
+      "displayName": "ジャグリングをする男: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f939-1f3fc-200d-2642-fe0f.svg",
+      "codepoint": "1f939-1f3fc-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man playing handball",
+      "displayName": "ハンドボールをする男",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f93e-200d-2642-fe0f.svg",
+      "codepoint": "1f93e-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man playing handball: dark skin tone",
+      "displayName": "ハンドボールをする男: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f93e-1f3ff-200d-2642-fe0f.svg",
+      "codepoint": "1f93e-1f3ff-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man playing handball: light skin tone",
+      "displayName": "ハンドボールをする男: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f93e-1f3fb-200d-2642-fe0f.svg",
+      "codepoint": "1f93e-1f3fb-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man playing handball: medium skin tone",
+      "displayName": "ハンドボールをする男: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f93e-1f3fd-200d-2642-fe0f.svg",
+      "codepoint": "1f93e-1f3fd-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man playing handball: medium-dark skin tone",
+      "displayName": "ハンドボールをする男: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f93e-1f3fe-200d-2642-fe0f.svg",
+      "codepoint": "1f93e-1f3fe-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man playing handball: medium-light skin tone",
+      "displayName": "ハンドボールをする男: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f93e-1f3fc-200d-2642-fe0f.svg",
+      "codepoint": "1f93e-1f3fc-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man playing water polo",
+      "displayName": "水球をする男",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f93d-200d-2642-fe0f.svg",
+      "codepoint": "1f93d-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man playing water polo: dark skin tone",
+      "displayName": "水球をする男: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f93d-1f3ff-200d-2642-fe0f.svg",
+      "codepoint": "1f93d-1f3ff-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man playing water polo: light skin tone",
+      "displayName": "水球をする男: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f93d-1f3fb-200d-2642-fe0f.svg",
+      "codepoint": "1f93d-1f3fb-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man playing water polo: medium skin tone",
+      "displayName": "水球をする男: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f93d-1f3fd-200d-2642-fe0f.svg",
+      "codepoint": "1f93d-1f3fd-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man playing water polo: medium-dark skin tone",
+      "displayName": "水球をする男: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f93d-1f3fe-200d-2642-fe0f.svg",
+      "codepoint": "1f93d-1f3fe-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man playing water polo: medium-light skin tone",
+      "displayName": "水球をする男: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f93d-1f3fc-200d-2642-fe0f.svg",
+      "codepoint": "1f93d-1f3fc-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man shrugging",
+      "displayName": "お手上げする男",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f937-200d-2642-fe0f.svg",
+      "codepoint": "1f937-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man shrugging: dark skin tone",
+      "displayName": "お手上げする男: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f937-1f3ff-200d-2642-fe0f.svg",
+      "codepoint": "1f937-1f3ff-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man shrugging: light skin tone",
+      "displayName": "お手上げする男: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f937-1f3fb-200d-2642-fe0f.svg",
+      "codepoint": "1f937-1f3fb-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man shrugging: medium skin tone",
+      "displayName": "お手上げする男: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f937-1f3fd-200d-2642-fe0f.svg",
+      "codepoint": "1f937-1f3fd-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man shrugging: medium-dark skin tone",
+      "displayName": "お手上げする男: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f937-1f3fe-200d-2642-fe0f.svg",
+      "codepoint": "1f937-1f3fe-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man shrugging: medium-light skin tone",
+      "displayName": "お手上げする男: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f937-1f3fc-200d-2642-fe0f.svg",
+      "codepoint": "1f937-1f3fc-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man’s shoe",
+      "displayName": "紳士靴",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f45e.svg",
+      "codepoint": "1f45e",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "mantelpiece clock",
+      "displayName": "置時計",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f570.svg",
+      "codepoint": "1f570",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "martial arts uniform",
+      "displayName": "武道",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f94b.svg",
+      "codepoint": "1f94b",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "men wrestling",
+      "displayName": "レスリングする男",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f93c-200d-2642-fe0f.svg",
+      "codepoint": "1f93c-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "middle finger",
+      "displayName": "立てた中指",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f595.svg",
+      "codepoint": "1f595",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "middle finger: dark skin tone",
+      "displayName": "立てた中指: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f595-1f3ff.svg",
+      "codepoint": "1f595-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "middle finger: light skin tone",
+      "displayName": "立てた中指: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f595-1f3fb.svg",
+      "codepoint": "1f595-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "middle finger: medium skin tone",
+      "displayName": "立てた中指: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f595-1f3fd.svg",
+      "codepoint": "1f595-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "middle finger: medium-dark skin tone",
+      "displayName": "立てた中指: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f595-1f3fe.svg",
+      "codepoint": "1f595-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "middle finger: medium-light skin tone",
+      "displayName": "立てた中指: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f595-1f3fc.svg",
+      "codepoint": "1f595-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "military helmet",
+      "displayName": "軍用ヘルメット",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fa96.svg",
+      "codepoint": "1fa96",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "military medal",
+      "displayName": "勲章",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f396.svg",
+      "codepoint": "1f396",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "mirror",
+      "displayName": "鏡",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fa9e.svg",
+      "codepoint": "1fa9e",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "mirror ball",
+      "displayName": "ミラーボール",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faa9.svg",
+      "codepoint": "1faa9",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "moon viewing ceremony",
+      "displayName": "月見",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f391.svg",
+      "codepoint": "1f391",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "mountain",
+      "displayName": "山",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/26f0.svg",
+      "codepoint": "26f0",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "mouse trap",
+      "displayName": "ねずみ捕り",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faa4.svg",
+      "codepoint": "1faa4",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "mouth",
+      "displayName": "口",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f444.svg",
+      "codepoint": "1f444",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Mrs. Claus",
+      "displayName": "女性のサンタ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f936.svg",
+      "codepoint": "1f936",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Mrs. Claus: dark skin tone",
+      "displayName": "女性のサンタ: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f936-1f3ff.svg",
+      "codepoint": "1f936-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Mrs. Claus: light skin tone",
+      "displayName": "女性のサンタ: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f936-1f3fb.svg",
+      "codepoint": "1f936-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Mrs. Claus: medium skin tone",
+      "displayName": "女性のサンタ: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f936-1f3fd.svg",
+      "codepoint": "1f936-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Mrs. Claus: medium-dark skin tone",
+      "displayName": "女性のサンタ: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f936-1f3fe.svg",
+      "codepoint": "1f936-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Mrs. Claus: medium-light skin tone",
+      "displayName": "女性のサンタ: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f936-1f3fc.svg",
+      "codepoint": "1f936-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "nazar amulet",
+      "displayName": "ナザール・ボンジュウ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f9ff.svg",
+      "codepoint": "1f9ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "necktie",
+      "displayName": "ネクタイ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f454.svg",
+      "codepoint": "1f454",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "nest with eggs",
+      "displayName": "鳥の卵と巣",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faba.svg",
+      "codepoint": "1faba",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "nesting dolls",
+      "displayName": "マトリョーシカ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fa86.svg",
+      "codepoint": "1fa86",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "NEW button",
+      "displayName": "NEWマーク",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f195.svg",
+      "codepoint": "1f195",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "next track button",
+      "displayName": "次の曲ボタン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/23ed.svg",
+      "codepoint": "23ed",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "NG button",
+      "displayName": "NGマーク",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f196.svg",
+      "codepoint": "1f196",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "nine o’clock",
+      "displayName": "9時",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f558.svg",
+      "codepoint": "1f558",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "nine-thirty",
+      "displayName": "9時半",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f564.svg",
+      "codepoint": "1f564",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "nose",
+      "displayName": "鼻",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f443.svg",
+      "codepoint": "1f443",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "nose: dark skin tone",
+      "displayName": "鼻: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f443-1f3ff.svg",
+      "codepoint": "1f443-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "nose: light skin tone",
+      "displayName": "鼻: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f443-1f3fb.svg",
+      "codepoint": "1f443-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "nose: medium skin tone",
+      "displayName": "鼻: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f443-1f3fd.svg",
+      "codepoint": "1f443-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "nose: medium-dark skin tone",
+      "displayName": "鼻: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f443-1f3fe.svg",
+      "codepoint": "1f443-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "nose: medium-light skin tone",
+      "displayName": "鼻: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f443-1f3fc.svg",
+      "codepoint": "1f443-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "O button (blood type)",
+      "displayName": "血液型O型",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f17e.svg",
+      "codepoint": "1f17e",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "OK button",
+      "displayName": "OKマーク",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f197.svg",
+      "codepoint": "1f197",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "OK hand",
+      "displayName": "OKの手",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f44c.svg",
+      "codepoint": "1f44c",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "OK hand: dark skin tone",
+      "displayName": "OKの手: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f44c-1f3ff.svg",
+      "codepoint": "1f44c-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "OK hand: light skin tone",
+      "displayName": "OKの手: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f44c-1f3fb.svg",
+      "codepoint": "1f44c-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "OK hand: medium skin tone",
+      "displayName": "OKの手: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f44c-1f3fd.svg",
+      "codepoint": "1f44c-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "OK hand: medium-dark skin tone",
+      "displayName": "OKの手: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f44c-1f3fe.svg",
+      "codepoint": "1f44c-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "OK hand: medium-light skin tone",
+      "displayName": "OKの手: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f44c-1f3fc.svg",
+      "codepoint": "1f44c-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "oncoming fist",
+      "displayName": "グー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f44a.svg",
+      "codepoint": "1f44a",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "oncoming fist: dark skin tone",
+      "displayName": "グー: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f44a-1f3ff.svg",
+      "codepoint": "1f44a-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "oncoming fist: light skin tone",
+      "displayName": "グー: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f44a-1f3fb.svg",
+      "codepoint": "1f44a-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "oncoming fist: medium skin tone",
+      "displayName": "グー: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f44a-1f3fd.svg",
+      "codepoint": "1f44a-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "oncoming fist: medium-dark skin tone",
+      "displayName": "グー: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f44a-1f3fe.svg",
+      "codepoint": "1f44a-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "oncoming fist: medium-light skin tone",
+      "displayName": "グー: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f44a-1f3fc.svg",
+      "codepoint": "1f44a-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "one o’clock",
+      "displayName": "1時",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f550.svg",
+      "codepoint": "1f550",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "one-piece swimsuit",
+      "displayName": "ワンピースの水着",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fa71.svg",
+      "codepoint": "1fa71",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "one-thirty",
+      "displayName": "1時半",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f55c.svg",
+      "codepoint": "1f55c",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "open hands",
+      "displayName": "両手のひら",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f450.svg",
+      "codepoint": "1f450",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "open hands: dark skin tone",
+      "displayName": "両手のひら: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f450-1f3ff.svg",
+      "codepoint": "1f450-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "open hands: light skin tone",
+      "displayName": "両手のひら: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f450-1f3fb.svg",
+      "codepoint": "1f450-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "open hands: medium skin tone",
+      "displayName": "両手のひら: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f450-1f3fd.svg",
+      "codepoint": "1f450-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "open hands: medium-dark skin tone",
+      "displayName": "両手のひら: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f450-1f3fe.svg",
+      "codepoint": "1f450-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "open hands: medium-light skin tone",
+      "displayName": "両手のひら: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f450-1f3fc.svg",
+      "codepoint": "1f450-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "orange circle",
+      "displayName": "オレンジの丸",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f7e0.svg",
+      "codepoint": "1f7e0",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "orange heart",
+      "displayName": "オレンジのハート",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f9e1.svg",
+      "codepoint": "1f9e1",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "orange square",
+      "displayName": "オレンジの四角",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f7e7.svg",
+      "codepoint": "1f7e7",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "orthodox cross",
+      "displayName": "八端十字架",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2626.svg",
+      "codepoint": "2626",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "P button",
+      "displayName": "Pマーク",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f17f.svg",
+      "codepoint": "1f17f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "paintbrush",
+      "displayName": "絵筆",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f58c.svg",
+      "codepoint": "1f58c",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "palm down hand",
+      "displayName": "下に向けた手",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faf3.svg",
+      "codepoint": "1faf3",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "palm down hand: dark skin tone",
+      "displayName": "下に向けた手: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faf3-1f3ff.svg",
+      "codepoint": "1faf3-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "palm down hand: light skin tone",
+      "displayName": "下に向けた手: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faf3-1f3fb.svg",
+      "codepoint": "1faf3-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "palm down hand: medium skin tone",
+      "displayName": "下に向けた手: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faf3-1f3fd.svg",
+      "codepoint": "1faf3-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "palm down hand: medium-dark skin tone",
+      "displayName": "下に向けた手: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faf3-1f3fe.svg",
+      "codepoint": "1faf3-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "palm down hand: medium-light skin tone",
+      "displayName": "下に向けた手: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faf3-1f3fc.svg",
+      "codepoint": "1faf3-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "palm up hand",
+      "displayName": "上に向けた手",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faf4.svg",
+      "codepoint": "1faf4",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "palm up hand: dark skin tone",
+      "displayName": "上に向けた手: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faf4-1f3ff.svg",
+      "codepoint": "1faf4-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "palm up hand: light skin tone",
+      "displayName": "上に向けた手: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faf4-1f3fb.svg",
+      "codepoint": "1faf4-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "palm up hand: medium skin tone",
+      "displayName": "上に向けた手: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faf4-1f3fd.svg",
+      "codepoint": "1faf4-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "palm up hand: medium-dark skin tone",
+      "displayName": "上に向けた手: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faf4-1f3fe.svg",
+      "codepoint": "1faf4-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "palm up hand: medium-light skin tone",
+      "displayName": "上に向けた手: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faf4-1f3fc.svg",
+      "codepoint": "1faf4-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "palms up together",
+      "displayName": "手のひらを揃えた両手",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f932.svg",
+      "codepoint": "1f932",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "palms up together: dark skin tone",
+      "displayName": "手のひらを揃えた両手: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f932-1f3ff.svg",
+      "codepoint": "1f932-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "palms up together: light skin tone",
+      "displayName": "手のひらを揃えた両手: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f932-1f3fb.svg",
+      "codepoint": "1f932-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "palms up together: medium skin tone",
+      "displayName": "手のひらを揃えた両手: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f932-1f3fd.svg",
+      "codepoint": "1f932-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "palms up together: medium-dark skin tone",
+      "displayName": "手のひらを揃えた両手: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f932-1f3fe.svg",
+      "codepoint": "1f932-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "palms up together: medium-light skin tone",
+      "displayName": "手のひらを揃えた両手: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f932-1f3fc.svg",
+      "codepoint": "1f932-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "parachute",
+      "displayName": "パラシュート",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fa82.svg",
+      "codepoint": "1fa82",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "part alternation mark",
+      "displayName": "いおりてん",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/303d.svg",
+      "codepoint": "303d",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "party popper",
+      "displayName": "クラッカー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f389.svg",
+      "codepoint": "1f389",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "pause button",
+      "displayName": "一時停止ボタン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/23f8.svg",
+      "codepoint": "23f8",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "peace symbol",
+      "displayName": "ピースマーク",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/262e.svg",
+      "codepoint": "262e",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "pen",
+      "displayName": "ペン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f58a.svg",
+      "codepoint": "1f58a",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "pencil",
+      "displayName": "鉛筆",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/270f.svg",
+      "codepoint": "270f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "people hugging",
+      "displayName": "ハグする人",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fac2.svg",
+      "codepoint": "1fac2",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "people wrestling",
+      "displayName": "レスリングする人",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f93c.svg",
+      "codepoint": "1f93c",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person cartwheeling",
+      "displayName": "側転する人",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f938.svg",
+      "codepoint": "1f938",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person cartwheeling: dark skin tone",
+      "displayName": "側転する人: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f938-1f3ff.svg",
+      "codepoint": "1f938-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person cartwheeling: light skin tone",
+      "displayName": "側転する人: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f938-1f3fb.svg",
+      "codepoint": "1f938-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person cartwheeling: medium skin tone",
+      "displayName": "側転する人: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f938-1f3fd.svg",
+      "codepoint": "1f938-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person cartwheeling: medium-dark skin tone",
+      "displayName": "側転する人: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f938-1f3fe.svg",
+      "codepoint": "1f938-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person cartwheeling: medium-light skin tone",
+      "displayName": "側転する人: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f938-1f3fc.svg",
+      "codepoint": "1f938-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person fencing",
+      "displayName": "フェンシングをする人",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f93a.svg",
+      "codepoint": "1f93a",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person in suit levitating",
+      "displayName": "浮いてるビジネスマン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f574-fe0f-200d-2642-fe0f.svg",
+      "codepoint": "1f574-fe0f-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person in suit levitating",
+      "displayName": "浮いてるビジネスマン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f574.svg",
+      "codepoint": "1f574",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person in suit levitating",
+      "displayName": "浮いてるビジネスマン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f574-fe0f-200d-2640-fe0f.svg",
+      "codepoint": "1f574-fe0f-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person in suit levitating: dark skin tone",
+      "displayName": "浮いてるビジネスマン: 暗い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f574-1f3ff-200d-2642-fe0f.svg",
+      "codepoint": "1f574-1f3ff-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person in suit levitating: dark skin tone",
+      "displayName": "浮いてるビジネスマン: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f574-1f3ff.svg",
+      "codepoint": "1f574-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person in suit levitating: dark skin tone",
+      "displayName": "浮いてるビジネスマン: 暗い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f574-1f3ff-200d-2640-fe0f.svg",
+      "codepoint": "1f574-1f3ff-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person in suit levitating: light skin tone",
+      "displayName": "浮いてるビジネスマン: 明るい肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f574-1f3fb-200d-2640-fe0f.svg",
+      "codepoint": "1f574-1f3fb-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person in suit levitating: light skin tone",
+      "displayName": "浮いてるビジネスマン: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f574-1f3fb.svg",
+      "codepoint": "1f574-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person in suit levitating: light skin tone",
+      "displayName": "浮いてるビジネスマン: 明るい肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f574-1f3fb-200d-2642-fe0f.svg",
+      "codepoint": "1f574-1f3fb-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person in suit levitating: medium skin tone",
+      "displayName": "浮いてるビジネスマン: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f574-1f3fd.svg",
+      "codepoint": "1f574-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person in suit levitating: medium skin tone",
+      "displayName": "浮いてるビジネスマン: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f574-1f3fd-200d-2640-fe0f.svg",
+      "codepoint": "1f574-1f3fd-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person in suit levitating: medium skin tone",
+      "displayName": "浮いてるビジネスマン: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f574-1f3fd-200d-2642-fe0f.svg",
+      "codepoint": "1f574-1f3fd-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person in suit levitating: medium-dark skin tone",
+      "displayName": "浮いてるビジネスマン: やや暗い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f574-1f3fe-200d-2642-fe0f.svg",
+      "codepoint": "1f574-1f3fe-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person in suit levitating: medium-dark skin tone",
+      "displayName": "浮いてるビジネスマン: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f574-1f3fe.svg",
+      "codepoint": "1f574-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person in suit levitating: medium-dark skin tone",
+      "displayName": "浮いてるビジネスマン: やや暗い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f574-1f3fe-200d-2640-fe0f.svg",
+      "codepoint": "1f574-1f3fe-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person in suit levitating: medium-light skin tone",
+      "displayName": "浮いてるビジネスマン: やや明るい肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f574-1f3fc-200d-2642-fe0f.svg",
+      "codepoint": "1f574-1f3fc-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person in suit levitating: medium-light skin tone",
+      "displayName": "浮いてるビジネスマン: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f574-1f3fc.svg",
+      "codepoint": "1f574-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person in suit levitating: medium-light skin tone",
+      "displayName": "浮いてるビジネスマン: やや明るい肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f574-1f3fc-200d-2640-fe0f.svg",
+      "codepoint": "1f574-1f3fc-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person in tuxedo",
+      "displayName": "タキシードの人",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f935.svg",
+      "codepoint": "1f935",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person in tuxedo: dark skin tone",
+      "displayName": "タキシードの人: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f935-1f3ff.svg",
+      "codepoint": "1f935-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person in tuxedo: light skin tone",
+      "displayName": "タキシードの人: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f935-1f3fb.svg",
+      "codepoint": "1f935-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person in tuxedo: medium skin tone",
+      "displayName": "タキシードの人: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f935-1f3fd.svg",
+      "codepoint": "1f935-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person in tuxedo: medium-dark skin tone",
+      "displayName": "タキシードの人: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f935-1f3fe.svg",
+      "codepoint": "1f935-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person in tuxedo: medium-light skin tone",
+      "displayName": "タキシードの人: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f935-1f3fc.svg",
+      "codepoint": "1f935-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person juggling",
+      "displayName": "ジャグリングをする人",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f939.svg",
+      "codepoint": "1f939",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person juggling: dark skin tone",
+      "displayName": "ジャグリングをする人: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f939-1f3ff.svg",
+      "codepoint": "1f939-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person juggling: light skin tone",
+      "displayName": "ジャグリングをする人: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f939-1f3fb.svg",
+      "codepoint": "1f939-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person juggling: medium skin tone",
+      "displayName": "ジャグリングをする人: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f939-1f3fd.svg",
+      "codepoint": "1f939-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person juggling: medium-dark skin tone",
+      "displayName": "ジャグリングをする人: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f939-1f3fe.svg",
+      "codepoint": "1f939-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person juggling: medium-light skin tone",
+      "displayName": "ジャグリングをする人: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f939-1f3fc.svg",
+      "codepoint": "1f939-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person playing handball",
+      "displayName": "ハンドボールをする人",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f93e.svg",
+      "codepoint": "1f93e",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person playing handball: dark skin tone",
+      "displayName": "ハンドボールをする人: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f93e-1f3ff.svg",
+      "codepoint": "1f93e-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person playing handball: light skin tone",
+      "displayName": "ハンドボールをする人: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f93e-1f3fb.svg",
+      "codepoint": "1f93e-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person playing handball: medium skin tone",
+      "displayName": "ハンドボールをする人: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f93e-1f3fd.svg",
+      "codepoint": "1f93e-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person playing handball: medium-dark skin tone",
+      "displayName": "ハンドボールをする人: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f93e-1f3fe.svg",
+      "codepoint": "1f93e-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person playing handball: medium-light skin tone",
+      "displayName": "ハンドボールをする人: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f93e-1f3fc.svg",
+      "codepoint": "1f93e-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person playing water polo",
+      "displayName": "水球をする人",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f93d.svg",
+      "codepoint": "1f93d",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person playing water polo: dark skin tone",
+      "displayName": "水球をする人: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f93d-1f3ff.svg",
+      "codepoint": "1f93d-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person playing water polo: light skin tone",
+      "displayName": "水球をする人: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f93d-1f3fb.svg",
+      "codepoint": "1f93d-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person playing water polo: medium skin tone",
+      "displayName": "水球をする人: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f93d-1f3fd.svg",
+      "codepoint": "1f93d-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person playing water polo: medium-dark skin tone",
+      "displayName": "水球をする人: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f93d-1f3fe.svg",
+      "codepoint": "1f93d-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person playing water polo: medium-light skin tone",
+      "displayName": "水球をする人: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f93d-1f3fc.svg",
+      "codepoint": "1f93d-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person shrugging",
+      "displayName": "お手上げする人",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f937.svg",
+      "codepoint": "1f937",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person shrugging: dark skin tone",
+      "displayName": "お手上げする人: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f937-1f3ff.svg",
+      "codepoint": "1f937-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person shrugging: light skin tone",
+      "displayName": "お手上げする人: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f937-1f3fb.svg",
+      "codepoint": "1f937-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person shrugging: medium skin tone",
+      "displayName": "お手上げする人: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f937-1f3fd.svg",
+      "codepoint": "1f937-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person shrugging: medium-dark skin tone",
+      "displayName": "お手上げする人: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f937-1f3fe.svg",
+      "codepoint": "1f937-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person shrugging: medium-light skin tone",
+      "displayName": "お手上げする人: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f937-1f3fc.svg",
+      "codepoint": "1f937-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person with crown",
+      "displayName": "王冠をかぶった人",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fac5.svg",
+      "codepoint": "1fac5",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person with crown: dark skin tone",
+      "displayName": "王冠をかぶった人: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fac5-1f3ff.svg",
+      "codepoint": "1fac5-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person with crown: light skin tone",
+      "displayName": "王冠をかぶった人: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fac5-1f3fb.svg",
+      "codepoint": "1fac5-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person with crown: medium skin tone",
+      "displayName": "王冠をかぶった人: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fac5-1f3fd.svg",
+      "codepoint": "1fac5-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person with crown: medium-dark skin tone",
+      "displayName": "王冠をかぶった人: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fac5-1f3fe.svg",
+      "codepoint": "1fac5-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person with crown: medium-light skin tone",
+      "displayName": "王冠をかぶった人: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fac5-1f3fc.svg",
+      "codepoint": "1fac5-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "petri dish",
+      "displayName": "ペトリ皿",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f9eb.svg",
+      "codepoint": "1f9eb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "pick",
+      "displayName": "つるはし",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/26cf.svg",
+      "codepoint": "26cf",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "piñata",
+      "displayName": "ピニャータ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fa85.svg",
+      "codepoint": "1fa85",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "pinched fingers",
+      "displayName": "上向きにすぼめた手",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f90c.svg",
+      "codepoint": "1f90c",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "pinched fingers: dark skin tone",
+      "displayName": "上向きにすぼめた手: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f90c-1f3ff.svg",
+      "codepoint": "1f90c-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "pinched fingers: light skin tone",
+      "displayName": "上向きにすぼめた手: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f90c-1f3fb.svg",
+      "codepoint": "1f90c-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "pinched fingers: medium skin tone",
+      "displayName": "上向きにすぼめた手: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f90c-1f3fd.svg",
+      "codepoint": "1f90c-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "pinched fingers: medium-dark skin tone",
+      "displayName": "上向きにすぼめた手: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f90c-1f3fe.svg",
+      "codepoint": "1f90c-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "pinched fingers: medium-light skin tone",
+      "displayName": "上向きにすぼめた手: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f90c-1f3fc.svg",
+      "codepoint": "1f90c-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "pinching hand",
+      "displayName": "つまんでいる指",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f90f.svg",
+      "codepoint": "1f90f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "pinching hand: dark skin tone",
+      "displayName": "つまんでいる指: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f90f-1f3ff.svg",
+      "codepoint": "1f90f-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "pinching hand: light skin tone",
+      "displayName": "つまんでいる指: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f90f-1f3fb.svg",
+      "codepoint": "1f90f-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "pinching hand: medium skin tone",
+      "displayName": "つまんでいる指: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f90f-1f3fd.svg",
+      "codepoint": "1f90f-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "pinching hand: medium-dark skin tone",
+      "displayName": "つまんでいる指: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f90f-1f3fe.svg",
+      "codepoint": "1f90f-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "pinching hand: medium-light skin tone",
+      "displayName": "つまんでいる指: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f90f-1f3fc.svg",
+      "codepoint": "1f90f-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "pine decoration",
+      "displayName": "門松",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f38d.svg",
+      "codepoint": "1f38d",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "placard",
+      "displayName": "プラカード",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faa7.svg",
+      "codepoint": "1faa7",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "play button",
+      "displayName": "再生ボタン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/25b6.svg",
+      "codepoint": "25b6",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "play or pause button",
+      "displayName": "再生／一時停止ボタン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/23ef.svg",
+      "codepoint": "23ef",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "plunger",
+      "displayName": "ラバーカップ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faa0.svg",
+      "codepoint": "1faa0",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "pregnant man",
+      "displayName": "妊夫",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fac3.svg",
+      "codepoint": "1fac3",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "pregnant man: dark skin tone",
+      "displayName": "妊夫: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fac3-1f3ff.svg",
+      "codepoint": "1fac3-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "pregnant man: light skin tone",
+      "displayName": "妊夫: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fac3-1f3fb.svg",
+      "codepoint": "1fac3-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "pregnant man: medium skin tone",
+      "displayName": "妊夫: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fac3-1f3fd.svg",
+      "codepoint": "1fac3-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "pregnant man: medium-dark skin tone",
+      "displayName": "妊夫: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fac3-1f3fe.svg",
+      "codepoint": "1fac3-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "pregnant man: medium-light skin tone",
+      "displayName": "妊夫: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fac3-1f3fc.svg",
+      "codepoint": "1fac3-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "pregnant person",
+      "displayName": "妊娠した人",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fac4.svg",
+      "codepoint": "1fac4",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "pregnant person: dark skin tone",
+      "displayName": "妊娠した人: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fac4-1f3ff.svg",
+      "codepoint": "1fac4-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "pregnant person: light skin tone",
+      "displayName": "妊娠した人: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fac4-1f3fb.svg",
+      "codepoint": "1fac4-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "pregnant person: medium skin tone",
+      "displayName": "妊娠した人: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fac4-1f3fd.svg",
+      "codepoint": "1fac4-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "pregnant person: medium-dark skin tone",
+      "displayName": "妊娠した人: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fac4-1f3fe.svg",
+      "codepoint": "1fac4-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "pregnant person: medium-light skin tone",
+      "displayName": "妊娠した人: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fac4-1f3fc.svg",
+      "codepoint": "1fac4-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "pregnant woman",
+      "displayName": "妊婦",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f930.svg",
+      "codepoint": "1f930",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "pregnant woman: dark skin tone",
+      "displayName": "妊婦: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f930-1f3ff.svg",
+      "codepoint": "1f930-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "pregnant woman: light skin tone",
+      "displayName": "妊婦: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f930-1f3fb.svg",
+      "codepoint": "1f930-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "pregnant woman: medium skin tone",
+      "displayName": "妊婦: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f930-1f3fd.svg",
+      "codepoint": "1f930-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "pregnant woman: medium-dark skin tone",
+      "displayName": "妊婦: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f930-1f3fe.svg",
+      "codepoint": "1f930-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "pregnant woman: medium-light skin tone",
+      "displayName": "妊婦: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f930-1f3fc.svg",
+      "codepoint": "1f930-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "prince",
+      "displayName": "プリンス",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f934.svg",
+      "codepoint": "1f934",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "prince: dark skin tone",
+      "displayName": "プリンス: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f934-1f3ff.svg",
+      "codepoint": "1f934-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "prince: light skin tone",
+      "displayName": "プリンス: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f934-1f3fb.svg",
+      "codepoint": "1f934-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "prince: medium skin tone",
+      "displayName": "プリンス: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f934-1f3fd.svg",
+      "codepoint": "1f934-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "prince: medium-dark skin tone",
+      "displayName": "プリンス: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f934-1f3fe.svg",
+      "codepoint": "1f934-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "prince: medium-light skin tone",
+      "displayName": "プリンス: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f934-1f3fc.svg",
+      "codepoint": "1f934-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "purple circle",
+      "displayName": "紫の丸",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f7e3.svg",
+      "codepoint": "1f7e3",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "purple square",
+      "displayName": "紫の四角",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f7ea.svg",
+      "codepoint": "1f7ea",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "purse",
+      "displayName": "がま口",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f45b.svg",
+      "codepoint": "1f45b",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "puzzle piece",
+      "displayName": "ジグソーパズル",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f9e9.svg",
+      "codepoint": "1f9e9",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "radioactive",
+      "displayName": "放射能",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2622.svg",
+      "codepoint": "2622",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "raised fist",
+      "displayName": "げんこつ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/270a.svg",
+      "codepoint": "270a",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "raised fist: dark skin tone",
+      "displayName": "げんこつ: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/270a-1f3ff.svg",
+      "codepoint": "270a-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "raised fist: light skin tone",
+      "displayName": "げんこつ: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/270a-1f3fb.svg",
+      "codepoint": "270a-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "raised fist: medium skin tone",
+      "displayName": "げんこつ: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/270a-1f3fd.svg",
+      "codepoint": "270a-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "raised fist: medium-dark skin tone",
+      "displayName": "げんこつ: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/270a-1f3fe.svg",
+      "codepoint": "270a-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "raised fist: medium-light skin tone",
+      "displayName": "げんこつ: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/270a-1f3fc.svg",
+      "codepoint": "270a-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "raised hand",
+      "displayName": "挙手",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/270b.svg",
+      "codepoint": "270b",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "raised hand: dark skin tone",
+      "displayName": "挙手: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/270b-1f3ff.svg",
+      "codepoint": "270b-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "raised hand: light skin tone",
+      "displayName": "挙手: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/270b-1f3fb.svg",
+      "codepoint": "270b-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "raised hand: medium skin tone",
+      "displayName": "挙手: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/270b-1f3fd.svg",
+      "codepoint": "270b-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "raised hand: medium-dark skin tone",
+      "displayName": "挙手: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/270b-1f3fe.svg",
+      "codepoint": "270b-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "raised hand: medium-light skin tone",
+      "displayName": "挙手: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/270b-1f3fc.svg",
+      "codepoint": "270b-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "razor",
+      "displayName": "剃刀",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fa92.svg",
+      "codepoint": "1fa92",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "receipt",
+      "displayName": "レシート",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f9fe.svg",
+      "codepoint": "1f9fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "record button",
+      "displayName": "録音録画ボタン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/23fa.svg",
+      "codepoint": "23fa",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "recycling symbol",
+      "displayName": "リサイクルマーク",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/267b.svg",
+      "codepoint": "267b",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "red envelope",
+      "displayName": "赤い封筒",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f9e7.svg",
+      "codepoint": "1f9e7",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "red square",
+      "displayName": "赤い四角",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f7e5.svg",
+      "codepoint": "1f7e5",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "registered",
+      "displayName": "登録商標マーク",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/ae.svg",
+      "codepoint": "ae",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "reminder ribbon",
+      "displayName": "リマインダーリボン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f397.svg",
+      "codepoint": "1f397",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "rescue worker’s helmet",
+      "displayName": "白十字ヘルメット",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/26d1.svg",
+      "codepoint": "26d1",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "reverse button",
+      "displayName": "逆再生ボタン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/25c0.svg",
+      "codepoint": "25c0",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "ribbon",
+      "displayName": "リボン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f380.svg",
+      "codepoint": "1f380",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "right arrow curving down",
+      "displayName": "下カーブ矢印",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2935.svg",
+      "codepoint": "2935",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "right arrow curving left",
+      "displayName": "右カーブ矢印",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/21a9.svg",
+      "codepoint": "21a9",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "right arrow curving up",
+      "displayName": "上カーブ矢印",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2934.svg",
+      "codepoint": "2934",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "rightwards hand",
+      "displayName": "右に向けた手",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faf1.svg",
+      "codepoint": "1faf1",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "rightwards hand: dark skin tone",
+      "displayName": "右に向けた手: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faf1-1f3ff.svg",
+      "codepoint": "1faf1-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "rightwards hand: light skin tone",
+      "displayName": "右に向けた手: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faf1-1f3fb.svg",
+      "codepoint": "1faf1-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "rightwards hand: medium skin tone",
+      "displayName": "右に向けた手: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faf1-1f3fd.svg",
+      "codepoint": "1faf1-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "rightwards hand: medium-dark skin tone",
+      "displayName": "右に向けた手: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faf1-1f3fe.svg",
+      "codepoint": "1faf1-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "rightwards hand: medium-light skin tone",
+      "displayName": "右に向けた手: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faf1-1f3fc.svg",
+      "codepoint": "1faf1-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "ringed planet",
+      "displayName": "環のある惑星",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fa90.svg",
+      "codepoint": "1fa90",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "rock",
+      "displayName": "岩石",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faa8.svg",
+      "codepoint": "1faa8",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "roll of paper",
+      "displayName": "トイレットペーパー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f9fb.svg",
+      "codepoint": "1f9fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "running shoe",
+      "displayName": "スニーカー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f45f.svg",
+      "codepoint": "1f45f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "safety pin",
+      "displayName": "安全ピン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f9f7.svg",
+      "codepoint": "1f9f7",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Santa Claus",
+      "displayName": "サンタ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f385.svg",
+      "codepoint": "1f385",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Santa Claus: dark skin tone",
+      "displayName": "サンタ: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f385-1f3ff.svg",
+      "codepoint": "1f385-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Santa Claus: light skin tone",
+      "displayName": "サンタ: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f385-1f3fb.svg",
+      "codepoint": "1f385-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Santa Claus: medium skin tone",
+      "displayName": "サンタ: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f385-1f3fd.svg",
+      "codepoint": "1f385-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Santa Claus: medium-dark skin tone",
+      "displayName": "サンタ: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f385-1f3fe.svg",
+      "codepoint": "1f385-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Santa Claus: medium-light skin tone",
+      "displayName": "サンタ: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f385-1f3fc.svg",
+      "codepoint": "1f385-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "scarf",
+      "displayName": "マフラー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f9e3.svg",
+      "codepoint": "1f9e3",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "screwdriver",
+      "displayName": "ねじ回し",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fa9b.svg",
+      "codepoint": "1fa9b",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "selfie",
+      "displayName": "セルフィー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f933.svg",
+      "codepoint": "1f933",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "selfie: dark skin tone",
+      "displayName": "セルフィー: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f933-1f3ff.svg",
+      "codepoint": "1f933-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "selfie: light skin tone",
+      "displayName": "セルフィー: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f933-1f3fb.svg",
+      "codepoint": "1f933-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "selfie: medium skin tone",
+      "displayName": "セルフィー: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f933-1f3fd.svg",
+      "codepoint": "1f933-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "selfie: medium-dark skin tone",
+      "displayName": "セルフィー: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f933-1f3fe.svg",
+      "codepoint": "1f933-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "selfie: medium-light skin tone",
+      "displayName": "セルフィー: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f933-1f3fc.svg",
+      "codepoint": "1f933-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "seven o’clock",
+      "displayName": "7時",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f556.svg",
+      "codepoint": "1f556",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "seven-thirty",
+      "displayName": "7時半",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f562.svg",
+      "codepoint": "1f562",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "sewing needle",
+      "displayName": "縫い針",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faa1.svg",
+      "codepoint": "1faa1",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Shibuya 109",
+      "displayName": "渋谷109",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/e50a.svg",
+      "codepoint": "e50a",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "shinto shrine",
+      "displayName": "鳥居",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/26e9.svg",
+      "codepoint": "26e9",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "shorts",
+      "displayName": "ショーツ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fa73.svg",
+      "codepoint": "1fa73",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "six o’clock",
+      "displayName": "6時",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f555.svg",
+      "codepoint": "1f555",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "six-thirty",
+      "displayName": "6時半",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f561.svg",
+      "codepoint": "1f561",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "skier",
+      "displayName": "スキーヤー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/26f7.svg",
+      "codepoint": "26f7",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "skier: dark skin tone",
+      "displayName": "スキーヤー: 暗い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/26f7-1f3ff.svg",
+      "codepoint": "26f7-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "skier: light skin tone",
+      "displayName": "スキーヤー: 明るい肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/26f7-1f3fb.svg",
+      "codepoint": "26f7-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "skier: medium skin tone",
+      "displayName": "スキーヤー: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/26f7-1f3fd.svg",
+      "codepoint": "26f7-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "skier: medium-dark skin tone",
+      "displayName": "スキーヤー: やや暗い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/26f7-1f3fe.svg",
+      "codepoint": "26f7-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "skier: medium-light skin tone",
+      "displayName": "スキーヤー: やや明るい肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/26f7-1f3fc.svg",
+      "codepoint": "26f7-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "skull and crossbones",
+      "displayName": "ドクロと骨",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2620.svg",
+      "codepoint": "2620",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "smiling face",
+      "displayName": "スマイリー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/263a.svg",
+      "codepoint": "263a",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "soap",
+      "displayName": "石けん",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f9fc.svg",
+      "codepoint": "1f9fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "socks",
+      "displayName": "ソックス",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f9e6.svg",
+      "codepoint": "1f9e6",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "softball",
+      "displayName": "ソフトボール",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f94e.svg",
+      "codepoint": "1f94e",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "SOS button",
+      "displayName": "SOSマーク",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f198.svg",
+      "codepoint": "1f198",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "sparkler",
+      "displayName": "線香花火",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f387.svg",
+      "codepoint": "1f387",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "spider",
+      "displayName": "クモ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f577.svg",
+      "codepoint": "1f577",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "spider web",
+      "displayName": "クモの巣",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f578.svg",
+      "codepoint": "1f578",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "sponge",
+      "displayName": "スポンジ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f9fd.svg",
+      "codepoint": "1f9fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "spoon",
+      "displayName": "スプーン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f944.svg",
+      "codepoint": "1f944",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "star",
+      "displayName": "スター",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2b50.svg",
+      "codepoint": "2b50",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "star and crescent",
+      "displayName": "星と三日月",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/262a.svg",
+      "codepoint": "262a",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "stethoscope",
+      "displayName": "聴診器",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fa7a.svg",
+      "codepoint": "1fa7a",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "stop button",
+      "displayName": "停止ボタン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/23f9.svg",
+      "codepoint": "23f9",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "stopwatch",
+      "displayName": "ストップウォッチ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/23f1.svg",
+      "codepoint": "23f1",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "studio microphone",
+      "displayName": "スタジオマイク",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f399.svg",
+      "codepoint": "1f399",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "sunglasses",
+      "displayName": "サングラス",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f576.svg",
+      "codepoint": "1f576",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "t-shirt",
+      "displayName": "Tシャツ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f455.svg",
+      "codepoint": "1f455",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "tanabata tree",
+      "displayName": "七夕",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f38b.svg",
+      "codepoint": "1f38b",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "teddy bear",
+      "displayName": "テディベア",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f9f8.svg",
+      "codepoint": "1f9f8",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "telephone",
+      "displayName": "固定電話",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/260e.svg",
+      "codepoint": "260e",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "ten o’clock",
+      "displayName": "10時",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f559.svg",
+      "codepoint": "1f559",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "ten-thirty",
+      "displayName": "10時半",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f565.svg",
+      "codepoint": "1f565",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "test tube",
+      "displayName": "試験管",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f9ea.svg",
+      "codepoint": "1f9ea",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "thong sandal",
+      "displayName": "ビーチサンダル",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fa74.svg",
+      "codepoint": "1fa74",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "thread",
+      "displayName": "糸",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f9f5.svg",
+      "codepoint": "1f9f5",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "three o’clock",
+      "displayName": "3時",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f552.svg",
+      "codepoint": "1f552",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "three-thirty",
+      "displayName": "3時半",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f55e.svg",
+      "codepoint": "1f55e",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "thumbs down",
+      "displayName": "サムズダウン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f44e.svg",
+      "codepoint": "1f44e",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "thumbs down: dark skin tone",
+      "displayName": "サムズダウン: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f44e-1f3ff.svg",
+      "codepoint": "1f44e-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "thumbs down: light skin tone",
+      "displayName": "サムズダウン: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f44e-1f3fb.svg",
+      "codepoint": "1f44e-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "thumbs down: medium skin tone",
+      "displayName": "サムズダウン: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f44e-1f3fd.svg",
+      "codepoint": "1f44e-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "thumbs down: medium-dark skin tone",
+      "displayName": "サムズダウン: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f44e-1f3fe.svg",
+      "codepoint": "1f44e-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "thumbs down: medium-light skin tone",
+      "displayName": "サムズダウン: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f44e-1f3fc.svg",
+      "codepoint": "1f44e-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "thumbs up",
+      "displayName": "サムズアップ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f44d.svg",
+      "codepoint": "1f44d",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "thumbs up: dark skin tone",
+      "displayName": "サムズアップ: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f44d-1f3ff.svg",
+      "codepoint": "1f44d-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "thumbs up: light skin tone",
+      "displayName": "サムズアップ: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f44d-1f3fb.svg",
+      "codepoint": "1f44d-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "thumbs up: medium skin tone",
+      "displayName": "サムズアップ: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f44d-1f3fd.svg",
+      "codepoint": "1f44d-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "thumbs up: medium-dark skin tone",
+      "displayName": "サムズアップ: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f44d-1f3fe.svg",
+      "codepoint": "1f44d-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "thumbs up: medium-light skin tone",
+      "displayName": "サムズアップ: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f44d-1f3fc.svg",
+      "codepoint": "1f44d-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "timer clock",
+      "displayName": "タイマー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/23f2.svg",
+      "codepoint": "23f2",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "tongue",
+      "displayName": "舌",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f445.svg",
+      "codepoint": "1f445",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "toolbox",
+      "displayName": "工具箱",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f9f0.svg",
+      "codepoint": "1f9f0",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "toothbrush",
+      "displayName": "歯ブラシ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1faa5.svg",
+      "codepoint": "1faa5",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "trade mark",
+      "displayName": "商標マーク",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2122.svg",
+      "codepoint": "2122",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "transgender symbol",
+      "displayName": "トランスジェンダーのマーク",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/26a7.svg",
+      "codepoint": "26a7",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "tumbler glass",
+      "displayName": "タンブラーグラス",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f943.svg",
+      "codepoint": "1f943",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "twelve o’clock",
+      "displayName": "12時",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f55b.svg",
+      "codepoint": "1f55b",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "twelve-thirty",
+      "displayName": "12時半",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f567.svg",
+      "codepoint": "1f567",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "two o’clock",
+      "displayName": "2時",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f551.svg",
+      "codepoint": "1f551",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "two-thirty",
+      "displayName": "2時半",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f55d.svg",
+      "codepoint": "1f55d",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "umbrella on ground",
+      "displayName": "パラソル",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/26f1.svg",
+      "codepoint": "26f1",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "up arrow",
+      "displayName": "上矢印",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2b06.svg",
+      "codepoint": "2b06",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "up-down arrow",
+      "displayName": "上下矢印",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2195.svg",
+      "codepoint": "2195",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "up-left arrow",
+      "displayName": "左上矢印",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2196.svg",
+      "codepoint": "2196",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "up-right arrow",
+      "displayName": "右上矢印",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2197.svg",
+      "codepoint": "2197",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "UP! button",
+      "displayName": "UPマーク",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f199.svg",
+      "codepoint": "1f199",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "victory hand",
+      "displayName": "Vサイン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/270c.svg",
+      "codepoint": "270c",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "victory hand: dark skin tone",
+      "displayName": "Vサイン: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/270c-1f3ff.svg",
+      "codepoint": "270c-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "victory hand: light skin tone",
+      "displayName": "Vサイン: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/270c-1f3fb.svg",
+      "codepoint": "270c-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "victory hand: medium skin tone",
+      "displayName": "Vサイン: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/270c-1f3fd.svg",
+      "codepoint": "270c-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "victory hand: medium-dark skin tone",
+      "displayName": "Vサイン: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/270c-1f3fe.svg",
+      "codepoint": "270c-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "victory hand: medium-light skin tone",
+      "displayName": "Vサイン: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/270c-1f3fc.svg",
+      "codepoint": "270c-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "VS button",
+      "displayName": "VSマーク",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f19a.svg",
+      "codepoint": "1f19a",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "vulcan salute",
+      "displayName": "バルカンの挨拶",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f596.svg",
+      "codepoint": "1f596",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "vulcan salute: dark skin tone",
+      "displayName": "バルカンの挨拶: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f596-1f3ff.svg",
+      "codepoint": "1f596-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "vulcan salute: light skin tone",
+      "displayName": "バルカンの挨拶: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f596-1f3fb.svg",
+      "codepoint": "1f596-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "vulcan salute: medium skin tone",
+      "displayName": "バルカンの挨拶: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f596-1f3fd.svg",
+      "codepoint": "1f596-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "vulcan salute: medium-dark skin tone",
+      "displayName": "バルカンの挨拶: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f596-1f3fe.svg",
+      "codepoint": "1f596-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "vulcan salute: medium-light skin tone",
+      "displayName": "バルカンの挨拶: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f596-1f3fc.svg",
+      "codepoint": "1f596-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "watch",
+      "displayName": "腕時計",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/231a.svg",
+      "codepoint": "231a",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "waving hand",
+      "displayName": "手を振る",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f44b.svg",
+      "codepoint": "1f44b",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "waving hand: dark skin tone",
+      "displayName": "手を振る: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f44b-1f3ff.svg",
+      "codepoint": "1f44b-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "waving hand: light skin tone",
+      "displayName": "手を振る: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f44b-1f3fb.svg",
+      "codepoint": "1f44b-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "waving hand: medium skin tone",
+      "displayName": "手を振る: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f44b-1f3fd.svg",
+      "codepoint": "1f44b-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "waving hand: medium-dark skin tone",
+      "displayName": "手を振る: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f44b-1f3fe.svg",
+      "codepoint": "1f44b-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "waving hand: medium-light skin tone",
+      "displayName": "手を振る: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f44b-1f3fc.svg",
+      "codepoint": "1f44b-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "wavy dash",
+      "displayName": "波線",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/3030.svg",
+      "codepoint": "3030",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "wheel of dharma",
+      "displayName": "法輪",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2638.svg",
+      "codepoint": "2638",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "wheelchair symbol",
+      "displayName": "車椅子",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/267f.svg",
+      "codepoint": "267f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "white cane",
+      "displayName": "白杖",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f9af.svg",
+      "codepoint": "1f9af",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "white heart",
+      "displayName": "白いハート",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f90d.svg",
+      "codepoint": "1f90d",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "white large square",
+      "displayName": "白四角特大",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2b1c.svg",
+      "codepoint": "2b1c",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "white medium square",
+      "displayName": "白四角大",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/25fb.svg",
+      "codepoint": "25fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "white medium-small square",
+      "displayName": "白四角中",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/25fd.svg",
+      "codepoint": "25fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "white small square",
+      "displayName": "白四角小",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/25ab.svg",
+      "codepoint": "25ab",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "wilted flower",
+      "displayName": "しおれた花",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f940.svg",
+      "codepoint": "1f940",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "wind chime",
+      "displayName": "風鈴",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f390.svg",
+      "codepoint": "1f390",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "window",
+      "displayName": "窓",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fa9f.svg",
+      "codepoint": "1fa9f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman cartwheeling",
+      "displayName": "側転する女",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f938-200d-2640-fe0f.svg",
+      "codepoint": "1f938-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman cartwheeling: dark skin tone",
+      "displayName": "側転する女: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f938-1f3ff-200d-2640-fe0f.svg",
+      "codepoint": "1f938-1f3ff-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman cartwheeling: light skin tone",
+      "displayName": "側転する女: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f938-1f3fb-200d-2640-fe0f.svg",
+      "codepoint": "1f938-1f3fb-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman cartwheeling: medium skin tone",
+      "displayName": "側転する女: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f938-1f3fd-200d-2640-fe0f.svg",
+      "codepoint": "1f938-1f3fd-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman cartwheeling: medium-dark skin tone",
+      "displayName": "側転する女: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f938-1f3fe-200d-2640-fe0f.svg",
+      "codepoint": "1f938-1f3fe-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman cartwheeling: medium-light skin tone",
+      "displayName": "側転する女: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f938-1f3fc-200d-2640-fe0f.svg",
+      "codepoint": "1f938-1f3fc-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman detective",
+      "displayName": "女性の探偵",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f575-fe0f-200d-2640-fe0f.svg",
+      "codepoint": "1f575-fe0f-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman detective: dark skin tone",
+      "displayName": "女性の探偵: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f575-1f3ff-200d-2640-fe0f.svg",
+      "codepoint": "1f575-1f3ff-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman detective: light skin tone",
+      "displayName": "女性の探偵: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f575-1f3fb-200d-2640-fe0f.svg",
+      "codepoint": "1f575-1f3fb-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman detective: medium skin tone",
+      "displayName": "女性の探偵: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f575-1f3fd-200d-2640-fe0f.svg",
+      "codepoint": "1f575-1f3fd-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman detective: medium-dark skin tone",
+      "displayName": "女性の探偵: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f575-1f3fe-200d-2640-fe0f.svg",
+      "codepoint": "1f575-1f3fe-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman detective: medium-light skin tone",
+      "displayName": "女性の探偵: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f575-1f3fc-200d-2640-fe0f.svg",
+      "codepoint": "1f575-1f3fc-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman in tuxedo",
+      "displayName": "タキシードの女性",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f935-200d-2640-fe0f.svg",
+      "codepoint": "1f935-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman in tuxedo: dark skin tone",
+      "displayName": "タキシードの女性: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f935-1f3ff-200d-2640-fe0f.svg",
+      "codepoint": "1f935-1f3ff-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman in tuxedo: light skin tone",
+      "displayName": "タキシードの女性: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f935-1f3fb-200d-2640-fe0f.svg",
+      "codepoint": "1f935-1f3fb-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman in tuxedo: medium skin tone",
+      "displayName": "タキシードの女性: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f935-1f3fd-200d-2640-fe0f.svg",
+      "codepoint": "1f935-1f3fd-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman in tuxedo: medium-dark skin tone",
+      "displayName": "タキシードの女性: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f935-1f3fe-200d-2640-fe0f.svg",
+      "codepoint": "1f935-1f3fe-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman in tuxedo: medium-light skin tone",
+      "displayName": "タキシードの女性: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f935-1f3fc-200d-2640-fe0f.svg",
+      "codepoint": "1f935-1f3fc-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman juggling",
+      "displayName": "ジャグリングをする女",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f939-200d-2640-fe0f.svg",
+      "codepoint": "1f939-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman juggling: dark skin tone",
+      "displayName": "ジャグリングをする女: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f939-1f3ff-200d-2640-fe0f.svg",
+      "codepoint": "1f939-1f3ff-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman juggling: light skin tone",
+      "displayName": "ジャグリングをする女: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f939-1f3fb-200d-2640-fe0f.svg",
+      "codepoint": "1f939-1f3fb-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman juggling: medium skin tone",
+      "displayName": "ジャグリングをする女: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f939-1f3fd-200d-2640-fe0f.svg",
+      "codepoint": "1f939-1f3fd-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman juggling: medium-dark skin tone",
+      "displayName": "ジャグリングをする女: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f939-1f3fe-200d-2640-fe0f.svg",
+      "codepoint": "1f939-1f3fe-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman juggling: medium-light skin tone",
+      "displayName": "ジャグリングをする女: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f939-1f3fc-200d-2640-fe0f.svg",
+      "codepoint": "1f939-1f3fc-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman playing handball",
+      "displayName": "ハンドボールをする女",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f93e-200d-2640-fe0f.svg",
+      "codepoint": "1f93e-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman playing handball: dark skin tone",
+      "displayName": "ハンドボールをする女: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f93e-1f3ff-200d-2640-fe0f.svg",
+      "codepoint": "1f93e-1f3ff-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman playing handball: light skin tone",
+      "displayName": "ハンドボールをする女: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f93e-1f3fb-200d-2640-fe0f.svg",
+      "codepoint": "1f93e-1f3fb-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman playing handball: medium skin tone",
+      "displayName": "ハンドボールをする女: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f93e-1f3fd-200d-2640-fe0f.svg",
+      "codepoint": "1f93e-1f3fd-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman playing handball: medium-dark skin tone",
+      "displayName": "ハンドボールをする女: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f93e-1f3fe-200d-2640-fe0f.svg",
+      "codepoint": "1f93e-1f3fe-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman playing handball: medium-light skin tone",
+      "displayName": "ハンドボールをする女: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f93e-1f3fc-200d-2640-fe0f.svg",
+      "codepoint": "1f93e-1f3fc-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman playing water polo",
+      "displayName": "水球をする女",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f93d-200d-2640-fe0f.svg",
+      "codepoint": "1f93d-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman playing water polo: dark skin tone",
+      "displayName": "水球をする女: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f93d-1f3ff-200d-2640-fe0f.svg",
+      "codepoint": "1f93d-1f3ff-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman playing water polo: light skin tone",
+      "displayName": "水球をする女: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f93d-1f3fb-200d-2640-fe0f.svg",
+      "codepoint": "1f93d-1f3fb-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman playing water polo: medium skin tone",
+      "displayName": "水球をする女: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f93d-1f3fd-200d-2640-fe0f.svg",
+      "codepoint": "1f93d-1f3fd-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman playing water polo: medium-dark skin tone",
+      "displayName": "水球をする女: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f93d-1f3fe-200d-2640-fe0f.svg",
+      "codepoint": "1f93d-1f3fe-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman playing water polo: medium-light skin tone",
+      "displayName": "水球をする女: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f93d-1f3fc-200d-2640-fe0f.svg",
+      "codepoint": "1f93d-1f3fc-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman shrugging",
+      "displayName": "お手上げする女",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f937-200d-2640-fe0f.svg",
+      "codepoint": "1f937-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman shrugging: dark skin tone",
+      "displayName": "お手上げする女: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f937-1f3ff-200d-2640-fe0f.svg",
+      "codepoint": "1f937-1f3ff-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman shrugging: light skin tone",
+      "displayName": "お手上げする女: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f937-1f3fb-200d-2640-fe0f.svg",
+      "codepoint": "1f937-1f3fb-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman shrugging: medium skin tone",
+      "displayName": "お手上げする女: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f937-1f3fd-200d-2640-fe0f.svg",
+      "codepoint": "1f937-1f3fd-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman shrugging: medium-dark skin tone",
+      "displayName": "お手上げする女: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f937-1f3fe-200d-2640-fe0f.svg",
+      "codepoint": "1f937-1f3fe-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman shrugging: medium-light skin tone",
+      "displayName": "お手上げする女: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f937-1f3fc-200d-2640-fe0f.svg",
+      "codepoint": "1f937-1f3fc-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman’s boot",
+      "displayName": "ブーツ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f462.svg",
+      "codepoint": "1f462",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman’s clothes",
+      "displayName": "婦人服",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f45a.svg",
+      "codepoint": "1f45a",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman’s hat",
+      "displayName": "婦人帽子",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f452.svg",
+      "codepoint": "1f452",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman’s sandal",
+      "displayName": "サンダル",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f461.svg",
+      "codepoint": "1f461",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "women wrestling",
+      "displayName": "レスリングする女",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f93c-200d-2640-fe0f.svg",
+      "codepoint": "1f93c-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "worm",
+      "displayName": "ミミズ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fab1.svg",
+      "codepoint": "1fab1",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "wrapped gift",
+      "displayName": "プレゼント",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f381.svg",
+      "codepoint": "1f381",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "writing hand",
+      "displayName": "書いている手",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/270d.svg",
+      "codepoint": "270d",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "writing hand: dark skin tone",
+      "displayName": "書いている手: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/270d-1f3ff.svg",
+      "codepoint": "270d-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "writing hand: light skin tone",
+      "displayName": "書いている手: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/270d-1f3fb.svg",
+      "codepoint": "270d-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "writing hand: medium skin tone",
+      "displayName": "書いている手: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/270d-1f3fd.svg",
+      "codepoint": "270d-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "writing hand: medium-dark skin tone",
+      "displayName": "書いている手: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/270d-1f3fe.svg",
+      "codepoint": "270d-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "writing hand: medium-light skin tone",
+      "displayName": "書いている手: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/270d-1f3fc.svg",
+      "codepoint": "270d-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "x-ray",
+      "displayName": "X線",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fa7b.svg",
+      "codepoint": "1fa7b",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "yarn",
+      "displayName": "毛糸",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f9f6.svg",
+      "codepoint": "1f9f6",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "yellow circle",
+      "displayName": "黄色い丸",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f7e1.svg",
+      "codepoint": "1f7e1",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "yellow square",
+      "displayName": "黄色い四角",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f7e8.svg",
+      "codepoint": "1f7e8",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "yin yang",
+      "displayName": "陰陽",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/262f.svg",
+      "codepoint": "262f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "yo-yo",
+      "displayName": "ヨーヨー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fa80.svg",
+      "codepoint": "1fa80",
+      "license": "CC-BY 4.0"
+    }
+  ]
+}

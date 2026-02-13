@@ -1,0 +1,1323 @@
+{
+  "category": "モノ",
+  "count": 188,
+  "license": "CC-BY 4.0 (Twitter, Inc.)",
+  "icons": [
+    {
+      "name": "anger symbol",
+      "displayName": "むかっ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4a2.svg",
+      "codepoint": "1f4a2",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "antenna bars",
+      "displayName": "アンテナマーク",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4f6.svg",
+      "codepoint": "1f4f6",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "BACK arrow",
+      "displayName": "BACK矢印",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f519.svg",
+      "codepoint": "1f519",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "ballot box with ballot",
+      "displayName": "投票箱",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f5f3.svg",
+      "codepoint": "1f5f3",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "bar chart",
+      "displayName": "棒グラフ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4ca.svg",
+      "codepoint": "1f4ca",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "barber pole",
+      "displayName": "床屋",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f488.svg",
+      "codepoint": "1f488",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "battery",
+      "displayName": "電池",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f50b.svg",
+      "codepoint": "1f50b",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "bell",
+      "displayName": "ベル",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f514.svg",
+      "codepoint": "1f514",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "bell with slash",
+      "displayName": "ベル消音",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f515.svg",
+      "codepoint": "1f515",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "black heart",
+      "displayName": "黒いハート",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f5a4.svg",
+      "codepoint": "1f5a4",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "black square button",
+      "displayName": "黒枠四角",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f532.svg",
+      "codepoint": "1f532",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "blue book",
+      "displayName": "青の本",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4d8.svg",
+      "codepoint": "1f4d8",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "blue circle",
+      "displayName": "青い丸",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f535.svg",
+      "codepoint": "1f535",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "bomb",
+      "displayName": "爆弾",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4a3.svg",
+      "codepoint": "1f4a3",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "bone",
+      "displayName": "骨",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f9b4.svg",
+      "codepoint": "1f9b4",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "bookmark",
+      "displayName": "しおり",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f516.svg",
+      "codepoint": "1f516",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "bookmark tabs",
+      "displayName": "ページに付箋",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4d1.svg",
+      "codepoint": "1f4d1",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "books",
+      "displayName": "本の山",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4da.svg",
+      "codepoint": "1f4da",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "briefcase",
+      "displayName": "ブリーフケース",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4bc.svg",
+      "codepoint": "1f4bc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "bright button",
+      "displayName": "高輝度",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f506.svg",
+      "codepoint": "1f506",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "calendar",
+      "displayName": "カレンダー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4c5.svg",
+      "codepoint": "1f4c5",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "camera",
+      "displayName": "カメラ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4f7.svg",
+      "codepoint": "1f4f7",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "camera with flash",
+      "displayName": "フラッシュを焚いているカメラ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4f8.svg",
+      "codepoint": "1f4f8",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "card file box",
+      "displayName": "カードファイルボックス",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f5c3.svg",
+      "codepoint": "1f5c3",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "card index",
+      "displayName": "カードインデックス",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4c7.svg",
+      "codepoint": "1f4c7",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "card index dividers",
+      "displayName": "カードフォルダー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f5c2.svg",
+      "codepoint": "1f5c2",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "chart decreasing",
+      "displayName": "グラフ下向き",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4c9.svg",
+      "codepoint": "1f4c9",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "chart increasing",
+      "displayName": "グラフ上向き",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4c8.svg",
+      "codepoint": "1f4c8",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "chart increasing with yen",
+      "displayName": "為替",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4b9.svg",
+      "codepoint": "1f4b9",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "clamp",
+      "displayName": "万力",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f5dc.svg",
+      "codepoint": "1f5dc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "clipboard",
+      "displayName": "クリップボード",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4cb.svg",
+      "codepoint": "1f4cb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "clockwise vertical arrows",
+      "displayName": "右回り縦矢印",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f503.svg",
+      "codepoint": "1f503",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "closed book",
+      "displayName": "閉じた本",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4d5.svg",
+      "codepoint": "1f4d5",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "closed mailbox with lowered flag",
+      "displayName": "閉じた郵便受け（手紙なし）",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4ea.svg",
+      "codepoint": "1f4ea",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "closed mailbox with raised flag",
+      "displayName": "閉じた郵便受け（手紙あり）",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4eb.svg",
+      "codepoint": "1f4eb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "collision",
+      "displayName": "衝突",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4a5.svg",
+      "codepoint": "1f4a5",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "computer disk",
+      "displayName": "MD",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4bd.svg",
+      "codepoint": "1f4bd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "computer mouse",
+      "displayName": "マウス",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f5b1.svg",
+      "codepoint": "1f5b1",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "counterclockwise arrows button",
+      "displayName": "左回り矢印",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f504.svg",
+      "codepoint": "1f504",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "credit card",
+      "displayName": "クレジットカード",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4b3.svg",
+      "codepoint": "1f4b3",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "crystal ball",
+      "displayName": "水晶玉",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f52e.svg",
+      "codepoint": "1f52e",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "currency exchange",
+      "displayName": "外貨両替",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4b1.svg",
+      "codepoint": "1f4b1",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "dagger",
+      "displayName": "短刀",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f5e1.svg",
+      "codepoint": "1f5e1",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "desktop computer",
+      "displayName": "デスクトップパソコン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f5a5.svg",
+      "codepoint": "1f5a5",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "diamond with a dot",
+      "displayName": "ドット付きひし形",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4a0.svg",
+      "codepoint": "1f4a0",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "dim button",
+      "displayName": "低輝度",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f505.svg",
+      "codepoint": "1f505",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "dizzy",
+      "displayName": "くらくら",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4ab.svg",
+      "codepoint": "1f4ab",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "dollar banknote",
+      "displayName": "ドル札",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4b5.svg",
+      "codepoint": "1f4b5",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "dotted six-pointed star",
+      "displayName": "六芒星",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f52f.svg",
+      "codepoint": "1f52f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "downwards button",
+      "displayName": "下ボタン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f53d.svg",
+      "codepoint": "1f53d",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "droplet",
+      "displayName": "水滴",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4a7.svg",
+      "codepoint": "1f4a7",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "dvd",
+      "displayName": "DVD",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4c0.svg",
+      "codepoint": "1f4c0",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "e-mail",
+      "displayName": "Eメール",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4e7.svg",
+      "codepoint": "1f4e7",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "electric plug",
+      "displayName": "コンセント",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f50c.svg",
+      "codepoint": "1f50c",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "END arrow",
+      "displayName": "END矢印",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f51a.svg",
+      "codepoint": "1f51a",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "envelope with arrow",
+      "displayName": "メール受信",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4e9.svg",
+      "codepoint": "1f4e9",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "euro banknote",
+      "displayName": "ユーロ札",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4b6.svg",
+      "codepoint": "1f4b6",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "fax machine",
+      "displayName": "ファックス",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4e0.svg",
+      "codepoint": "1f4e0",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "file cabinet",
+      "displayName": "ファイルキャビネット",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f5c4.svg",
+      "codepoint": "1f5c4",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "file folder",
+      "displayName": "フォルダー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4c1.svg",
+      "codepoint": "1f4c1",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "film projector",
+      "displayName": "映写機",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4fd.svg",
+      "codepoint": "1f4fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "fire",
+      "displayName": "火",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f525.svg",
+      "codepoint": "1f525",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flashlight",
+      "displayName": "懐中電灯",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f526.svg",
+      "codepoint": "1f526",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flat shoe",
+      "displayName": "フラットシューズ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f97f.svg",
+      "codepoint": "1f97f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "floppy disk",
+      "displayName": "フロッピー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4be.svg",
+      "codepoint": "1f4be",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "framed picture",
+      "displayName": "絵画",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f5bc.svg",
+      "codepoint": "1f5bc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "goggles",
+      "displayName": "ゴーグル",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f97d.svg",
+      "codepoint": "1f97d",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "green book",
+      "displayName": "緑の本",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4d7.svg",
+      "codepoint": "1f4d7",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "hammer",
+      "displayName": "ハンマー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f528.svg",
+      "codepoint": "1f528",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "heavy dollar sign",
+      "displayName": "ドル記号",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4b2.svg",
+      "codepoint": "1f4b2",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "hiking boot",
+      "displayName": "ハイキングシューズ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f97e.svg",
+      "codepoint": "1f97e",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "hundred points",
+      "displayName": "100点満点",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4af.svg",
+      "codepoint": "1f4af",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "inbox tray",
+      "displayName": "受信トレイ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4e5.svg",
+      "codepoint": "1f4e5",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "incoming envelope",
+      "displayName": "メール受信中",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4e8.svg",
+      "codepoint": "1f4e8",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "input latin letters",
+      "displayName": "英字の入力",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f524.svg",
+      "codepoint": "1f524",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "input latin lowercase",
+      "displayName": "英小文字の入力",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f521.svg",
+      "codepoint": "1f521",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "input latin uppercase",
+      "displayName": "英大文字の入力",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f520.svg",
+      "codepoint": "1f520",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "input numbers",
+      "displayName": "数字の入力",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f522.svg",
+      "codepoint": "1f522",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "input symbols",
+      "displayName": "記号の入力",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f523.svg",
+      "codepoint": "1f523",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Japanese symbol for beginner",
+      "displayName": "初心者マーク",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f530.svg",
+      "codepoint": "1f530",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "key",
+      "displayName": "鍵",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f511.svg",
+      "codepoint": "1f511",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "keycap: 10",
+      "displayName": "囲み数字: 10",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f51f.svg",
+      "codepoint": "1f51f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "kitchen knife",
+      "displayName": "包丁",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f52a.svg",
+      "codepoint": "1f52a",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "lab coat",
+      "displayName": "白衣",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f97c.svg",
+      "codepoint": "1f97c",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "laptop",
+      "displayName": "ノートパソコン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4bb.svg",
+      "codepoint": "1f4bb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "large blue diamond",
+      "displayName": "大きい青のひし形",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f537.svg",
+      "codepoint": "1f537",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "large orange diamond",
+      "displayName": "大きいオレンジのひし形",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f536.svg",
+      "codepoint": "1f536",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "ledger",
+      "displayName": "リングノート",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4d2.svg",
+      "codepoint": "1f4d2",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "left speech bubble",
+      "displayName": "吹き出し左",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f5e8.svg",
+      "codepoint": "1f5e8",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "light bulb",
+      "displayName": "電球",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4a1.svg",
+      "codepoint": "1f4a1",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "link",
+      "displayName": "リンクシンボル",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f517.svg",
+      "codepoint": "1f517",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "locked",
+      "displayName": "閉じた錠",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f512.svg",
+      "codepoint": "1f512",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "locked with key",
+      "displayName": "閉じた錠と鍵",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f510.svg",
+      "codepoint": "1f510",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "locked with pen",
+      "displayName": "閉じた錠とペン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f50f.svg",
+      "codepoint": "1f50f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "loudspeaker",
+      "displayName": "拡声器",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4e2.svg",
+      "codepoint": "1f4e2",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "magnifying glass tilted left",
+      "displayName": "虫眼鏡左",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f50d.svg",
+      "codepoint": "1f50d",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "magnifying glass tilted right",
+      "displayName": "虫眼鏡右",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f50e.svg",
+      "codepoint": "1f50e",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "map of Japan",
+      "displayName": "日本地図",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f5fe.svg",
+      "codepoint": "1f5fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "megaphone",
+      "displayName": "メガホン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4e3.svg",
+      "codepoint": "1f4e3",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "memo",
+      "displayName": "鉛筆とメモ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4dd.svg",
+      "codepoint": "1f4dd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "microscope",
+      "displayName": "顕微鏡",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f52c.svg",
+      "codepoint": "1f52c",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "moai",
+      "displayName": "モアイ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f5ff.svg",
+      "codepoint": "1f5ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "mobile phone",
+      "displayName": "携帯電話",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4f1.svg",
+      "codepoint": "1f4f1",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "mobile phone off",
+      "displayName": "携帯電話電源オフ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4f4.svg",
+      "codepoint": "1f4f4",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "mobile phone with arrow",
+      "displayName": "着信中",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4f2.svg",
+      "codepoint": "1f4f2",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "money bag",
+      "displayName": "ドル袋",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4b0.svg",
+      "codepoint": "1f4b0",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "money with wings",
+      "displayName": "羽が生えたお金",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4b8.svg",
+      "codepoint": "1f4b8",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "mount fuji",
+      "displayName": "富士山",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f5fb.svg",
+      "codepoint": "1f5fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "muted speaker",
+      "displayName": "スピーカー消音",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f507.svg",
+      "codepoint": "1f507",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "name badge",
+      "displayName": "名札",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4db.svg",
+      "codepoint": "1f4db",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "newspaper",
+      "displayName": "新聞",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4f0.svg",
+      "codepoint": "1f4f0",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "no mobile phones",
+      "displayName": "携帯電話禁止",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4f5.svg",
+      "codepoint": "1f4f5",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "no one under eighteen",
+      "displayName": "18歳未満禁止",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f51e.svg",
+      "codepoint": "1f51e",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "notebook",
+      "displayName": "ノート",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4d3.svg",
+      "codepoint": "1f4d3",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "notebook with decorative cover",
+      "displayName": "表紙付きノート",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4d4.svg",
+      "codepoint": "1f4d4",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "nut and bolt",
+      "displayName": "ボルトとナット",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f529.svg",
+      "codepoint": "1f529",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "old key",
+      "displayName": "古い鍵",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f5dd.svg",
+      "codepoint": "1f5dd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "ON! arrow",
+      "displayName": "ON矢印",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f51b.svg",
+      "codepoint": "1f51b",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "open book",
+      "displayName": "開いた本",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4d6.svg",
+      "codepoint": "1f4d6",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "open file folder",
+      "displayName": "開いたフォルダー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4c2.svg",
+      "codepoint": "1f4c2",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "open mailbox with lowered flag",
+      "displayName": "開いた郵便受け（手紙なし）",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4ed.svg",
+      "codepoint": "1f4ed",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "open mailbox with raised flag",
+      "displayName": "開いた郵便受け（手紙あり）",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4ec.svg",
+      "codepoint": "1f4ec",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "optical disk",
+      "displayName": "CD",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4bf.svg",
+      "codepoint": "1f4bf",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "orange book",
+      "displayName": "オレンジの本",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4d9.svg",
+      "codepoint": "1f4d9",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "outbox tray",
+      "displayName": "送信トレイ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4e4.svg",
+      "codepoint": "1f4e4",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "package",
+      "displayName": "荷物",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4e6.svg",
+      "codepoint": "1f4e6",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "page facing up",
+      "displayName": "ページ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4c4.svg",
+      "codepoint": "1f4c4",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "page with curl",
+      "displayName": "巻きページ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4c3.svg",
+      "codepoint": "1f4c3",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "pager",
+      "displayName": "ポケベル",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4df.svg",
+      "codepoint": "1f4df",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "paperclip",
+      "displayName": "クリップ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4ce.svg",
+      "codepoint": "1f4ce",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "pile of poo",
+      "displayName": "うんち",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4a9.svg",
+      "codepoint": "1f4a9",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "postal horn",
+      "displayName": "郵便ラッパ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4ef.svg",
+      "codepoint": "1f4ef",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "postbox",
+      "displayName": "郵便ポスト",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4ee.svg",
+      "codepoint": "1f4ee",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "pound banknote",
+      "displayName": "ポンド札",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4b7.svg",
+      "codepoint": "1f4b7",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "prayer beads",
+      "displayName": "数珠",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4ff.svg",
+      "codepoint": "1f4ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "printer",
+      "displayName": "プリンタ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f5a8.svg",
+      "codepoint": "1f5a8",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "pushpin",
+      "displayName": "押しピン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4cc.svg",
+      "codepoint": "1f4cc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "radio",
+      "displayName": "ラジオ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4fb.svg",
+      "codepoint": "1f4fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "radio button",
+      "displayName": "ラジオボタン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f518.svg",
+      "codepoint": "1f518",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "red circle",
+      "displayName": "赤い丸",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f534.svg",
+      "codepoint": "1f534",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "red triangle pointed down",
+      "displayName": "赤い下三角",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f53b.svg",
+      "codepoint": "1f53b",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "red triangle pointed up",
+      "displayName": "赤い上三角",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f53a.svg",
+      "codepoint": "1f53a",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "repeat button",
+      "displayName": "リピートボタン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f501.svg",
+      "codepoint": "1f501",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "repeat single button",
+      "displayName": "1曲リピートボタン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f502.svg",
+      "codepoint": "1f502",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "right anger bubble",
+      "displayName": "怒りの吹き出し",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f5ef.svg",
+      "codepoint": "1f5ef",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "rolled-up newspaper",
+      "displayName": "丸めた新聞",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f5de.svg",
+      "codepoint": "1f5de",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "round pushpin",
+      "displayName": "丸い押しピン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4cd.svg",
+      "codepoint": "1f4cd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "sari",
+      "displayName": "サリー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f97b.svg",
+      "codepoint": "1f97b",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "satellite antenna",
+      "displayName": "パラボラアンテナ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4e1.svg",
+      "codepoint": "1f4e1",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "scroll",
+      "displayName": "巻き物",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4dc.svg",
+      "codepoint": "1f4dc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "seat",
+      "displayName": "座席",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4ba.svg",
+      "codepoint": "1f4ba",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "shuffle tracks button",
+      "displayName": "シャッフルボタン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f500.svg",
+      "codepoint": "1f500",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "small blue diamond",
+      "displayName": "小さい青のひし形",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f539.svg",
+      "codepoint": "1f539",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "small orange diamond",
+      "displayName": "小さいオレンジのひし形",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f538.svg",
+      "codepoint": "1f538",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "SOON arrow",
+      "displayName": "SOON矢印",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f51c.svg",
+      "codepoint": "1f51c",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "speaker high volume",
+      "displayName": "スピーカー音量大",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f50a.svg",
+      "codepoint": "1f50a",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "speaker low volume",
+      "displayName": "スピーカー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f508.svg",
+      "codepoint": "1f508",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "speaker medium volume",
+      "displayName": "スピーカー音量小",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f509.svg",
+      "codepoint": "1f509",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "speaking head",
+      "displayName": "話す人のシルエット",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f5e3.svg",
+      "codepoint": "1f5e3",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "speech balloon",
+      "displayName": "会話の吹き出し",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4ac.svg",
+      "codepoint": "1f4ac",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "spiral calendar",
+      "displayName": "月めくりカレンダー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f5d3.svg",
+      "codepoint": "1f5d3",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "spiral notepad",
+      "displayName": "メモ帳",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f5d2.svg",
+      "codepoint": "1f5d2",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Statue of Liberty",
+      "displayName": "自由の女神",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f5fd.svg",
+      "codepoint": "1f5fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "straight ruler",
+      "displayName": "定規",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4cf.svg",
+      "codepoint": "1f4cf",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "sweat droplets",
+      "displayName": "あせあせ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4a6.svg",
+      "codepoint": "1f4a6",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "tear-off calendar",
+      "displayName": "日めくりカレンダー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4c6.svg",
+      "codepoint": "1f4c6",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "telephone receiver",
+      "displayName": "受話器",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4de.svg",
+      "codepoint": "1f4de",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "telescope",
+      "displayName": "望遠鏡",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f52d.svg",
+      "codepoint": "1f52d",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "television",
+      "displayName": "テレビ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4fa.svg",
+      "codepoint": "1f4fa",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "thought balloon",
+      "displayName": "雲形の吹き出し",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4ad.svg",
+      "codepoint": "1f4ad",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Tokyo tower",
+      "displayName": "東京タワー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f5fc.svg",
+      "codepoint": "1f5fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "TOP arrow",
+      "displayName": "TOP矢印",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f51d.svg",
+      "codepoint": "1f51d",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "trackball",
+      "displayName": "トラックボール",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f5b2.svg",
+      "codepoint": "1f5b2",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "triangular ruler",
+      "displayName": "三角定規",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4d0.svg",
+      "codepoint": "1f4d0",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "trident emblem",
+      "displayName": "トライデント",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f531.svg",
+      "codepoint": "1f531",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "unlocked",
+      "displayName": "開いた錠",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f513.svg",
+      "codepoint": "1f513",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "upwards button",
+      "displayName": "上ボタン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f53c.svg",
+      "codepoint": "1f53c",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "vibration mode",
+      "displayName": "マナーモード",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4f3.svg",
+      "codepoint": "1f4f3",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "video camera",
+      "displayName": "ビデオカメラ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4f9.svg",
+      "codepoint": "1f4f9",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "videocassette",
+      "displayName": "ビデオテープ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4fc.svg",
+      "codepoint": "1f4fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "wastebasket",
+      "displayName": "ごみ箱",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f5d1.svg",
+      "codepoint": "1f5d1",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "water pistol",
+      "displayName": "水鉄砲",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f52b.svg",
+      "codepoint": "1f52b",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "white flower",
+      "displayName": "大変よくできました",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4ae.svg",
+      "codepoint": "1f4ae",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "white square button",
+      "displayName": "白枠四角",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f533.svg",
+      "codepoint": "1f533",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "world map",
+      "displayName": "世界地図",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f5fa.svg",
+      "codepoint": "1f5fa",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "wrench",
+      "displayName": "レンチ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f527.svg",
+      "codepoint": "1f527",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "yen banknote",
+      "displayName": "円札",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4b4.svg",
+      "codepoint": "1f4b4",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "ZZZ",
+      "displayName": "グーグー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4a4.svg",
+      "codepoint": "1f4a4",
+      "license": "CC-BY 4.0"
+    }
+  ]
+}

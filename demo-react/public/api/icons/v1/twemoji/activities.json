@@ -1,0 +1,1379 @@
+{
+  "category": "アクティビティ・スポーツ",
+  "count": 196,
+  "license": "CC-BY 4.0 (Twitter, Inc.)",
+  "icons": [
+    {
+      "name": "american football",
+      "displayName": "アメフト",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3c8.svg",
+      "codepoint": "1f3c8",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "amphora",
+      "displayName": "壺",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3fa.svg",
+      "codepoint": "1f3fa",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "artist palette",
+      "displayName": "絵の具パレット",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3a8.svg",
+      "codepoint": "1f3a8",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "ATM sign",
+      "displayName": "ATM",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3e7.svg",
+      "codepoint": "1f3e7",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "badminton",
+      "displayName": "バドミントン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3f8.svg",
+      "codepoint": "1f3f8",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "bank",
+      "displayName": "銀行",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3e6.svg",
+      "codepoint": "1f3e6",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "baseball",
+      "displayName": "野球",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/26be.svg",
+      "codepoint": "26be",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "basketball",
+      "displayName": "バスケットボール",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3c0.svg",
+      "codepoint": "1f3c0",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "beach with umbrella",
+      "displayName": "ビーチパラソル",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3d6.svg",
+      "codepoint": "1f3d6",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "black flag",
+      "displayName": "黒旗",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3f4.svg",
+      "codepoint": "1f3f4",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "bow and arrow",
+      "displayName": "弓矢",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3f9.svg",
+      "codepoint": "1f3f9",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "bowling",
+      "displayName": "ボウリング",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3b3.svg",
+      "codepoint": "1f3b3",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "building construction",
+      "displayName": "建設中",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3d7.svg",
+      "codepoint": "1f3d7",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "bullseye",
+      "displayName": "的",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3af.svg",
+      "codepoint": "1f3af",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "camping",
+      "displayName": "キャンプ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3d5.svg",
+      "codepoint": "1f3d5",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "carousel horse",
+      "displayName": "メリーゴーランド",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3a0.svg",
+      "codepoint": "1f3a0",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "castle",
+      "displayName": "西洋の城",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3f0.svg",
+      "codepoint": "1f3f0",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "chequered flag",
+      "displayName": "チェッカーフラッグ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3c1.svg",
+      "codepoint": "1f3c1",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "cinema",
+      "displayName": "映画",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3a6.svg",
+      "codepoint": "1f3a6",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "circus tent",
+      "displayName": "サーカス",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3aa.svg",
+      "codepoint": "1f3aa",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "cityscape",
+      "displayName": "高層ビル",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3d9.svg",
+      "codepoint": "1f3d9",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "clapper board",
+      "displayName": "カチンコ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3ac.svg",
+      "codepoint": "1f3ac",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "classical building",
+      "displayName": "歴史的な建物",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3db.svg",
+      "codepoint": "1f3db",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "convenience store",
+      "displayName": "コンビニ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3ea.svg",
+      "codepoint": "1f3ea",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "cricket game",
+      "displayName": "クリケット",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3cf.svg",
+      "codepoint": "1f3cf",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "dark skin tone",
+      "displayName": "濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3ff.svg",
+      "codepoint": "1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "department store",
+      "displayName": "デパート",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3ec.svg",
+      "codepoint": "1f3ec",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "derelict house",
+      "displayName": "廃屋",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3da.svg",
+      "codepoint": "1f3da",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "desert",
+      "displayName": "砂漠",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3dc.svg",
+      "codepoint": "1f3dc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "desert island",
+      "displayName": "無人島",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3dd.svg",
+      "codepoint": "1f3dd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "factory",
+      "displayName": "工場",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3ed.svg",
+      "codepoint": "1f3ed",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "ferris wheel",
+      "displayName": "観覧車",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3a1.svg",
+      "codepoint": "1f3a1",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "field hockey",
+      "displayName": "ホッケー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3d1.svg",
+      "codepoint": "1f3d1",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "fishing pole",
+      "displayName": "釣り",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3a3.svg",
+      "codepoint": "1f3a3",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: England",
+      "displayName": "旗: イングランド",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3f4-e0067-e0062-e0065-e006e-e0067-e007f.svg",
+      "codepoint": "1f3f4-e0067-e0062-e0065-e006e-e0067-e007f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Scotland",
+      "displayName": "旗: スコットランド",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3f4-e0067-e0062-e0073-e0063-e0074-e007f.svg",
+      "codepoint": "1f3f4-e0067-e0062-e0073-e0063-e0074-e007f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag: Wales",
+      "displayName": "旗: ウェールズ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3f4-e0067-e0062-e0077-e006c-e0073-e007f.svg",
+      "codepoint": "1f3f4-e0067-e0062-e0077-e006c-e0073-e007f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flower playing cards",
+      "displayName": "花札",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3b4.svg",
+      "codepoint": "1f3b4",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "game die",
+      "displayName": "サイコロ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3b2.svg",
+      "codepoint": "1f3b2",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "guitar",
+      "displayName": "ギター",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3b8.svg",
+      "codepoint": "1f3b8",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "headphone",
+      "displayName": "ヘッドホン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3a7.svg",
+      "codepoint": "1f3a7",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "horse racing",
+      "displayName": "競馬",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3c7.svg",
+      "codepoint": "1f3c7",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "horse racing: dark skin tone",
+      "displayName": "競馬: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3c7-1f3ff.svg",
+      "codepoint": "1f3c7-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "horse racing: light skin tone",
+      "displayName": "競馬: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3c7-1f3fb.svg",
+      "codepoint": "1f3c7-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "horse racing: medium skin tone",
+      "displayName": "競馬: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3c7-1f3fd.svg",
+      "codepoint": "1f3c7-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "horse racing: medium-dark skin tone",
+      "displayName": "競馬: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3c7-1f3fe.svg",
+      "codepoint": "1f3c7-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "horse racing: medium-light skin tone",
+      "displayName": "競馬: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3c7-1f3fc.svg",
+      "codepoint": "1f3c7-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "hospital",
+      "displayName": "病院",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3e5.svg",
+      "codepoint": "1f3e5",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "hotel",
+      "displayName": "ホテル",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3e8.svg",
+      "codepoint": "1f3e8",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "house",
+      "displayName": "家",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3e0.svg",
+      "codepoint": "1f3e0",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "house with garden",
+      "displayName": "庭付きの家",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3e1.svg",
+      "codepoint": "1f3e1",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "houses",
+      "displayName": "住宅街",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3d8.svg",
+      "codepoint": "1f3d8",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "ice hockey",
+      "displayName": "アイスホッケー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3d2.svg",
+      "codepoint": "1f3d2",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Japanese castle",
+      "displayName": "城",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3ef.svg",
+      "codepoint": "1f3ef",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "Japanese post office",
+      "displayName": "郵便局",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3e3.svg",
+      "codepoint": "1f3e3",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "label",
+      "displayName": "荷札",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3f7.svg",
+      "codepoint": "1f3f7",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "light skin tone",
+      "displayName": "薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3fb.svg",
+      "codepoint": "1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "love hotel",
+      "displayName": "ラブホテル",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3e9.svg",
+      "codepoint": "1f3e9",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man golfing",
+      "displayName": "ゴルフをする男",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3cc-fe0f-200d-2642-fe0f.svg",
+      "codepoint": "1f3cc-fe0f-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man golfing: dark skin tone",
+      "displayName": "ゴルフをする男: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3cc-1f3ff-200d-2642-fe0f.svg",
+      "codepoint": "1f3cc-1f3ff-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man golfing: light skin tone",
+      "displayName": "ゴルフをする男: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3cc-1f3fb-200d-2642-fe0f.svg",
+      "codepoint": "1f3cc-1f3fb-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man golfing: medium skin tone",
+      "displayName": "ゴルフをする男: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3cc-1f3fd-200d-2642-fe0f.svg",
+      "codepoint": "1f3cc-1f3fd-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man golfing: medium-dark skin tone",
+      "displayName": "ゴルフをする男: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3cc-1f3fe-200d-2642-fe0f.svg",
+      "codepoint": "1f3cc-1f3fe-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man golfing: medium-light skin tone",
+      "displayName": "ゴルフをする男: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3cc-1f3fc-200d-2642-fe0f.svg",
+      "codepoint": "1f3cc-1f3fc-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man lifting weights",
+      "displayName": "重量挙げをする男",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3cb-fe0f-200d-2642-fe0f.svg",
+      "codepoint": "1f3cb-fe0f-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man lifting weights: dark skin tone",
+      "displayName": "重量挙げをする男: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3cb-1f3ff-200d-2642-fe0f.svg",
+      "codepoint": "1f3cb-1f3ff-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man lifting weights: light skin tone",
+      "displayName": "重量挙げをする男: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3cb-1f3fb-200d-2642-fe0f.svg",
+      "codepoint": "1f3cb-1f3fb-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man lifting weights: medium skin tone",
+      "displayName": "重量挙げをする男: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3cb-1f3fd-200d-2642-fe0f.svg",
+      "codepoint": "1f3cb-1f3fd-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man lifting weights: medium-dark skin tone",
+      "displayName": "重量挙げをする男: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3cb-1f3fe-200d-2642-fe0f.svg",
+      "codepoint": "1f3cb-1f3fe-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man lifting weights: medium-light skin tone",
+      "displayName": "重量挙げをする男: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3cb-1f3fc-200d-2642-fe0f.svg",
+      "codepoint": "1f3cb-1f3fc-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man running",
+      "displayName": "走る男",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3c3-200d-2642-fe0f.svg",
+      "codepoint": "1f3c3-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man running: dark skin tone",
+      "displayName": "走る男: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3c3-1f3ff-200d-2642-fe0f.svg",
+      "codepoint": "1f3c3-1f3ff-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man running: light skin tone",
+      "displayName": "走る男: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3c3-1f3fb-200d-2642-fe0f.svg",
+      "codepoint": "1f3c3-1f3fb-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man running: medium skin tone",
+      "displayName": "走る男: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3c3-1f3fd-200d-2642-fe0f.svg",
+      "codepoint": "1f3c3-1f3fd-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man running: medium-dark skin tone",
+      "displayName": "走る男: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3c3-1f3fe-200d-2642-fe0f.svg",
+      "codepoint": "1f3c3-1f3fe-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man running: medium-light skin tone",
+      "displayName": "走る男: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3c3-1f3fc-200d-2642-fe0f.svg",
+      "codepoint": "1f3c3-1f3fc-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man surfing",
+      "displayName": "サーフィンする男",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3c4-200d-2642-fe0f.svg",
+      "codepoint": "1f3c4-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man surfing: dark skin tone",
+      "displayName": "サーフィンする男: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3c4-1f3ff-200d-2642-fe0f.svg",
+      "codepoint": "1f3c4-1f3ff-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man surfing: light skin tone",
+      "displayName": "サーフィンする男: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3c4-1f3fb-200d-2642-fe0f.svg",
+      "codepoint": "1f3c4-1f3fb-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man surfing: medium skin tone",
+      "displayName": "サーフィンする男: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3c4-1f3fd-200d-2642-fe0f.svg",
+      "codepoint": "1f3c4-1f3fd-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man surfing: medium-dark skin tone",
+      "displayName": "サーフィンする男: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3c4-1f3fe-200d-2642-fe0f.svg",
+      "codepoint": "1f3c4-1f3fe-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man surfing: medium-light skin tone",
+      "displayName": "サーフィンする男: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3c4-1f3fc-200d-2642-fe0f.svg",
+      "codepoint": "1f3c4-1f3fc-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man swimming",
+      "displayName": "泳ぐ男",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3ca-200d-2642-fe0f.svg",
+      "codepoint": "1f3ca-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man swimming: dark skin tone",
+      "displayName": "泳ぐ男: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3ca-1f3ff-200d-2642-fe0f.svg",
+      "codepoint": "1f3ca-1f3ff-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man swimming: light skin tone",
+      "displayName": "泳ぐ男: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3ca-1f3fb-200d-2642-fe0f.svg",
+      "codepoint": "1f3ca-1f3fb-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man swimming: medium skin tone",
+      "displayName": "泳ぐ男: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3ca-1f3fd-200d-2642-fe0f.svg",
+      "codepoint": "1f3ca-1f3fd-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man swimming: medium-dark skin tone",
+      "displayName": "泳ぐ男: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3ca-1f3fe-200d-2642-fe0f.svg",
+      "codepoint": "1f3ca-1f3fe-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man swimming: medium-light skin tone",
+      "displayName": "泳ぐ男: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3ca-1f3fc-200d-2642-fe0f.svg",
+      "codepoint": "1f3ca-1f3fc-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "medium skin tone",
+      "displayName": "中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3fd.svg",
+      "codepoint": "1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "medium-dark skin tone",
+      "displayName": "やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3fe.svg",
+      "codepoint": "1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "medium-light skin tone",
+      "displayName": "やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3fc.svg",
+      "codepoint": "1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "microphone",
+      "displayName": "マイク",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3a4.svg",
+      "codepoint": "1f3a4",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "motorcycle",
+      "displayName": "オートバイ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3cd.svg",
+      "codepoint": "1f3cd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "movie camera",
+      "displayName": "映画カメラ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3a5.svg",
+      "codepoint": "1f3a5",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "musical keyboard",
+      "displayName": "鍵盤",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3b9.svg",
+      "codepoint": "1f3b9",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "musical note",
+      "displayName": "音符",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3b5.svg",
+      "codepoint": "1f3b5",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "musical notes",
+      "displayName": "複数の音符",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3b6.svg",
+      "codepoint": "1f3b6",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "musical score",
+      "displayName": "楽譜",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3bc.svg",
+      "codepoint": "1f3bc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "national park",
+      "displayName": "国立公園",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3de.svg",
+      "codepoint": "1f3de",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "office building",
+      "displayName": "オフィスビル",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3e2.svg",
+      "codepoint": "1f3e2",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "performing arts",
+      "displayName": "舞台芸術",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3ad.svg",
+      "codepoint": "1f3ad",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person golfing",
+      "displayName": "ゴルフをする人",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3cc.svg",
+      "codepoint": "1f3cc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person golfing: dark skin tone",
+      "displayName": "ゴルフをする人: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3cc-1f3ff.svg",
+      "codepoint": "1f3cc-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person golfing: light skin tone",
+      "displayName": "ゴルフをする人: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3cc-1f3fb.svg",
+      "codepoint": "1f3cc-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person golfing: medium skin tone",
+      "displayName": "ゴルフをする人: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3cc-1f3fd.svg",
+      "codepoint": "1f3cc-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person golfing: medium-dark skin tone",
+      "displayName": "ゴルフをする人: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3cc-1f3fe.svg",
+      "codepoint": "1f3cc-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person golfing: medium-light skin tone",
+      "displayName": "ゴルフをする人: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3cc-1f3fc.svg",
+      "codepoint": "1f3cc-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person lifting weights",
+      "displayName": "重量挙げをする人",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3cb.svg",
+      "codepoint": "1f3cb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person lifting weights: dark skin tone",
+      "displayName": "重量挙げをする人: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3cb-1f3ff.svg",
+      "codepoint": "1f3cb-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person lifting weights: light skin tone",
+      "displayName": "重量挙げをする人: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3cb-1f3fb.svg",
+      "codepoint": "1f3cb-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person lifting weights: medium skin tone",
+      "displayName": "重量挙げをする人: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3cb-1f3fd.svg",
+      "codepoint": "1f3cb-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person lifting weights: medium-dark skin tone",
+      "displayName": "重量挙げをする人: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3cb-1f3fe.svg",
+      "codepoint": "1f3cb-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person lifting weights: medium-light skin tone",
+      "displayName": "重量挙げをする人: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3cb-1f3fc.svg",
+      "codepoint": "1f3cb-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person running",
+      "displayName": "走る人",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3c3.svg",
+      "codepoint": "1f3c3",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person running: dark skin tone",
+      "displayName": "走る人: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3c3-1f3ff.svg",
+      "codepoint": "1f3c3-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person running: light skin tone",
+      "displayName": "走る人: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3c3-1f3fb.svg",
+      "codepoint": "1f3c3-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person running: medium skin tone",
+      "displayName": "走る人: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3c3-1f3fd.svg",
+      "codepoint": "1f3c3-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person running: medium-dark skin tone",
+      "displayName": "走る人: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3c3-1f3fe.svg",
+      "codepoint": "1f3c3-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person running: medium-light skin tone",
+      "displayName": "走る人: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3c3-1f3fc.svg",
+      "codepoint": "1f3c3-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person surfing",
+      "displayName": "サーフィンする人",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3c4.svg",
+      "codepoint": "1f3c4",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person surfing: dark skin tone",
+      "displayName": "サーフィンする人: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3c4-1f3ff.svg",
+      "codepoint": "1f3c4-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person surfing: light skin tone",
+      "displayName": "サーフィンする人: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3c4-1f3fb.svg",
+      "codepoint": "1f3c4-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person surfing: medium skin tone",
+      "displayName": "サーフィンする人: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3c4-1f3fd.svg",
+      "codepoint": "1f3c4-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person surfing: medium-dark skin tone",
+      "displayName": "サーフィンする人: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3c4-1f3fe.svg",
+      "codepoint": "1f3c4-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person surfing: medium-light skin tone",
+      "displayName": "サーフィンする人: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3c4-1f3fc.svg",
+      "codepoint": "1f3c4-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person swimming",
+      "displayName": "泳ぐ人",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3ca.svg",
+      "codepoint": "1f3ca",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person swimming: dark skin tone",
+      "displayName": "泳ぐ人: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3ca-1f3ff.svg",
+      "codepoint": "1f3ca-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person swimming: light skin tone",
+      "displayName": "泳ぐ人: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3ca-1f3fb.svg",
+      "codepoint": "1f3ca-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person swimming: medium skin tone",
+      "displayName": "泳ぐ人: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3ca-1f3fd.svg",
+      "codepoint": "1f3ca-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person swimming: medium-dark skin tone",
+      "displayName": "泳ぐ人: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3ca-1f3fe.svg",
+      "codepoint": "1f3ca-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person swimming: medium-light skin tone",
+      "displayName": "泳ぐ人: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3ca-1f3fc.svg",
+      "codepoint": "1f3ca-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "ping pong",
+      "displayName": "卓球",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3d3.svg",
+      "codepoint": "1f3d3",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "pirate flag",
+      "displayName": "海賊旗",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3f4-200d-2620-fe0f.svg",
+      "codepoint": "1f3f4-200d-2620-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "pool 8 ball",
+      "displayName": "ビリヤード",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3b1.svg",
+      "codepoint": "1f3b1",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "post office",
+      "displayName": "西洋の郵便局",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3e4.svg",
+      "codepoint": "1f3e4",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "racing car",
+      "displayName": "レーシングカー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3ce.svg",
+      "codepoint": "1f3ce",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "rainbow flag",
+      "displayName": "レインボーフラッグ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3f3-fe0f-200d-1f308.svg",
+      "codepoint": "1f3f3-fe0f-200d-1f308",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "red paper lantern",
+      "displayName": "赤ちょうちん",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3ee.svg",
+      "codepoint": "1f3ee",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "roller coaster",
+      "displayName": "ジェットコースター",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3a2.svg",
+      "codepoint": "1f3a2",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "rosette",
+      "displayName": "花飾り",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3f5.svg",
+      "codepoint": "1f3f5",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "rugby football",
+      "displayName": "ラグビー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3c9.svg",
+      "codepoint": "1f3c9",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "running shirt",
+      "displayName": "長距離走",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3bd.svg",
+      "codepoint": "1f3bd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "saxophone",
+      "displayName": "サックス",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3b7.svg",
+      "codepoint": "1f3b7",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "school",
+      "displayName": "学校",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3eb.svg",
+      "codepoint": "1f3eb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "skis",
+      "displayName": "スキー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3bf.svg",
+      "codepoint": "1f3bf",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "slot machine",
+      "displayName": "スロットマシン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3b0.svg",
+      "codepoint": "1f3b0",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "snow-capped mountain",
+      "displayName": "雪山",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3d4.svg",
+      "codepoint": "1f3d4",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "snowboarder",
+      "displayName": "スノーボーダー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3c2.svg",
+      "codepoint": "1f3c2",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "snowboarder: dark skin tone",
+      "displayName": "スノーボーダー: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3c2-1f3ff.svg",
+      "codepoint": "1f3c2-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "snowboarder: light skin tone",
+      "displayName": "スノーボーダー: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3c2-1f3fb.svg",
+      "codepoint": "1f3c2-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "snowboarder: medium skin tone",
+      "displayName": "スノーボーダー: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3c2-1f3fd.svg",
+      "codepoint": "1f3c2-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "snowboarder: medium-dark skin tone",
+      "displayName": "スノーボーダー: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3c2-1f3fe.svg",
+      "codepoint": "1f3c2-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "snowboarder: medium-light skin tone",
+      "displayName": "スノーボーダー: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3c2-1f3fc.svg",
+      "codepoint": "1f3c2-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "soccer ball",
+      "displayName": "サッカー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/26bd.svg",
+      "codepoint": "26bd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "sports medal",
+      "displayName": "メダル",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3c5.svg",
+      "codepoint": "1f3c5",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "stadium",
+      "displayName": "競技場",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3df.svg",
+      "codepoint": "1f3df",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "tennis",
+      "displayName": "テニス",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3be.svg",
+      "codepoint": "1f3be",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "ticket",
+      "displayName": "チケット",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3ab.svg",
+      "codepoint": "1f3ab",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "top hat",
+      "displayName": "シルクハット",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3a9.svg",
+      "codepoint": "1f3a9",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "transgender flag",
+      "displayName": "トランスジェンダーフラッグ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3f3-fe0f-200d-26a7-fe0f.svg",
+      "codepoint": "1f3f3-fe0f-200d-26a7-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "trophy",
+      "displayName": "トロフィー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3c6.svg",
+      "codepoint": "1f3c6",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "trumpet",
+      "displayName": "トランペット",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3ba.svg",
+      "codepoint": "1f3ba",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "video game",
+      "displayName": "テレビゲーム",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3ae.svg",
+      "codepoint": "1f3ae",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "violin",
+      "displayName": "バイオリン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3bb.svg",
+      "codepoint": "1f3bb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "volleyball",
+      "displayName": "バレーボール",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3d0.svg",
+      "codepoint": "1f3d0",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "white flag",
+      "displayName": "白旗",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3f3.svg",
+      "codepoint": "1f3f3",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman golfing",
+      "displayName": "ゴルフをする女",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3cc-fe0f-200d-2640-fe0f.svg",
+      "codepoint": "1f3cc-fe0f-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman golfing: dark skin tone",
+      "displayName": "ゴルフをする女: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3cc-1f3ff-200d-2640-fe0f.svg",
+      "codepoint": "1f3cc-1f3ff-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman golfing: light skin tone",
+      "displayName": "ゴルフをする女: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3cc-1f3fb-200d-2640-fe0f.svg",
+      "codepoint": "1f3cc-1f3fb-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman golfing: medium skin tone",
+      "displayName": "ゴルフをする女: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3cc-1f3fd-200d-2640-fe0f.svg",
+      "codepoint": "1f3cc-1f3fd-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman golfing: medium-dark skin tone",
+      "displayName": "ゴルフをする女: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3cc-1f3fe-200d-2640-fe0f.svg",
+      "codepoint": "1f3cc-1f3fe-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman golfing: medium-light skin tone",
+      "displayName": "ゴルフをする女: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3cc-1f3fc-200d-2640-fe0f.svg",
+      "codepoint": "1f3cc-1f3fc-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman lifting weights",
+      "displayName": "重量挙げをする女",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3cb-fe0f-200d-2640-fe0f.svg",
+      "codepoint": "1f3cb-fe0f-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman lifting weights: dark skin tone",
+      "displayName": "重量挙げをする女: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3cb-1f3ff-200d-2640-fe0f.svg",
+      "codepoint": "1f3cb-1f3ff-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman lifting weights: light skin tone",
+      "displayName": "重量挙げをする女: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3cb-1f3fb-200d-2640-fe0f.svg",
+      "codepoint": "1f3cb-1f3fb-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman lifting weights: medium skin tone",
+      "displayName": "重量挙げをする女: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3cb-1f3fd-200d-2640-fe0f.svg",
+      "codepoint": "1f3cb-1f3fd-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman lifting weights: medium-dark skin tone",
+      "displayName": "重量挙げをする女: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3cb-1f3fe-200d-2640-fe0f.svg",
+      "codepoint": "1f3cb-1f3fe-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman lifting weights: medium-light skin tone",
+      "displayName": "重量挙げをする女: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3cb-1f3fc-200d-2640-fe0f.svg",
+      "codepoint": "1f3cb-1f3fc-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman running",
+      "displayName": "走る女",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3c3-200d-2640-fe0f.svg",
+      "codepoint": "1f3c3-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman running: dark skin tone",
+      "displayName": "走る女: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3c3-1f3ff-200d-2640-fe0f.svg",
+      "codepoint": "1f3c3-1f3ff-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman running: light skin tone",
+      "displayName": "走る女: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3c3-1f3fb-200d-2640-fe0f.svg",
+      "codepoint": "1f3c3-1f3fb-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman running: medium skin tone",
+      "displayName": "走る女: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3c3-1f3fd-200d-2640-fe0f.svg",
+      "codepoint": "1f3c3-1f3fd-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman running: medium-dark skin tone",
+      "displayName": "走る女: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3c3-1f3fe-200d-2640-fe0f.svg",
+      "codepoint": "1f3c3-1f3fe-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman running: medium-light skin tone",
+      "displayName": "走る女: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3c3-1f3fc-200d-2640-fe0f.svg",
+      "codepoint": "1f3c3-1f3fc-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman surfing",
+      "displayName": "サーフィンする女",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3c4-200d-2640-fe0f.svg",
+      "codepoint": "1f3c4-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman surfing: dark skin tone",
+      "displayName": "サーフィンする女: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3c4-1f3ff-200d-2640-fe0f.svg",
+      "codepoint": "1f3c4-1f3ff-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman surfing: light skin tone",
+      "displayName": "サーフィンする女: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3c4-1f3fb-200d-2640-fe0f.svg",
+      "codepoint": "1f3c4-1f3fb-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman surfing: medium skin tone",
+      "displayName": "サーフィンする女: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3c4-1f3fd-200d-2640-fe0f.svg",
+      "codepoint": "1f3c4-1f3fd-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman surfing: medium-dark skin tone",
+      "displayName": "サーフィンする女: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3c4-1f3fe-200d-2640-fe0f.svg",
+      "codepoint": "1f3c4-1f3fe-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman surfing: medium-light skin tone",
+      "displayName": "サーフィンする女: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3c4-1f3fc-200d-2640-fe0f.svg",
+      "codepoint": "1f3c4-1f3fc-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman swimming",
+      "displayName": "泳ぐ女",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3ca-200d-2640-fe0f.svg",
+      "codepoint": "1f3ca-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman swimming: dark skin tone",
+      "displayName": "泳ぐ女: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3ca-1f3ff-200d-2640-fe0f.svg",
+      "codepoint": "1f3ca-1f3ff-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman swimming: light skin tone",
+      "displayName": "泳ぐ女: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3ca-1f3fb-200d-2640-fe0f.svg",
+      "codepoint": "1f3ca-1f3fb-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman swimming: medium skin tone",
+      "displayName": "泳ぐ女: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3ca-1f3fd-200d-2640-fe0f.svg",
+      "codepoint": "1f3ca-1f3fd-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman swimming: medium-dark skin tone",
+      "displayName": "泳ぐ女: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3ca-1f3fe-200d-2640-fe0f.svg",
+      "codepoint": "1f3ca-1f3fe-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman swimming: medium-light skin tone",
+      "displayName": "泳ぐ女: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f3ca-1f3fc-200d-2640-fe0f.svg",
+      "codepoint": "1f3ca-1f3fc-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    }
+  ]
+}

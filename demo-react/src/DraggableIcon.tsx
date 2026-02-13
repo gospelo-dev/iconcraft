@@ -1,47 +1,69 @@
 import { useState, useRef, useCallback, useEffect } from 'react';
 import type { CSSProperties } from 'react';
-import type { IconCraftInstance, AnimationType } from 'gospelo-iconcraft-react';
+import type { IconCraftInstance, AnimationType, DialPreset, ReticlePreset } from 'gospelo-iconcraft-react';
 import { IconCraftView } from 'gospelo-iconcraft-react';
 
 export interface DraggableIconProps {
   instance: IconCraftInstance;
   initialX?: number;
   initialY?: number;
+  scaleX?: number;
+  scaleY?: number;
   zIndex?: number;
   size?: number;
+  rotation?: number;
   animation?: AnimationType;
   selected?: boolean;
   onSelect?: () => void;
   onPositionChange?: (x: number, y: number) => void;
+  onRotationChange?: (deg: number) => void;
   onDragStart?: () => void;
   onDrop?: (x: number, y: number) => void;
+  dialPreset?: DialPreset;
+  showReticle?: boolean;
+  reticlePreset?: ReticlePreset;
+  cssRotation?: number | null;
 }
 
 export function DraggableIcon({
   instance,
   initialX = 0,
   initialY = 0,
+  scaleX = 1,
+  scaleY = 1,
   zIndex = 1,
   size,
+  rotation: _rotation = 0,
   animation,
   selected = false,
   onSelect,
   onPositionChange,
+  onRotationChange,
   onDragStart,
   onDrop,
+  dialPreset,
+  showReticle,
+  reticlePreset,
+  cssRotation,
 }: DraggableIconProps) {
   const [position, setPosition] = useState({ x: initialX, y: initialY });
   const [isDragging, setIsDragging] = useState(false);
-  // Store the offset from mouse to element's position at drag start
   const dragStartRef = useRef<{ mouseX: number; mouseY: number; elemX: number; elemY: number } | null>(null);
 
+  // Sync position when initialX/initialY change (e.g. from parent state)
+  useEffect(() => {
+    if (!isDragging) {
+      setPosition({ x: initialX, y: initialY });
+    }
+  }, [initialX, initialY, isDragging]);
+
+  // --- Drag handling ---
   const handleMouseDown = useCallback((e: React.MouseEvent) => {
     e.preventDefault();
     e.stopPropagation();
     onSelect?.();
     onDragStart?.();
 
-    // Remember where the mouse was and where the element was
     dragStartRef.current = {
       mouseX: e.clientX,
       mouseY: e.clientY,
@@ -54,17 +76,15 @@ export function DraggableIcon({
   const handleMouseMove = useCallback((e: MouseEvent) => {
     if (!isDragging || !dragStartRef.current) return;
 
-    // Calculate how much the mouse has moved since drag start
     const deltaX = e.clientX - dragStartRef.current.mouseX;
     const deltaY = e.clientY - dragStartRef.current.mouseY;
 
-    // New position = original position + delta
-    const newX = dragStartRef.current.elemX + deltaX;
-    const newY = dragStartRef.current.elemY + deltaY;
+    const newX = dragStartRef.current.elemX + deltaX / scaleX;
+    const newY = dragStartRef.current.elemY + deltaY / scaleY;
 
     setPosition({ x: newX, y: newY });
     onPositionChange?.(newX, newY);
-  }, [isDragging, onPositionChange]);
+  }, [isDragging, onPositionChange, scaleX, scaleY]);
 
   const handleMouseUp = useCallback((e: MouseEvent) => {
     if (isDragging) {
@@ -85,16 +105,17 @@ export function DraggableIcon({
     }
   }, [isDragging, handleMouseMove, handleMouseUp]);
 
+  // --- Rendering ---
+  const scaledSize = size ? size * scaleX : undefined;
+
   const containerStyle: CSSProperties = {
     position: 'absolute',
-    left: position.x,
-    top: position.y,
+    left: position.x * scaleX,
+    top: position.y * scaleY,
     transform: 'translate(-50%, -50%)',
     cursor: isDragging ? 'grabbing' : 'grab',
     zIndex: isDragging ? 1000 : zIndex,
     userSelect: 'none',
-    outline: selected ? '3px solid #0071e3' : 'none',
-    outlineOffset: '4px',
     borderRadius: '50%',
     transition: isDragging ? 'none' : 'outline 0.15s ease',
   };
@@ -112,8 +133,14 @@ export function DraggableIcon({
       <IconCraftView
         instance={instance}
         animation={isDragging ? undefined : animation}
-        animationTarget={animation === 'rotateIcon' ? 'icon' : undefined}
-        style={size ? { width: size, height: size } : undefined}
+        style={scaledSize ? { width: scaledSize, height: scaledSize } : undefined}
+        showRotationDial={selected}
+        onRotationChange={onRotationChange}
+        rotationSnap={5}
+        dialPreset={dialPreset}
+        showReticle={showReticle}
+        reticlePreset={reticlePreset}
+        cssRotation={cssRotation}
       />
     </div>
   );

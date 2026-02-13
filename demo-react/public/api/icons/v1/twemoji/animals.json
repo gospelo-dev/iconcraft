@@ -1,0 +1,819 @@
+{
+  "category": "動物",
+  "count": 116,
+  "license": "CC-BY 4.0 (Twitter, Inc.)",
+  "icons": [
+    {
+      "name": "ant",
+      "displayName": "アリ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f41c.svg",
+      "codepoint": "1f41c",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "baby chick",
+      "displayName": "ひよこ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f424.svg",
+      "codepoint": "1f424",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "badger",
+      "displayName": "アナグマ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f9a1.svg",
+      "codepoint": "1f9a1",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "bat",
+      "displayName": "コウモリ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f987.svg",
+      "codepoint": "1f987",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "bear",
+      "displayName": "クマの顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f43b.svg",
+      "codepoint": "1f43b",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "beaver",
+      "displayName": "ビーバー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f9ab.svg",
+      "codepoint": "1f9ab",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "bird",
+      "displayName": "鳥",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f426.svg",
+      "codepoint": "1f426",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "bison",
+      "displayName": "バイソン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f9ac.svg",
+      "codepoint": "1f9ac",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "black cat",
+      "displayName": "黒猫",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f408-200d-2b1b.svg",
+      "codepoint": "1f408-200d-2b1b",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "blowfish",
+      "displayName": "フグ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f421.svg",
+      "codepoint": "1f421",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "boar",
+      "displayName": "イノシシ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f417.svg",
+      "codepoint": "1f417",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "bug",
+      "displayName": "毛虫",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f41b.svg",
+      "codepoint": "1f41b",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "butterfly",
+      "displayName": "チョウ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f98b.svg",
+      "codepoint": "1f98b",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "camel",
+      "displayName": "ラクダ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f42a.svg",
+      "codepoint": "1f42a",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "cat",
+      "displayName": "ネコ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f408.svg",
+      "codepoint": "1f408",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "cat face",
+      "displayName": "ネコの顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f431.svg",
+      "codepoint": "1f431",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "chicken",
+      "displayName": "にわとり",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f414.svg",
+      "codepoint": "1f414",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "chipmunk",
+      "displayName": "リス",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f43f.svg",
+      "codepoint": "1f43f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "cow",
+      "displayName": "牝牛",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f404.svg",
+      "codepoint": "1f404",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "cow face",
+      "displayName": "牛の顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f42e.svg",
+      "codepoint": "1f42e",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "crab",
+      "displayName": "カニ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f980.svg",
+      "codepoint": "1f980",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "cricket",
+      "displayName": "バッタ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f997.svg",
+      "codepoint": "1f997",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "crocodile",
+      "displayName": "ワニ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f40a.svg",
+      "codepoint": "1f40a",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "deer",
+      "displayName": "シカ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f98c.svg",
+      "codepoint": "1f98c",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "dodo",
+      "displayName": "ドードー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f9a4.svg",
+      "codepoint": "1f9a4",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "dog",
+      "displayName": "イヌ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f415.svg",
+      "codepoint": "1f415",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "dog face",
+      "displayName": "イヌの顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f436.svg",
+      "codepoint": "1f436",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "dolphin",
+      "displayName": "イルカ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f42c.svg",
+      "codepoint": "1f42c",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "dove",
+      "displayName": "ハト",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f54a.svg",
+      "codepoint": "1f54a",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "dragon",
+      "displayName": "ドラゴン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f409.svg",
+      "codepoint": "1f409",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "dragon face",
+      "displayName": "ドラゴンの顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f432.svg",
+      "codepoint": "1f432",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "duck",
+      "displayName": "カモ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f986.svg",
+      "codepoint": "1f986",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "eagle",
+      "displayName": "ワシ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f985.svg",
+      "codepoint": "1f985",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "elephant",
+      "displayName": "ゾウ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f418.svg",
+      "codepoint": "1f418",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "ewe",
+      "displayName": "羊",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f411.svg",
+      "codepoint": "1f411",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "feather",
+      "displayName": "羽",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fab6.svg",
+      "codepoint": "1fab6",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "fish",
+      "displayName": "魚",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f41f.svg",
+      "codepoint": "1f41f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flamingo",
+      "displayName": "フラミンゴ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f9a9.svg",
+      "codepoint": "1f9a9",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "fox",
+      "displayName": "キツネの顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f98a.svg",
+      "codepoint": "1f98a",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "frog",
+      "displayName": "カエルの顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f438.svg",
+      "codepoint": "1f438",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "front-facing baby chick",
+      "displayName": "前を向いているひよこ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f425.svg",
+      "codepoint": "1f425",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "giraffe",
+      "displayName": "キリン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f992.svg",
+      "codepoint": "1f992",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "goat",
+      "displayName": "山羊",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f410.svg",
+      "codepoint": "1f410",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "gorilla",
+      "displayName": "ゴリラ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f98d.svg",
+      "codepoint": "1f98d",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "guide dog",
+      "displayName": "盲導犬",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f9ae.svg",
+      "codepoint": "1f9ae",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "hamster",
+      "displayName": "ハムスターの顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f439.svg",
+      "codepoint": "1f439",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "hatching chick",
+      "displayName": "卵からかえったひよこ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f423.svg",
+      "codepoint": "1f423",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "hedgehog",
+      "displayName": "ハリネズミ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f994.svg",
+      "codepoint": "1f994",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "hippopotamus",
+      "displayName": "カバ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f99b.svg",
+      "codepoint": "1f99b",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "honeybee",
+      "displayName": "ミツバチ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f41d.svg",
+      "codepoint": "1f41d",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "horse",
+      "displayName": "馬",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f40e.svg",
+      "codepoint": "1f40e",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "horse face",
+      "displayName": "馬の顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f434.svg",
+      "codepoint": "1f434",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "kangaroo",
+      "displayName": "カンガルー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f998.svg",
+      "codepoint": "1f998",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "koala",
+      "displayName": "コアラ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f428.svg",
+      "codepoint": "1f428",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "lady beetle",
+      "displayName": "テントウムシ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f41e.svg",
+      "codepoint": "1f41e",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "leopard",
+      "displayName": "ヒョウ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f406.svg",
+      "codepoint": "1f406",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "lion",
+      "displayName": "ライオンの顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f981.svg",
+      "codepoint": "1f981",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "lizard",
+      "displayName": "トカゲ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f98e.svg",
+      "codepoint": "1f98e",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "llama",
+      "displayName": "ラマ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f999.svg",
+      "codepoint": "1f999",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "lobster",
+      "displayName": "ザリガニ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f99e.svg",
+      "codepoint": "1f99e",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "mammoth",
+      "displayName": "マンモス",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f9a3.svg",
+      "codepoint": "1f9a3",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "microbe",
+      "displayName": "微生物",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f9a0.svg",
+      "codepoint": "1f9a0",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "monkey",
+      "displayName": "サル",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f412.svg",
+      "codepoint": "1f412",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "monkey face",
+      "displayName": "サルの顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f435.svg",
+      "codepoint": "1f435",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "mosquito",
+      "displayName": "蚊",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f99f.svg",
+      "codepoint": "1f99f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "mouse",
+      "displayName": "ハツカネズミ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f401.svg",
+      "codepoint": "1f401",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "mouse face",
+      "displayName": "ネズミの顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f42d.svg",
+      "codepoint": "1f42d",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "octopus",
+      "displayName": "タコ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f419.svg",
+      "codepoint": "1f419",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "orangutan",
+      "displayName": "オランウータン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f9a7.svg",
+      "codepoint": "1f9a7",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "otter",
+      "displayName": "カワウソ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f9a6.svg",
+      "codepoint": "1f9a6",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "owl",
+      "displayName": "フクロウ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f989.svg",
+      "codepoint": "1f989",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "ox",
+      "displayName": "牡牛",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f402.svg",
+      "codepoint": "1f402",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "oyster",
+      "displayName": "牡蠣",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f9aa.svg",
+      "codepoint": "1f9aa",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "panda",
+      "displayName": "パンダの顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f43c.svg",
+      "codepoint": "1f43c",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "parrot",
+      "displayName": "オウム",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f99c.svg",
+      "codepoint": "1f99c",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "paw prints",
+      "displayName": "肉球",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f43e.svg",
+      "codepoint": "1f43e",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "peacock",
+      "displayName": "クジャク",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f99a.svg",
+      "codepoint": "1f99a",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "penguin",
+      "displayName": "ペンギン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f427.svg",
+      "codepoint": "1f427",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "pig",
+      "displayName": "ブタ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f416.svg",
+      "codepoint": "1f416",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "pig face",
+      "displayName": "ブタの顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f437.svg",
+      "codepoint": "1f437",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "pig nose",
+      "displayName": "ブタ鼻",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f43d.svg",
+      "codepoint": "1f43d",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "polar bear",
+      "displayName": "シロクマ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f43b-200d-2744-fe0f.svg",
+      "codepoint": "1f43b-200d-2744-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "poodle",
+      "displayName": "プードル",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f429.svg",
+      "codepoint": "1f429",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "rabbit",
+      "displayName": "ウサギ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f407.svg",
+      "codepoint": "1f407",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "rabbit face",
+      "displayName": "ウサギの顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f430.svg",
+      "codepoint": "1f430",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "raccoon",
+      "displayName": "アライグマ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f99d.svg",
+      "codepoint": "1f99d",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "ram",
+      "displayName": "牡羊",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f40f.svg",
+      "codepoint": "1f40f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "rat",
+      "displayName": "ネズミ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f400.svg",
+      "codepoint": "1f400",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "rhinoceros",
+      "displayName": "サイ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f98f.svg",
+      "codepoint": "1f98f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "rooster",
+      "displayName": "おんどり",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f413.svg",
+      "codepoint": "1f413",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "sauropod",
+      "displayName": "草食恐竜",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f995.svg",
+      "codepoint": "1f995",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "scorpion",
+      "displayName": "サソリ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f982.svg",
+      "codepoint": "1f982",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "seal",
+      "displayName": "アザラシ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f9ad.svg",
+      "codepoint": "1f9ad",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "service dog",
+      "displayName": "介助犬",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f415-200d-1f9ba.svg",
+      "codepoint": "1f415-200d-1f9ba",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "shark",
+      "displayName": "サメ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f988.svg",
+      "codepoint": "1f988",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "shrimp",
+      "displayName": "エビ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f990.svg",
+      "codepoint": "1f990",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "skunk",
+      "displayName": "スカンク",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f9a8.svg",
+      "codepoint": "1f9a8",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "sloth",
+      "displayName": "ナマケモノ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f9a5.svg",
+      "codepoint": "1f9a5",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "snail",
+      "displayName": "かたつむり",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f40c.svg",
+      "codepoint": "1f40c",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "snake",
+      "displayName": "ヘビ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f40d.svg",
+      "codepoint": "1f40d",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "spiral shell",
+      "displayName": "巻き貝",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f41a.svg",
+      "codepoint": "1f41a",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "spouting whale",
+      "displayName": "潮吹きクジラ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f433.svg",
+      "codepoint": "1f433",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "squid",
+      "displayName": "イカ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f991.svg",
+      "codepoint": "1f991",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "swan",
+      "displayName": "白鳥",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f9a2.svg",
+      "codepoint": "1f9a2",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "T-Rex",
+      "displayName": "ティラノサウルス",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f996.svg",
+      "codepoint": "1f996",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "tiger",
+      "displayName": "トラ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f405.svg",
+      "codepoint": "1f405",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "tiger face",
+      "displayName": "トラの顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f42f.svg",
+      "codepoint": "1f42f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "tropical fish",
+      "displayName": "熱帯魚",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f420.svg",
+      "codepoint": "1f420",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "turkey",
+      "displayName": "七面鳥",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f983.svg",
+      "codepoint": "1f983",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "turtle",
+      "displayName": "カメ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f422.svg",
+      "codepoint": "1f422",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "two-hump camel",
+      "displayName": "フタコブラクダ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f42b.svg",
+      "codepoint": "1f42b",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "unicorn",
+      "displayName": "ユニコーンの顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f984.svg",
+      "codepoint": "1f984",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "water buffalo",
+      "displayName": "水牛",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f403.svg",
+      "codepoint": "1f403",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "whale",
+      "displayName": "クジラ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f40b.svg",
+      "codepoint": "1f40b",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "wolf",
+      "displayName": "オオカミの顔",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f43a.svg",
+      "codepoint": "1f43a",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "zebra",
+      "displayName": "シマウマ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f993.svg",
+      "codepoint": "1f993",
+      "license": "CC-BY 4.0"
+    }
+  ]
+}

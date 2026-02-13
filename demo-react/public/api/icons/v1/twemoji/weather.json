@@ -1,0 +1,378 @@
+{
+  "category": "天気",
+  "count": 53,
+  "license": "CC-BY 4.0 (Twitter, Inc.)",
+  "icons": [
+    {
+      "name": "bridge at night",
+      "displayName": "夜の橋",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f309.svg",
+      "codepoint": "1f309",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "cityscape at dusk",
+      "displayName": "夕暮れの都会",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f306.svg",
+      "codepoint": "1f306",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "closed umbrella",
+      "displayName": "閉じた傘",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f302.svg",
+      "codepoint": "1f302",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "cloud",
+      "displayName": "雲",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2601.svg",
+      "codepoint": "2601",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "cloud with lightning",
+      "displayName": "雷雲",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f329.svg",
+      "codepoint": "1f329",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "cloud with lightning and rain",
+      "displayName": "雷雨",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/26c8.svg",
+      "codepoint": "26c8",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "cloud with rain",
+      "displayName": "雨雲",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f327.svg",
+      "codepoint": "1f327",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "cloud with snow",
+      "displayName": "雪雲",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f328.svg",
+      "codepoint": "1f328",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "comet",
+      "displayName": "彗星",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2604.svg",
+      "codepoint": "2604",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "crescent moon",
+      "displayName": "三日月",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f319.svg",
+      "codepoint": "1f319",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "cyclone",
+      "displayName": "渦巻き",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f300.svg",
+      "codepoint": "1f300",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "dashing away",
+      "displayName": "ダッシュ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4a8.svg",
+      "codepoint": "1f4a8",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "first quarter moon",
+      "displayName": "上弦の月",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f313.svg",
+      "codepoint": "1f313",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "first quarter moon face",
+      "displayName": "顔のある上弦の月",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f31b.svg",
+      "codepoint": "1f31b",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "fog",
+      "displayName": "霧",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f32b.svg",
+      "codepoint": "1f32b",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "foggy",
+      "displayName": "霧の都会",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f301.svg",
+      "codepoint": "1f301",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "full moon",
+      "displayName": "満月",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f315.svg",
+      "codepoint": "1f315",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "full moon face",
+      "displayName": "顔のある満月",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f31d.svg",
+      "codepoint": "1f31d",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "globe showing Americas",
+      "displayName": "地球（アメリカ大陸）",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f30e.svg",
+      "codepoint": "1f30e",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "globe showing Asia-Australia",
+      "displayName": "地球（アジアとオーストラリア）",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f30f.svg",
+      "codepoint": "1f30f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "globe showing Europe-Africa",
+      "displayName": "地球（ヨーロッパとアフリカ）",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f30d.svg",
+      "codepoint": "1f30d",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "globe with meridians",
+      "displayName": "子午線のある地球",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f310.svg",
+      "codepoint": "1f310",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "glowing star",
+      "displayName": "きらきら星",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f31f.svg",
+      "codepoint": "1f31f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "last quarter moon",
+      "displayName": "下弦の月",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f317.svg",
+      "codepoint": "1f317",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "last quarter moon face",
+      "displayName": "顔のある下弦の月",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f31c.svg",
+      "codepoint": "1f31c",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "milky way",
+      "displayName": "天の川",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f30c.svg",
+      "codepoint": "1f30c",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "new moon",
+      "displayName": "新月",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f311.svg",
+      "codepoint": "1f311",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "new moon face",
+      "displayName": "顔のある新月",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f31a.svg",
+      "codepoint": "1f31a",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "night with stars",
+      "displayName": "夜の都会",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f303.svg",
+      "codepoint": "1f303",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "rainbow",
+      "displayName": "虹",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f308.svg",
+      "codepoint": "1f308",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "shooting star",
+      "displayName": "流れ星",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f320.svg",
+      "codepoint": "1f320",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "snowman",
+      "displayName": "雪だるまと雪",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2603.svg",
+      "codepoint": "2603",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "snowman without snow",
+      "displayName": "雪だるま",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/26c4.svg",
+      "codepoint": "26c4",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "sun",
+      "displayName": "太陽",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2600.svg",
+      "codepoint": "2600",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "sun behind cloud",
+      "displayName": "曇り時々晴れ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/26c5.svg",
+      "codepoint": "26c5",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "sun behind large cloud",
+      "displayName": "曇り一時晴れ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f325.svg",
+      "codepoint": "1f325",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "sun behind rain cloud",
+      "displayName": "雨時々晴れ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f326.svg",
+      "codepoint": "1f326",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "sun behind small cloud",
+      "displayName": "晴れ時々曇り",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f324.svg",
+      "codepoint": "1f324",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "sun with face",
+      "displayName": "顔のある太陽",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f31e.svg",
+      "codepoint": "1f31e",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "sunrise",
+      "displayName": "日の出",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f305.svg",
+      "codepoint": "1f305",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "sunrise over mountains",
+      "displayName": "山から日の出",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f304.svg",
+      "codepoint": "1f304",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "sunset",
+      "displayName": "夕日",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f307.svg",
+      "codepoint": "1f307",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "thermometer",
+      "displayName": "温度計",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f321.svg",
+      "codepoint": "1f321",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "tornado",
+      "displayName": "竜巻",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f32a.svg",
+      "codepoint": "1f32a",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "umbrella",
+      "displayName": "傘",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2602.svg",
+      "codepoint": "2602",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "umbrella with rain drops",
+      "displayName": "傘と雨",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2614.svg",
+      "codepoint": "2614",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "volcano",
+      "displayName": "火山",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f30b.svg",
+      "codepoint": "1f30b",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "waning crescent moon",
+      "displayName": "有明月",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f318.svg",
+      "codepoint": "1f318",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "waning gibbous moon",
+      "displayName": "寝待月",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f316.svg",
+      "codepoint": "1f316",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "water wave",
+      "displayName": "波",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f30a.svg",
+      "codepoint": "1f30a",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "waxing crescent moon",
+      "displayName": "初月",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f312.svg",
+      "codepoint": "1f312",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "waxing gibbous moon",
+      "displayName": "十三夜月",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f314.svg",
+      "codepoint": "1f314",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "wind face",
+      "displayName": "顔のある風",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f32c.svg",
+      "codepoint": "1f32c",
+      "license": "CC-BY 4.0"
+    }
+  ]
+}

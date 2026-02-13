@@ -1,0 +1,1421 @@
+{
+  "category": "旅行",
+  "count": 202,
+  "license": "CC-BY 4.0 (Twitter, Inc.)",
+  "icons": [
+    {
+      "name": "aerial tramway",
+      "displayName": "ロープウェイ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6a1.svg",
+      "codepoint": "1f6a1",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "airplane",
+      "displayName": "飛行機",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2708.svg",
+      "codepoint": "2708",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "airplane arrival",
+      "displayName": "飛行機着陸",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6ec.svg",
+      "codepoint": "1f6ec",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "airplane departure",
+      "displayName": "飛行機離陸",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6eb.svg",
+      "codepoint": "1f6eb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "ambulance",
+      "displayName": "救急車",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f691.svg",
+      "codepoint": "1f691",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "anchor",
+      "displayName": "錨",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2693.svg",
+      "codepoint": "2693",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "articulated lorry",
+      "displayName": "トレーラー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f69b.svg",
+      "codepoint": "1f69b",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "auto rickshaw",
+      "displayName": "三輪タクシー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6fa.svg",
+      "codepoint": "1f6fa",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "automobile",
+      "displayName": "自動車",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f697.svg",
+      "codepoint": "1f697",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "baby symbol",
+      "displayName": "ベビーマーク",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6bc.svg",
+      "codepoint": "1f6bc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "baggage claim",
+      "displayName": "手荷物受取",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6c4.svg",
+      "codepoint": "1f6c4",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "bathtub",
+      "displayName": "バスタブ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6c1.svg",
+      "codepoint": "1f6c1",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "bed",
+      "displayName": "ベッド",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6cf.svg",
+      "codepoint": "1f6cf",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "bellhop bell",
+      "displayName": "ベルボーイベル",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6ce.svg",
+      "codepoint": "1f6ce",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "bicycle",
+      "displayName": "自転車",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6b2.svg",
+      "codepoint": "1f6b2",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "bullet train",
+      "displayName": "0系新幹線",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f685.svg",
+      "codepoint": "1f685",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "bus",
+      "displayName": "バス",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f68c.svg",
+      "codepoint": "1f68c",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "bus stop",
+      "displayName": "バス停",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f68f.svg",
+      "codepoint": "1f68f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "canoe",
+      "displayName": "カヌー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6f6.svg",
+      "codepoint": "1f6f6",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "children crossing",
+      "displayName": "児童横断",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6b8.svg",
+      "codepoint": "1f6b8",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "church",
+      "displayName": "教会",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/26ea.svg",
+      "codepoint": "26ea",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "cigarette",
+      "displayName": "煙草",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6ac.svg",
+      "codepoint": "1f6ac",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "construction",
+      "displayName": "工事中",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6a7.svg",
+      "codepoint": "1f6a7",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "customs",
+      "displayName": "税関",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6c3.svg",
+      "codepoint": "1f6c3",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "delivery truck",
+      "displayName": "トラック",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f69a.svg",
+      "codepoint": "1f69a",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "door",
+      "displayName": "ドア",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6aa.svg",
+      "codepoint": "1f6aa",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "elevator",
+      "displayName": "エレベーター",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6d7.svg",
+      "codepoint": "1f6d7",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "ferry",
+      "displayName": "フェリー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/26f4.svg",
+      "codepoint": "26f4",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "fire engine",
+      "displayName": "消防車",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f692.svg",
+      "codepoint": "1f692",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flag in hole",
+      "displayName": "ゴルフ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/26f3.svg",
+      "codepoint": "26f3",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "flying saucer",
+      "displayName": "空飛ぶ円盤",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6f8.svg",
+      "codepoint": "1f6f8",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "fountain",
+      "displayName": "噴水",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/26f2.svg",
+      "codepoint": "26f2",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "fuel pump",
+      "displayName": "ガソリンスタンド",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/26fd.svg",
+      "codepoint": "26fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "hammer and wrench",
+      "displayName": "ハンマーとレンチ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6e0.svg",
+      "codepoint": "1f6e0",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "helicopter",
+      "displayName": "ヘリコプター",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f681.svg",
+      "codepoint": "1f681",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "high-speed train",
+      "displayName": "新幹線",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f684.svg",
+      "codepoint": "1f684",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "hindu temple",
+      "displayName": "ヒンドゥー教の寺院",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6d5.svg",
+      "codepoint": "1f6d5",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "horizontal traffic light",
+      "displayName": "信号横",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6a5.svg",
+      "codepoint": "1f6a5",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "hut",
+      "displayName": "わらぶき小屋",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6d6.svg",
+      "codepoint": "1f6d6",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "kick scooter",
+      "displayName": "キックボード",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6f4.svg",
+      "codepoint": "1f6f4",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "left luggage",
+      "displayName": "手荷物預かり",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6c5.svg",
+      "codepoint": "1f6c5",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "light rail",
+      "displayName": "ライトレール",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f688.svg",
+      "codepoint": "1f688",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "litter in bin sign",
+      "displayName": "ゴミ箱",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6ae.svg",
+      "codepoint": "1f6ae",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "locomotive",
+      "displayName": "蒸気機関車",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f682.svg",
+      "codepoint": "1f682",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man biking",
+      "displayName": "自転車に乗る男",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6b4-200d-2642-fe0f.svg",
+      "codepoint": "1f6b4-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man biking: dark skin tone",
+      "displayName": "自転車に乗る男: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6b4-1f3ff-200d-2642-fe0f.svg",
+      "codepoint": "1f6b4-1f3ff-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man biking: light skin tone",
+      "displayName": "自転車に乗る男: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6b4-1f3fb-200d-2642-fe0f.svg",
+      "codepoint": "1f6b4-1f3fb-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man biking: medium skin tone",
+      "displayName": "自転車に乗る男: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6b4-1f3fd-200d-2642-fe0f.svg",
+      "codepoint": "1f6b4-1f3fd-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man biking: medium-dark skin tone",
+      "displayName": "自転車に乗る男: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6b4-1f3fe-200d-2642-fe0f.svg",
+      "codepoint": "1f6b4-1f3fe-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man biking: medium-light skin tone",
+      "displayName": "自転車に乗る男: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6b4-1f3fc-200d-2642-fe0f.svg",
+      "codepoint": "1f6b4-1f3fc-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man bouncing ball",
+      "displayName": "バスケットボールをする男",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/26f9-fe0f-200d-2642-fe0f.svg",
+      "codepoint": "26f9-fe0f-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man bouncing ball: dark skin tone",
+      "displayName": "バスケットボールをする男: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/26f9-1f3ff-200d-2642-fe0f.svg",
+      "codepoint": "26f9-1f3ff-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man bouncing ball: light skin tone",
+      "displayName": "バスケットボールをする男: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/26f9-1f3fb-200d-2642-fe0f.svg",
+      "codepoint": "26f9-1f3fb-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man bouncing ball: medium skin tone",
+      "displayName": "バスケットボールをする男: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/26f9-1f3fd-200d-2642-fe0f.svg",
+      "codepoint": "26f9-1f3fd-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man bouncing ball: medium-dark skin tone",
+      "displayName": "バスケットボールをする男: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/26f9-1f3fe-200d-2642-fe0f.svg",
+      "codepoint": "26f9-1f3fe-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man bouncing ball: medium-light skin tone",
+      "displayName": "バスケットボールをする男: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/26f9-1f3fc-200d-2642-fe0f.svg",
+      "codepoint": "26f9-1f3fc-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man mountain biking",
+      "displayName": "マウンテンバイクに乗る男",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6b5-200d-2642-fe0f.svg",
+      "codepoint": "1f6b5-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man mountain biking: dark skin tone",
+      "displayName": "マウンテンバイクに乗る男: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6b5-1f3ff-200d-2642-fe0f.svg",
+      "codepoint": "1f6b5-1f3ff-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man mountain biking: light skin tone",
+      "displayName": "マウンテンバイクに乗る男: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6b5-1f3fb-200d-2642-fe0f.svg",
+      "codepoint": "1f6b5-1f3fb-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man mountain biking: medium skin tone",
+      "displayName": "マウンテンバイクに乗る男: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6b5-1f3fd-200d-2642-fe0f.svg",
+      "codepoint": "1f6b5-1f3fd-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man mountain biking: medium-dark skin tone",
+      "displayName": "マウンテンバイクに乗る男: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6b5-1f3fe-200d-2642-fe0f.svg",
+      "codepoint": "1f6b5-1f3fe-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man mountain biking: medium-light skin tone",
+      "displayName": "マウンテンバイクに乗る男: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6b5-1f3fc-200d-2642-fe0f.svg",
+      "codepoint": "1f6b5-1f3fc-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man rowing boat",
+      "displayName": "ボートをこぐ男",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6a3-200d-2642-fe0f.svg",
+      "codepoint": "1f6a3-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man rowing boat: dark skin tone",
+      "displayName": "ボートをこぐ男: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6a3-1f3ff-200d-2642-fe0f.svg",
+      "codepoint": "1f6a3-1f3ff-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man rowing boat: light skin tone",
+      "displayName": "ボートをこぐ男: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6a3-1f3fb-200d-2642-fe0f.svg",
+      "codepoint": "1f6a3-1f3fb-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man rowing boat: medium skin tone",
+      "displayName": "ボートをこぐ男: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6a3-1f3fd-200d-2642-fe0f.svg",
+      "codepoint": "1f6a3-1f3fd-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man rowing boat: medium-dark skin tone",
+      "displayName": "ボートをこぐ男: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6a3-1f3fe-200d-2642-fe0f.svg",
+      "codepoint": "1f6a3-1f3fe-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man rowing boat: medium-light skin tone",
+      "displayName": "ボートをこぐ男: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6a3-1f3fc-200d-2642-fe0f.svg",
+      "codepoint": "1f6a3-1f3fc-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man walking",
+      "displayName": "歩く男",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6b6-200d-2642-fe0f.svg",
+      "codepoint": "1f6b6-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man walking: dark skin tone",
+      "displayName": "歩く男: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6b6-1f3ff-200d-2642-fe0f.svg",
+      "codepoint": "1f6b6-1f3ff-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man walking: light skin tone",
+      "displayName": "歩く男: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6b6-1f3fb-200d-2642-fe0f.svg",
+      "codepoint": "1f6b6-1f3fb-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man walking: medium skin tone",
+      "displayName": "歩く男: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6b6-1f3fd-200d-2642-fe0f.svg",
+      "codepoint": "1f6b6-1f3fd-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man walking: medium-dark skin tone",
+      "displayName": "歩く男: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6b6-1f3fe-200d-2642-fe0f.svg",
+      "codepoint": "1f6b6-1f3fe-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "man walking: medium-light skin tone",
+      "displayName": "歩く男: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6b6-1f3fc-200d-2642-fe0f.svg",
+      "codepoint": "1f6b6-1f3fc-200d-2642-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "men’s room",
+      "displayName": "男子トイレ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6b9.svg",
+      "codepoint": "1f6b9",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "metro",
+      "displayName": "地下鉄",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f687.svg",
+      "codepoint": "1f687",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "minibus",
+      "displayName": "マイクロバス",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f690.svg",
+      "codepoint": "1f690",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "monorail",
+      "displayName": "モノレール",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f69d.svg",
+      "codepoint": "1f69d",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "motor boat",
+      "displayName": "モーターボート",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6e5.svg",
+      "codepoint": "1f6e5",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "motor scooter",
+      "displayName": "スクーター",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6f5.svg",
+      "codepoint": "1f6f5",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "motorway",
+      "displayName": "高速道路",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6e3.svg",
+      "codepoint": "1f6e3",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "mountain cableway",
+      "displayName": "ケーブルカー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6a0.svg",
+      "codepoint": "1f6a0",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "mountain railway",
+      "displayName": "登山鉄道",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f69e.svg",
+      "codepoint": "1f69e",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "no bicycles",
+      "displayName": "自転車禁止",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6b3.svg",
+      "codepoint": "1f6b3",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "no littering",
+      "displayName": "ポイ捨て禁止",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6af.svg",
+      "codepoint": "1f6af",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "no pedestrians",
+      "displayName": "歩行者立入禁止",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6b7.svg",
+      "codepoint": "1f6b7",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "no smoking",
+      "displayName": "禁煙",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6ad.svg",
+      "codepoint": "1f6ad",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "non-potable water",
+      "displayName": "飲用不可",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6b1.svg",
+      "codepoint": "1f6b1",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "oil drum",
+      "displayName": "ドラム缶",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6e2.svg",
+      "codepoint": "1f6e2",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "oncoming automobile",
+      "displayName": "自動車正面",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f698.svg",
+      "codepoint": "1f698",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "oncoming bus",
+      "displayName": "バス正面",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f68d.svg",
+      "codepoint": "1f68d",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "oncoming police car",
+      "displayName": "パトカー正面",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f694.svg",
+      "codepoint": "1f694",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "oncoming taxi",
+      "displayName": "タクシー正面",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f696.svg",
+      "codepoint": "1f696",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "passenger ship",
+      "displayName": "客船",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6f3.svg",
+      "codepoint": "1f6f3",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "passport control",
+      "displayName": "出入国審査",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6c2.svg",
+      "codepoint": "1f6c2",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person biking",
+      "displayName": "自転車に乗る人",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6b4.svg",
+      "codepoint": "1f6b4",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person biking: dark skin tone",
+      "displayName": "自転車に乗る人: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6b4-1f3ff.svg",
+      "codepoint": "1f6b4-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person biking: light skin tone",
+      "displayName": "自転車に乗る人: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6b4-1f3fb.svg",
+      "codepoint": "1f6b4-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person biking: medium skin tone",
+      "displayName": "自転車に乗る人: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6b4-1f3fd.svg",
+      "codepoint": "1f6b4-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person biking: medium-dark skin tone",
+      "displayName": "自転車に乗る人: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6b4-1f3fe.svg",
+      "codepoint": "1f6b4-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person biking: medium-light skin tone",
+      "displayName": "自転車に乗る人: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6b4-1f3fc.svg",
+      "codepoint": "1f6b4-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person bouncing ball",
+      "displayName": "バスケットボールをする人",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/26f9.svg",
+      "codepoint": "26f9",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person bouncing ball: dark skin tone",
+      "displayName": "バスケットボールをする人: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/26f9-1f3ff.svg",
+      "codepoint": "26f9-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person bouncing ball: light skin tone",
+      "displayName": "バスケットボールをする人: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/26f9-1f3fb.svg",
+      "codepoint": "26f9-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person bouncing ball: medium skin tone",
+      "displayName": "バスケットボールをする人: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/26f9-1f3fd.svg",
+      "codepoint": "26f9-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person bouncing ball: medium-dark skin tone",
+      "displayName": "バスケットボールをする人: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/26f9-1f3fe.svg",
+      "codepoint": "26f9-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person bouncing ball: medium-light skin tone",
+      "displayName": "バスケットボールをする人: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/26f9-1f3fc.svg",
+      "codepoint": "26f9-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person mountain biking",
+      "displayName": "マウンテンバイクに乗る人",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6b5.svg",
+      "codepoint": "1f6b5",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person mountain biking: dark skin tone",
+      "displayName": "マウンテンバイクに乗る人: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6b5-1f3ff.svg",
+      "codepoint": "1f6b5-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person mountain biking: light skin tone",
+      "displayName": "マウンテンバイクに乗る人: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6b5-1f3fb.svg",
+      "codepoint": "1f6b5-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person mountain biking: medium skin tone",
+      "displayName": "マウンテンバイクに乗る人: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6b5-1f3fd.svg",
+      "codepoint": "1f6b5-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person mountain biking: medium-dark skin tone",
+      "displayName": "マウンテンバイクに乗る人: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6b5-1f3fe.svg",
+      "codepoint": "1f6b5-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person mountain biking: medium-light skin tone",
+      "displayName": "マウンテンバイクに乗る人: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6b5-1f3fc.svg",
+      "codepoint": "1f6b5-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person rowing boat",
+      "displayName": "ボートをこぐ人",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6a3.svg",
+      "codepoint": "1f6a3",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person rowing boat: dark skin tone",
+      "displayName": "ボートをこぐ人: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6a3-1f3ff.svg",
+      "codepoint": "1f6a3-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person rowing boat: light skin tone",
+      "displayName": "ボートをこぐ人: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6a3-1f3fb.svg",
+      "codepoint": "1f6a3-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person rowing boat: medium skin tone",
+      "displayName": "ボートをこぐ人: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6a3-1f3fd.svg",
+      "codepoint": "1f6a3-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person rowing boat: medium-dark skin tone",
+      "displayName": "ボートをこぐ人: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6a3-1f3fe.svg",
+      "codepoint": "1f6a3-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person rowing boat: medium-light skin tone",
+      "displayName": "ボートをこぐ人: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6a3-1f3fc.svg",
+      "codepoint": "1f6a3-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person taking bath",
+      "displayName": "風呂に入る人",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6c0.svg",
+      "codepoint": "1f6c0",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person taking bath: dark skin tone",
+      "displayName": "風呂に入る人: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6c0-1f3ff.svg",
+      "codepoint": "1f6c0-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person taking bath: light skin tone",
+      "displayName": "風呂に入る人: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6c0-1f3fb.svg",
+      "codepoint": "1f6c0-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person taking bath: medium skin tone",
+      "displayName": "風呂に入る人: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6c0-1f3fd.svg",
+      "codepoint": "1f6c0-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person taking bath: medium-dark skin tone",
+      "displayName": "風呂に入る人: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6c0-1f3fe.svg",
+      "codepoint": "1f6c0-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person taking bath: medium-light skin tone",
+      "displayName": "風呂に入る人: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6c0-1f3fc.svg",
+      "codepoint": "1f6c0-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person walking",
+      "displayName": "歩く人",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6b6.svg",
+      "codepoint": "1f6b6",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person walking: dark skin tone",
+      "displayName": "歩く人: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6b6-1f3ff.svg",
+      "codepoint": "1f6b6-1f3ff",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person walking: light skin tone",
+      "displayName": "歩く人: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6b6-1f3fb.svg",
+      "codepoint": "1f6b6-1f3fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person walking: medium skin tone",
+      "displayName": "歩く人: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6b6-1f3fd.svg",
+      "codepoint": "1f6b6-1f3fd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person walking: medium-dark skin tone",
+      "displayName": "歩く人: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6b6-1f3fe.svg",
+      "codepoint": "1f6b6-1f3fe",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "person walking: medium-light skin tone",
+      "displayName": "歩く人: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6b6-1f3fc.svg",
+      "codepoint": "1f6b6-1f3fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "pickup truck",
+      "displayName": "軽トラック",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6fb.svg",
+      "codepoint": "1f6fb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "place of worship",
+      "displayName": "礼拝所",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6d0.svg",
+      "codepoint": "1f6d0",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "playground slide",
+      "displayName": "すべり台",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6dd.svg",
+      "codepoint": "1f6dd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "police car",
+      "displayName": "パトカー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f693.svg",
+      "codepoint": "1f693",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "police car light",
+      "displayName": "パトランプ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6a8.svg",
+      "codepoint": "1f6a8",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "potable water",
+      "displayName": "飲料水",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6b0.svg",
+      "codepoint": "1f6b0",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "prohibited",
+      "displayName": "車両通行止め",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6ab.svg",
+      "codepoint": "1f6ab",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "railway car",
+      "displayName": "電車",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f683.svg",
+      "codepoint": "1f683",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "railway track",
+      "displayName": "線路",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6e4.svg",
+      "codepoint": "1f6e4",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "restroom",
+      "displayName": "トイレ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6bb.svg",
+      "codepoint": "1f6bb",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "ring buoy",
+      "displayName": "救命浮環",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6df.svg",
+      "codepoint": "1f6df",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "rocket",
+      "displayName": "ロケット",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f680.svg",
+      "codepoint": "1f680",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "roller skate",
+      "displayName": "ローラースケート",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6fc.svg",
+      "codepoint": "1f6fc",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "sailboat",
+      "displayName": "ヨット",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/26f5.svg",
+      "codepoint": "26f5",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "satellite",
+      "displayName": "人工衛星",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6f0.svg",
+      "codepoint": "1f6f0",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "shield",
+      "displayName": "盾",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6e1.svg",
+      "codepoint": "1f6e1",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "ship",
+      "displayName": "船",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6a2.svg",
+      "codepoint": "1f6a2",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "shopping bags",
+      "displayName": "紙袋",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6cd.svg",
+      "codepoint": "1f6cd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "shopping cart",
+      "displayName": "ショッピングカート",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6d2.svg",
+      "codepoint": "1f6d2",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "shower",
+      "displayName": "シャワー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6bf.svg",
+      "codepoint": "1f6bf",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "skateboard",
+      "displayName": "スケートボード",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6f9.svg",
+      "codepoint": "1f6f9",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "sled",
+      "displayName": "そり競技",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6f7.svg",
+      "codepoint": "1f6f7",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "small airplane",
+      "displayName": "小型飛行機",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6e9.svg",
+      "codepoint": "1f6e9",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "speedboat",
+      "displayName": "スピードボート",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6a4.svg",
+      "codepoint": "1f6a4",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "sport utility vehicle",
+      "displayName": "アールブイ車",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f699.svg",
+      "codepoint": "1f699",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "station",
+      "displayName": "駅",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f689.svg",
+      "codepoint": "1f689",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "stop sign",
+      "displayName": "止まれの標識",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6d1.svg",
+      "codepoint": "1f6d1",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "suspension railway",
+      "displayName": "懸垂式モノレール",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f69f.svg",
+      "codepoint": "1f69f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "taxi",
+      "displayName": "タクシー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f695.svg",
+      "codepoint": "1f695",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "tent",
+      "displayName": "テント",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/26fa.svg",
+      "codepoint": "26fa",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "toilet",
+      "displayName": "便器",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6bd.svg",
+      "codepoint": "1f6bd",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "tractor",
+      "displayName": "トラクター",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f69c.svg",
+      "codepoint": "1f69c",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "train",
+      "displayName": "電車正面",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f686.svg",
+      "codepoint": "1f686",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "tram",
+      "displayName": "路面電車正面",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f68a.svg",
+      "codepoint": "1f68a",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "tram car",
+      "displayName": "路面電車",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f68b.svg",
+      "codepoint": "1f68b",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "triangular flag",
+      "displayName": "三角の旗",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6a9.svg",
+      "codepoint": "1f6a9",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "trolleybus",
+      "displayName": "トロリーバス",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f68e.svg",
+      "codepoint": "1f68e",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "vertical traffic light",
+      "displayName": "信号縦",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6a6.svg",
+      "codepoint": "1f6a6",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "water closet",
+      "displayName": "WC",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6be.svg",
+      "codepoint": "1f6be",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "wheel",
+      "displayName": "ホイール",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6de.svg",
+      "codepoint": "1f6de",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman biking",
+      "displayName": "自転車に乗る女",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6b4-200d-2640-fe0f.svg",
+      "codepoint": "1f6b4-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman biking: dark skin tone",
+      "displayName": "自転車に乗る女: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6b4-1f3ff-200d-2640-fe0f.svg",
+      "codepoint": "1f6b4-1f3ff-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman biking: light skin tone",
+      "displayName": "自転車に乗る女: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6b4-1f3fb-200d-2640-fe0f.svg",
+      "codepoint": "1f6b4-1f3fb-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman biking: medium skin tone",
+      "displayName": "自転車に乗る女: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6b4-1f3fd-200d-2640-fe0f.svg",
+      "codepoint": "1f6b4-1f3fd-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman biking: medium-dark skin tone",
+      "displayName": "自転車に乗る女: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6b4-1f3fe-200d-2640-fe0f.svg",
+      "codepoint": "1f6b4-1f3fe-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman biking: medium-light skin tone",
+      "displayName": "自転車に乗る女: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6b4-1f3fc-200d-2640-fe0f.svg",
+      "codepoint": "1f6b4-1f3fc-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman bouncing ball",
+      "displayName": "バスケットボールをする女",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/26f9-fe0f-200d-2640-fe0f.svg",
+      "codepoint": "26f9-fe0f-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman bouncing ball: dark skin tone",
+      "displayName": "バスケットボールをする女: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/26f9-1f3ff-200d-2640-fe0f.svg",
+      "codepoint": "26f9-1f3ff-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman bouncing ball: light skin tone",
+      "displayName": "バスケットボールをする女: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/26f9-1f3fb-200d-2640-fe0f.svg",
+      "codepoint": "26f9-1f3fb-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman bouncing ball: medium skin tone",
+      "displayName": "バスケットボールをする女: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/26f9-1f3fd-200d-2640-fe0f.svg",
+      "codepoint": "26f9-1f3fd-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman bouncing ball: medium-dark skin tone",
+      "displayName": "バスケットボールをする女: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/26f9-1f3fe-200d-2640-fe0f.svg",
+      "codepoint": "26f9-1f3fe-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman bouncing ball: medium-light skin tone",
+      "displayName": "バスケットボールをする女: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/26f9-1f3fc-200d-2640-fe0f.svg",
+      "codepoint": "26f9-1f3fc-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman mountain biking",
+      "displayName": "マウンテンバイクに乗る女",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6b5-200d-2640-fe0f.svg",
+      "codepoint": "1f6b5-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman mountain biking: dark skin tone",
+      "displayName": "マウンテンバイクに乗る女: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6b5-1f3ff-200d-2640-fe0f.svg",
+      "codepoint": "1f6b5-1f3ff-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman mountain biking: light skin tone",
+      "displayName": "マウンテンバイクに乗る女: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6b5-1f3fb-200d-2640-fe0f.svg",
+      "codepoint": "1f6b5-1f3fb-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman mountain biking: medium skin tone",
+      "displayName": "マウンテンバイクに乗る女: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6b5-1f3fd-200d-2640-fe0f.svg",
+      "codepoint": "1f6b5-1f3fd-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman mountain biking: medium-dark skin tone",
+      "displayName": "マウンテンバイクに乗る女: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6b5-1f3fe-200d-2640-fe0f.svg",
+      "codepoint": "1f6b5-1f3fe-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman mountain biking: medium-light skin tone",
+      "displayName": "マウンテンバイクに乗る女: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6b5-1f3fc-200d-2640-fe0f.svg",
+      "codepoint": "1f6b5-1f3fc-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman rowing boat",
+      "displayName": "ボートをこぐ女",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6a3-200d-2640-fe0f.svg",
+      "codepoint": "1f6a3-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman rowing boat: dark skin tone",
+      "displayName": "ボートをこぐ女: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6a3-1f3ff-200d-2640-fe0f.svg",
+      "codepoint": "1f6a3-1f3ff-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman rowing boat: light skin tone",
+      "displayName": "ボートをこぐ女: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6a3-1f3fb-200d-2640-fe0f.svg",
+      "codepoint": "1f6a3-1f3fb-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman rowing boat: medium skin tone",
+      "displayName": "ボートをこぐ女: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6a3-1f3fd-200d-2640-fe0f.svg",
+      "codepoint": "1f6a3-1f3fd-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman rowing boat: medium-dark skin tone",
+      "displayName": "ボートをこぐ女: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6a3-1f3fe-200d-2640-fe0f.svg",
+      "codepoint": "1f6a3-1f3fe-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman rowing boat: medium-light skin tone",
+      "displayName": "ボートをこぐ女: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6a3-1f3fc-200d-2640-fe0f.svg",
+      "codepoint": "1f6a3-1f3fc-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman walking",
+      "displayName": "歩く女",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6b6-200d-2640-fe0f.svg",
+      "codepoint": "1f6b6-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman walking: dark skin tone",
+      "displayName": "歩く女: 濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6b6-1f3ff-200d-2640-fe0f.svg",
+      "codepoint": "1f6b6-1f3ff-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman walking: light skin tone",
+      "displayName": "歩く女: 薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6b6-1f3fb-200d-2640-fe0f.svg",
+      "codepoint": "1f6b6-1f3fb-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman walking: medium skin tone",
+      "displayName": "歩く女: 中間の肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6b6-1f3fd-200d-2640-fe0f.svg",
+      "codepoint": "1f6b6-1f3fd-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman walking: medium-dark skin tone",
+      "displayName": "歩く女: やや濃い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6b6-1f3fe-200d-2640-fe0f.svg",
+      "codepoint": "1f6b6-1f3fe-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "woman walking: medium-light skin tone",
+      "displayName": "歩く女: やや薄い肌色",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6b6-1f3fc-200d-2640-fe0f.svg",
+      "codepoint": "1f6b6-1f3fc-200d-2640-fe0f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "women’s room",
+      "displayName": "女子トイレ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6ba.svg",
+      "codepoint": "1f6ba",
+      "license": "CC-BY 4.0"
+    }
+  ]
+}

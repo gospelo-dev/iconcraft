@@ -1,0 +1,175 @@
+{
+  "category": "植物",
+  "count": 24,
+  "license": "CC-BY 4.0 (Twitter, Inc.)",
+  "icons": [
+    {
+      "name": "blossom",
+      "displayName": "開花",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f33c.svg",
+      "codepoint": "1f33c",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "bouquet",
+      "displayName": "花束",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f490.svg",
+      "codepoint": "1f490",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "cactus",
+      "displayName": "サボテン",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f335.svg",
+      "codepoint": "1f335",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "cherry blossom",
+      "displayName": "桜",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f338.svg",
+      "codepoint": "1f338",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "chestnut",
+      "displayName": "くり",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f330.svg",
+      "codepoint": "1f330",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "deciduous tree",
+      "displayName": "落葉樹",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f333.svg",
+      "codepoint": "1f333",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "evergreen tree",
+      "displayName": "常緑樹",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f332.svg",
+      "codepoint": "1f332",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "fallen leaf",
+      "displayName": "落ち葉",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f342.svg",
+      "codepoint": "1f342",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "four leaf clover",
+      "displayName": "四つ葉のクローバー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f340.svg",
+      "codepoint": "1f340",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "herb",
+      "displayName": "ハーブ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f33f.svg",
+      "codepoint": "1f33f",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "hibiscus",
+      "displayName": "ハイビスカス",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f33a.svg",
+      "codepoint": "1f33a",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "hot pepper",
+      "displayName": "とうがらし",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f336.svg",
+      "codepoint": "1f336",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "leaf fluttering in wind",
+      "displayName": "風に揺れる葉",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f343.svg",
+      "codepoint": "1f343",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "lotus",
+      "displayName": "ハスの花",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fab7.svg",
+      "codepoint": "1fab7",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "maple leaf",
+      "displayName": "かえで",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f341.svg",
+      "codepoint": "1f341",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "palm tree",
+      "displayName": "ヤシの木",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f334.svg",
+      "codepoint": "1f334",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "potted plant",
+      "displayName": "鉢植え",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fab4.svg",
+      "codepoint": "1fab4",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "rose",
+      "displayName": "バラ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f339.svg",
+      "codepoint": "1f339",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "seedling",
+      "displayName": "新芽",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f331.svg",
+      "codepoint": "1f331",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "shamrock",
+      "displayName": "クローバー",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2618.svg",
+      "codepoint": "2618",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "sheaf of rice",
+      "displayName": "稲",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f33e.svg",
+      "codepoint": "1f33e",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "sunflower",
+      "displayName": "ヒマワリ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f33b.svg",
+      "codepoint": "1f33b",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "tulip",
+      "displayName": "チューリップ",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f337.svg",
+      "codepoint": "1f337",
+      "license": "CC-BY 4.0"
+    },
+    {
+      "name": "wood",
+      "displayName": "丸太",
+      "url": "https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1fab5.svg",
+      "codepoint": "1fab5",
+      "license": "CC-BY 4.0"
+    }
+  ]
+}
