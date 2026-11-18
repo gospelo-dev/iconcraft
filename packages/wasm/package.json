@@ -10,7 +10,7 @@
   "author": "gorosun <goro-hayakawa@no-studio.net>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gospelo-dev/iconcraft.git",
+    "url": "git+https://github.com/gospelo-dev/iconcraft.git",
     "directory": "packages/wasm"
   },
   "homepage": "https://github.com/gospelo-dev/iconcraft#readme",
