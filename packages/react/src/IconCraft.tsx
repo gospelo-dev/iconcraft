@@ -1,6 +1,8 @@
+import { useId, useMemo } from 'react';
 import { useIconCraft } from './useIconCraft';
 import type { IconCraftProps } from './types';
 import { sanitizeSvg } from './utils/sanitize';
+import { scopeSvgIds, toSvgIdPrefix } from './utils/scopeSvgIds';
 
 /**
  * Legacy IconCraft component
@@ -26,6 +28,13 @@ export function IconCraft({
     resolution,
     simplify: simplifyEpsilon,
   });
+
+  // 同じページに並ぶ SVG の id が重ならないよう、このコンポーネント専用の接頭辞を付ける
+  const svgIdPrefix = toSvgIdPrefix(useId());
+  const scopedEmbossSvg = useMemo(
+    () => scopeSvgIds(result?.emboss_svg ?? '', svgIdPrefix),
+    [result?.emboss_svg, svgIdPrefix]
+  );
 
   if (isLoading) {
     return (
@@ -55,7 +64,7 @@ export function IconCraft({
         width: '100%',
         height: '100%',
       }}
-      dangerouslySetInnerHTML={{ __html: sanitizeSvg(result.emboss_svg) }}
+      dangerouslySetInnerHTML={{ __html: sanitizeSvg(scopedEmbossSvg) }}
     />
   );
 }

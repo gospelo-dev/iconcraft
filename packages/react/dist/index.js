@@ -543,7 +543,7 @@ var IconCraftFactory = class _IconCraftFactory {
 var defaultFactory = new IconCraftFactory();
 
 // src/components/IconCraftView.tsx
-import { useEffect, useState, useMemo, useCallback, useRef } from "react";
+import { useEffect, useState, useMemo, useCallback, useRef, useId } from "react";
 
 // src/components/dialPresets.tsx
 import { Fragment, jsx, jsxs } from "react/jsx-runtime";
@@ -1515,6 +1515,52 @@ function sanitizeNode(node) {
   }
 }
 
+// src/utils/scopeSvgIds.ts
+var ID_ATTR = /(?<=\s)id\s*=\s*(["'])([^"']+)\1/g;
+var URL_REF = /url\(\s*(["']?)#([^"')\s]+)\1\s*\)/g;
+var HREF_REF = /(\s(?:xlink:)?href\s*=\s*)(["'])#([^"']+)\2/g;
+var STYLE_BLOCK = /(<style\b[^>]*>)([\s\S]*?)(<\/style>)/gi;
+var CSS_ID_SELECTOR = /#([A-Za-z_][\w-]*)/g;
+function toSvgIdPrefix(reactId) {
+  return `ic${reactId.replace(/[^A-Za-z0-9_-]/g, "")}`;
+}
+function scopeSvgIds(svg, prefix) {
+  if (!svg || !prefix) return svg;
+  const ids = /* @__PURE__ */ new Set();
+  for (const m of svg.matchAll(ID_ATTR)) ids.add(m[2]);
+  if (ids.size === 0) return svg;
+  const scoped = (id) => ids.has(id) ? `${prefix}-${id}` : null;
+  let out = svg.replace(ID_ATTR, (_all, q, id) => `id=${q}${prefix}-${id}${q}`);
+  out = out.replace(URL_REF, (all, q, id) => {
+    const next = scoped(id);
+    return next ? `url(${q}#${next}${q})` : all;
+  });
+  out = out.replace(HREF_REF, (all, attr, q, id) => {
+    const next = scoped(id);
+    return next ? `${attr}${q}#${next}${q}` : all;
+  });
+  out = out.replace(STYLE_BLOCK, (_all, open, css, close) => {
+    const rewritten = css.replace(CSS_ID_SELECTOR, (sel, id) => {
+      const next = scoped(id);
+      return next ? `#${next}` : sel;
+    });
+    return open + rewritten + close;
+  });
+  return out;
+}
+
+// src/utils/markAnimationTargets.ts
+var SHAPE_GROUP = /<g filter="url\(#[^"()]*-shadow\)"/g;
+var EMBOSS_ICON = /(<g filter="none"[^>]*>)\s*(<svg\b[^>]*>[\s\S]*?<\/svg>)\s*(<\/g>)/g;
+var PLAIN_ICON = /(<\/g>\s*)(<svg\s+x="[^"]*"\s+y="[^"]*"[^>]*>[\s\S]*?<\/svg>)/g;
+function markAnimationTargets(svg) {
+  if (!svg) return svg;
+  let out = svg.replace(SHAPE_GROUP, '$& class="iconcraft-shape"');
+  out = out.replace(EMBOSS_ICON, '$1<g class="iconcraft-icon-wrapper">$2</g>$3');
+  out = out.replace(PLAIN_ICON, '$1<g class="iconcraft-icon-wrapper">$2</g>');
+  return out;
+}
+
 // src/components/IconCraftView.tsx
 import { jsx as jsx2, jsxs as jsxs2 } from "react/jsx-runtime";
 function formatCoordinate(value) {
@@ -1586,6 +1632,7 @@ function IconCraftView({
   const renderNotch = resolvedDial?.renderNotch ?? renderNotchProp;
   const renderLabel = resolvedDial?.renderLabel ?? renderLabelProp;
   const renderReticle = reticlePreset?.render ?? renderReticleProp;
+  const svgIdPrefix = toSvgIdPrefix(useId());
   const [, forceUpdate] = useState({});
   const [isHovering, setIsHovering] = useState(false);
   const rotation = instance.config.rotation ?? 0;
@@ -1910,21 +1957,9 @@ function IconCraftView({
   const processedSvg = useMemo(() => {
     if (!renderedSvg) return "";
     if (target === "both") return renderedSvg;
-    let svg = renderedSvg;
-    svg = svg.replace(
-      /<g filter="url\(#[^"]*-shadow"\)/g,
-      '$& class="iconcraft-shape"'
-    );
-    svg = svg.replace(
-      /(<g filter="none">)\s*(<svg[^>]*>[\s\S]*?<\/svg>)\s*(<\/g>)/g,
-      '$1<g class="iconcraft-icon-wrapper">$2</g>$3'
-    );
-    svg = svg.replace(
-      /(<\/g>\s*<!-- アイコン[^>]*-->\s*)(<svg[^>]*x="[^"]*"[^>]*y="[^"]*"[^>]*>[\s\S]*?<\/svg>)/g,
-      '$1<g class="iconcraft-icon-wrapper">$2</g>'
-    );
-    return svg;
+    return markAnimationTargets(renderedSvg);
   }, [renderedSvg, target]);
+  const scopedSvg = useMemo(() => scopeSvgIds(processedSvg, svgIdPrefix), [processedSvg, svgIdPrefix]);
   if (instance.isLoading) {
     return /* @__PURE__ */ jsx2("div", { className, style: containerStyle, children: /* @__PURE__ */ jsx2(LoadingIndicator, {}) });
   }
@@ -1968,7 +2003,7 @@ function IconCraftView({
         onClick,
         onMouseEnter: hoverAnim ? () => setIsHovering(true) : void 0,
         onMouseLeave: hoverAnim ? () => setIsHovering(false) : void 0,
-        dangerouslySetInnerHTML: { __html: sanitizeSvg(animationStyles + processedSvg) }
+        dangerouslySetInnerHTML: { __html: animationStyles + sanitizeSvg(scopedSvg) }
       }
     );
   }
@@ -2047,7 +2082,7 @@ function IconCraftView({
               ...cssVars,
               ...shapeTransformDeg ? { transform: `rotate(${shapeTransformDeg}deg)` } : {}
             },
-            dangerouslySetInnerHTML: { __html: sanitizeSvg(animationStyles + processedSvg) }
+            dangerouslySetInnerHTML: { __html: animationStyles + sanitizeSvg(scopedSvg) }
           }
         ),
         showReticle && actualWidth > 0 && (() => {
@@ -2260,7 +2295,7 @@ function IconCraftSimple({
 }
 
 // src/IconCraftShape.tsx
-import { useEffect as useEffect2, useState as useState2, useMemo as useMemo3, useCallback as useCallback2 } from "react";
+import { useEffect as useEffect2, useState as useState2, useMemo as useMemo3, useCallback as useCallback2, useId as useId2 } from "react";
 import { jsx as jsx4, jsxs as jsxs3 } from "react/jsx-runtime";
 var wasmModule = null;
 var wasmInitPromise = null;
@@ -2379,6 +2414,11 @@ function IconCraftShape({
   useEffect2(() => {
     generate();
   }, [generate]);
+  const svgIdPrefix = toSvgIdPrefix(useId2());
+  const scopedEmbossSvg = useMemo3(
+    () => scopeSvgIds(result?.emboss_svg ?? "", svgIdPrefix),
+    [result?.emboss_svg, svgIdPrefix]
+  );
   const computedWidth = size ?? width ?? 120;
   const computedHeight = size ?? height ?? 120;
   const shouldAnimate = animateOnHover ? isHovering : true;
@@ -2443,7 +2483,7 @@ function IconCraftShape({
       onClick,
       onMouseEnter: handleMouseEnter,
       onMouseLeave: handleMouseLeave,
-      dangerouslySetInnerHTML: { __html: sanitizeSvg(result.emboss_svg) }
+      dangerouslySetInnerHTML: { __html: sanitizeSvg(scopedEmbossSvg) }
     }
   );
 }
@@ -2476,6 +2516,9 @@ function LoadingSpinner() {
     }
   );
 }
+
+// src/IconCraft.tsx
+import { useId as useId3, useMemo as useMemo4 } from "react";
 
 // src/useIconCraft.ts
 import { useState as useState3, useEffect as useEffect3, useCallback as useCallback3 } from "react";
@@ -2629,6 +2672,11 @@ function IconCraft({
     resolution,
     simplify: simplifyEpsilon
   });
+  const svgIdPrefix = toSvgIdPrefix(useId3());
+  const scopedEmbossSvg = useMemo4(
+    () => scopeSvgIds(result?.emboss_svg ?? "", svgIdPrefix),
+    [result?.emboss_svg, svgIdPrefix]
+  );
   if (isLoading) {
     return /* @__PURE__ */ jsx5("div", { className, style, children: "Loading..." });
   }
@@ -2650,7 +2698,7 @@ function IconCraft({
         width: "100%",
         height: "100%"
       },
-      dangerouslySetInnerHTML: { __html: sanitizeSvg(result.emboss_svg) }
+      dangerouslySetInnerHTML: { __html: sanitizeSvg(scopedEmbossSvg) }
     }
   );
 }
@@ -2661,7 +2709,7 @@ import {
   useContext,
   useReducer,
   useCallback as useCallback4,
-  useMemo as useMemo4,
+  useMemo as useMemo5,
   useRef as useRef2
 } from "react";
 
@@ -2785,7 +2833,7 @@ function IconCraftProvider({
   }
   const dispatcher = dispatcherRef.current;
   const zIndexRef = useRef2(0);
-  const factory = useMemo4(
+  const factory = useMemo5(
     () => new IconCraftFactory(defaultConfig),
     [defaultConfig]
   );
@@ -2889,7 +2937,7 @@ function IconCraftProvider({
     }
     dispatch({ type: "CLEAR_ALL" });
   }, [state.instances, dispatcher]);
-  const contextValue = useMemo4(
+  const contextValue = useMemo5(
     () => ({
       state,
       actions: {
@@ -2940,10 +2988,10 @@ function useIconCraftContext() {
 }
 
 // src/context/hooks.ts
-import { useCallback as useCallback5, useEffect as useEffect4, useMemo as useMemo5 } from "react";
+import { useCallback as useCallback5, useEffect as useEffect4, useMemo as useMemo6 } from "react";
 function useIconCraftStore() {
   const { actions, state } = useIconCraftContext();
-  return useMemo5(
+  return useMemo6(
     () => ({
       // CRUD
       create: actions.create,
@@ -2983,7 +3031,7 @@ function useIconCraft2(id) {
     (zIndex) => actions.updateMetadata(id, { zIndex }),
     [actions, id]
   );
-  return useMemo5(
+  return useMemo6(
     () => ({
       instance,
       metadata,
@@ -3013,7 +3061,7 @@ function useIconCraft2(id) {
 }
 function useIconCraftSelection() {
   const { actions, state } = useIconCraftContext();
-  const selected = useMemo5(
+  const selected = useMemo6(
     () => Array.from(state.selection),
     [state.selection]
   );
@@ -3025,7 +3073,7 @@ function useIconCraftSelection() {
   const getSelectedInstances = useCallback5(() => {
     return selected.map((id) => state.instances.get(id)).filter((inst) => inst !== void 0);
   }, [selected, state.instances]);
-  return useMemo5(
+  return useMemo6(
     () => ({
       selected,
       count: selected.length,

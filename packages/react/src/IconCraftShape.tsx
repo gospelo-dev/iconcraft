@@ -1,4 +1,4 @@
-import { useEffect, useState, useMemo, useCallback } from 'react';
+import { useEffect, useState, useMemo, useCallback, useId } from 'react';
 import type { IconCraftShapeProps, IconCraftResult, ShapeMode } from './types';
 import {
   parseAnimationOptions,
@@ -6,6 +6,7 @@ import {
   injectKeyframes,
 } from './animations';
 import { sanitizeSvg } from './utils/sanitize';
+import { scopeSvgIds, toSvgIdPrefix } from './utils/scopeSvgIds';
 
 // WASM module singleton
 let wasmModule: typeof import('gospelo-iconcraft-wasm') | null = null;
@@ -179,6 +180,13 @@ export function IconCraftShape({
     generate();
   }, [generate]);
 
+  // 同じページに並ぶ SVG の id が重ならないよう、このコンポーネント専用の接頭辞を付ける
+  const svgIdPrefix = toSvgIdPrefix(useId());
+  const scopedEmbossSvg = useMemo(
+    () => scopeSvgIds(result?.emboss_svg ?? '', svgIdPrefix),
+    [result?.emboss_svg, svgIdPrefix]
+  );
+
   // Compute dimensions
   const computedWidth = size ?? width ?? 120;
   const computedHeight = size ?? height ?? 120;
@@ -258,7 +266,7 @@ export function IconCraftShape({
       onClick={onClick}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
-      dangerouslySetInnerHTML={{ __html: sanitizeSvg(result.emboss_svg) }}
+      dangerouslySetInnerHTML={{ __html: sanitizeSvg(scopedEmbossSvg) }}
     />
   );
 }

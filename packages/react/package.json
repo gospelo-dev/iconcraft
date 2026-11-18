@@ -1,6 +1,6 @@
 {
   "name": "gospelo-iconcraft-react",
-  "version": "0.5.0",
+  "version": "0.6.1",
   "description": "IconCraft React components - 3D decorative icon shapes from SVG",
   "license": "MIT",
   "author": "gorosun <goro-hayakawa@no-studio.net>",
@@ -25,14 +25,15 @@
   ],
   "scripts": {
     "build": "tsup src/index.ts --format esm --dts",
-    "dev": "tsup src/index.ts --format esm --dts --watch"
+    "dev": "tsup src/index.ts --format esm --dts --watch",
+    "test": "node --test test/*.test.ts"
   },
   "peerDependencies": {
     "react": ">=18.0.0",
     "react-dom": ">=18.0.0"
   },
   "dependencies": {
-    "gospelo-iconcraft-wasm": "^0.5.0",
+    "gospelo-iconcraft-wasm": "^0.5.1",
     "ulid": "^3.0.2"
   },
   "devDependencies": {
