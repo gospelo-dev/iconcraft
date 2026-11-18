@@ -8,6 +8,12 @@ React components for creating emboss-style decorative icon shapes from SVG. Feat
 npm install gospelo-iconcraft-react
 ```
 
+### Requirements
+
+- React 18 or later
+- Node.js **24.22.3** when installing. `gospelo-iconcraft-wasm` pins `engines.node` to this exact version; other versions show an `EBADENGINE` warning, or fail if `engine-strict` is enabled.
+- If your project pins `gospelo-iconcraft-wasm` (for example with pnpm `overrides`), update it to `^0.5.1` together with this package. Otherwise the old WASM stays in use.
+
 ## Quick Start
 
 ### Factory Pattern (Recommended)
@@ -504,6 +510,18 @@ import type {
 ## Browser Support
 
 Requires WebAssembly support. Works in all modern browsers.
+
+## SVG Input
+
+- SVGs exported by Adobe Illustrator, such as [Noto Color Emoji](https://github.com/googlefonts/noto-emoji) `2D/svg`, can be passed as-is (requires `gospelo-iconcraft-wasm` 0.5.1+). An XML declaration, comments, a `DOCTYPE` with internal entities, and namespaces declared on the root (`xlink`, Illustrator's `i:`) are supported.
+- Several icons on one page may use the same ids. Noto Color Emoji, for example, uses `SVGID_1_` in every file. Every id inside each rendered SVG is prefixed per component (React `useId`), so gradients and filters never mix between icons, even when the same icon is shown twice (0.6.1+).
+
+## Development
+
+```bash
+npm run build   # tsup
+npm test        # node --test (Node 24+, runs the TypeScript tests directly)
+```
 
 ## Related
 

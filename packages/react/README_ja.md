@@ -8,6 +8,12 @@ SVGからエンボススタイルの装飾的なアイコンシェイプを作�
 npm install gospelo-iconcraft-react
 ```
 
+### 必要な環境
+
+- React 18 以降
+- インストール時の Node.js は **24.22.3**。`gospelo-iconcraft-wasm` は `engines.node` をこの版に固定しています。ほかの版では `EBADENGINE` の警告が出ます (`engine-strict` が有効ならインストールに失敗します)。
+- `gospelo-iconcraft-wasm` の版を固定している場合 (pnpm の `overrides` など) は、このパッケージと一緒に `^0.5.1` へ上げてください。上げないと古い WASM が使われたままになります。
+
 ## クイックスタート
 
 ### ファクトリパターン（推奨）
@@ -504,6 +510,18 @@ import type {
 ## ブラウザサポート
 
 WebAssemblyのサポートが必要です。すべてのモダンブラウザで動作します。
+
+## SVG の入力
+
+- Adobe Illustrator で書き出した SVG ([Noto Color Emoji](https://github.com/googlefonts/noto-emoji) の `2D/svg` など) を、そのまま渡せます (`gospelo-iconcraft-wasm` 0.5.1 以降が必要)。XML 宣言、コメント、内部 ENTITY を含む `DOCTYPE`、ルートで宣言した名前空間 (`xlink`、Illustrator の `i:`) に対応しています。
+- 同じページに並べる SVG が、同じ id を使っていても大丈夫です。たとえば Noto Color Emoji は、どのファイルでも `SVGID_1_` を使います。描画する SVG の中の id には、コンポーネントごとの接頭辞 (React の `useId`) を付けるため、同じ絵を 2 つ並べても、グラデーションやフィルターが混ざりません (0.6.1 以降)。
+
+## 開発
+
+```bash
+npm run build   # tsup
+npm test        # node --test (Node 24 以上。TypeScript のテストをそのまま実行)
+```
 
 ## 関連パッケージ
 

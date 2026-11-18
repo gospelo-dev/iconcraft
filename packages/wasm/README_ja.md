@@ -8,6 +8,14 @@ SVGアイコンからエンボススタイルの装飾的なシェイプを生�
 npm install gospelo-iconcraft-wasm
 ```
 
+## 必要な環境
+
+- インストール時の Node.js は **24.22.3**。`gospelo-iconcraft-wasm` は `engines.node` をこの版に固定しています。ほかの版では `EBADENGINE` の警告が出ます (`engine-strict` が有効ならインストールに失敗します)。
+
+## 対応する SVG
+
+- Adobe Illustrator で書き出した SVG ([Noto Color Emoji](https://github.com/googlefonts/noto-emoji) の `2D/svg` など) を、そのまま渡せます (0.5.1 以降)。XML 宣言、コメント、内部 ENTITY を含む `DOCTYPE`、ルートで宣言した名前空間 (`xlink`、Illustrator の `i:`) に対応しています。
+
 ## 使い方
 
 ```typescript

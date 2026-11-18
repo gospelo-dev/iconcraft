@@ -6,6 +6,14 @@ Rust source code for the IconCraft WASM module. This repository contains the pri
 
 A WebAssembly module that generates emboss-style decorative shapes from SVG icons. Creates smooth, 3D-looking clip-paths with highlights and shadows.
 
+### Requirements (npm package)
+
+- Node.js **24.22.3** when installing. `gospelo-iconcraft-wasm` pins `engines.node` to this exact version; other versions show an `EBADENGINE` warning, or fail if `engine-strict` is enabled.
+
+### Supported SVG input
+
+- SVGs exported by Adobe Illustrator, such as [Noto Color Emoji](https://github.com/googlefonts/noto-emoji) `2D/svg`, can be passed as-is (0.5.1+). An XML declaration, comments, a `DOCTYPE` with internal entities, and namespaces declared on the root (`xlink`, Illustrator's `i:`) are supported.
+
 ### Shape Modes
 
 | Mode | Description |

@@ -9,6 +9,11 @@ Generate beautiful emboss-style decorative shapes from SVG icons.
 | [gospelo-iconcraft-wasm](https://www.npmjs.com/package/gospelo-iconcraft-wasm)   | WASM core module | `npm i gospelo-iconcraft-wasm`  |
 | [gospelo-iconcraft-react](https://www.npmjs.com/package/gospelo-iconcraft-react) | React components | `npm i gospelo-iconcraft-react` |
 
+## Requirements
+
+- Node.js **24.22.3** when installing. `gospelo-iconcraft-wasm` pins `engines.node` to this exact version; other versions show an `EBADENGINE` warning, or fail if `engine-strict` is enabled.
+- React 18 or later (for `gospelo-iconcraft-react`).
+
 ## Shape Modes
 
 | Mode    | Description                          |

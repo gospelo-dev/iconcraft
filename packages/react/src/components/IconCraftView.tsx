@@ -1,4 +1,4 @@
-import { useEffect, useState, useMemo, useCallback, useRef } from 'react';
+import { useEffect, useState, useMemo, useCallback, useRef, useId } from 'react';
 import type { CSSProperties } from 'react';
 import type { AnimationType, AnimationOptions, AnimationTarget } from '../types';
 import { IconCraftInstance } from '../core/IconCraftInstance';
@@ -11,6 +11,8 @@ import {
   type TransformOriginValue,
 } from '../animations';
 import { sanitizeSvg } from '../utils/sanitize';
+import { scopeSvgIds, toSvgIdPrefix } from '../utils/scopeSvgIds';
+import { markAnimationTargets } from '../utils/markAnimationTargets';
 
 /**
  * Format coordinate value for CSS
@@ -223,6 +225,8 @@ export function IconCraftView({
   const renderLabel = resolvedDial?.renderLabel ?? renderLabelProp;
   const renderReticle = reticlePreset?.render ?? renderReticleProp;
 
+  // 同じページに並ぶ SVG の id が重ならないよう、描画するコンポーネントごとの接頭辞
+  const svgIdPrefix = toSvgIdPrefix(useId());
   const [, forceUpdate] = useState({});
   const [isHovering, setIsHovering] = useState(false);
 
@@ -627,6 +631,8 @@ export function IconCraftView({
   // shape/icon個別アニメーション用のスタイル
   // SVGのtransform-originはデフォルトでviewBox座標系を使用
   // transform-box: fill-box を使うとその要素のバウンディングボックスが基準になる
+  // NOTE: sanitizeSvg (text/html の DOMParser) に通すと先頭の <style> が <head> へ移されて消えるため、
+  // サニタイズ後の SVG の前に連結する。中身はライブラリが組み立てる CSS だけ。
   const animationStyles = target !== 'both' ? `
     <style>
       .iconcraft-shape {
@@ -647,31 +653,12 @@ export function IconCraftView({
   const processedSvg = useMemo(() => {
     if (!renderedSvg) return '';
     if (target === 'both') return renderedSvg;
-
-    let svg = renderedSvg;
-
-    // シェイプ部分（filter="url(#..."）にクラスを付与
-    svg = svg.replace(
-      /<g filter="url\(#[^"]*-shadow"\)/g,
-      '$& class="iconcraft-shape"'
-    );
-
-    // アイコン部分: <g filter="none">の直後にある<svg>要素をラップ
-    // パターン: <g filter="none">\n    <svg x="..." ... </svg>\n  </g>
-    svg = svg.replace(
-      /(<g filter="none">)\s*(<svg[^>]*>[\s\S]*?<\/svg>)\s*(<\/g>)/g,
-      '$1<g class="iconcraft-icon-wrapper">$2</g>$3'
-    );
-
-    // ルートSVG直下のアイコン用SVG（filter="none"がない場合）もラップ
-    // パターン: </g>\n<!-- アイコン...\n<svg x="..." で始まるアイコン部分
-    svg = svg.replace(
-      /(<\/g>\s*<!-- アイコン[^>]*-->\s*)(<svg[^>]*x="[^"]*"[^>]*y="[^"]*"[^>]*>[\s\S]*?<\/svg>)/g,
-      '$1<g class="iconcraft-icon-wrapper">$2</g>'
-    );
-
-    return svg;
+    // シェイプ (影フィルターのグループ) とアイコン (<svg x y>) にクラスを付与
+    return markAnimationTargets(renderedSvg);
   }, [renderedSvg, target]);
+
+  // DOM に入れる直前に、元の SVG 由来・ライブラリ生成のすべての id をこのコンポーネント専用にする
+  const scopedSvg = useMemo(() => scopeSvgIds(processedSvg, svgIdPrefix), [processedSvg, svgIdPrefix]);
 
   // ローディング中
   if (instance.isLoading) {
@@ -727,7 +714,7 @@ export function IconCraftView({
         onClick={onClick}
         onMouseEnter={hoverAnim ? () => setIsHovering(true) : undefined}
         onMouseLeave={hoverAnim ? () => setIsHovering(false) : undefined}
-        dangerouslySetInnerHTML={{ __html: sanitizeSvg(animationStyles + processedSvg) }}
+        dangerouslySetInnerHTML={{ __html: animationStyles + sanitizeSvg(scopedSvg) }}
       />
     );
   }
@@ -798,7 +785,7 @@ export function IconCraftView({
           ...(cssVars as Record<string, string>),
           ...(shapeTransformDeg ? { transform: `rotate(${shapeTransformDeg}deg)` } : {}),
         }}
-        dangerouslySetInnerHTML={{ __html: sanitizeSvg(animationStyles + processedSvg) }}
+        dangerouslySetInnerHTML={{ __html: animationStyles + sanitizeSvg(scopedSvg) }}
       />
       {/* Reticle front layer (above icon) */}
       {showReticle && actualWidth > 0 && (() => {

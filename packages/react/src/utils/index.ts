@@ -1,4 +1,5 @@
 export { sanitizeSvg } from './sanitize';
+export { scopeSvgIds, toSvgIdPrefix } from './scopeSvgIds';
 
 export {
   createBackup,
